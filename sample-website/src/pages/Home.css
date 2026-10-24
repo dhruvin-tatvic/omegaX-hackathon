@@ -1,0 +1,336 @@
+/* Home Page Styles */
+
+/* Hero */
+.home-hero {
+  position: relative;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+}
+
+.home-hero__bg {
+  position: absolute;
+  inset: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transform: scale(1.05);
+  transition: transform 8s ease;
+}
+
+.home-hero:hover .home-hero__bg {
+  transform: scale(1);
+}
+
+.home-hero__overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    120deg,
+    rgba(13, 13, 15, 0.92) 0%,
+    rgba(13, 13, 15, 0.7) 50%,
+    rgba(13, 13, 15, 0.2) 100%
+  );
+}
+
+.home-hero__content {
+  position: relative;
+  z-index: 1;
+  padding-top: calc(var(--navbar-height) + 2rem);
+  padding-bottom: 4rem;
+}
+
+.home-hero__text {
+  max-width: 660px;
+  animation: fadeInUp 0.8s ease forwards;
+}
+
+.home-hero__title {
+  font-size: clamp(3rem, 7vw, 6rem);
+  font-weight: 900;
+  color: var(--color-text-primary);
+  line-height: 1;
+  margin-bottom: var(--spacing-lg);
+  text-transform: uppercase;
+  letter-spacing: -0.02em;
+}
+
+.home-hero__title-accent {
+  color: var(--color-primary);
+  display: block;
+}
+
+.home-hero__desc {
+  font-size: clamp(1rem, 1.8vw, 1.2rem);
+  color: rgba(255,255,255,0.75);
+  max-width: 520px;
+  margin-bottom: var(--spacing-2xl);
+  line-height: 1.7;
+}
+
+.home-hero__cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+}
+
+/* Scroll Indicator */
+.home-hero__scroll {
+  position: absolute;
+  bottom: 2rem;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+
+.home-hero__scroll-dot {
+  width: 6px;
+  height: 6px;
+  background: var(--color-primary);
+  border-radius: 50%;
+  animation: pulse 2s infinite;
+  margin: 0 auto;
+}
+
+.home-hero__scroll-dot::before {
+  content: '';
+  display: block;
+  width: 1px;
+  height: 40px;
+  background: rgba(255,255,255,0.2);
+  margin: 0 auto 6px;
+}
+
+/* Stats */
+.home-stats {
+  background: var(--color-bg-section);
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--spacing-xl) 0;
+}
+
+.home-stats__grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--spacing-xl);
+  text-align: center;
+}
+
+@media (max-width: 768px) {
+  .home-stats__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 480px) {
+  .home-stats__grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-md);
+  }
+}
+
+.home-stats__item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--spacing-xs);
+  padding: var(--spacing-md);
+}
+
+/* Featured Motorcycles */
+.home-featured {}
+
+.home-featured__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: var(--spacing-xl);
+  margin-bottom: var(--spacing-2xl);
+}
+
+@media (max-width: 1024px) {
+  .home-featured__grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 640px) {
+  .home-featured__grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.home-featured__footer {
+  text-align: center;
+}
+
+/* Campaign Banner */
+.home-campaign {
+  position: relative;
+  padding: var(--spacing-4xl) 0;
+  overflow: hidden;
+}
+
+.home-campaign__bg {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, #1A0A00 0%, #2D1200 40%, #0D0D0F 100%);
+}
+
+.home-campaign__bg::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 60%;
+  height: 100%;
+  background: radial-gradient(ellipse at right, rgba(255, 107, 53, 0.15) 0%, transparent 70%);
+}
+
+.home-campaign__inner {
+  position: relative;
+  z-index: 1;
+}
+
+.home-campaign__content {
+  max-width: 600px;
+}
+
+.home-campaign__title {
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-md);
+}
+
+.home-campaign__desc {
+  font-size: 1.1rem;
+  color: rgba(255,255,255,0.7);
+  margin-bottom: var(--spacing-xl);
+  line-height: 1.7;
+}
+
+.home-campaign__desc strong {
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+.home-campaign__cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+}
+
+/* Pillars */
+.home-pillars {
+  background: var(--color-bg-section);
+}
+
+.home-pillar {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  text-align: center;
+  transition: all var(--transition-base);
+}
+
+.home-pillar:hover {
+  border-color: var(--color-primary);
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.home-pillar__icon {
+  font-size: 2.5rem;
+  margin-bottom: var(--spacing-md);
+  display: block;
+}
+
+.home-pillar__title {
+  font-family: var(--font-display);
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--color-text-primary);
+  margin-bottom: var(--spacing-sm);
+}
+
+.home-pillar__desc {
+  font-size: 0.9rem;
+  color: var(--color-text-muted);
+  line-height: 1.6;
+}
+
+/* Lifestyle CTA */
+.home-lifestyle__card {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-3xl);
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-3xl);
+  align-items: center;
+}
+
+@media (max-width: 768px) {
+  .home-lifestyle__card {
+    grid-template-columns: 1fr;
+    padding: var(--spacing-xl);
+  }
+}
+
+.home-lifestyle__text h2 {
+  margin-bottom: var(--spacing-md);
+}
+
+.home-lifestyle__text p {
+  margin-bottom: var(--spacing-xl);
+}
+
+.home-lifestyle__cta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+}
+
+.home-lifestyle__icon-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-lg);
+}
+
+.home-lifestyle__icon-item {
+  background: var(--color-bg-elevated);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-lg);
+  text-align: center;
+  transition: all var(--transition-base);
+}
+
+.home-lifestyle__icon-item:hover {
+  border-color: var(--color-primary);
+}
+
+.home-lifestyle__big-icon {
+  font-size: 2rem;
+  display: block;
+  margin-bottom: var(--spacing-sm);
+}
+
+.home-lifestyle__icon-item span:last-child {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+@media (max-width: 480px) {
+  .home-hero__cta {
+    flex-direction: column;
+  }
+  .home-hero__cta .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}

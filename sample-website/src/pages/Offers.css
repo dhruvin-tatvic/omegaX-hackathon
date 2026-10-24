@@ -1,0 +1,237 @@
+/* Offers Page */
+.offers-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: var(--spacing-xl);
+}
+
+@media (max-width: 768px) {
+  .offers-grid { grid-template-columns: 1fr; }
+}
+
+.offer-card {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  position: relative;
+  overflow: hidden;
+  transition: all var(--transition-base);
+}
+
+.offer-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 3px;
+  background: var(--offer-gradient);
+}
+
+.offer-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: rgba(255,107,53,0.3);
+}
+
+.offer-card__badge {
+  display: inline-block;
+  padding: 0.2rem 0.7rem;
+  border-radius: var(--radius-full);
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: 1px solid;
+  margin-bottom: var(--spacing-sm);
+}
+
+.offer-card__title {
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: var(--color-text-primary);
+  line-height: 1.1;
+  margin-bottom: 4px;
+}
+
+.offer-card__subtitle {
+  font-size: 0.95rem;
+  color: var(--color-text-muted);
+  font-weight: 600;
+}
+
+.offer-card__desc {
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  line-height: 1.7;
+}
+
+.offer-card__benefits {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-sm);
+}
+
+.offer-card__benefit {
+  display: flex;
+  gap: var(--spacing-sm);
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+}
+
+.offer-card__benefit span:first-child {
+  font-weight: 700;
+  flex-shrink: 0;
+}
+
+.offer-card__footer {
+  padding-top: var(--spacing-md);
+  border-top: 1px solid var(--color-border);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: var(--spacing-md);
+}
+
+.offer-card__validity-label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  display: block;
+}
+
+.offer-card__validity-date {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+.offer-card__models {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.offer-card__model-tag {
+  padding: 0.15rem 0.5rem;
+  background: var(--color-bg-elevated);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-sm);
+  font-size: 0.7rem;
+  color: var(--color-text-muted);
+}
+
+.offer-card__actions {
+  display: flex;
+  gap: var(--spacing-sm);
+  margin-top: auto;
+}
+
+/* Financing Table */
+.offers-financing__table {
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  overflow: hidden;
+  margin-bottom: var(--spacing-md);
+}
+
+.offers-financing__header,
+.offers-financing__row {
+  display: grid;
+  grid-template-columns: 1.5fr 1fr 1.5fr 1fr;
+  gap: var(--spacing-md);
+  padding: var(--spacing-md) var(--spacing-xl);
+}
+
+.offers-financing__header {
+  background: var(--color-bg-elevated);
+  border-bottom: 1px solid var(--color-border);
+  font-size: 0.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-text-muted);
+}
+
+.offers-financing__row {
+  border-bottom: 1px solid var(--color-border);
+  font-size: 0.9rem;
+  color: var(--color-text-secondary);
+  transition: background var(--transition-fast);
+}
+
+.offers-financing__row:last-child { border-bottom: none; }
+
+.offers-financing__row:hover { background: var(--color-bg-elevated); }
+
+.offers-financing__bank {
+  font-weight: 700;
+  color: var(--color-text-primary);
+}
+
+.offers-financing__rate {
+  color: var(--color-primary);
+  font-weight: 700;
+}
+
+.offers-financing__disclaimer {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+  font-style: italic;
+}
+
+@media (max-width: 640px) {
+  .offers-financing__header,
+  .offers-financing__row {
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-sm);
+  }
+}
+
+/* Enquiry */
+.offers-enquiry-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: var(--spacing-3xl);
+  align-items: start;
+}
+
+@media (max-width: 768px) {
+  .offers-enquiry-layout { grid-template-columns: 1fr; }
+}
+
+.offers-enquiry-text h2 {
+  margin-bottom: var(--spacing-md);
+}
+
+.offers-enquiry-text p {
+  margin-bottom: var(--spacing-xl);
+}
+
+.offers-enquiry-features {
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+}
+
+.offers-enquiry-feature {
+  display: flex;
+  gap: var(--spacing-sm);
+  font-size: 0.95rem;
+  color: var(--color-text-secondary);
+}
+
+.offers-enquiry-form-wrap {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-2xl);
+}

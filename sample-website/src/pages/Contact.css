@@ -1,0 +1,106 @@
+/* Contact Page */
+.contact-info-section {
+  background: var(--color-bg-section);
+  border-top: 1px solid var(--color-border);
+  border-bottom: 1px solid var(--color-border);
+  padding: var(--spacing-xl) 0;
+}
+
+.contact-info-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: var(--spacing-xl);
+}
+
+@media (max-width: 1024px) {
+  .contact-info-grid { grid-template-columns: repeat(2, 1fr); }
+}
+
+@media (max-width: 640px) {
+  .contact-info-grid { grid-template-columns: 1fr; }
+}
+
+.contact-info-card {
+  display: flex;
+  gap: var(--spacing-md);
+  align-items: flex-start;
+  padding: var(--spacing-md);
+}
+
+.contact-info-card__icon {
+  font-size: 1.5rem;
+  flex-shrink: 0;
+  width: 40px;
+  text-align: center;
+}
+
+.contact-info-card__label {
+  font-size: 0.7rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--color-primary);
+  display: block;
+  margin-bottom: 4px;
+}
+
+.contact-info-card__value {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+  line-height: 1.4;
+  margin-bottom: 2px;
+}
+
+.contact-info-card__sub {
+  font-size: 0.75rem;
+  color: var(--color-text-muted);
+}
+
+/* Layout */
+.contact-layout {
+  display: grid;
+  grid-template-columns: 1fr 1.5fr;
+  gap: var(--spacing-3xl);
+  align-items: start;
+}
+
+@media (max-width: 768px) {
+  .contact-layout { grid-template-columns: 1fr; }
+}
+
+.contact-layout > div:first-child h2 {
+  margin-bottom: var(--spacing-md);
+}
+
+.contact-layout > div:first-child p {
+  color: var(--color-text-secondary);
+}
+
+/* Form */
+.contact-form-wrap {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-xl);
+  padding: var(--spacing-2xl);
+}
+
+.contact-form__note {
+  background: rgba(255, 107, 53, 0.08);
+  border: 1px solid rgba(255, 107, 53, 0.2);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-md) var(--spacing-lg);
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+  margin-bottom: var(--spacing-xl);
+  line-height: 1.6;
+}
+
+.contact-form__note strong {
+  color: var(--color-primary);
+}
+
+.contact-form__textarea {
+  resize: vertical;
+  min-height: 130px;
+}
