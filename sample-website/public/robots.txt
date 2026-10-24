@@ -1,0 +1,11 @@
+User-agent: *
+Disallow: /account
+Disallow: /login
+
+User-agent: GPTBot
+Disallow: /dealers
+
+User-agent: OAI-SearchBot
+Disallow: /dealers
+
+Sitemap: https://apex-moto-one.vercel.app/sitemap.xml

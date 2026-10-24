@@ -1,27 +1,28 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { dealers, cities, getDealersByCity, getDealersByPincode } from '../data/dealers';
+import { allDealers, getBikeBySlug } from '../data/catalogue';
+import SEO from '../components/SEO';
 import './Dealers.css';
 
 export default function Dealers() {
   const [searchCity, setSearchCity] = useState('');
-  const [searchPin, setSearchPin] = useState('');
   const [activeCity, setActiveCity] = useState('All');
 
-  const getFiltered = () => {
-    if (searchPin.trim().length >= 3) {
-      return getDealersByPincode(searchPin.trim());
-    }
+  const cities = [...new Set(allDealers.map(d => d.city))];
+
+  const filtered = allDealers.filter(d => {
     if (searchCity.trim().length >= 2) {
-      return dealers.filter(d =>
+      return (
         d.city.toLowerCase().includes(searchCity.toLowerCase()) ||
-        d.name.toLowerCase().includes(searchCity.toLowerCase())
+        d.name.toLowerCase().includes(searchCity.toLowerCase()) ||
+        d.address.toLowerCase().includes(searchCity.toLowerCase())
       );
     }
-    return getDealersByCity(activeCity === 'All' ? null : activeCity);
-  };
-
-  const filtered = getFiltered();
+    if (activeCity !== 'All') {
+      return d.city === activeCity;
+    }
+    return true;
+  });
 
   const handleSearch = (e) => {
     e.preventDefault();
@@ -29,12 +30,18 @@ export default function Dealers() {
 
   return (
     <main className="dealers-page">
+      <SEO
+        title="Find an Authorized Dealer — Nationwide Network"
+        description="Visit any of our 8 flagship Apex Moto showrooms and authorized service centres across Delhi, Mumbai, Bangalore, Pune, Chennai, Hyderabad, Jaipur, and Kolkata."
+        path="/dealers"
+      />
+
       {/* Page Hero */}
       <section className="page-hero">
         <div className="container">
           <span className="section-label page-hero__label">Nationwide Network</span>
           <h1>Find a Dealer</h1>
-          <p>With over 120 dealerships across India, your nearest Apex Moto experience is never far away.</p>
+          <p>Explore authorized Apex Moto dealerships across major Indian cities for sales, service, and test rides.</p>
         </div>
       </section>
 
@@ -51,30 +58,16 @@ export default function Dealers() {
                   className="form-control dealers-search__input"
                   placeholder="Search by city or dealer name…"
                   value={searchCity}
-                  onChange={e => { setSearchCity(e.target.value); setSearchPin(''); setActiveCity('All'); }}
+                  onChange={e => { setSearchCity(e.target.value); setActiveCity('All'); }}
                   aria-label="Search by city or dealer name"
                 />
               </div>
-              <span className="dealers-search__or">or</span>
-              <div className="dealers-search__input-wrap">
-                <span className="dealers-search__icon" aria-hidden="true">📍</span>
-                <input
-                  id="pin-search"
-                  type="text"
-                  className="form-control dealers-search__input"
-                  placeholder="Search by PIN code…"
-                  value={searchPin}
-                  onChange={e => { setSearchPin(e.target.value); setSearchCity(''); setActiveCity('All'); }}
-                  maxLength={6}
-                  aria-label="Search by PIN code"
-                />
-              </div>
             </div>
-            {(searchCity || searchPin) && (
+            {searchCity && (
               <button
                 type="button"
                 className="btn btn-ghost"
-                onClick={() => { setSearchCity(''); setSearchPin(''); setActiveCity('All'); }}
+                onClick={() => { setSearchCity(''); setActiveCity('All'); }}
               >
                 Clear ✕
               </button>
@@ -82,7 +75,7 @@ export default function Dealers() {
           </form>
 
           {/* City Tabs */}
-          {!searchCity && !searchPin && (
+          {!searchCity && (
             <div className="dealers-city-tabs" role="group" aria-label="Filter by city">
               {['All', ...cities].map(city => (
                 <button
@@ -101,26 +94,28 @@ export default function Dealers() {
       </section>
 
       {/* Dealer Listings */}
-      <section className="section dealers-list">
+      <section className="section">
         <div className="container">
           <p className="dealers-count">
-            Found <strong>{filtered.length}</strong> {filtered.length === 1 ? 'dealer' : 'dealers'}
-            {activeCity !== 'All' && !searchCity && !searchPin && <> in <em>{activeCity}</em></>}
+            Showing <strong>{filtered.length}</strong> {filtered.length === 1 ? 'dealership' : 'dealerships'}
+            {activeCity !== 'All' && <> in <em>{activeCity}</em></>}
           </p>
 
           {filtered.length > 0 ? (
             <div className="dealers-grid">
               {filtered.map(dealer => (
-                <article key={dealer.id} className={`dealer-card ${dealer.featured ? 'dealer-card--featured' : ''}`}>
-                  {dealer.featured && (
-                    <span className="dealer-card__featured-badge">⭐ Premium Dealer</span>
-                  )}
+                <article
+                  key={dealer.id}
+                  className={`dealer-card ${dealer.premium ? 'dealer-card--premium' : ''}`}
+                >
                   <div className="dealer-card__header">
-                    <div className="dealer-card__icon" aria-hidden="true">🏪</div>
                     <div>
                       <h3 className="dealer-card__name">{dealer.name}</h3>
                       <span className="dealer-card__city">{dealer.city}, {dealer.state}</span>
                     </div>
+                    {dealer.premium && (
+                      <span className="dealer-card__badge">Flagship</span>
+                    )}
                   </div>
 
                   <div className="dealer-card__details">
@@ -142,6 +137,25 @@ export default function Dealers() {
                     </div>
                   </div>
 
+                  {/* Stocked Motorcycles */}
+                  {dealer.stocks && dealer.stocks.length > 0 && (
+                    <div className="dealer-card__stocks">
+                      <div className="dealer-card__stocks-title">Bikes in Stock:</div>
+                      <ul className="dealer-card__stocks-list">
+                        {dealer.stocks.map(slug => {
+                          const bike = getBikeBySlug(slug);
+                          return (
+                            <li key={slug} className="dealer-card__stock-item">
+                              <Link to={`/motorcycles/${slug}`}>
+                                {bike ? bike.name : slug}
+                              </Link>
+                            </li>
+                          );
+                        })}
+                      </ul>
+                    </div>
+                  )}
+
                   {/* Services */}
                   <div className="dealer-card__services">
                     {dealer.services.map(s => (
@@ -162,14 +176,14 @@ export default function Dealers() {
             </div>
           ) : (
             <div className="dealers-empty">
-              <span aria-hidden="true">🔍</span>
+              <span aria-hidden="true" style={{ fontSize: '2.5rem' }}>🔍</span>
               <h3>No dealers found</h3>
-              <p>Try a different city name or PIN code.</p>
+              <p>Try searching for a different city.</p>
               <button
                 className="btn btn-primary"
-                onClick={() => { setSearchCity(''); setSearchPin(''); setActiveCity('All'); }}
+                onClick={() => { setSearchCity(''); setActiveCity('All'); }}
               >
-                View All Dealers
+                View All Dealerships
               </button>
             </div>
           )}

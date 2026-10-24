@@ -6,7 +6,9 @@ import './Navbar.css';
 const navLinks = [
   { label: 'Motorcycles', path: '/motorcycles' },
   { label: 'Offers', path: '/offers' },
+  { label: 'Finance', path: '/finance' },
   { label: 'Dealers', path: '/dealers' },
+  { label: 'FAQ', path: '/faq' },
   { label: 'About', path: '/about' },
   { label: 'Contact', path: '/contact' },
 ];
@@ -102,11 +104,6 @@ export default function Navbar() {
           </div>
         </nav>
       </div>
-
-      {/* Mobile Overlay */}
-      {menuOpen && (
-        <div className="navbar__overlay" onClick={() => setMenuOpen(false)} aria-hidden="true" />
-      )}
     </header>
   );
 }

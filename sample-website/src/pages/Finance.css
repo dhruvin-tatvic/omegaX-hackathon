@@ -1,0 +1,64 @@
+/* Finance Page Styles */
+.finance-page {
+  padding-bottom: var(--spacing-3xl);
+}
+
+.finance-calc-box {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-2xl);
+  margin-bottom: var(--spacing-3xl);
+}
+
+.finance-formula {
+  background: var(--color-bg-elevated);
+  padding: var(--spacing-lg);
+  border-radius: var(--radius-md);
+  font-family: monospace;
+  font-size: 1rem;
+  color: var(--color-primary);
+  margin: var(--spacing-md) 0;
+}
+
+.finance-bikes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(360px, 1fr));
+  gap: var(--spacing-xl);
+  margin-top: var(--spacing-xl);
+}
+
+.finance-bike-card {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-xl);
+  display: flex;
+  flex-direction: column;
+  gap: var(--spacing-md);
+  transition: all var(--transition-base);
+}
+
+.finance-bike-card:hover {
+  border-color: var(--color-primary);
+}
+
+.finance-bike-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+}
+
+.finance-bike-name {
+  font-family: var(--font-display);
+  font-size: 1.3rem;
+  font-weight: 800;
+}
+
+.finance-bike-name a {
+  color: var(--color-text-primary);
+}
+
+.finance-bike-name a:hover {
+  color: var(--color-primary);
+}

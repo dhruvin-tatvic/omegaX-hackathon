@@ -1,4 +1,4 @@
-/* Motorcycle Detail Page */
+/* Motorcycle Detail Page Styles */
 
 /* Hero */
 .moto-detail__hero {
@@ -59,7 +59,7 @@
 
 .moto-detail__hero-tagline {
   font-size: 1.2rem;
-  color: rgba(255,255,255,0.6);
+  color: rgba(255,255,255,0.7);
   margin-bottom: var(--spacing-lg);
 }
 
@@ -98,26 +98,19 @@
 .moto-detail__quick-specs-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  gap: var(--spacing-md);
-  text-align: center;
+  gap: var(--spacing-xl);
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
   .moto-detail__quick-specs-grid {
     grid-template-columns: repeat(2, 1fr);
+    gap: var(--spacing-md);
   }
 }
 
 .moto-detail__quick-spec {
   display: flex;
   flex-direction: column;
-  gap: 4px;
-  padding: var(--spacing-md);
-  border-right: 1px solid var(--color-border);
-}
-
-.moto-detail__quick-spec:last-child {
-  border-right: none;
 }
 
 .moto-detail__quick-spec-value {
@@ -125,124 +118,83 @@
   font-size: 1.5rem;
   font-weight: 800;
   color: var(--color-text-primary);
+  line-height: 1.2;
 }
 
 .moto-detail__quick-spec-label {
-  font-size: 0.7rem;
+  font-size: 0.75rem;
   font-weight: 600;
   color: var(--color-text-muted);
   text-transform: uppercase;
-  letter-spacing: 0.1em;
+  letter-spacing: 0.08em;
+  margin-top: 0.25rem;
 }
 
-/* Tabs */
+/* Tab Navigation */
 .moto-detail__tabs-wrap {
-  background: var(--color-bg-section);
-  border-bottom: 1px solid var(--color-border);
   position: sticky;
   top: var(--navbar-height);
-  z-index: 50;
+  z-index: 10;
+  background: rgba(13, 13, 15, 0.95);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--color-border);
 }
 
 .moto-detail__tabs {
   display: flex;
-  gap: 0;
+  gap: var(--spacing-md);
   overflow-x: auto;
-  -ms-overflow-style: none;
-  scrollbar-width: none;
+  padding: 0.5rem 0;
 }
 
-.moto-detail__tabs::-webkit-scrollbar { display: none; }
-
 .moto-detail__tab {
-  padding: var(--spacing-md) var(--spacing-xl);
   background: none;
   border: none;
-  border-bottom: 2px solid transparent;
-  color: var(--color-text-muted);
-  font-size: 0.9rem;
+  padding: 0.75rem 1.25rem;
+  font-size: 0.95rem;
   font-weight: 600;
-  font-family: var(--font-body);
-  letter-spacing: 0.05em;
-  text-transform: uppercase;
+  color: var(--color-text-muted);
   cursor: pointer;
-  transition: all var(--transition-base);
+  border-radius: var(--radius-md);
+  transition: all var(--transition-fast);
   white-space: nowrap;
 }
 
 .moto-detail__tab:hover {
   color: var(--color-text-primary);
+  background: rgba(255, 255, 255, 0.05);
 }
 
 .moto-detail__tab--active {
   color: var(--color-primary);
-  border-bottom-color: var(--color-primary);
+  background: rgba(255, 107, 53, 0.1);
+  box-shadow: inset 0 -2px 0 var(--color-primary);
 }
 
-/* Overview */
+/* Inactive Tab Panels - hidden via CSS per audit rule */
+.moto-detail__tab-panel--hidden,
+[hidden] {
+  display: none !important;
+}
+
+/* Tab Panels */
+.moto-detail__tab-panel {
+  padding-top: var(--spacing-xl);
+}
+
+/* Overview Layout */
 .moto-detail__overview-grid {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: var(--spacing-3xl);
-  align-items: center;
+  margin-bottom: var(--spacing-3xl);
 }
 
-@media (max-width: 768px) {
+@media (max-width: 900px) {
   .moto-detail__overview-grid {
     grid-template-columns: 1fr;
+    gap: var(--spacing-xl);
   }
-}
-
-.moto-detail__overview-text h2 {
-  margin-bottom: var(--spacing-md);
-}
-
-.moto-detail__desc {
-  margin-bottom: var(--spacing-md);
-  font-size: 1rem;
-  line-height: 1.8;
-}
-
-/* Color Selector */
-.moto-detail__colors {
-  margin-top: var(--spacing-xl);
-}
-
-.moto-detail__colors-title {
-  font-size: 0.9rem;
-  font-weight: 600;
-  color: var(--color-text-secondary);
-  margin-bottom: var(--spacing-md);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-.moto-detail__colors-title span {
-  color: var(--color-primary);
-}
-
-.moto-detail__color-swatches {
-  display: flex;
-  gap: var(--spacing-sm);
-}
-
-.moto-detail__color-swatch {
-  width: 32px;
-  height: 32px;
-  border-radius: 50%;
-  border: 2px solid transparent;
-  cursor: pointer;
-  transition: all var(--transition-base);
-  outline: none;
-}
-
-.moto-detail__color-swatch:hover {
-  transform: scale(1.15);
-}
-
-.moto-detail__color-swatch--active {
-  border-color: var(--color-primary);
-  box-shadow: 0 0 0 3px rgba(255, 107, 53, 0.3);
 }
 
 .moto-detail__main-image {
@@ -251,205 +203,300 @@
   object-fit: cover;
 }
 
-/* Features */
-.moto-detail__features-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
+.moto-detail__overview-info {
+  display: flex;
+  flex-direction: column;
   gap: var(--spacing-lg);
 }
 
-@media (max-width: 640px) {
-  .moto-detail__features-grid {
-    grid-template-columns: 1fr;
-  }
+/* Colours list */
+.colours {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  padding: 0;
+  margin: var(--spacing-sm) 0 var(--spacing-md);
+}
+
+.colours li {
+  padding: 0.4rem 1rem;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-full);
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: var(--color-text-primary);
+}
+
+/* Availability */
+.availability {
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: #22C55E;
+  margin-bottom: var(--spacing-md);
+}
+
+/* Brochure CTA */
+.moto-detail__brochure-box {
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  padding: var(--spacing-lg);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--spacing-md);
+  margin: var(--spacing-lg) 0;
+}
+
+/* On-road Price Table */
+.onroad-wrap {
+  margin: var(--spacing-2xl) 0;
+}
+
+table.onroad {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  margin: var(--spacing-md) 0;
+}
+
+table.onroad th,
+table.onroad td {
+  padding: 0.75rem 1.25rem;
+  text-align: left;
+  border-bottom: 1px solid var(--color-border);
+}
+
+table.onroad th {
+  background: var(--color-bg-elevated);
+  font-size: 0.8rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+}
+
+table.onroad td {
+  font-size: 0.9rem;
+}
+
+table.onroad tr:last-child td {
+  border-bottom: none;
+}
+
+table.onroad td:nth-child(2) {
+  font-weight: 700;
+  color: var(--color-primary);
+}
+
+/* Dealers for bike */
+.moto-detail__dealers-section {
+  margin: var(--spacing-2xl) 0;
+  padding: var(--spacing-xl);
+  background: var(--color-bg-card);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-lg);
+}
+
+.moto-detail__dealers-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: var(--spacing-md);
+  margin-top: var(--spacing-md);
+}
+
+.moto-detail__dealer-pill {
+  display: block;
+  padding: var(--spacing-md);
+  background: var(--color-bg-elevated);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  transition: all var(--transition-fast);
+}
+
+.moto-detail__dealer-pill:hover {
+  border-color: var(--color-primary);
+  transform: translateY(-2px);
+}
+
+.moto-detail__dealer-pill-name {
+  font-weight: 700;
+  color: var(--color-text-primary);
+  display: block;
+}
+
+.moto-detail__dealer-pill-city {
+  font-size: 0.8rem;
+  color: var(--color-text-muted);
+}
+
+/* Features Grid */
+.moto-detail__features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: var(--spacing-lg);
 }
 
 .moto-detail__feature-card {
-  display: flex;
-  gap: var(--spacing-lg);
   background: var(--color-bg-card);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
   padding: var(--spacing-xl);
+  display: flex;
+  gap: var(--spacing-md);
   transition: all var(--transition-base);
 }
 
 .moto-detail__feature-card:hover {
   border-color: var(--color-primary);
-  transform: translateY(-2px);
 }
 
-.moto-detail__feature-icon {
-  font-size: 2rem;
-  flex-shrink: 0;
-  width: 48px;
-  text-align: center;
-}
-
-.moto-detail__feature-title {
-  font-size: 1rem;
-  font-weight: 700;
-  color: var(--color-text-primary);
-  margin-bottom: var(--spacing-xs);
-}
-
-.moto-detail__feature-desc {
-  font-size: 0.9rem;
-  color: var(--color-text-muted);
-  line-height: 1.5;
-}
-
-/* Specs Table */
-.moto-detail__specs-table {
+/* Full Specs Table */
+table.specs {
+  width: 100%;
+  border-collapse: collapse;
+  background: var(--color-bg-card);
   border: 1px solid var(--color-border);
-  border-radius: var(--radius-lg);
+  border-radius: var(--radius-md);
   overflow: hidden;
-  margin-bottom: var(--spacing-lg);
+  margin: var(--spacing-md) 0 var(--spacing-xl);
 }
 
-.moto-detail__spec-row {
-  display: grid;
-  grid-template-columns: 240px 1fr;
-  gap: var(--spacing-lg);
-  padding: var(--spacing-md) var(--spacing-xl);
+table.specs th,
+table.specs td {
+  padding: 0.85rem 1.25rem;
   border-bottom: 1px solid var(--color-border);
 }
 
-.moto-detail__spec-row:last-child {
+table.specs td:first-child {
+  width: 35%;
+  font-size: 0.85rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--color-text-muted);
+  background: rgba(255, 255, 255, 0.02);
+}
+
+table.specs td:last-child {
+  color: var(--color-text-primary);
+  font-size: 0.95rem;
+}
+
+table.specs tr:last-child td {
   border-bottom: none;
 }
 
-.moto-detail__spec-row--alt {
-  background: var(--color-bg-elevated);
+.specs-image {
+  max-width: 100%;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--color-border);
 }
 
-.moto-detail__spec-key {
-  font-size: 0.85rem;
-  font-weight: 700;
-  color: var(--color-text-muted);
-  text-transform: uppercase;
-  letter-spacing: 0.05em;
-}
-
-.moto-detail__spec-val {
-  font-size: 0.95rem;
-  color: var(--color-text-primary);
-}
-
-.moto-detail__spec-disclaimer {
-  font-size: 0.8rem;
-  color: var(--color-text-muted);
-  font-style: italic;
-}
-
-@media (max-width: 640px) {
-  .moto-detail__spec-row {
-    grid-template-columns: 1fr;
-    gap: var(--spacing-xs);
-  }
-}
-
-/* Variants */
-.moto-detail__variants-grid {
+/* Variants List */
+ul.variants {
+  list-style: none;
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: var(--spacing-xl);
+  padding: 0;
+  margin: var(--spacing-md) 0 var(--spacing-xl);
 }
 
-@media (max-width: 640px) {
-  .moto-detail__variants-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-.moto-detail__variant-card {
+ul.variants li {
   background: var(--color-bg-card);
   border: 2px solid var(--color-border);
   border-radius: var(--radius-lg);
   padding: var(--spacing-xl);
-  cursor: pointer;
-  transition: all var(--transition-base);
-}
-
-.moto-detail__variant-card--active {
-  border-color: var(--color-primary);
-  box-shadow: 0 0 0 4px rgba(255, 107, 53, 0.15);
-}
-
-.moto-detail__variant-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: baseline;
-  margin-bottom: var(--spacing-lg);
-}
-
-.moto-detail__variant-name {
-  font-family: var(--font-display);
-  font-size: 1.5rem;
-  font-weight: 800;
-  color: var(--color-text-primary);
-}
-
-.moto-detail__variant-price {
-  font-family: var(--font-display);
-  font-size: 1.3rem;
-  font-weight: 700;
-  color: var(--color-primary);
-}
-
-.moto-detail__variant-features {
-  list-style: none;
-  margin-bottom: var(--spacing-xl);
   display: flex;
   flex-direction: column;
   gap: var(--spacing-sm);
 }
 
-.moto-detail__variant-features li {
-  font-size: 0.9rem;
-  color: var(--color-text-secondary);
+.variant-title-row {
   display: flex;
-  align-items: center;
-  gap: var(--spacing-sm);
+  justify-content: space-between;
+  align-items: baseline;
 }
 
-.moto-detail__variant-features li span {
-  color: var(--color-primary);
-  font-weight: 700;
+.variant-name {
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  font-weight: 800;
 }
 
-/* Related */
-.moto-detail__related-card {
+.variant-features {
+  list-style: none;
+  padding: 0;
+  margin-top: var(--spacing-md);
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
+
+.variant-features li {
+  border: none;
+  padding: 0;
+  background: none;
+  font-size: 0.85rem;
+  color: var(--color-text-secondary);
+}
+
+/* Finance Table */
+.finance-section {
+  margin: var(--spacing-3xl) 0;
+  padding: var(--spacing-2xl);
   background: var(--color-bg-card);
   border: 1px solid var(--color-border);
   border-radius: var(--radius-lg);
-  overflow: hidden;
-  transition: all var(--transition-base);
 }
 
-.moto-detail__related-card:hover {
-  border-color: var(--color-primary);
-  transform: translateY(-4px);
-  box-shadow: var(--shadow-lg);
-}
-
-.moto-detail__related-card img {
+table.finance {
   width: 100%;
-  aspect-ratio: 16/9;
-  object-fit: cover;
+  border-collapse: collapse;
+  background: var(--color-bg-elevated);
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  margin: var(--spacing-md) 0;
 }
 
-.moto-detail__related-info {
-  padding: var(--spacing-lg);
+table.finance th,
+table.finance td {
+  padding: 0.85rem 1.25rem;
+  text-align: left;
+  border-bottom: 1px solid var(--color-border);
 }
 
-.moto-detail__related-info h3 {
-  font-size: 1.5rem;
-  margin-bottom: var(--spacing-xs);
-}
-
-.moto-detail__related-info p {
-  font-size: 0.95rem;
-  margin-bottom: var(--spacing-lg);
+table.finance th {
+  font-size: 0.8rem;
+  text-transform: uppercase;
   color: var(--color-text-muted);
+}
+
+table.finance td {
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+table.finance td:last-child {
+  color: var(--color-primary);
+  font-size: 1.2rem;
+}
+
+/* Stale Banner */
+.moto-detail__stale-banner {
+  background: #3B82F622;
+  border: 1px solid #3B82F644;
+  color: #60A5FA;
+  padding: 0.75rem 1.25rem;
+  border-radius: var(--radius-md);
+  margin-bottom: var(--spacing-lg);
+  display: inline-block;
+  font-weight: 700;
+  font-size: 0.9rem;
 }

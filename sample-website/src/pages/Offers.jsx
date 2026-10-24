@@ -1,7 +1,8 @@
 import { useForm } from '../hooks/useForm';
-import { motorcycles } from '../data/motorcycles';
-import { offers, financingOptions } from '../data/offers';
+import { offers as baseOffers } from '../data/offers';
+import { bankPartners, formatINR, getBikeDisplayPrice, offerTermsConflict, getBikeBySlug } from '../data/catalogue';
 import { Link } from 'react-router-dom';
+import SEO from '../components/SEO';
 import './Offers.css';
 
 const enquiryInitial = { name: '', mobile: '', city: '', motorcycle: '', consent: false };
@@ -13,17 +14,52 @@ const enquiryRules = {
   consent: { required: false, isCheckbox: true, checkboxMsg: 'Consent is required' },
 };
 
+// Map model names in offers to catalogue slugs
+const MODEL_SLUG_MAP = {
+  'Thunderstrike 650': 'thunderstrike-650',
+  'Phantom 350': 'phantom-350',
+  'Storm 200': 'storm-200',
+  'Zenith 450 Scrambler': 'zenith-450-scrambler',
+};
+
 export default function Offers() {
-  const { values, errors, touched, isSubmitting, isSuccess, handleChange, handleBlur, handleSubmit, reset } = useForm(enquiryInitial, enquiryRules);
+  const { values, errors, touched, isSuccess, handleChange, handleBlur, handleSubmit, reset } = useForm(enquiryInitial, enquiryRules);
+
+  // Apply offer terms conflict rule
+  const adjustedOffers = baseOffers.map(offer => {
+    if (offer.id === 2) {
+      const benefits = offerTermsConflict
+        ? [
+            '0% down payment through select banks',
+            'EMI starting at ₹4,999/month',
+            'Quick 24-hour loan approval',
+            '7-year repayment flexibility',
+          ]
+        : [
+            'Down payment from 0% with select banks',
+            'EMI starting at ₹4,999/month',
+            'Quick 24-hour loan approval',
+            'Repayment up to 6 years',
+          ];
+      return { ...offer, benefits };
+    }
+    return offer;
+  });
 
   return (
     <main className="offers-page">
+      <SEO
+        title="Exclusive Offers & Financing Deals"
+        description="Explore current cashback, bundle offers, and zero down payment finance deals across the Apex Moto lineup."
+        path="/offers"
+      />
+
       {/* Page Hero */}
       <section className="page-hero">
         <div className="container">
           <span className="section-label page-hero__label">Exclusive Deals</span>
           <h1>Offers & Promotions</h1>
-          <p>From monsoon specials to financing deals — discover the best time to ride home an Apex Moto.</p>
+          <p>From seasonal specials to partner financing deals — discover the best time to ride home an Apex Moto.</p>
         </div>
       </section>
 
@@ -37,7 +73,7 @@ export default function Offers() {
           </div>
 
           <div className="offers-grid">
-            {offers.map(offer => (
+            {adjustedOffers.map(offer => (
               <article
                 key={offer.id}
                 className="offer-card"
@@ -72,10 +108,19 @@ export default function Offers() {
                     <span className="offer-card__validity-label">Valid till:</span>
                     <span className="offer-card__validity-date">{offer.validTill}</span>
                   </div>
+
+                  {/* Models list with ex-showroom prices */}
                   <div className="offer-card__models">
-                    {offer.models.map(m => (
-                      <span key={m} className="offer-card__model-tag">{m}</span>
-                    ))}
+                    {offer.models.map(m => {
+                      const slug = MODEL_SLUG_MAP[m];
+                      if (!slug) return <span key={m} className="offer-card__model-tag">{m}</span>;
+                      const price = getBikeDisplayPrice(slug, '/offers');
+                      return (
+                        <span key={m} className="offer-card__model-tag">
+                          {m} • Starting <span className="price" data-slug={slug}>{formatINR(price)}</span>
+                        </span>
+                      );
+                    })}
                   </div>
                 </div>
 
@@ -93,33 +138,33 @@ export default function Offers() {
         </div>
       </section>
 
-      {/* Financing */}
+      {/* Financing Options from Bank Partners */}
       <section className="section offers-financing" style={{ background: 'var(--color-bg-section)' }}>
         <div className="container">
           <div className="section-header section-header--centered">
             <span className="section-label">Easy Finance</span>
-            <h2>Financing Options</h2>
-            <p>Partner banks offering attractive rates on all Apex Moto models.</p>
+            <h2>Financing Options & Partner Banks</h2>
+            <p>Official banking partners offering competitive interest rates and flexible tenures on all Apex Moto models.</p>
           </div>
+
           <div className="offers-financing__table">
             <div className="offers-financing__header">
               <span>Bank</span>
               <span>Interest Rate</span>
-              <span>Loan Tenure</span>
+              <span>Max Loan Tenure</span>
               <span>Down Payment</span>
             </div>
-            {financingOptions.map((opt, i) => (
+            {bankPartners.map((opt, i) => (
               <div key={i} className="offers-financing__row">
                 <span className="offers-financing__bank">{opt.bank}</span>
-                <span className="offers-financing__rate">{opt.rate}</span>
-                <span>{opt.tenure}</span>
-                <span>{opt.downPayment}</span>
+                <span className="offers-financing__rate">{opt.interest_rate_pct}% p.a.</span>
+                <span>{opt.max_tenure_months} months</span>
+                <span>{opt.down_payment}</span>
               </div>
             ))}
           </div>
           <p className="offers-financing__disclaimer">
-            * Rates are indicative. Final rates depend on credit profile and are subject to bank approval.
-            Contact your nearest dealer for assistance.
+            * Rates and loan tenure are indicative. Final terms depend on customer credit profile and bank underwriting criteria.
           </p>
         </div>
       </section>
@@ -168,74 +213,55 @@ export default function Offers() {
                     {errors.name && touched.name && <span className="form-error" role="alert">⚠ {errors.name}</span>}
                   </div>
 
-                  <div className="form-row">
-                    <div className="form-group">
-                      <label className="form-label" htmlFor="enq-mobile">Mobile Number *</label>
-                      <input
-                        id="enq-mobile" name="mobile" type="tel"
-                        className={`form-control ${errors.mobile && touched.mobile ? 'error' : ''}`}
-                        placeholder="10-digit mobile"
-                        value={values.mobile}
-                        maxLength={10}
-                        onChange={handleChange}
-                        onBlur={handleBlur}
-                        aria-required="true"
-                      />
-                      {errors.mobile && touched.mobile && <span className="form-error" role="alert">⚠ {errors.mobile}</span>}
-                    </div>
-
-                    <div className="form-group">
-                      <label className="form-label" htmlFor="enq-city">City *</label>
-                      <input
-                        id="enq-city" name="city" type="text"
-                        className={`form-control ${errors.city && touched.city ? 'error' : ''}`}
-                        placeholder="Your city"
-                        value={values.city}
-                        onChange={handleChange}
-                        onBlur={handleBlur}
-                        aria-required="true"
-                      />
-                      {errors.city && touched.city && <span className="form-error" role="alert">⚠ {errors.city}</span>}
-                    </div>
+                  <div className="form-group">
+                    <label className="form-label" htmlFor="enq-mobile">Mobile Number *</label>
+                    <input
+                      id="enq-mobile" name="mobile" type="tel"
+                      className={`form-control ${errors.mobile && touched.mobile ? 'error' : ''}`}
+                      placeholder="9876543210"
+                      value={values.mobile}
+                      onChange={handleChange}
+                      onBlur={handleBlur}
+                      aria-required="true"
+                    />
+                    {errors.mobile && touched.mobile && <span className="form-error" role="alert">⚠ {errors.mobile}</span>}
                   </div>
 
                   <div className="form-group">
-                    <label className="form-label" htmlFor="enq-motorcycle">Interested Motorcycle *</label>
+                    <label className="form-label" htmlFor="enq-city">City *</label>
+                    <input
+                      id="enq-city" name="city" type="text"
+                      className={`form-control ${errors.city && touched.city ? 'error' : ''}`}
+                      placeholder="Your city"
+                      value={values.city}
+                      onChange={handleChange}
+                      onBlur={handleBlur}
+                      aria-required="true"
+                    />
+                    {errors.city && touched.city && <span className="form-error" role="alert">⚠ {errors.city}</span>}
+                  </div>
+
+                  <div className="form-group">
+                    <label className="form-label" htmlFor="enq-moto">Interested Motorcycle *</label>
                     <select
-                      id="enq-motorcycle" name="motorcycle"
+                      id="enq-moto" name="motorcycle"
                       className={`form-control ${errors.motorcycle && touched.motorcycle ? 'error' : ''}`}
                       value={values.motorcycle}
                       onChange={handleChange}
                       onBlur={handleBlur}
                       aria-required="true"
                     >
-                      <option value="">Select a model…</option>
-                      {motorcycles.map(m => <option key={m.id} value={m.name}>{m.name}</option>)}
+                      <option value="">Select a motorcycle</option>
+                      <option value="Thunderstrike 650">Thunderstrike 650</option>
+                      <option value="Phantom 350">Phantom 350</option>
+                      <option value="Storm 200">Storm 200</option>
+                      <option value="Zenith 450 Scrambler">Zenith 450 Scrambler</option>
                     </select>
                     {errors.motorcycle && touched.motorcycle && <span className="form-error" role="alert">⚠ {errors.motorcycle}</span>}
                   </div>
 
-                  <div className="checkbox-group">
-                    <input
-                      id="enq-consent" name="consent" type="checkbox"
-                      checked={values.consent}
-                      onChange={handleChange}
-                      onBlur={handleBlur}
-                    />
-                    <label htmlFor="enq-consent" className="checkbox-label">
-                      I agree to be contacted by Apex Moto. This is a demo form — no data is stored. *
-                    </label>
-                  </div>
-                  {errors.consent && touched.consent && <span className="form-error" role="alert">⚠ {errors.consent}</span>}
-
-                  <button
-                    type="submit"
-                    id="submit-enquiry-btn"
-                    className="btn btn-primary btn-lg"
-                    disabled={isSubmitting}
-                    style={{ width: '100%', justifyContent: 'center', marginTop: '0.5rem' }}
-                  >
-                    {isSubmitting ? 'Sending…' : 'Request a Callback →'}
+                  <button type="submit" className="btn btn-primary" style={{ width: '100%', marginTop: '0.5rem' }}>
+                    Submit Enquiry
                   </button>
                 </form>
               )}

@@ -4,7 +4,7 @@ import './Footer.css';
 
 const footerLinks = {
   'Motorcycles': [
-    { label: 'All Models', path: '/motorcycles' },
+    { label: 'All 18 Models', path: '/motorcycles' },
     { label: 'Thunderstrike 650', path: '/motorcycles/thunderstrike-650' },
     { label: 'Phantom 350', path: '/motorcycles/phantom-350' },
     { label: 'Storm 200', path: '/motorcycles/storm-200' },
@@ -13,14 +13,15 @@ const footerLinks = {
   'Experience': [
     { label: 'Book a Test Ride', path: '/book-test-ride' },
     { label: 'Find a Dealer', path: '/dealers' },
-    { label: 'Offers & Promotions', path: '/offers' },
-    { label: 'Contact Us', path: '/contact' },
+    { label: 'Offers & Deals', path: '/offers' },
+    { label: 'Finance & EMI Plans', path: '/finance' },
+    { label: 'Buyer FAQs', path: '/faq' },
+    { label: 'Contact Support', path: '/contact' },
   ],
   'Company': [
     { label: 'About Apex Moto', path: '/about' },
-    { label: 'Our Philosophy', path: '/about#philosophy' },
-    { label: 'Careers', path: '/contact' },
-    { label: 'Press & Media', path: '/contact' },
+    { label: 'Rider Portal', path: '/account' },
+    { label: 'Rider Login', path: '/login' },
   ],
 };
 
@@ -81,12 +82,12 @@ export default function Footer() {
       <div className="footer__bottom">
         <div className="footer__bottom-inner container">
           <p className="footer__copyright">
-            © {currentYear} Apex Moto. All rights reserved. This is a fictional brand created for demonstration purposes only.
+            © {currentYear} Apex Moto. All rights reserved. Fictional brand test site for AI-readability audit.
           </p>
           <div className="footer__legal">
             <a href="#" className="footer__legal-link">Privacy Policy</a>
             <a href="#" className="footer__legal-link">Terms of Use</a>
-            <a href="#" className="footer__legal-link">Cookie Policy</a>
+            <a href="#" className="footer__legal-link">Sitemap</a>
           </div>
         </div>
       </div>

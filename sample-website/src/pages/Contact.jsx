@@ -1,4 +1,5 @@
 import { useForm } from '../hooks/useForm';
+import SEO from '../components/SEO';
 import './Contact.css';
 
 const initialValues = {
@@ -26,6 +27,11 @@ export default function Contact() {
 
   return (
     <main className="contact-page">
+      <SEO
+        title="Contact Customer Support & Enquiries — Apex Moto"
+        description="Get in touch with Apex Moto for test ride assistance, dealer inquiries, financing support, or after-sales service."
+        path="/contact"
+      />
       {/* Page Hero */}
       <section className="page-hero">
         <div className="container">

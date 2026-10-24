@@ -1,0 +1,87 @@
+{
+  "scenario": "practice",
+  "description": "Mix used to build and tune the agent.",
+  "js_only_content": {
+    "enabled": true,
+    "bikes": [
+      "storm-200"
+    ],
+    "note": "Price, on-road table, specs, variants and colours render only in the browser, on the bike page AND on every card that shows this bike (home, /motorcycles, You Might Also Like)"
+  },
+  "tabs_not_in_html": {
+    "enabled": true,
+    "bikes": [
+      "storm-390"
+    ],
+    "note": "Specs and Variants panels are mounted only when their tab is clicked"
+  },
+  "conflicting_price": {
+    "enabled": true,
+    "bikes": [
+      "zenith-450-scrambler"
+    ],
+    "page": "/offers",
+    "wrong_ex_showroom_price_inr": 325000
+  },
+  "stale_page": {
+    "enabled": true,
+    "bikes": [
+      "thunderstrike-650"
+    ],
+    "url": "/motorcycles/thunderstrike-650-2025"
+  },
+  "missing_jsonld": {
+    "enabled": true,
+    "bikes": [
+      "phantom-500",
+      "storm-125",
+      "voyager-450"
+    ]
+  },
+  "robots_block_dealers": {
+    "enabled": true,
+    "path": "/dealers",
+    "user_agents": [
+      "GPTBot",
+      "OAI-SearchBot"
+    ]
+  },
+  "intentional_account_block": {
+    "enabled": true,
+    "paths": [
+      "/account",
+      "/login"
+    ]
+  },
+  "price_only_in_pdf": {
+    "enabled": true,
+    "bikes": [
+      "voyager-650"
+    ]
+  },
+  "image_only_specs": {
+    "enabled": true,
+    "bikes": [
+      "zenith-650-scrambler"
+    ]
+  },
+  "finance_not_on_site": {
+    "enabled": true,
+    "bikes": [
+      "nightfall-650"
+    ]
+  },
+  "firewall_block": {
+    "enabled": true,
+    "path_prefix": "/finance",
+    "user_agents": [
+      "PerplexityBot",
+      "Perplexity-User"
+    ]
+  },
+  "offer_terms_conflict": {
+    "enabled": true,
+    "note": "Keep the live Offers copy '0% down payment' and '7-year repayment' while the bank table says SBI 10-20% down and max 72 months"
+  },
+  "data_label": "SIMULATED"
+}

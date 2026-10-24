@@ -1,24 +1,31 @@
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
-import { motorcycles, categories } from '../data/motorcycles';
+import { allBikes, categories } from '../data/catalogue';
 import ProductCard from '../components/ProductCard';
+import SEO from '../components/SEO';
 import './Motorcycles.css';
 
 export default function Motorcycles() {
   const [activeCategory, setActiveCategory] = useState('All');
 
   const filtered = activeCategory === 'All'
-    ? motorcycles
-    : motorcycles.filter(m => m.category === activeCategory);
+    ? allBikes
+    : allBikes.filter(m => m.category === activeCategory);
 
   return (
     <main className="motorcycles-page">
+      <SEO
+        title="Motorcycles Lineup — All 18 Models"
+        description="Browse the complete Apex Moto motorcycle collection: Adventure, Classic, Street, Scrambler, Tourer, Cruiser, and Electric models."
+        path="/motorcycles"
+      />
+
       {/* Page Hero */}
       <section className="page-hero">
         <div className="container">
           <span className="section-label page-hero__label">Our Lineup</span>
           <h1>Apex Moto Motorcycles</h1>
-          <p>Four distinct machines. One uncompromising philosophy. Find your perfect ride.</p>
+          <p>Eighteen distinct machines across seven categories. One uncompromising philosophy. Find your perfect ride.</p>
         </div>
       </section>
 
@@ -38,7 +45,7 @@ export default function Motorcycles() {
                 >
                   {cat}
                   <span className="motorcycles-filter__count">
-                    {cat === 'All' ? motorcycles.length : motorcycles.filter(m => m.category === cat).length}
+                    {cat === 'All' ? allBikes.length : allBikes.filter(m => m.category === cat).length}
                   </span>
                 </button>
               ))}
@@ -58,7 +65,7 @@ export default function Motorcycles() {
               </p>
               <div className="motorcycles-grid">
                 {filtered.map(moto => (
-                  <ProductCard key={moto.id} motorcycle={moto} />
+                  <ProductCard key={moto.id || moto.slug} motorcycle={moto} />
                 ))}
               </div>
             </>

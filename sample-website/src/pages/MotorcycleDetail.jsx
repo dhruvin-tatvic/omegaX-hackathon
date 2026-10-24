@@ -1,26 +1,113 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
-import { getMotorcycleBySlug, motorcycles } from '../data/motorcycles';
+import {
+  getBikeBySlug,
+  formatINR,
+  isJsOnlyBike,
+  isTabsNotInHtmlBike,
+  isMissingJsonld,
+  isPriceOnlyInPdf,
+  isImageOnlySpecs,
+  isFinanceNotOnSite,
+  getRelatedBikes,
+  getDealersForBike,
+  getBikeImage,
+} from '../data/catalogue';
+import ProductCard from '../components/ProductCard';
+import SEO from '../components/SEO';
 import './MotorcycleDetail.css';
 
 export default function MotorcycleDetail() {
   const { slug } = useParams();
-  const moto = getMotorcycleBySlug(slug);
-  const [activeVariant, setActiveVariant] = useState(0);
-  const [activeColor, setActiveColor] = useState(0);
+  const bike = getBikeBySlug(slug);
+
   const [activeTab, setActiveTab] = useState('overview');
+  const [isMounted, setIsMounted] = useState(false);
 
-  if (!moto) return <Navigate to="/motorcycles" replace />;
+  useEffect(() => {
+    setIsMounted(true);
+  }, []);
 
-  const relatedBikes = motorcycles.filter(m => m.slug !== slug).slice(0, 2);
+  if (!bike) {
+    return <Navigate to="/motorcycles" replace />;
+  }
+
+  // Planted problem checks
+  const isJsOnly = isJsOnlyBike(bike.slug);
+  const isTabsNotInHtml = isTabsNotInHtmlBike(bike.slug);
+  const isMissingLd = isMissingJsonld(bike.slug);
+  const isPdfPrice = isPriceOnlyInPdf(bike.slug);
+  const isImgSpecs = isImageOnlySpecs(bike.slug);
+  const isNoFinance = isFinanceNotOnSite(bike.slug);
+
+  // Dynamic content visibility: for js_only_content, only visible after browser mount
+  const showDynamicContent = !isJsOnly || isMounted;
+
+  const imageSrc = getBikeImage(bike);
+  const relatedBikes = getRelatedBikes(bike.slug, 2);
+  const dealers = getDealersForBike(bike.slug);
+
+  // Key stats
+  const engineVal = bike.specs?.engine
+    ? bike.specs.engine.split(',')[0].trim()
+    : (bike.specs?.motor || 'Mid-drive PMSM');
+
+  const powerVal = bike.specs?.max_power_bhp
+    ? `${bike.specs.max_power_bhp} bhp`
+    : (bike.specs?.peak_power_bhp ? `${bike.specs.peak_power_bhp} bhp` : '—');
+
+  const torqueVal = bike.specs?.max_torque_nm ? `${bike.specs.max_torque_nm} Nm` : '—';
+  const efficiencyVal = bike.specs?.mileage_kmpl
+    ? `${bike.specs.mileage_kmpl} km/l`
+    : (bike.specs?.range_km ? `${bike.specs.range_km} km` : '—');
+  const efficiencyLabel = bike.specs?.range_km ? 'Range' : 'Mileage';
+
+  // Product JSON-LD schema
+  const productSchema = (!isMissingLd && showDynamicContent) ? {
+    '@context': 'https://schema.org',
+    '@type': 'Product',
+    name: bike.name,
+    brand: {
+      '@type': 'Brand',
+      name: 'Apex Moto',
+    },
+    image: `https://apex-moto-one.vercel.app${imageSrc}`,
+    description: bike.tagline,
+    sku: bike.slug,
+    offers: {
+      '@type': 'AggregateOffer',
+      price: bike.ex_showroom_price_inr,
+      priceCurrency: 'INR',
+      availability: bike.availability === 'In stock'
+        ? 'https://schema.org/InStock'
+        : 'https://schema.org/PreOrder',
+      url: `https://apex-moto-one.vercel.app/motorcycles/${bike.slug}`,
+    },
+  } : null;
+
+  // Meta description: NO price if js_only_content
+  const metaDescription = (isJsOnly)
+    ? `${bike.name} by Apex Moto. ${bike.tagline}. View specifications, features, and dealer availability.`
+    : `${bike.name} by Apex Moto starting at ${formatINR(bike.ex_showroom_price_inr)} ex-showroom. ${bike.tagline}.`;
+
+  const tabs = ['overview', 'features', 'specs', 'variants'];
 
   return (
     <main className="moto-detail">
+      <SEO
+        title={`${bike.name} — Apex Moto`}
+        description={metaDescription}
+        path={`/motorcycles/${bike.slug}`}
+        image={`https://apex-moto-one.vercel.app${imageSrc}`}
+        schema={productSchema}
+        noPriceInMeta={isJsOnly}
+      />
+
       {/* Hero */}
       <section
         className="moto-detail__hero"
-        style={{ backgroundImage: `url(${moto.heroImage})` }}
-        aria-label={`${moto.name} hero image`}
+        style={{ backgroundImage: `url(${imageSrc})` }}
+        aria-label={`${bike.name} hero banner`}
       >
         <div className="moto-detail__hero-overlay" />
         <div className="moto-detail__hero-content container">
@@ -29,17 +116,32 @@ export default function MotorcycleDetail() {
             <span aria-hidden="true">›</span>
             <Link to="/motorcycles">Motorcycles</Link>
             <span aria-hidden="true">›</span>
-            <span aria-current="page">{moto.name}</span>
+            <span aria-current="page">{bike.name}</span>
           </nav>
-          <span className="tag">{moto.category}</span>
-          <h1 className="moto-detail__hero-title">{moto.name}</h1>
-          <p className="moto-detail__hero-tagline">{moto.tagline}</p>
+
+          {bike.isStale && (
+            <div className="moto-detail__stale-banner">
+              ⚠️ Model Year {bike.model_year} Archive Page
+            </div>
+          )}
+
+          <span className="tag">{bike.category}</span>
+          <h1 className="moto-detail__hero-title">{bike.name}</h1>
+          <p className="moto-detail__hero-tagline">{bike.tagline}</p>
+
           <div className="moto-detail__hero-price">
-            <span className="moto-detail__price">{moto.priceDisplay}</span>
-            <span className="moto-detail__price-note">onwards (ex-showroom)</span>
+            {showDynamicContent ? (
+              <>
+                <span className="price moto-detail__price" data-slug={bike.slug}>
+                  {formatINR(bike.ex_showroom_price_inr)}
+                </span>
+                <span className="moto-detail__price-note">onwards (ex-showroom)</span>
+              </>
+            ) : null}
           </div>
+
           <div className="moto-detail__hero-cta">
-            <Link to={`/book-test-ride?bike=${moto.slug}`} className="btn btn-primary btn-lg" id="detail-testrip-btn">
+            <Link to={`/book-test-ride?bike=${bike.slug}`} className="btn btn-primary btn-lg" id="detail-testrip-btn">
               Book a Test Ride
             </Link>
             <Link to="/offers" className="btn btn-outline btn-lg" id="detail-enquire-btn">
@@ -53,20 +155,33 @@ export default function MotorcycleDetail() {
       </section>
 
       {/* Quick Specs */}
-      <section className="moto-detail__quick-specs">
+      <section className="moto-detail__quick-specs" aria-label="Quick specifications">
         <div className="container">
           <div className="moto-detail__quick-specs-grid">
-            {[
-              { label: 'Engine', value: moto.engine },
-              { label: 'Max Power', value: moto.power },
-              { label: 'Torque', value: moto.torque },
-              { label: 'Mileage', value: moto.mileage },
-            ].map(spec => (
-              <div key={spec.label} className="moto-detail__quick-spec">
-                <span className="moto-detail__quick-spec-value">{spec.value}</span>
-                <span className="moto-detail__quick-spec-label">{spec.label}</span>
-              </div>
-            ))}
+            <div className="moto-detail__quick-spec">
+              <span className="moto-detail__quick-spec-value">
+                {showDynamicContent ? engineVal : '—'}
+              </span>
+              <span className="moto-detail__quick-spec-label">Engine / Powertrain</span>
+            </div>
+            <div className="moto-detail__quick-spec">
+              <span className="moto-detail__quick-spec-value">
+                {showDynamicContent ? powerVal : '—'}
+              </span>
+              <span className="moto-detail__quick-spec-label">Max Power</span>
+            </div>
+            <div className="moto-detail__quick-spec">
+              <span className="moto-detail__quick-spec-value">
+                {showDynamicContent ? torqueVal : '—'}
+              </span>
+              <span className="moto-detail__quick-spec-label">Torque</span>
+            </div>
+            <div className="moto-detail__quick-spec">
+              <span className="moto-detail__quick-spec-value">
+                {showDynamicContent ? efficiencyVal : '—'}
+              </span>
+              <span className="moto-detail__quick-spec-label">{efficiencyLabel}</span>
+            </div>
           </div>
         </div>
       </section>
@@ -74,8 +189,8 @@ export default function MotorcycleDetail() {
       {/* Tab Nav */}
       <div className="moto-detail__tabs-wrap">
         <div className="container">
-          <nav className="moto-detail__tabs" role="tablist" aria-label="Motorcycle details">
-            {['overview', 'features', 'specs', 'variants'].map(tab => (
+          <nav className="moto-detail__tabs" role="tablist" aria-label="Motorcycle sections">
+            {tabs.map(tab => (
               <button
                 key={tab}
                 id={`tab-${tab}`}
@@ -91,158 +206,257 @@ export default function MotorcycleDetail() {
         </div>
       </div>
 
-      {/* Tab Content */}
+      {/* Tab Panels */}
       <section className="section">
         <div className="container">
 
-          {/* Overview Tab */}
-          {activeTab === 'overview' && (
-            <div className="moto-detail__overview" role="tabpanel" aria-labelledby="tab-overview">
+          {/* OVERVIEW PANEL */}
+          {(!isTabsNotInHtml || activeTab === 'overview') && (
+            <div
+              className={`moto-detail__tab-panel ${activeTab !== 'overview' ? 'moto-detail__tab-panel--hidden' : ''}`}
+              role="tabpanel"
+              id="panel-overview"
+              aria-labelledby="tab-overview"
+              hidden={activeTab !== 'overview'}
+            >
               <div className="moto-detail__overview-grid">
-                <div className="moto-detail__overview-text">
-                  <span className="section-label">About the {moto.name}</span>
-                  <h2>{moto.tagline}</h2>
-                  <p className="moto-detail__desc">{moto.description}</p>
-                  <p className="moto-detail__desc">{moto.longDescription}</p>
+                <div>
+                  <img src={imageSrc} alt={bike.name} className="moto-detail__main-image" />
+                </div>
+                <div className="moto-detail__overview-info">
+                  <h2>Command The Road</h2>
+                  <p>{bike.tagline}. Designed and built by Apex Moto to deliver an unforgettable riding experience.</p>
 
-                  {/* Color Selector */}
-                  <div className="moto-detail__colors">
-                    <h4 className="moto-detail__colors-title">
-                      Available Colours: <span>{moto.colors[activeColor].name}</span>
-                    </h4>
-                    <div className="moto-detail__color-swatches">
-                      {moto.colors.map((color, i) => (
-                        <button
-                          key={color.name}
-                          id={`color-swatch-${i}`}
-                          className={`moto-detail__color-swatch ${activeColor === i ? 'moto-detail__color-swatch--active' : ''}`}
-                          style={{ background: color.hex }}
-                          onClick={() => setActiveColor(i)}
-                          aria-label={color.name}
-                          title={color.name}
-                        />
-                      ))}
+                  <div>
+                    <h3>Available Colours</h3>
+                    {showDynamicContent && bike.colours && (
+                      <ul className="colours">
+                        {bike.colours.map(c => (
+                          <li key={c}>{c}</li>
+                        ))}
+                      </ul>
+                    )}
+                  </div>
+
+                  <div>
+                    <h3>Stock & Availability</h3>
+                    {showDynamicContent && (
+                      <p className="availability">{bike.availability || 'In stock'}</p>
+                    )}
+                  </div>
+
+                  <div className="moto-detail__brochure-box">
+                    <div>
+                      <strong>Official Brochure</strong>
+                      <p style={{ margin: 0, fontSize: '0.85rem', color: 'var(--color-text-muted)' }}>
+                        Complete specifications, on-road prices, and accessories.
+                      </p>
                     </div>
+                    <a
+                      href={`/brochures/${bike.slug}.pdf`}
+                      className="btn btn-primary btn-sm"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      Download PDF ↗
+                    </a>
                   </div>
                 </div>
+              </div>
 
-                <div className="moto-detail__overview-image">
+              {/* On-Road Price Table */}
+              <div className="onroad-wrap">
+                <h3>On-Road Price by City (Base Variant)</h3>
+                <p style={{ fontSize: '0.85rem', color: 'var(--color-text-muted)', marginBottom: '1rem' }}>
+                  {bike.on_road_note || 'Indicative prices including ex-showroom, RTO registration, and mandatory insurance.'}
+                </p>
+
+                {isPdfPrice ? (
+                  <p className="pdf-price-note">
+                    See the <a href={`/brochures/${bike.slug}.pdf`}>brochure</a> for on-road prices.
+                  </p>
+                ) : (
+                  showDynamicContent && bike.on_road_price_inr && (
+                    <table className="onroad">
+                      <thead>
+                        <tr>
+                          <th>City</th>
+                          <th>Indicative On-Road Price</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        {(bike.dealer_cities || Object.keys(bike.on_road_price_inr)).map(city => (
+                          <tr key={city}>
+                            <td>{city}</td>
+                            <td>{formatINR(bike.on_road_price_inr[city])}</td>
+                          </tr>
+                        ))}
+                      </tbody>
+                    </table>
+                  )
+                )}
+              </div>
+
+              {/* Dealers for this Bike */}
+              {dealers.length > 0 && (
+                <div className="moto-detail__dealers-section">
+                  <h3>Available at these Authorized Dealerships</h3>
+                  <div className="moto-detail__dealers-list">
+                    {dealers.map(d => (
+                      <Link to="/dealers" key={d.id} className="moto-detail__dealer-pill">
+                        <span className="moto-detail__dealer-pill-name">{d.name}</span>
+                        <span className="moto-detail__dealer-pill-city">{d.city} • {d.phone}</span>
+                      </Link>
+                    ))}
+                  </div>
+                </div>
+              )}
+            </div>
+          )}
+
+          {/* FEATURES PANEL */}
+          {(!isTabsNotInHtml || activeTab === 'features') && (
+            <div
+              className={`moto-detail__tab-panel ${activeTab !== 'features' ? 'moto-detail__tab-panel--hidden' : ''}`}
+              role="tabpanel"
+              id="panel-features"
+              aria-labelledby="tab-features"
+              hidden={activeTab !== 'features'}
+            >
+              <h2>Key Features</h2>
+              <div className="moto-detail__features-grid">
+                {(bike.variants?.[0]?.features || ['Precision Chassis', 'Dual-Channel ABS', 'LED Headlamp', 'Slipper Clutch']).map((feat, idx) => (
+                  <div key={idx} className="moto-detail__feature-card">
+                    <span style={{ color: 'var(--color-primary)', fontSize: '1.5rem' }}>✓</span>
+                    <div>
+                      <h3 style={{ margin: 0, fontSize: '1.1rem' }}>{feat}</h3>
+                      <p style={{ margin: '0.25rem 0 0', fontSize: '0.85rem', color: 'var(--color-text-muted)' }}>
+                        Engineered to Apex Moto standards for maximum rider feedback and control.
+                      </p>
+                    </div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
+
+          {/* SPECS PANEL */}
+          {(!isTabsNotInHtml || activeTab === 'specs') && (
+            <div
+              className={`moto-detail__tab-panel ${activeTab !== 'specs' ? 'moto-detail__tab-panel--hidden' : ''}`}
+              role="tabpanel"
+              id="panel-specs"
+              aria-labelledby="tab-specs"
+              hidden={activeTab !== 'specs'}
+            >
+              <h2>Technical Specifications</h2>
+              {isImgSpecs ? (
+                <div style={{ margin: '1.5rem 0' }}>
                   <img
-                    src={moto.image}
-                    alt={moto.name}
-                    className="moto-detail__main-image"
-                    loading="lazy"
+                    src={`/specs/${bike.slug}.png`}
+                    alt=""
+                    className="specs-image"
                   />
                 </div>
-              </div>
-            </div>
-          )}
-
-          {/* Features Tab */}
-          {activeTab === 'features' && (
-            <div role="tabpanel" aria-labelledby="tab-features">
-              <div className="section-header">
-                <span className="section-label">Key Highlights</span>
-                <h2>What Makes the {moto.name} Special</h2>
-              </div>
-              <div className="moto-detail__features-grid">
-                {moto.features.map((feat, i) => (
-                  <div key={i} className="moto-detail__feature-card">
-                    <span className="moto-detail__feature-icon" aria-hidden="true">{feat.icon}</span>
-                    <div>
-                      <h4 className="moto-detail__feature-title">{feat.title}</h4>
-                      <p className="moto-detail__feature-desc">{feat.desc}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {/* Specifications Tab */}
-          {activeTab === 'specs' && (
-            <div role="tabpanel" aria-labelledby="tab-specs">
-              <div className="section-header">
-                <span className="section-label">Technical Data</span>
-                <h2>Full Specifications</h2>
-              </div>
-              <div className="moto-detail__specs-table">
-                {Object.entries(moto.specifications).map(([key, value], i) => (
-                  <div key={key} className={`moto-detail__spec-row ${i % 2 === 0 ? '' : 'moto-detail__spec-row--alt'}`}>
-                    <span className="moto-detail__spec-key">{key}</span>
-                    <span className="moto-detail__spec-val">{value}</span>
-                  </div>
-                ))}
-              </div>
-              <p className="moto-detail__spec-disclaimer">
-                * Specifications may vary by variant. Contact your nearest dealer for confirmation.
-              </p>
-            </div>
-          )}
-
-          {/* Variants Tab */}
-          {activeTab === 'variants' && (
-            <div role="tabpanel" aria-labelledby="tab-variants">
-              <div className="section-header">
-                <span className="section-label">Choose Your Version</span>
-                <h2>Available Variants</h2>
-              </div>
-              <div className="moto-detail__variants-grid">
-                {moto.variants.map((variant, i) => (
-                  <div
-                    key={i}
-                    className={`moto-detail__variant-card ${activeVariant === i ? 'moto-detail__variant-card--active' : ''}`}
-                    onClick={() => setActiveVariant(i)}
-                  >
-                    <div className="moto-detail__variant-header">
-                      <h3 className="moto-detail__variant-name">{variant.name}</h3>
-                      <span className="moto-detail__variant-price">{variant.price}</span>
-                    </div>
-                    <ul className="moto-detail__variant-features">
-                      {variant.features.map((feat, j) => (
-                        <li key={j}>
-                          <span aria-hidden="true">✓</span> {feat}
-                        </li>
+              ) : (
+                showDynamicContent && bike.specs && (
+                  <table className="specs">
+                    <tbody>
+                      {Object.entries(bike.specs).map(([key, val]) => (
+                        <tr key={key}>
+                          <td>{key.replace(/_/g, ' ')}</td>
+                          <td>{String(val)}</td>
+                        </tr>
                       ))}
-                    </ul>
-                    <Link
-                      to="/book-test-ride"
-                      className="btn btn-primary"
-                      style={{ width: '100%', justifyContent: 'center' }}
-                      id={`variant-select-${i}`}
-                    >
-                      Select {variant.name}
-                    </Link>
-                  </div>
+                    </tbody>
+                  </table>
+                )
+              )}
+            </div>
+          )}
+
+          {/* VARIANTS PANEL */}
+          {(!isTabsNotInHtml || activeTab === 'variants') && (
+            <div
+              className={`moto-detail__tab-panel ${activeTab !== 'variants' ? 'moto-detail__tab-panel--hidden' : ''}`}
+              role="tabpanel"
+              id="panel-variants"
+              aria-labelledby="tab-variants"
+              hidden={activeTab !== 'variants'}
+            >
+              <h2>Available Variants</h2>
+              {showDynamicContent && bike.variants && (
+                <ul className="variants">
+                  {bike.variants.map((v, i) => (
+                    <li key={i}>
+                      <div className="variant-title-row">
+                        <span className="variant-name">{v.name}</span>
+                        <span className="price" data-slug={bike.slug}>
+                          {formatINR(v.ex_showroom_price_inr)}
+                        </span>
+                      </div>
+                      {v.features && (
+                        <ul className="variant-features">
+                          {v.features.map((f, fi) => (
+                            <li key={fi}>• {f}</li>
+                          ))}
+                        </ul>
+                      )}
+                    </li>
+                  ))}
+                </ul>
+              )}
+            </div>
+          )}
+
+          {/* FINANCE SECTION (unless finance_not_on_site) */}
+          {!isNoFinance && showDynamicContent && bike.finance && (
+            <div className="finance-section">
+              <h3>Estimated Finance & EMI</h3>
+              <p style={{ fontSize: '0.85rem', color: 'var(--color-text-muted)' }}>
+                {bike.finance.basis || 'Indicative financing figures based on partner bank terms.'}
+              </p>
+              <table className="finance">
+                <thead>
+                  <tr>
+                    <th>Down Payment</th>
+                    <th>Interest Rate</th>
+                    <th>Loan Tenure</th>
+                    <th>Estimated EMI</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>{formatINR(bike.finance.down_payment_inr)}</td>
+                    <td>{bike.finance.interest_rate_pct}% p.a.</td>
+                    <td>{bike.finance.tenure_months} months</td>
+                    <td>{formatINR(bike.finance.emi_inr)} / month</td>
+                  </tr>
+                </tbody>
+              </table>
+              <div style={{ marginTop: '1rem' }}>
+                <Link to="/finance" className="btn btn-outline btn-sm">
+                  View Full Finance & Bank Options →
+                </Link>
+              </div>
+            </div>
+          )}
+
+          {/* YOU MIGHT ALSO LIKE */}
+          {relatedBikes.length > 0 && (
+            <div style={{ marginTop: '4rem' }}>
+              <div className="section-header">
+                <span className="section-label">Explore More</span>
+                <h2>You Might Also Like</h2>
+              </div>
+              <div className="home-featured__grid">
+                {relatedBikes.map(m => (
+                  <ProductCard key={m.id || m.slug} motorcycle={m} />
                 ))}
               </div>
             </div>
           )}
-        </div>
-      </section>
 
-      {/* Related Bikes */}
-      <section className="section moto-detail__related" style={{ background: 'var(--color-bg-section)' }}>
-        <div className="container">
-          <div className="section-header">
-            <span className="section-label">Explore More</span>
-            <h2>You Might Also Like</h2>
-          </div>
-          <div className="grid-2">
-            {relatedBikes.map(bike => (
-              <div key={bike.id} className="moto-detail__related-card">
-                <img src={bike.image} alt={bike.name} loading="lazy" />
-                <div className="moto-detail__related-info">
-                  <span className="section-label">{bike.category}</span>
-                  <h3>{bike.name}</h3>
-                  <p>{bike.priceDisplay} onwards</p>
-                  <Link to={`/motorcycles/${bike.slug}`} className="btn btn-outline btn-sm">
-                    View Details →
-                  </Link>
-                </div>
-              </div>
-            ))}
-          </div>
         </div>
       </section>
     </main>

@@ -1,3 +1,4 @@
+import SEO from '../components/SEO';
 import './About.css';
 import heroImg from '../assets/images/hero_motorcycle.jpg';
 import { Link } from 'react-router-dom';
@@ -22,6 +23,11 @@ const values = [
 export default function About() {
   return (
     <main className="about-page">
+      <SEO
+        title="About Apex Moto — Engineering Excellence"
+        description="Learn about Apex Moto's journey from Pune in 2014 to over 50,000 riders across India, driven by precision engineering and rider passion."
+        path="/about"
+      />
       {/* Page Hero */}
       <section className="about-hero">
         <div className="about-hero__image" style={{ backgroundImage: `url(${heroImg})` }} />

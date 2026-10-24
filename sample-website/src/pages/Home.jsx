@@ -1,12 +1,13 @@
 import { Link } from 'react-router-dom';
-import { getFeaturedMotorcycles } from '../data/motorcycles';
+import { getFeaturedBikes, allBikes } from '../data/catalogue';
 import ProductCard from '../components/ProductCard';
+import SEO from '../components/SEO';
 import heroImg from '../assets/images/hero_motorcycle.jpg';
 import './Home.css';
 
 const stats = [
   { value: '50,000+', label: 'Riders Worldwide' },
-  { value: '4', label: 'Iconic Models' },
+  { value: `${allBikes.length}`, label: 'Iconic Models' },
   { value: '120+', label: 'Dealers Across India' },
   { value: '10 Yrs', label: 'Engineering Excellence' },
 ];
@@ -34,11 +35,26 @@ const pillars = [
   },
 ];
 
+const organizationSchema = {
+  '@context': 'https://schema.org',
+  '@type': 'Organization',
+  name: 'Apex Moto',
+  url: 'https://apex-moto-one.vercel.app',
+  logo: 'https://apex-moto-one.vercel.app/favicon.svg',
+};
+
 export default function Home() {
-  const featured = getFeaturedMotorcycles();
+  const featured = getFeaturedBikes();
 
   return (
     <main className="home">
+      <SEO
+        title="Apex Moto — Born to Ride. Built to Last."
+        description="Explore 18 iconic motorcycles precision-engineered for adventure, street, touring, cruising, and electric performance."
+        path="/"
+        schema={organizationSchema}
+      />
+
       {/* Hero Section */}
       <section className="home-hero" aria-label="Hero banner">
         <div
@@ -98,101 +114,60 @@ export default function Home() {
         <div className="container">
           <div className="section-header">
             <span className="section-label">Our Machines</span>
-            <h2>Legendary Lineup</h2>
-            <p>Every Apex Moto is crafted with purpose. Find the one that matches your spirit.</p>
+            <h2>Featured Motorcycles</h2>
+            <p>From pure urban aggression to trans-continental capability. Handpicked from our line-up.</p>
           </div>
+
           <div className="home-featured__grid">
             {featured.map(moto => (
               <ProductCard key={moto.id} motorcycle={moto} />
             ))}
           </div>
-          <div className="home-featured__footer">
-            <Link to="/motorcycles" className="btn btn-outline btn-lg" id="view-all-bikes-btn">
-              View All Motorcycles →
+
+          <div className="home-featured__all">
+            <Link to="/motorcycles" className="btn btn-outline btn-lg" id="home-view-all-btn">
+              View All {allBikes.length} Models →
             </Link>
           </div>
         </div>
       </section>
 
-      {/* Campaign Banner */}
-      <section className="home-campaign" aria-label="Promotional campaign">
-        <div className="home-campaign__bg" />
-        <div className="container home-campaign__inner">
-          <div className="home-campaign__content">
-            <span className="section-label">Limited Period Offer</span>
-            <h2 className="home-campaign__title">Monsoon Mania Sale</h2>
-            <p className="home-campaign__desc">
-              Save up to <strong>₹25,000</strong> on the Thunderstrike 650 and Phantom 350.
-              Free accessories kit and extended warranty included. Offer ends November 30, 2026.
-            </p>
-            <div className="home-campaign__cta">
-              <Link to="/offers" className="btn btn-primary btn-lg" id="campaign-offers-btn">
-                Explore Offers
-              </Link>
-              <Link to="/book-test-ride" className="btn btn-outline btn-lg" id="campaign-ride-btn">
-                Book a Test Ride
-              </Link>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Brand Pillars */}
-      <section className="section home-pillars" aria-label="Brand values">
+      {/* Pillars Section */}
+      <section className="section home-pillars" aria-label="Brand pillars">
         <div className="container">
           <div className="section-header section-header--centered">
-            <span className="section-label">Our Promise</span>
-            <h2>The Apex Standard</h2>
-            <p>Four pillars that define every motorcycle we build and every relationship we forge.</p>
+            <span className="section-label">The Apex Standard</span>
+            <h2>Built Without Compromise</h2>
+            <p>Four cornerstones that define every motorcycle that leaves our facility.</p>
           </div>
-          <div className="grid-4">
-            {pillars.map((p, i) => (
-              <div key={i} className="home-pillar">
-                <div className="home-pillar__icon" aria-hidden="true">{p.icon}</div>
-                <h4 className="home-pillar__title">{p.title}</h4>
-                <p className="home-pillar__desc">{p.desc}</p>
+
+          <div className="home-pillars__grid">
+            {pillars.map((pillar, i) => (
+              <div key={i} className="home-pillar-card">
+                <span className="home-pillar-card__icon" aria-hidden="true">{pillar.icon}</span>
+                <h3 className="home-pillar-card__title">{pillar.title}</h3>
+                <p className="home-pillar-card__desc">{pillar.desc}</p>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* Lifestyle / CTA Banner */}
-      <section className="home-lifestyle section" aria-label="Lifestyle call to action">
+      {/* Test Ride Banner */}
+      <section className="home-test-ride" aria-label="Book test ride promotion">
         <div className="container">
-          <div className="home-lifestyle__card">
-            <div className="home-lifestyle__text">
-              <span className="section-label">Begin Your Journey</span>
-              <h2>Your Next Adventure Starts Here</h2>
-              <p>
-                Visit your nearest Apex Moto dealership and experience our motorcycles for yourself.
-                Our experts are ready to guide you to your perfect ride.
-              </p>
-              <div className="home-lifestyle__cta">
-                <Link to="/dealers" className="btn btn-primary btn-lg" id="find-dealer-cta-btn">
-                  Find a Dealer
+          <div className="home-test-ride__inner">
+            <div className="home-test-ride__content">
+              <span className="section-label">Feel The Ride</span>
+              <h2>Ready to Experience Apex Moto?</h2>
+              <p>Book a free, zero-obligation test ride at your nearest dealership today. Helmet and safety gear provided.</p>
+              <div className="home-test-ride__actions">
+                <Link to="/book-test-ride" className="btn btn-primary btn-lg" id="home-cta-testrip-btn">
+                  Book Your Test Ride
                 </Link>
-                <Link to="/contact" className="btn btn-ghost btn-lg" id="contact-us-cta-btn">
-                  Talk to Us
+                <Link to="/dealers" className="btn btn-outline btn-lg" id="home-cta-dealer-btn">
+                  Find Nearest Dealer
                 </Link>
-              </div>
-            </div>
-            <div className="home-lifestyle__icon-grid" aria-hidden="true">
-              <div className="home-lifestyle__icon-item">
-                <span className="home-lifestyle__big-icon">🏍️</span>
-                <span>Test Ride</span>
-              </div>
-              <div className="home-lifestyle__icon-item">
-                <span className="home-lifestyle__big-icon">🔧</span>
-                <span>Expert Service</span>
-              </div>
-              <div className="home-lifestyle__icon-item">
-                <span className="home-lifestyle__big-icon">💳</span>
-                <span>Easy Finance</span>
-              </div>
-              <div className="home-lifestyle__icon-item">
-                <span className="home-lifestyle__big-icon">🛡️</span>
-                <span>5-Year Warranty</span>
               </div>
             </div>
           </div>
