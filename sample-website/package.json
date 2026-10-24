@@ -10,6 +10,7 @@
     "build:server": "vite build --outDir dist/server --ssr src/entry-server.jsx",
     "lint": "oxlint",
     "preview": "vite preview",
+    "start": "vite preview --host 0.0.0.0 --port ${PORT:-4173}",
     "check-site": "node scripts/check-site.mjs"
   },
   "dependencies": {
