@@ -1,6 +1,6 @@
 import { useForm } from '../hooks/useForm';
 import { offers as baseOffers } from '../data/offers';
-import { bankPartners, formatINR, getBikeDisplayPrice, offerTermsConflict, getBikeBySlug } from '../data/catalogue';
+import { bankPartners, formatINR, getBikeDisplayPrice, offerTermsConflict } from '../data/catalogue';
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import './Offers.css';

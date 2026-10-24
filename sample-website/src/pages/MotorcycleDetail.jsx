@@ -1,5 +1,6 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useParams, Link, Navigate } from 'react-router-dom';
+import { useIsClient } from '../hooks/useIsClient';
 import {
   getBikeBySlug,
   formatINR,
@@ -22,11 +23,7 @@ export default function MotorcycleDetail() {
   const bike = getBikeBySlug(slug);
 
   const [activeTab, setActiveTab] = useState('overview');
-  const [isMounted, setIsMounted] = useState(false);
-
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
+  const isMounted = useIsClient();
 
   if (!bike) {
     return <Navigate to="/motorcycles" replace />;
@@ -100,7 +97,6 @@ export default function MotorcycleDetail() {
         path={`/motorcycles/${bike.slug}`}
         image={`https://apex-moto-one.vercel.app${imageSrc}`}
         schema={productSchema}
-        noPriceInMeta={isJsOnly}
       />
 
       {/* Hero */}

@@ -9,7 +9,6 @@ export default function SEO({
   path = '/',
   image = DEFAULT_IMAGE,
   schema = null,
-  noPriceInMeta = false,
 }) {
   const canonicalUrl = `${SITE_URL}${path}`;
   const fullTitle = title.includes('Apex Moto') ? title : `${title} | Apex Moto`;

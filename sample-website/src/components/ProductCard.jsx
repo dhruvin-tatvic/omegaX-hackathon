@@ -1,16 +1,12 @@
-import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { formatINR, getBikeDisplayPrice, isJsOnlyBike, getBikeImage } from '../data/catalogue';
+import { useIsClient } from '../hooks/useIsClient';
 import './ProductCard.css';
 
 export default function ProductCard({ motorcycle, bike }) {
   const moto = motorcycle || bike;
   const location = useLocation();
-  const [isMounted, setIsMounted] = useState(false);
-
-  useEffect(() => {
-    setIsMounted(true);
-  }, []);
+  const isMounted = useIsClient();
 
   if (!moto) return null;
 

@@ -1,8 +1,10 @@
-import { useState, useMemo } from 'react';
+import { useState } from 'react';
 import { useSearchParams } from 'react-router-dom';
 import { allBikes } from '../data/catalogue';
 import SEO from '../components/SEO';
 import './BookTestRide.css';
+
+const TODAY_STR = new Date().toISOString().split('T')[0];
 
 export default function BookTestRide() {
   const [searchParams] = useSearchParams();
@@ -28,8 +30,6 @@ export default function BookTestRide() {
       [name]: type === 'checkbox' ? checked : value,
     }));
   };
-
-  const todayStr = new Date().toISOString().split('T')[0];
 
   return (
     <main className="book-ride-page">
@@ -162,7 +162,7 @@ export default function BookTestRide() {
                       name="preferredDate"
                       type="date"
                       required
-                      min={todayStr}
+                      min={TODAY_STR}
                       className="form-control"
                       value={formData.preferredDate}
                       onChange={handleChange}
