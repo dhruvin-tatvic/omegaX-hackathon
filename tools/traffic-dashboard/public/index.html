@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Apex Moto — Render traffic</title>
+    <link rel="stylesheet" href="/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div>
+        <h1>Render traffic dashboard</h1>
+        <p class="sub">
+          <span id="windowLabel">Last 24 hours</span> · access logs · human vs bot (Morgan /
+          <code>server.js</code>)
+        </p>
+        <p class="sub meta" id="windowRange"></p>
+      </div>
+      <div class="header-actions">
+        <span id="pollStatus" class="pill pill-muted">Connecting…</span>
+        <button type="button" id="btnRefresh" class="btn">Refresh now</button>
+      </div>
+    </header>
+
+    <section id="configBanner" class="banner hidden"></section>
+
+    <section class="cards">
+      <article class="card card-total">
+        <h2>Total requests</h2>
+        <p class="metric" id="statTotal">0</p>
+      </article>
+      <article class="card card-human">
+        <h2>Human</h2>
+        <p class="metric" id="statHuman">0</p>
+        <p class="pct" id="pctHuman">0%</p>
+      </article>
+      <article class="card card-bot">
+        <h2>Bot / AI</h2>
+        <p class="metric" id="statBot">0</p>
+        <p class="pct" id="pctBot">0%</p>
+      </article>
+      <article class="card card-unknown">
+        <h2>Unknown</h2>
+        <p class="metric" id="statUnknown">0</p>
+        <p class="pct" id="pctUnknown">0%</p>
+      </article>
+    </section>
+
+    <section class="panel">
+      <h2>Bot breakdown</h2>
+      <ul id="botBreakdown" class="chips"></ul>
+    </section>
+
+    <section class="panel">
+      <p class="table-meta" id="tableMeta"></p>
+      <div class="tabs">
+        <button type="button" class="tab active" data-filter="all">All</button>
+        <button type="button" class="tab" data-filter="human">Human</button>
+        <button type="button" class="tab" data-filter="bot">Bot</button>
+        <button type="button" class="tab" data-filter="unknown">Unknown</button>
+      </div>
+      <div class="table-wrap">
+        <table>
+          <thead>
+            <tr>
+              <th>Time</th>
+              <th>Type</th>
+              <th>IP</th>
+              <th>Request</th>
+              <th>Status</th>
+              <th>User-Agent</th>
+            </tr>
+          </thead>
+          <tbody id="logBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <script src="/app.js" type="module"></script>
+  </body>
+</html>

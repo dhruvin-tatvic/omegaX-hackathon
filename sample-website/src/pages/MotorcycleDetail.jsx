@@ -16,6 +16,7 @@ import {
 } from '../data/catalogue';
 import ProductCard from '../components/ProductCard';
 import SEO from '../components/SEO';
+import { SITE_URL } from '../config/siteUrl.js';
 import './MotorcycleDetail.css';
 
 export default function MotorcycleDetail() {
@@ -68,7 +69,7 @@ export default function MotorcycleDetail() {
       '@type': 'Brand',
       name: 'Apex Moto',
     },
-    image: `https://apex-moto-one.vercel.app${imageSrc}`,
+    image: `${SITE_URL}${imageSrc}`,
     description: bike.tagline,
     sku: bike.slug,
     offers: {
@@ -78,7 +79,7 @@ export default function MotorcycleDetail() {
       availability: bike.availability === 'In stock'
         ? 'https://schema.org/InStock'
         : 'https://schema.org/PreOrder',
-      url: `https://apex-moto-one.vercel.app/motorcycles/${bike.slug}`,
+      url: `${SITE_URL}/motorcycles/${bike.slug}`,
     },
   } : null;
 
@@ -95,7 +96,7 @@ export default function MotorcycleDetail() {
         title={`${bike.name} — Apex Moto`}
         description={metaDescription}
         path={`/motorcycles/${bike.slug}`}
-        image={`https://apex-moto-one.vercel.app${imageSrc}`}
+        image={`${SITE_URL}${imageSrc}`}
         schema={productSchema}
       />
 

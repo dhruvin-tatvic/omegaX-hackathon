@@ -2,7 +2,9 @@ import http from 'http';
 import https from 'https';
 import { URL } from 'url';
 
-const baseUrl = process.argv[2] || 'https://apex-moto-one.vercel.app';
+import { getSiteUrl } from './site-url.mjs';
+
+const baseUrl = process.argv[2] || getSiteUrl();
 console.log(`\n======================================================`);
 console.log(`APEX MOTO — AI-READABILITY AUDIT CHECK SCRIPT`);
 console.log(`Target Base URL: ${baseUrl}`);
@@ -106,7 +108,9 @@ async function runCheck() {
 
   for (const urlStr of urls) {
     // If testing localhost or custom baseUrl, replace sitemap domain with test baseUrl
-    const testUrl = urlStr.replace('https://apex-moto-one.vercel.app', baseUrl.replace(/\/$/, ''));
+    const sitemapOrigin = new URL(urls[0]).origin;
+    const testOrigin = new URL(baseUrl.replace(/\/$/, '') + '/').origin;
+    const testUrl = urlStr.replace(sitemapOrigin, testOrigin);
     const urlObj = new URL(testUrl);
     const displayPath = urlObj.pathname;
 

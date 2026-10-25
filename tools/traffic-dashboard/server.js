@@ -1,0 +1,157 @@
+import dotenv from 'dotenv';
+import express from 'express';
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+import { fetchServiceLogs } from './lib/render-logs.js';
+import * as store from './lib/log-store.js';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+dotenv.config({ path: path.join(__dirname, '.env') });
+
+const app = express();
+
+const PORT = Number(process.env.DASHBOARD_PORT) || 3456;
+const POLL_MS = Number(process.env.POLL_INTERVAL_MS) || 8000;
+const LOG_WINDOW_HOURS = Number(process.env.LOG_WINDOW_HOURS) || 24;
+
+const config = {
+  apiKey: (process.env.RENDER_API_KEY || '').trim(),
+  serviceId: (process.env.RENDER_SERVICE_ID || '').trim(),
+  ownerId: (process.env.RENDER_OWNER_ID || '').trim(),
+};
+
+let lastPollAt = null;
+let lastPollError = null;
+let lastFetchMeta = null;
+let polling = false;
+
+store.setLogWindowHours(LOG_WINDOW_HOURS);
+/** @type {Set<import('http').ServerResponse>} */
+const sseClients = new Set();
+
+function broadcast(event, data) {
+  const payload = `event: ${event}\ndata: ${JSON.stringify(data)}\n\n`;
+  for (const res of sseClients) {
+    res.write(payload);
+  }
+}
+
+async function pollRender({ fullSync = false } = {}) {
+  if (!config.apiKey || !config.serviceId) {
+    lastPollError = 'Set RENDER_API_KEY and RENDER_SERVICE_ID in tools/traffic-dashboard/.env';
+    return;
+  }
+  if (polling) return;
+  polling = true;
+  try {
+    const result = await fetchServiceLogs({
+      apiKey: config.apiKey,
+      serviceId: config.serviceId,
+      ownerId: config.ownerId || undefined,
+      hours: LOG_WINDOW_HOURS,
+      limit: 200,
+      paginate: fullSync,
+    });
+    const added = store.ingestRenderLogs(result.logs);
+    lastPollAt = new Date().toISOString();
+    lastPollError = null;
+    lastFetchMeta = {
+      pagesFetched: result.pagesFetched ?? 1,
+      rawLines: result.logs.length,
+      windowStart: result.windowStart,
+      windowEnd: result.windowEnd,
+      fullSync,
+    };
+    broadcast('update', {
+      added: added.length,
+      stats: store.getStats(),
+      meta: lastFetchMeta,
+    });
+  } catch (err) {
+    lastPollError = err instanceof Error ? err.message : String(err);
+    broadcast('error', { message: lastPollError });
+  } finally {
+    polling = false;
+  }
+}
+
+app.use(express.json());
+
+app.get('/api/health', (_req, res) => {
+  res.type('application/json').send(JSON.stringify({ ok: true }));
+});
+
+app.get('/api/status', (_req, res) => {
+  const envPath = path.join(__dirname, '.env');
+  const body = {
+    configured: Boolean(config.apiKey && config.serviceId),
+    envFilePath: envPath,
+    envFileExists: fs.existsSync(envPath),
+    serviceId: config.serviceId ? `${config.serviceId.slice(0, 12)}...` : null,
+    hasOwnerId: Boolean(config.ownerId),
+    lastPollAt,
+    lastPollError,
+    pollIntervalMs: POLL_MS,
+    logWindowHours: LOG_WINDOW_HOURS,
+    lastFetch: lastFetchMeta,
+    stats: store.getStats(),
+  };
+  res.type('application/json').send(JSON.stringify(body, null, 2));
+});
+
+app.get('/api/stats', (_req, res) => {
+  res.type('application/json').send(JSON.stringify(store.getStats(), null, 2));
+});
+
+app.get('/api/logs', (req, res) => {
+  const filter = req.query.filter || 'all';
+  const limit = Math.min(Number(req.query.limit) || 150, 500);
+  res.json({
+    entries: store.listEntries({ filter, limit }),
+    stats: store.getStats(),
+  });
+});
+
+app.post('/api/refresh', async (_req, res) => {
+  await pollRender({ fullSync: true });
+  res.json({
+    stats: store.getStats(),
+    lastPollAt,
+    lastPollError,
+    lastFetch: lastFetchMeta,
+  });
+});
+
+app.post('/api/clear', (_req, res) => {
+  store.clearStore();
+  broadcast('update', { added: 0, stats: store.getStats(), entries: [] });
+  res.json({ ok: true });
+});
+
+app.get('/api/events', (req, res) => {
+  res.setHeader('Content-Type', 'text/event-stream');
+  res.setHeader('Cache-Control', 'no-cache');
+  res.setHeader('Connection', 'keep-alive');
+  res.flushHeaders?.();
+  res.write(`event: hello\ndata: ${JSON.stringify({ stats: store.getStats() })}\n\n`);
+  sseClients.add(res);
+  req.on('close', () => sseClients.delete(res));
+});
+
+app.use(express.static(path.join(__dirname, 'public')));
+
+app.listen(PORT, () => {
+  console.log(`Traffic dashboard: http://localhost:${PORT}`);
+  const envPath = path.join(__dirname, '.env');
+  if (!config.apiKey || !config.serviceId) {
+    console.warn(`Missing RENDER_API_KEY or RENDER_SERVICE_ID.`);
+    console.warn(`Expected file: ${envPath}`);
+    console.warn('Copy .env.example to .env in tools/traffic-dashboard, then restart.');
+  } else {
+    console.log(`Render service: ${config.serviceId}`);
+    console.log(`Loaded config from: ${envPath}`);
+    pollRender({ fullSync: true });
+    setInterval(() => pollRender({ fullSync: false }), POLL_MS);
+  }
+});

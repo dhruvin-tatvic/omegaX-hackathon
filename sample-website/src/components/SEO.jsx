@@ -1,6 +1,5 @@
 import React from 'react';
-
-const SITE_URL = 'https://apex-moto-one.vercel.app';
+import { SITE_URL } from '../config/siteUrl.js';
 const DEFAULT_IMAGE = `${SITE_URL}/hero_motorcycle.jpg`;
 
 export default function SEO({

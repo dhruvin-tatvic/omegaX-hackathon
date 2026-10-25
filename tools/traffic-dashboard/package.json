@@ -1,0 +1,15 @@
+{
+  "name": "apex-traffic-dashboard",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "prestart": "node scripts/check-env.mjs",
+    "start": "node --env-file=.env server.js",
+    "dev": "node --env-file=.env --watch server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^5.3.0"
+  }
+}

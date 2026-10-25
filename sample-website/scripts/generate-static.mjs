@@ -2,8 +2,10 @@ import fs from 'fs';
 import path from 'path';
 import zlib from 'zlib';
 import { fileURLToPath } from 'url';
+import { getSiteUrl } from './site-url.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
+const SITE_URL = getSiteUrl();
 const __dirname = path.dirname(__filename);
 const projectRoot = path.resolve(__dirname, '..');
 
@@ -42,33 +44,30 @@ if (problems.robots_block_dealers && problems.robots_block_dealers.enabled) {
   }
 }
 
-robotsContent += 'Sitemap: https://apex-moto-one.vercel.app/sitemap.xml\n';
+robotsContent += `Sitemap: ${SITE_URL}/sitemap.xml\n`;
 fs.writeFileSync(path.join(publicDir, 'robots.txt'), robotsContent, 'utf8');
 
 // 2. Generate sitemap.xml
 console.log('[generate-static] Generating sitemap.xml...');
-const publicUrls = [
-  'https://apex-moto-one.vercel.app/',
-  'https://apex-moto-one.vercel.app/motorcycles',
-];
+const publicUrls = [`${SITE_URL}/`, `${SITE_URL}/motorcycles`];
 
 for (const bike of catalogue.bikes) {
-  publicUrls.push(`https://apex-moto-one.vercel.app/motorcycles/${bike.slug}`);
+  publicUrls.push(`${SITE_URL}/motorcycles/${bike.slug}`);
 }
 
 // Stale page if enabled
 if (problems.stale_page && problems.stale_page.enabled && problems.stale_page.url) {
-  publicUrls.push(`https://apex-moto-one.vercel.app${problems.stale_page.url}`);
+  publicUrls.push(`${SITE_URL}${problems.stale_page.url}`);
 }
 
 publicUrls.push(
-  'https://apex-moto-one.vercel.app/offers',
-  'https://apex-moto-one.vercel.app/dealers',
-  'https://apex-moto-one.vercel.app/finance',
-  'https://apex-moto-one.vercel.app/faq',
-  'https://apex-moto-one.vercel.app/about',
-  'https://apex-moto-one.vercel.app/contact',
-  'https://apex-moto-one.vercel.app/book-test-ride'
+  `${SITE_URL}/offers`,
+  `${SITE_URL}/dealers`,
+  `${SITE_URL}/finance`,
+  `${SITE_URL}/faq`,
+  `${SITE_URL}/about`,
+  `${SITE_URL}/contact`,
+  `${SITE_URL}/book-test-ride`
 );
 
 let sitemapXml = '<?xml version="1.0" encoding="UTF-8"?>\n';
@@ -134,7 +133,7 @@ function generateMinimalPdf(bike) {
   lines.push(`AVAILABILITY: ${bike.availability || 'In stock'}`);
   lines.push(``);
   lines.push(`Authorised Dealers: ${(bike.dealer_cities || []).join(', ')}`);
-  lines.push(`Visit https://apex-moto-one.vercel.app/motorcycles/${bike.slug} for test rides.`);
+  lines.push(`Visit ${SITE_URL}/motorcycles/${bike.slug} for test rides.`);
 
   // Build PDF content stream
   let streamText = 'BT\n/F1 10 Tf\n14 TL\n40 790 Td\n';

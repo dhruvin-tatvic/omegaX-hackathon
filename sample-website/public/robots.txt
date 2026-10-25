@@ -8,4 +8,4 @@ Disallow: /dealers
 User-agent: OAI-SearchBot
 Disallow: /dealers
 
-Sitemap: https://apex-moto-one.vercel.app/sitemap.xml
+Sitemap: https://your-service.onrender.com/sitemap.xml

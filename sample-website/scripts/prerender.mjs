@@ -2,6 +2,7 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { createServer } from 'vite';
+import { getSiteUrl } from './site-url.mjs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -43,7 +44,7 @@ if (problems.stale_page && problems.stale_page.enabled && problems.stale_page.ur
 }
 
 // Helpers for metadata
-const SITE_URL = 'https://apex-moto-one.vercel.app';
+const SITE_URL = getSiteUrl();
 const jsOnlyBikes = problems.js_only_content?.enabled ? (problems.js_only_content.bikes || []) : [];
 const missingJsonldBikes = problems.missing_jsonld?.enabled ? (problems.missing_jsonld.bikes || []) : [];
 

@@ -1,0 +1,6 @@
+@echo off
+echo Stopping anything on port 3456...
+for /f "tokens=5" %%a in ('netstat -ano ^| findstr :3456 ^| findstr LISTENING') do taskkill /F /PID %%a 2>nul
+cd /d "%~dp0"
+echo Starting dashboard...
+call npm start

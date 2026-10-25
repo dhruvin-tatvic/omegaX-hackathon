@@ -1,0 +1,28 @@
+# Render service logs — LLM / crawler access test
+# Source: Render dashboard export (Render_tool_Logs.pdf)
+# Service: node server.js (Express static, port 10000)
+# Test context: Same question asked via ChatGPT, Perplexity, and Gemini; Gemini could not access the site.
+
+==> Running 'node server.js'
+Server is running on port 10000
+14.102.161.74 - GET / 200 - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+14.102.161.74 - GET /assets/index-GjeBh7pn.js 304 - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+14.102.161.74 - GET /assets/apex_moto_logo-dhs_X3_e.jpg 304 - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+14.102.161.74 - GET /assets/index-TjnoVJCC.css 304 - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+14.102.161.74 - GET /assets/hero_motorcycle-yqv0dmuW.jpg 200 - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+14.102.161.74 - GET /assets/motorcycle_phantom-7OLH6b0-.jpg 304 - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+14.102.161.74 - GET /assets/motorcycle_storm-DKOU4CLL.jpg 304 - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+14.102.161.74 - GET /assets/motorcycle_thunderstrike-8FE7-Duu.jpg 304 - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+14.102.161.74 - GET /assets/motorcycle_zenith-BsWwUWmy.jpg 304 - "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/156.0.0.0 Safari/537.36"
+14.102.161.74 - GET / 304 - "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+14.102.161.74 - GET /assets/index-GjeBh7pn.js 304 - "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+14.102.161.74 - GET /assets/index-TjnoVJCC.css 304 - "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+14.102.161.74 - GET /assets/hero_motorcycle-yqv0dmuW.jpg 200 - "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+14.102.161.74 - GET /assets/motorcycle_storm-DKOU4CLL.jpg 304 - "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+14.102.161.74 - GET /assets/motorcycle_thunderstrike-8FE7-Duu.jpg 304 - "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+14.102.161.74 - GET /assets/motorcycle_phantom-7OLH6b0-.jpg 304 - "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+14.102.161.74 - GET /assets/motorcycle_zenith-BsWwUWmy.jpg 304 - "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+14.102.161.74 - GET /assets/apex_moto_logo-dhs_X3_e.jpg 304 - "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36"
+9.205.25.138 - GET / 200 - "Mozilla/5.0 AppleWebKit/537.36 (KHTML, like Gecko); compatible; ChatGPT-User/1.0; +https://openai.com/bot"
+31.58.151.131 - GET / 200 - "Mozilla/5.0 (compatible; ExaUser/1.0; +https://crawler.exa.ai/exauser)"
+31.58.151.132 - GET /robots.txt 200 - "Mozilla/5.0 (compatible; ExaUser/1.0; +https://crawler.exa.ai/exauser)"

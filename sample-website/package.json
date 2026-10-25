@@ -11,7 +11,8 @@
     "lint": "oxlint",
     "preview": "vite preview",
     "start": "node server.js",
-    "check-site": "node scripts/check-site.mjs"
+    "check-site": "node scripts/check-site.mjs",
+    "logs:save": "node scripts/save-render-logs.mjs"
   },
   "dependencies": {
     "express": "^5.3.0",

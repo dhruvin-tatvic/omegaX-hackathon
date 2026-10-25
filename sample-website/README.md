@@ -1,10 +1,18 @@
 # Apex Moto — Test Website for AI-Readability Audit
 
-Apex Moto (https://apex-moto-one.vercel.app) is an existing React + Vite site deployed on Vercel, updated to serve as the test website for the AI-readability audit agent (Tatvic hackathon, Problem Statement 6).
+Fictional motorcycle brand site (React + Vite) for the Tatvic hackathon **Problem Statement 6**. **Production hosting is Render only** — see [../docs/render-deployment.md](../docs/render-deployment.md).
+
+Set public URL at build time:
+
+```bash
+VITE_SITE_URL=https://your-service.onrender.com npm run build
+```
+
+On Render, use `VITE_SITE_URL=$RENDER_EXTERNAL_URL` in the build command.
 
 ---
 
-## 🛠️ Test-site setup
+## Test-site setup
 
 ### 1. Installation
 
@@ -15,79 +23,61 @@ npm install
 
 ### 2. Build
 
-The build runs three steps in sequence:
-1. `node scripts/generate-static.mjs` — Generates `robots.txt`, `sitemap.xml`, 18 brochure PDFs, specs images, and health endpoint.
-2. `vite build` — Builds the optimized client bundle.
-3. `node scripts/prerender.mjs` — Pre-renders all routes to static HTML in `dist/` with per-page metadata, JSON-LD, and stable audit markup.
+1. `node scripts/generate-static.mjs` — `robots.txt`, `sitemap.xml`, PDFs, spec images  
+2. `vite build` — client bundle  
+3. `node scripts/prerender.mjs` — static HTML + metadata + JSON-LD in `dist/`
 
 ```bash
-# Build for practice scenario (default)
 npm run build
-
-# Or build explicitly for a specific scenario
-VITE_SCENARIO=practice npm run build
+# or
+VITE_SCENARIO=dryrun VITE_SITE_URL=https://your-service.onrender.com npm run build
 ```
 
-### 3. Run Locally
+### 3. Run locally
 
 ```bash
-# Preview the pre-rendered production build
-npm run preview
-```
-Visit `http://localhost:4173` to explore the static pre-rendered site.
-
-### 4. Switch Scenario
-
-The site supports switchable planted problems configured via `config/problems_practice.json` and `config/problems_dryrun.json`.
-
-**Locally:**
-```bash
-# Switch to dryrun scenario
-VITE_SCENARIO=dryrun npm run build
-npm run preview
+npm run preview          # static dist on :4173
+npm start                # Express (same as Render) on PORT / 10000
 ```
 
-**On Vercel:**
-1. Navigate to your Vercel Project Settings → Environment Variables.
-2. Add or update `VITE_SCENARIO` to `practice` or `dryrun`.
-3. Redeploy the deployment to apply the new planted problem set.
+### 4. Scenario switch
 
-### 5. Run Audit Check Script (`check-site.mjs`)
+Configs: `src/config/problems_practice.json`, `problems_dryrun.json`.
 
-The audit script reads `sitemap.xml` and fetches every public URL **without JavaScript** twice (once with `GPTBot/1.2` and once with standard Chrome UA). It validates status codes, response byte counts, presence of `.price` text, Product JSON-LD, and identical body responses:
+**Render:** set env `VITE_SCENARIO` to `practice` or `dryrun` and rebuild.
+
+### 5. Audit check (`check-site.mjs`)
+
+Fetches sitemap URLs without JS (GPTBot vs Chrome):
 
 ```bash
-# Check production live deployment
-node scripts/check-site.mjs https://apex-moto-one.vercel.app
-
-# Check local preview server
+node scripts/check-site.mjs https://your-service.onrender.com
 node scripts/check-site.mjs http://localhost:4173
 ```
 
----
+### 6. Save Render logs locally
 
-## 🏍️ Features & Capabilities
+```bash
+npm run logs:save -- <render-service-id>
+```
 
-- **Pre-rendered Static HTML:** Every route contains its full content in the HTML shell without requiring JavaScript.
-- **Stable Markup for AI Audit:**
-  - Ex-showroom price: `<span class="price" data-slug="<slug>">₹...</span>` with Indian digit grouping.
-  - On-road prices table: `<table class="onroad">`
-  - Full specifications: `<table class="specs">`
-  - Model variants: `<ul class="variants">`
-  - Colours: `<ul class="colours">`
-  - Availability: `<p class="availability">`
-  - Finance: `<table class="finance">`
-- **Complete 18-Bike Catalogue:** Sourced from `data/catalogue.json` across 7 categories (Adventure, Classic, Street, Scrambler, Tourer, Cruiser, Electric).
-- **Per-Page Head Tags & Structured Data:** Unique title, meta description, canonical link, and JSON-LD (`Product`, `FAQPage`, `Organization`).
-- **Real Robots & Sitemap:** Dynamic `robots.txt` and `sitemap.xml` reflecting the active scenario rules.
-- **Serverless API & Health Checks:** `/health` endpoint returning plain text `OK` for GET and HEAD, and `/api/test-ride` with 303 redirection to `/book-test-ride/thanks`.
-- **Vercel Edge Middleware:** Implements `firewall_block` returning 403 for targeted bots on specified path prefixes, alongside non-blocking request logging.
+Writes `docs/evidence/render-logs-<date>.txt`. See [../docs/render-deployment.md](../docs/render-deployment.md).
 
 ---
 
-## 📋 Planted Problems Reference
+## Features
 
-| Problem | Practice Scenario | Dry-Run Scenario |
+- Pre-rendered static HTML per route  
+- Stable audit selectors (`.price`, `.specs`, `.onroad`, etc.)  
+- 18-bike catalogue in `src/data/catalogue.json`  
+- Planted problems per scenario JSON  
+- **`server.js`:** static hosting + `firewall_block` on Render  
+
+---
+
+## Planted problems reference
+
+| Problem | Practice | Dry-Run |
 | --- | --- | --- |
 | `js_only_content` | `storm-200` | `thunderstrike-450` |
 | `tabs_not_in_html` | `storm-390` | `phantom-500` |

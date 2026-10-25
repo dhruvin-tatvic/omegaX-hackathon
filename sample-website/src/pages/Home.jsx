@@ -2,6 +2,7 @@ import { Link } from 'react-router-dom';
 import { getFeaturedBikes, allBikes } from '../data/catalogue';
 import ProductCard from '../components/ProductCard';
 import SEO from '../components/SEO';
+import { SITE_URL } from '../config/siteUrl.js';
 import heroImg from '../assets/images/hero_motorcycle.jpg';
 import './Home.css';
 
@@ -39,8 +40,8 @@ const organizationSchema = {
   '@context': 'https://schema.org',
   '@type': 'Organization',
   name: 'Apex Moto',
-  url: 'https://apex-moto-one.vercel.app',
-  logo: 'https://apex-moto-one.vercel.app/favicon.svg',
+  url: SITE_URL,
+  logo: `${SITE_URL}/favicon.svg`,
 };
 
 export default function Home() {

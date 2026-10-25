@@ -8,6 +8,10 @@ dist/
 dist-ssr/
 **/dist-ssr/
 
+# Secrets
+.env
+**/.env
+
 # Local cache & temp files
 .vite/
 **/.vite/
