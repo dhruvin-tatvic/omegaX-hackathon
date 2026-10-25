@@ -1,0 +1,68 @@
+{
+  "meta": {
+    "spreadsheet_id": null,
+    "gid": null,
+    "sheet_title": null,
+    "source_url": "d:\\omegaX-hackathon\\data\\LLM Response Sheet - Sheet1.csv",
+    "fetched_at": "2026-10-25T09:42:25.755Z",
+    "row_count": 10,
+    "column_count": 3
+  },
+  "headers": [
+    "AI Tool",
+    "Input",
+    "Output"
+  ],
+  "rows": [
+    {
+      "AI Tool": "ChatGPT",
+      "Input": "Check in the below website and give me the most expensive bike name:\r\nhttps://omegax-hackathon.onrender.com/",
+      "Output": "The most expensive bike listed on the website is the Thunderstrike 650 Rally, priced at ₹5,29,000 (ex-showroom). \r\n\r\nBorn to Ride. Built to Last.\r\n+1\r\n\r\nSpeed Read: A Rally-Style Royal Enfield Bear 650 by Fuel and More |…\r\n \r\nThunderstrike 650 Rally\r\n₹5,29,000\r\nEx-showroom price\r\n\r\nEngine: 648cc parallel twin\r\n\r\nPower: 47 bhp\r\n\r\nTorque: 52 Nm\r\n\r\nMileage: 22 km/l\r\n\r\n View bike on the website"
+    },
+    {
+      "AI Tool": "Gemini",
+      "Input": "Check this website and let me know the price of the Thunderstrike 650:\r\n\r\nhttps://omegax-hackathon.onrender.com/",
+      "Output": "Based on the website provided, the starting price for the Thunderstrike 650 is ₹4,20,000."
+    },
+    {
+      "AI Tool": "ChatGPT",
+      "Input": "what is the price of phantom 350 [https://omegax-hackathon.onrender.com/](https://omegax-hackathon.onrender.com/)",
+      "Output": "The **Phantom 350** is listed at a starting price of **₹2,15,000 (₹2.15 lakh)** on the [Apex Moto website](https://omegax-hackathon.onrender.com/).\r\n\r\nThis is the starting price displayed on the website; the final variant-wise price may differ."
+    },
+    {
+      "AI Tool": "Gemini",
+      "Input": "which is the cheapest bike on this product site https://omegax-hackathon.onrender.com/",
+      "Output": "Based on the featured motorcycle lineup on **Apex Moto** ([https://omegax-hackathon.onrender.com/](https://omegax-hackathon.onrender.com/)), the cheapest bike with a listed price is the **Phantom 350**.\r\n\r\n### Featured Models by Price:\r\n\r\n1. **Phantom 350** – **₹2,15,000** *(Cheapest listed)*\r\n* *Engine:* 349cc | *Power:* 21 bhp | *Category:* Classic\r\n\r\n\r\n2. **Thunderstrike 450** – **₹2,89,000**\r\n* *Engine:* 452cc | *Power:* 40 bhp | *Category:* Adventure\r\n\r\n\r\n3. **Zenith 450 Scrambler** – **₹3,35,000**\r\n* *Engine:* 449cc | *Power:* 38 bhp | *Category:* Scrambler\r\n\r\n\r\n4. **Thunderstrike 650** – **₹4,20,000**\r\n* *Engine:* 648cc | *Power:* 47 bhp | *Category:* Adventure\r\n\r\n\r\n5. **Thunderstrike 650 Rally** – **₹5,29,000**\r\n* *Engine:* 648cc | *Power:* 47 bhp | *Category:* Adventure\r\n\r\n\r\n\r\n*(Note: The **Storm 200** is also featured on the site as an entry-level street bike, but its specifications and price are currently unlisted/left blank).*"
+    },
+    {
+      "AI Tool": "Perplexity",
+      "Input": "what is the price of zenith 450 in bangalore",
+      "Output": "I couldn’t find a Bangalore-specific price for the **Zenith 450** from a reliable public source. The only listed price is on the website you shared: **₹3,35,000 starting** for the Zenith 450 Scrambler. \r\n\r\nFor Bangalore, the **on-road price** would be higher because it would add Karnataka road tax, registration, insurance, and other charges. As a rough expectation, a ₹3.35 lakh ex-showroom bike could land around **₹3.7–4.0 lakh on-road**, but the exact figure depends on the dealer quote, insurance plan, and any accessories.\r\n\r\nIf you meant a different “Zenith 450” (for example, a watch or another vehicle), tell me the brand/model and I’ll narrow it down."
+    },
+    {
+      "AI Tool": "Claude",
+      "Input": "What is the specifications of the Phantom 350 bike in the below website:\r\nhttps://omegax-hackathon.onrender.com/",
+      "Output": "Here’s what the Phantom 350 page on the Apex Moto site lists. The site calls itself a “fictional brand test site”, so this is demo data.\n\nKey specs\n\nCategory: Classic\nEngine: 349 cc\nMax power: 21 bhp\nTorque: 28 Nm\nMileage: 38 km/l\nPrice: from ₹2,15,000 (ex-showroom)\nColours: Matte Black, Racing Green, Chrome Silver\nAvailability: In stock\n\nVariants\n\nBase: Standard seat, halogen headlight, drum rear brake.\nChrome Edition (₹2,45,000): Comfort seat, LED headlight, disc rear brake, USB port.\n\nIndicative on-road prices (base variant)\n\nCity\tPrice\nDelhi\t₹2,41,900\nMumbai\t₹2,46,800\nBangalore\t₹2,50,500\nPune\t₹2,44,000\nChennai\t₹2,45,100\nHyderabad\t₹2,47,200\nJaipur\t₹2,42,900\nKolkata\t₹2,40,800\n\nFinance example: With a ₹22,000 down payment at 9.99% p.a. over 48 months, the estimated EMI is ₹4,894 per month.\n\nThe page has a “Specs” tab, but I only got the headline numbers above. It doesn’t list details like weight, brakes, tyres, fuel tank or dimensions. The site links an official brochure PDF that may have more: https://omegax-hackathon.onrender.com/brochures/phantom-350.pdf\n\nI can try fetching that brochure if you’d like."
+    },
+    {
+      "AI Tool": "Claude",
+      "Input": "What is the on raoad price on the Storm 200 in delhi ?",
+      "Output": "I couldn’t get the Storm 200’s on-road price for Delhi. The fetch tool wouldn’t open the Storm 200 page or the motorcycles listing page on that site, and a web search returned only unrelated bikes (Aprilia Storm 125, Ather 450 Apex). I’m not going to guess a figure.\n\nThe pages I could read show the Storm 200 without any data. Its card on the homepage and the Phantom 350 page has blanks for engine, power and starting price. Delhi’s on-road price may be blank on its own page too, or the page may simply not have loaded for me.\n\nYou can check it yourself at https://omegax-hackathon.onrender.com/motorcycles/storm-200. The page should have an “On-Road Price by City” table like the Phantom 350’s, where Delhi was ₹2,41,900 for the base variant.\n\nIf you paste the page text here, I’ll pull out the Delhi price for you."
+    },
+    {
+      "AI Tool": "Claude",
+      "Input": "What is the mileage of the Thunderstrike 450 ?",
+      "Output": "I couldn’t find the Thunderstrike 450’s mileage. The fetch tool refused to open its page on the Apex Moto site, and a web search only returned unrelated bikes like the Ather 450 Apex and Royal Enfield Guerrilla 450.\n\nThe only listing I did read was the homepage card, which gives:\n\nEngine: 452 cc\nPower: 40 bhp\nStarting price: ₹2,89,000\nCategory: Adventure (New Launch)\n\nThat card has no mileage figure. On the Phantom 350’s page, mileage appeared in the headline stats (38 km/l), so the Thunderstrike 450’s page probably lists it too. You can check it at https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450.\n\nIf you paste the page text here, I’ll pull out the mileage and any other specs you want."
+    },
+    {
+      "AI Tool": "Claude",
+      "Input": "What all colours are available for the bike: Zenith 450 Scrambler",
+      "Output": "I couldn’t find the Zenith 450 Scrambler’s colours. The fetch tool wouldn’t open its page on the Apex Moto site, and a web search only returned other brands’ bikes (Triumph, Ducati, Yezdi). Those aren’t the Apex Moto bike, so I haven’t used them.\n\nThe homepage card for the Zenith 450 Scrambler doesn’t list colours either. It shows:\n\nEngine: 449 cc\nPower: 38 bhp\nStarting price: ₹3,35,000\nTag: Off-Road Ready\n\nOn the Phantom 350’s page, colours were listed under “Available Colours” (Matte Black, Racing Green, Chrome Silver), so the Zenith’s page likely has the same section. You can check it at https://omegax-hackathon.onrender.com/motorcycles/zenith-450-scrambler.\n\nIf you paste that page’s text here, I’ll pull out the colours for you."
+    },
+    {
+      "AI Tool": "Gemini",
+      "Input": "What all similar bikes are avaibale to Storm 200 ?",
+      "Output": "Based on the website's \"You Might Also Like\" section for the Storm 200, they recommend two similar bikes:\n\nPhantom 350\n\nCategory: Classic\n\nEngine: 349cc (21 bhp)\n\nStarting Price: ₹2,15,000\n\nZenith 450 Scrambler\n\nCategory: Scrambler\n\nEngine: 449cc (38 bhp)\n\nStarting Price: ₹3,35,000"
+    }
+  ]
+}

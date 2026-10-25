@@ -1,0 +1,145 @@
+AI Tool,Input,Output
+ChatGPT,"Check in the below website and give me the most expensive bike name:
+https://omegax-hackathon.onrender.com/","The most expensive bike listed on the website is the Thunderstrike 650 Rally, priced at ₹5,29,000 (ex-showroom). 
+
+Born to Ride. Built to Last.
++1
+
+Speed Read: A Rally-Style Royal Enfield Bear 650 by Fuel and More |…
+ 
+Thunderstrike 650 Rally
+₹5,29,000
+Ex-showroom price
+
+Engine: 648cc parallel twin
+
+Power: 47 bhp
+
+Torque: 52 Nm
+
+Mileage: 22 km/l
+
+ View bike on the website "
+Gemini,"Check this website and let me know the price of the Thunderstrike 650:
+
+https://omegax-hackathon.onrender.com/","Based on the website provided, the starting price for the Thunderstrike 650 is ₹4,20,000."
+ChatGPT,what is the price of phantom 350 [https://omegax-hackathon.onrender.com/](https://omegax-hackathon.onrender.com/),"The **Phantom 350** is listed at a starting price of **₹2,15,000 (₹2.15 lakh)** on the [Apex Moto website](https://omegax-hackathon.onrender.com/).
+
+This is the starting price displayed on the website; the final variant-wise price may differ."
+Gemini,which is the cheapest bike on this product site https://omegax-hackathon.onrender.com/,"Based on the featured motorcycle lineup on **Apex Moto** ([https://omegax-hackathon.onrender.com/](https://omegax-hackathon.onrender.com/)), the cheapest bike with a listed price is the **Phantom 350**.
+
+### Featured Models by Price:
+
+1. **Phantom 350** – **₹2,15,000** *(Cheapest listed)*
+* *Engine:* 349cc | *Power:* 21 bhp | *Category:* Classic
+
+
+2. **Thunderstrike 450** – **₹2,89,000**
+* *Engine:* 452cc | *Power:* 40 bhp | *Category:* Adventure
+
+
+3. **Zenith 450 Scrambler** – **₹3,35,000**
+* *Engine:* 449cc | *Power:* 38 bhp | *Category:* Scrambler
+
+
+4. **Thunderstrike 650** – **₹4,20,000**
+* *Engine:* 648cc | *Power:* 47 bhp | *Category:* Adventure
+
+
+5. **Thunderstrike 650 Rally** – **₹5,29,000**
+* *Engine:* 648cc | *Power:* 47 bhp | *Category:* Adventure
+
+
+
+*(Note: The **Storm 200** is also featured on the site as an entry-level street bike, but its specifications and price are currently unlisted/left blank).*"
+Perplexity,what is the price of zenith 450 in bangalore,"I couldn’t find a Bangalore-specific price for the **Zenith 450** from a reliable public source. The only listed price is on the website you shared: **₹3,35,000 starting** for the Zenith 450 Scrambler. 
+
+For Bangalore, the **on-road price** would be higher because it would add Karnataka road tax, registration, insurance, and other charges. As a rough expectation, a ₹3.35 lakh ex-showroom bike could land around **₹3.7–4.0 lakh on-road**, but the exact figure depends on the dealer quote, insurance plan, and any accessories.
+
+If you meant a different “Zenith 450” (for example, a watch or another vehicle), tell me the brand/model and I’ll narrow it down."
+Claude,"What is the specifications of the Phantom 350 bike in the below website:
+https://omegax-hackathon.onrender.com/","Here’s what the Phantom 350 page on the Apex Moto site lists. The site calls itself a “fictional brand test site”, so this is demo data.
+
+Key specs
+
+Category: Classic
+Engine: 349 cc
+Max power: 21 bhp
+Torque: 28 Nm
+Mileage: 38 km/l
+Price: from ₹2,15,000 (ex-showroom)
+Colours: Matte Black, Racing Green, Chrome Silver
+Availability: In stock
+
+Variants
+
+Base: Standard seat, halogen headlight, drum rear brake.
+Chrome Edition (₹2,45,000): Comfort seat, LED headlight, disc rear brake, USB port.
+
+Indicative on-road prices (base variant)
+
+City	Price
+Delhi	₹2,41,900
+Mumbai	₹2,46,800
+Bangalore	₹2,50,500
+Pune	₹2,44,000
+Chennai	₹2,45,100
+Hyderabad	₹2,47,200
+Jaipur	₹2,42,900
+Kolkata	₹2,40,800
+
+Finance example: With a ₹22,000 down payment at 9.99% p.a. over 48 months, the estimated EMI is ₹4,894 per month.
+
+The page has a “Specs” tab, but I only got the headline numbers above. It doesn’t list details like weight, brakes, tyres, fuel tank or dimensions. The site links an official brochure PDF that may have more: https://omegax-hackathon.onrender.com/brochures/phantom-350.pdf
+
+I can try fetching that brochure if you’d like."
+Claude,What is the on raoad price on the Storm 200 in delhi ?,"I couldn’t get the Storm 200’s on-road price for Delhi. The fetch tool wouldn’t open the Storm 200 page or the motorcycles listing page on that site, and a web search returned only unrelated bikes (Aprilia Storm 125, Ather 450 Apex). I’m not going to guess a figure.
+
+The pages I could read show the Storm 200 without any data. Its card on the homepage and the Phantom 350 page has blanks for engine, power and starting price. Delhi’s on-road price may be blank on its own page too, or the page may simply not have loaded for me.
+
+You can check it yourself at https://omegax-hackathon.onrender.com/motorcycles/storm-200. The page should have an “On-Road Price by City” table like the Phantom 350’s, where Delhi was ₹2,41,900 for the base variant.
+
+If you paste the page text here, I’ll pull out the Delhi price for you."
+Claude,"What is the mileage of the Thunderstrike 450 ?
+","I couldn’t find the Thunderstrike 450’s mileage. The fetch tool refused to open its page on the Apex Moto site, and a web search only returned unrelated bikes like the Ather 450 Apex and Royal Enfield Guerrilla 450.
+
+The only listing I did read was the homepage card, which gives:
+
+Engine: 452 cc
+Power: 40 bhp
+Starting price: ₹2,89,000
+Category: Adventure (New Launch)
+
+That card has no mileage figure. On the Phantom 350’s page, mileage appeared in the headline stats (38 km/l), so the Thunderstrike 450’s page probably lists it too. You can check it at https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450.
+
+If you paste the page text here, I’ll pull out the mileage and any other specs you want."
+Claude,"What all colours are available for the bike: Zenith 450 Scrambler
+","I couldn’t find the Zenith 450 Scrambler’s colours. The fetch tool wouldn’t open its page on the Apex Moto site, and a web search only returned other brands’ bikes (Triumph, Ducati, Yezdi). Those aren’t the Apex Moto bike, so I haven’t used them.
+
+The homepage card for the Zenith 450 Scrambler doesn’t list colours either. It shows:
+
+Engine: 449 cc
+Power: 38 bhp
+Starting price: ₹3,35,000
+Tag: Off-Road Ready
+
+On the Phantom 350’s page, colours were listed under “Available Colours” (Matte Black, Racing Green, Chrome Silver), so the Zenith’s page likely has the same section. You can check it at https://omegax-hackathon.onrender.com/motorcycles/zenith-450-scrambler.
+
+If you paste that page’s text here, I’ll pull out the colours for you."
+Gemini,What all similar bikes are avaibale to Storm 200 ?,"Based on the website's ""You Might Also Like"" section for the Storm 200, they recommend two similar bikes:
+
+Phantom 350
+
+Category: Classic
+
+Engine: 349cc (21 bhp)
+
+Starting Price: ₹2,15,000
+
+Zenith 450 Scrambler
+
+Category: Scrambler
+
+Engine: 449cc (38 bhp)
+
+Starting Price: ₹3,35,000"

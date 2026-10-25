@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OmegaX · Run history</title>
+    <link rel="stylesheet" href="/tatvic/brand.css" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/comparison-ui.css" />
+    <script src="/tatvic/theme.js" defer></script>
+  </head>
+  <body class="app-shell compare-page">
+    <header class="brand-bar">
+      <a class="brand-lockup" href="https://tatvic.com/" target="_blank" rel="noopener noreferrer">
+        <img
+          class="brand-logo"
+          src="https://tatvic.com/wp-content/themes/tatvic-digital-analytics/assets/img/logo/tatvic-dark-logo.svg"
+          width="120"
+          height="34"
+          alt="Tatvic"
+        />
+      </a>
+      <div class="brand-divider" aria-hidden="true"></div>
+      <p class="brand-product">OmegaX Analytics · Run history</p>
+      <div class="brand-actions">
+        <button type="button" class="btn-theme" id="themeToggle" aria-label="Toggle light or dark theme">Dark mode</button>
+      </div>
+    </header>
+    <nav class="nav">
+      <a href="/">Comparison overview</a>
+      <a href="/recommendations.html">Gap analysis &amp; recommendations</a>
+      <a href="/runs.html" class="active">Run history</a>
+    </nav>
+    <header class="header">
+      <div>
+        <h1>Comparison run history</h1>
+        <p class="sub">Persistent Groq evaluation batches in <code>data/comparison_history.json</code></p>
+      </div>
+    </header>
+
+    <section class="page-intro" aria-label="History summary">
+      <p class="page-intro__text" id="runsIntro">Loading run history…</p>
+    </section>
+
+    <section class="runs-summary" id="runsSummary" aria-label="Aggregate stats"></section>
+
+    <section class="panel">
+      <h2 class="gap-section-title">All comparison runs</h2>
+      <p class="gap-section-desc">Newest runs appear first. Import or re-run the compare script to append entries.</p>
+      <div class="table-wrap table-wrap--auto">
+        <table>
+          <thead>
+            <tr>
+              <th>Run time</th>
+              <th>Rows</th>
+              <th>Avg score</th>
+              <th>Correct</th>
+              <th>Partial</th>
+              <th>Incorrect</th>
+              <th>Facts scraped</th>
+              <th>Model</th>
+            </tr>
+          </thead>
+          <tbody id="runsBody"></tbody>
+        </table>
+      </div>
+    </section>
+
+    <script src="/runs.js" type="module"></script>
+  </body>
+</html>

@@ -1,20 +1,22 @@
-import dotenv from 'dotenv';
 import express from 'express';
 import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 import { fetchServiceLogs } from './lib/render-logs.js';
 import * as store from './lib/log-store.js';
+import { loadDashboardEnv, paths } from './lib/load-env.mjs';
+import { seedFromEvidenceFile, DEFAULT_EVIDENCE } from './lib/seed-evidence-logs.mjs';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-dotenv.config({ path: path.join(__dirname, '.env') });
+loadDashboardEnv();
 
 const app = express();
 
 const PORT = Number(process.env.DASHBOARD_PORT) || 3456;
 const POLL_MS = Number(process.env.POLL_INTERVAL_MS) || 8000;
 const LOG_WINDOW_HOURS = Number(process.env.LOG_WINDOW_HOURS) || 2;
-const SERVER_BUILD = '2026-10-25-v14-traffic-overview';
+const SERVER_BUILD = '2026-10-25-v15-traffic-overview';
+let dataSource = 'none';
 
 const config = {
   apiKey: (process.env.RENDER_API_KEY || '').trim(),
@@ -57,6 +59,7 @@ async function pollRender({ fullSync = false } = {}) {
       paginate: fullSync,
     });
     const added = store.ingestRenderLogs(result.logs);
+    dataSource = 'render';
     lastPollAt = new Date().toISOString();
     lastPollError = null;
     lastFetchMeta = {
@@ -115,6 +118,7 @@ app.get('/api/status', (_req, res) => {
     lastFetch: lastFetchMeta,
     stats: store.getStats(),
     siteUrl: config.siteUrl,
+    dataSource,
   };
   res.type('application/json').send(JSON.stringify(body, null, 2));
 });
@@ -133,7 +137,11 @@ app.get('/api/logs', (req, res) => {
 });
 
 app.post('/api/refresh', async (_req, res) => {
-  await pollRender({ fullSync: true });
+  if (config.apiKey && config.serviceId) {
+    await pollRender({ fullSync: true });
+  } else {
+    startEvidenceMode();
+  }
   res.json({
     stats: store.getStats(),
     lastPollAt,
@@ -160,14 +168,38 @@ app.get('/api/events', (req, res) => {
 
 app.use(express.static(path.join(__dirname, 'public')));
 
+function startEvidenceMode() {
+  const evidencePath = process.env.EVIDENCE_LOGS_PATH || DEFAULT_EVIDENCE;
+  const result = seedFromEvidenceFile(evidencePath);
+  if (result.ok) {
+    dataSource = 'evidence';
+    lastPollAt = new Date().toISOString();
+    lastPollError = null;
+    lastFetchMeta = {
+      pagesFetched: 1,
+      rawLines: result.lines,
+      windowStart: store.getStats().windowFrom,
+      windowEnd: store.getStats().windowTo,
+      fullSync: true,
+      evidenceFile: result.path,
+    };
+    console.log(`[evidence] Loaded ${result.ingested} access lines from team export.`);
+    broadcast('update', { added: result.ingested, stats: store.getStats(), meta: lastFetchMeta });
+  } else {
+    lastPollError = result.reason;
+    console.warn(result.reason);
+  }
+}
+
 app.listen(PORT, () => {
   console.log(`Traffic dashboard: http://localhost:${PORT}`);
   const envPath = path.join(__dirname, '.env');
   if (!config.apiKey || !config.serviceId) {
-    console.warn(`Missing RENDER_API_KEY or RENDER_SERVICE_ID.`);
-    console.warn(`Expected file: ${envPath}`);
-    console.warn('Copy .env.example to .env in tools/traffic-dashboard, then restart.');
+    console.warn(`Render API not configured (${envPath} empty or missing keys).`);
+    console.warn('Using sample evidence logs until RENDER_API_KEY + RENDER_SERVICE_ID are saved.');
+    startEvidenceMode();
   } else {
+    dataSource = 'render';
     console.log(`Render service: ${config.serviceId}`);
     console.log(`Loaded config from: ${envPath}`);
     pollRender({ fullSync: true });

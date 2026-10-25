@@ -14,9 +14,13 @@ Repository for the **OmegaX / Tatvic PS6** hackathon: **Apex Moto** test site (A
 | Path | Purpose |
 |------|---------|
 | [`sample-website/`](./sample-website) | **Apex Moto** — React + Vite, pre-rendered `dist/`, planted audit scenarios |
-| [`tools/traffic-dashboard/`](./tools/traffic-dashboard) | **Local dashboard** — last 24h Render logs, human vs bot/AI traffic ([README](./tools/traffic-dashboard/README.md)) |
+| [`tools/traffic-dashboard/`](./tools/traffic-dashboard) | **Render logs UI** — human vs bot/AI (:3456) ([README](./tools/traffic-dashboard/README.md)) |
+| [`tools/comparison-dashboard/`](./tools/comparison-dashboard) | **LLM vs facts UI** — Groq comparison history (:3457) |
+| [`scripts/apex-moto-facts/`](./scripts/apex-moto-facts) | Firecrawl scrape → `data/apex_moto_facts.json` |
+| [`scripts/llm-facts-compare/`](./scripts/llm-facts-compare) | Groq compare sheet vs facts |
 | [`docs/evidence/`](./docs/evidence) | Saved Render log exports & LLM access test notes |
-| [`config/`](./config), [`data/`](./data) | Reference copies of scenario JSON and catalogue |
+| [`data/`](./data) | Facts JSON, LLM sheet, comparison reports/history |
+| [`config/`](./config) | Reference scenario JSON |
 
 **Production hosting:** [Render](./docs/render-deployment.md) only — `sample-website/server.js` (`npm start`).
 
@@ -58,6 +62,19 @@ Open **http://localhost:3456** · Status page: **http://localhost:3456/status.ht
 If you see “Not configured”, stop old processes and run `restart-dashboard.cmd` in that folder, then `npm start` again.
 
 Default window: **last 24 hours** (`LOG_WINDOW_HOURS`). Click **Refresh now** for a full sync from Render.
+
+---
+
+## Quick start — LLM comparison dashboard
+
+After generating `data/llm_comparison_report.json` (see [TEAM_CONTEXT.md](./TEAM_CONTEXT.md)):
+
+```bash
+cd tools/comparison-dashboard
+node server.js
+```
+
+Open **http://localhost:3457** (overview, gap analysis, run history).
 
 ---
 

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>OmegaX · Gap analysis &amp; recommendations</title>
+    <link rel="stylesheet" href="/tatvic/brand.css" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="/comparison-ui.css" />
+    <link rel="stylesheet" href="/gap-analysis.css" />
+    <script src="/tatvic/theme.js" defer></script>
+  </head>
+  <body class="app-shell gap-page">
+    <header class="brand-bar">
+      <a class="brand-lockup" href="https://tatvic.com/" target="_blank" rel="noopener noreferrer">
+        <img
+          class="brand-logo"
+          src="https://tatvic.com/wp-content/themes/tatvic-digital-analytics/assets/img/logo/tatvic-dark-logo.svg"
+          width="120"
+          height="34"
+          alt="Tatvic"
+        />
+      </a>
+      <div class="brand-divider" aria-hidden="true"></div>
+      <p class="brand-product">OmegaX Analytics · Gap analysis</p>
+      <div class="brand-actions">
+        <button type="button" class="btn-theme" id="themeToggle" aria-label="Toggle light or dark theme">Dark mode</button>
+      </div>
+    </header>
+    <nav class="nav">
+      <a href="/">Comparison overview</a>
+      <a href="/recommendations.html" class="active">Gap analysis &amp; recommendations</a>
+      <a href="/runs.html">Run history</a>
+    </nav>
+
+    <header class="header">
+      <div>
+        <h1>Gap analysis &amp; recommendations</h1>
+        <p class="sub">AI-readability gaps between LLM answers and scraped site facts, with actionable site fixes</p>
+        <p class="sub meta" id="runLabel"></p>
+      </div>
+      <div class="header-actions header-actions--stack">
+        <label for="runSelect" class="table-meta">Comparison run</label>
+        <select id="runSelect" class="select-run" aria-label="Select comparison run"></select>
+      </div>
+    </header>
+
+    <section class="gap-hero" aria-labelledby="heroLabel">
+      <p class="gap-hero__label" id="heroLabel">Executive summary</p>
+      <p class="gap-hero__summary" id="executiveSummary">Loading analysis…</p>
+      <p class="gap-hero__meta" id="heroMeta"></p>
+    </section>
+
+    <div class="tool-scores" id="toolScores" aria-label="Average score by AI tool"></div>
+
+    <div class="gap-layout">
+      <section class="panel" aria-labelledby="themesTitle">
+        <h2 class="gap-section-title" id="themesTitle">Impact themes</h2>
+        <p class="gap-section-desc">Recurring patterns behind factual mismatches and access failures</p>
+        <div id="themes" class="theme-grid"></div>
+      </section>
+    </div>
+
+    <div class="gap-layout gap-layout--two">
+      <section class="panel" aria-labelledby="gapsTitle">
+        <h2 class="gap-section-title" id="gapsTitle">Top factual gaps</h2>
+        <p class="gap-section-desc">What went wrong, with evidence from ground truth</p>
+        <div id="gaps" class="gap-cards"></div>
+      </section>
+
+      <section class="panel" aria-labelledby="recsTitle">
+        <h2 class="gap-section-title" id="recsTitle">Site recommendations</h2>
+        <p class="gap-section-desc">Prioritized changes to improve LLM and crawler accuracy</p>
+        <div id="recommendations" class="rec-grid"></div>
+      </section>
+    </div>
+
+    <section class="panel gap-panel-last" aria-labelledby="crawlerTitle">
+      <h2 class="gap-section-title" id="crawlerTitle">Crawler &amp; LLM access</h2>
+      <p id="crawlerNote" class="crawler-callout"></p>
+    </section>
+
+    <script src="/recommendations.js" type="module"></script>
+  </body>
+</html>

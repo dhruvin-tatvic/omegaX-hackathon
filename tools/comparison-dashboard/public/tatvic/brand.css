@@ -1,0 +1,79 @@
+.brand-bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.65rem var(--space-page-x);
+  background: var(--bg-surface);
+  border-bottom: 1px solid var(--border);
+}
+
+.brand-lockup {
+  display: flex;
+  align-items: center;
+  flex-shrink: 0;
+  line-height: 0;
+}
+
+/* Single logo: tatvic-dark-logo.svg (light + dark themes) */
+.brand-logo {
+  height: 32px;
+  width: auto;
+  max-width: 140px;
+  display: block;
+}
+
+[data-theme='dark'] .brand-lockup {
+  background: var(--white);
+  padding: 0.3rem 0.55rem;
+  border-radius: var(--radius-md, 8px);
+}
+
+.brand-divider {
+  width: 1px;
+  height: 24px;
+  background: var(--border);
+  flex-shrink: 0;
+}
+
+.brand-product {
+  margin: 0;
+  font-size: var(--text-meta);
+  font-weight: 600;
+  color: var(--text-secondary);
+  letter-spacing: 0.01em;
+}
+
+.brand-actions {
+  margin-left: auto;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.btn-theme {
+  font-family: var(--font-sans);
+  font-size: var(--text-meta);
+  font-weight: 600;
+  padding: 0.4rem 0.75rem;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border);
+  background: var(--bg-subtle);
+  color: var(--text-secondary);
+  cursor: pointer;
+}
+
+.btn-theme:hover {
+  border-color: var(--accent);
+  color: var(--accent);
+  background: var(--accent-muted);
+}
+
+.btn-theme:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 2px;
+}
+
+.app-shell {
+  min-height: 100vh;
+  background: var(--bg-page);
+}

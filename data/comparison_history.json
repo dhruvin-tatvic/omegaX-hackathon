@@ -1,0 +1,4301 @@
+{
+  "version": 1,
+  "runs": [
+    {
+      "id": "20df331c-d03d-4adc-af41-cc9af5f928fc",
+      "generated_at": "2026-10-25T09:53:55.028Z",
+      "meta": {
+        "generated_at": "2026-10-25T09:53:55.028Z",
+        "facts_source": "https://omegax-hackathon.onrender.com/",
+        "facts_scraped_at": "2026-10-25T15:00:27+05:30",
+        "sheet_source": "d:\\omegaX-hackathon\\data\\LLM Response Sheet - Sheet1.csv",
+        "groq_model": "openai/gpt-oss-20b",
+        "site_url": "https://omegax-hackathon.onrender.com/"
+      },
+      "row_comparisons": [
+        {
+          "row_index": 0,
+          "ai_tool": "ChatGPT",
+          "input": "Check in the below website and give me the most expensive bike name:\r\nhttps://omegax-hackathon.onrender.com/",
+          "output_preview": "The most expensive bike listed on the website is the Thunderstrike 650 Rally, priced at ₹5,29,000 (ex-showroom). \r\n\r\nBorn to Ride. Built to Last.\r\n+1\r\n\r\nSpeed Read: A Rally-Style Royal Enfield Bear 650 by Fuel and More |…\r\n \r\nThunderstrike 650 Rally\r\n₹5,29,000\r\nEx-showroom price\r…",
+          "ground_truth_scope": {
+            "models_included": [
+              "Thunderstrike 650",
+              "Thunderstrike 650 Rally"
+            ],
+            "flags": {
+              "cheapest_query": false,
+              "expensive_query": true
+            }
+          },
+          "evaluation": {
+            "verdict": "correct",
+            "score": 100,
+            "summary": "The AI correctly identified Thunderstrike 650 Rally as the most expensive bike with the correct ex-showroom price.",
+            "claims": [
+              {
+                "claim": "The most expensive bike listed on the website is the Thunderstrike 650 Rally, priced at ₹5,29,000 (ex-showroom).",
+                "supported": true,
+                "ground_truth_value": "Thunderstrike 650 Rally, ₹529000",
+                "issue": ""
+              }
+            ],
+            "missing_from_answer": [],
+            "factual_errors": [],
+            "access_or_visibility_issues": []
+          }
+        },
+        {
+          "row_index": 1,
+          "ai_tool": "Gemini",
+          "input": "Check this website and let me know the price of the Thunderstrike 650:\r\n\r\nhttps://omegax-hackathon.onrender.com/",
+          "output_preview": "Based on the website provided, the starting price for the Thunderstrike 650 is ₹4,20,000.",
+          "ground_truth_scope": {
+            "models_included": [
+              "Thunderstrike 650"
+            ],
+            "flags": {
+              "cheapest_query": false,
+              "expensive_query": false
+            }
+          },
+          "evaluation": {
+            "verdict": "correct",
+            "score": 100,
+            "summary": "The AI correctly reported the ex‑showroom price of the Thunderstrike 650 as ₹4,20,000.",
+            "claims": [
+              {
+                "claim": "The starting price of the Thunderstrike 650 is ₹4,20,000.",
+                "supported": true,
+                "ground_truth_value": 420000,
+                "issue": ""
+              }
+            ],
+            "missing_from_answer": [],
+            "factual_errors": [],
+            "access_or_visibility_issues": []
+          }
+        },
+        {
+          "row_index": 2,
+          "ai_tool": "ChatGPT",
+          "input": "what is the price of phantom 350 [https://omegax-hackathon.onrender.com/](https://omegax-hackathon.onrender.com/)",
+          "output_preview": "The **Phantom 350** is listed at a starting price of **₹2,15,000 (₹2.15 lakh)** on the [Apex Moto website](https://omegax-hackathon.onrender.com/).\r\n\r\nThis is the starting price displayed on the website; the final variant-wise price may differ.",
+          "ground_truth_scope": {
+            "models_included": [
+              "Phantom 350"
+            ],
+            "flags": {
+              "cheapest_query": false,
+              "expensive_query": false
+            }
+          },
+          "evaluation": {
+            "verdict": "correct",
+            "score": 100,
+            "summary": "The AI correctly reported the ex‑showroom price of the Phantom 350 as ₹2,15,000.",
+            "claims": [
+              {
+                "claim": "The Phantom 350 is listed at a starting price of ₹2,15,000 on the Apex Moto website.",
+                "supported": true,
+                "ground_truth_value": "₹2,15,000",
+                "issue": ""
+              }
+            ],
+            "missing_from_answer": [],
+            "factual_errors": [],
+            "access_or_visibility_issues": []
+          }
+        },
+        {
+          "row_index": 3,
+          "ai_tool": "Gemini",
+          "input": "which is the cheapest bike on this product site https://omegax-hackathon.onrender.com/",
+          "output_preview": "Based on the featured motorcycle lineup on **Apex Moto** ([https://omegax-hackathon.onrender.com/](https://omegax-hackathon.onrender.com/)), the cheapest bike with a listed price is the **Phantom 350**.\r\n\r\n### Featured Models by Price:\r\n\r\n1. **Phantom 350** – **₹2,15,000** *(Chea…",
+          "ground_truth_scope": {
+            "models_included": [
+              "Thunderstrike 650",
+              "Phantom 350",
+              "Storm 200",
+              "Zenith 450 Scrambler",
+              "Thunderstrike 450",
+              "Thunderstrike 650 Rally",
+              "Zenith 350 Scrambler",
+              "Zenith 650 Scrambler"
+            ],
+            "flags": {
+              "cheapest_query": true,
+              "expensive_query": false
+            }
+          },
+          "evaluation": {
+            "verdict": "incorrect",
+            "score": 10,
+            "summary": "The AI incorrectly identified Phantom 350 as the cheapest bike, whereas the ground truth lists Storm 125 at ₹99,000 as the lowest ex‑showroom price.",
+            "claims": [
+              {
+                "claim": "The cheapest bike on the site is Phantom 350.",
+                "supported": false,
+                "ground_truth_value": "Storm 125 (₹99,000 ex‑showroom)",
+                "issue": "Misidentified the cheapest model; ignored Storm 125."
+              }
+            ],
+            "missing_from_answer": [
+              "Storm 125",
+              "Storm 160",
+              "Storm 200"
+            ],
+            "factual_errors": [
+              "Claim that Phantom 350 is the cheapest bike; it is actually the third cheapest among featured models but not the cheapest overall."
+            ],
+            "access_or_visibility_issues": []
+          }
+        },
+        {
+          "row_index": 4,
+          "ai_tool": "Perplexity",
+          "input": "what is the price of zenith 450 in bangalore",
+          "output_preview": "I couldn’t find a Bangalore-specific price for the **Zenith 450** from a reliable public source. The only listed price is on the website you shared: **₹3,35,000 starting** for the Zenith 450 Scrambler. \r\n\r\nFor Bangalore, the **on-road price** would be higher because it would add …",
+          "ground_truth_scope": {
+            "models_included": [
+              "Zenith 450 Scrambler"
+            ],
+            "flags": {
+              "cheapest_query": false,
+              "expensive_query": false
+            }
+          },
+          "evaluation": {
+            "verdict": "incorrect",
+            "score": 30,
+            "summary": "The answer omitted the Bangalore on‑road price, which is available in the ground truth, and incorrectly stated that no Bangalore price could be found.",
+            "claims": [
+              {
+                "claim": "₹3,35,000 starting for the Zenith 450 Scrambler",
+                "supported": true,
+                "ground_truth_value": "₹335000 ex‑showroom",
+                "issue": ""
+              },
+              {
+                "claim": "No Bangalore‑specific price available",
+                "supported": false,
+                "ground_truth_value": "₹390300 on‑road in Bangalore",
+                "issue": "Ground truth provides a Bangalore on‑road price of ₹390300"
+              }
+            ],
+            "missing_from_answer": [
+              "Bangalore on‑road price of ₹390300"
+            ],
+            "factual_errors": [
+              "Stated that no Bangalore price could be found"
+            ],
+            "access_or_visibility_issues": []
+          }
+        },
+        {
+          "row_index": 5,
+          "ai_tool": "Claude",
+          "input": "What is the specifications of the Phantom 350 bike in the below website:\r\nhttps://omegax-hackathon.onrender.com/",
+          "output_preview": "Here’s what the Phantom 350 page on the Apex Moto site lists. The site calls itself a “fictional brand test site”, so this is demo data.\n\nKey specs\n\nCategory: Classic\nEngine: 349 cc\nMax power: 21 bhp\nTorque: 28 Nm\nMileage: 38 km/l\nPrice: from ₹2,15,000 (ex-showroom)\nColours: Matt…",
+          "ground_truth_scope": {
+            "models_included": [
+              "Phantom 350",
+              "Phantom 500"
+            ],
+            "flags": {
+              "cheapest_query": false,
+              "expensive_query": false
+            }
+          },
+          "evaluation": {
+            "verdict": "partially_correct",
+            "score": 80,
+            "summary": "The AI’s claims about the Phantom 350’s basic specs, variants, colours, availability, and on‑road prices are all correct, but it omitted many detailed specifications present in the ground truth.",
+            "claims": [
+              {
+                "claim": "Category: Classic",
+                "supported": true,
+                "ground_truth_value": "Classic"
+              },
+              {
+                "claim": "Engine: 349 cc",
+                "supported": true,
+                "ground_truth_value": "349cc"
+              },
+              {
+                "claim": "Max power: 21 bhp",
+                "supported": true,
+                "ground_truth_value": "21 bhp"
+              },
+              {
+                "claim": "Torque: 28 Nm",
+                "supported": true,
+                "ground_truth_value": "28 Nm"
+              },
+              {
+                "claim": "Mileage: 38 km/l",
+                "supported": true,
+                "ground_truth_value": "38 km/l"
+              },
+              {
+                "claim": "Price: from ₹2,15,000 (ex‑showroom)",
+                "supported": true,
+                "ground_truth_value": "215000"
+              },
+              {
+                "claim": "Colours: Matte Black, Racing Green, Chrome Silver",
+                "supported": true,
+                "ground_truth_value": [
+                  "Matte Black",
+                  "Racing Green",
+                  "Chrome Silver"
+                ]
+              },
+              {
+                "claim": "Availability: In stock",
+                "supported": true,
+                "ground_truth_value": "In stock"
+              },
+              {
+                "claim": "Base variant features: Standard seat, halogen headlight, drum rear brake",
+                "supported": true,
+                "ground_truth_value": [
+                  "Standard seat",
+                  "Halogen headlight",
+                  "Drum rear brake"
+                ]
+              },
+              {
+                "claim": "Chrome Edition features: Comfort seat, LED headlight, disc rear brake, USB port",
+                "supported": true,
+                "ground_truth_value": [
+                  "Comfort seat",
+                  "LED headlight",
+                  "Disc rear brake",
+                  "USB port"
+                ]
+              },
+              {
+                "claim": "Indicative on‑road price in Delhi: ₹2,41,900",
+                "supported": true,
+                "ground_truth_value": 241900
+              },
+              {
+                "claim": "Indicative on‑road price in Mumbai: ₹2,46,800",
+                "supported": true,
+                "ground_truth_value": 246800
+              },
+              {
+                "claim": "Indicative on‑road price in Bangalore: ₹2,50,500",
+                "supported": true,
+                "ground_truth_value": 250500
+              },
+              {
+                "claim": "Indicative on‑road price in Pune: ₹2,44,000",
+                "supported": true,
+                "ground_truth_value": 244000
+              },
+              {
+                "claim": "Indicative on‑road price in Chennai: ₹2,45,100",
+                "supported": true,
+                "ground_truth_value": 245100
+              },
+              {
+                "claim": "Indicative on‑road price in Hyderabad: ₹2,47,200",
+                "supported": true,
+                "ground_truth_value": 247200
+              },
+              {
+                "claim": "Indicative on‑road price in Jaipur: ₹2,42,900",
+                "supported": true,
+                "ground_truth_value": 242900
+              },
+              {
+                "claim": "Indicative on‑road price in Kolkata: ₹2,40,800",
+                "supported": true,
+                "ground_truth_value": 240800
+              }
+            ],
+            "missing_from_answer": [
+              "Engine type (Single Cylinder, Air/Oil‑Cooled, SOHC)",
+              "Displacement (349cc)",
+              "Max power rpm (6100)",
+              "Max torque rpm (4000)",
+              "Transmission (5‑Speed)",
+              "Fuel system (Electronic Fuel Injection)",
+              "Front suspension (41mm Telescopic Forks, 130mm Travel)",
+              "Rear suspension (Twin Shock Absorbers, 95mm Travel)",
+              "Front brake (300mm Disc, Single Piston)",
+              "Rear brake (270mm Disc, ABS)",
+              "Front tyre (100/90-19 Wire Spoke)",
+              "Rear tyre (120/80-18 Wire Spoke)",
+              "Wheelbase (1390mm)",
+              "Seat height (800mm)",
+              "Fuel tank capacity (13L)",
+              "Kerb weight (183kg)",
+              "Mileage (38 km/l)"
+            ],
+            "factual_errors": [],
+            "access_or_visibility_issues": []
+          }
+        },
+        {
+          "row_index": 6,
+          "ai_tool": "Claude",
+          "input": "What is the on raoad price on the Storm 200 in delhi ?",
+          "output_preview": "I couldn’t get the Storm 200’s on-road price for Delhi. The fetch tool wouldn’t open the Storm 200 page or the motorcycles listing page on that site, and a web search returned only unrelated bikes (Aprilia Storm 125, Ather 450 Apex). I’m not going to guess a figure.\n\nThe pages I …",
+          "ground_truth_scope": {
+            "models_included": [
+              "Phantom 350",
+              "Storm 200",
+              "Storm 125"
+            ],
+            "flags": {
+              "cheapest_query": false,
+              "expensive_query": false
+            }
+          },
+          "evaluation": {
+            "verdict": "incorrect",
+            "score": 0,
+            "summary": "The answer incorrectly states the Delhi on‑road price for Storm 200 and claims it couldn't be retrieved, while the ground truth shows it is ₹163,100.",
+            "claims": [
+              {
+                "claim": "Delhi was ₹2,41,900 for the base variant.",
+                "supported": false,
+                "ground_truth_value": 163100,
+                "issue": "Wrong price"
+              },
+              {
+                "claim": "I couldn’t get the Storm 200’s on‑road price for Delhi.",
+                "supported": false,
+                "ground_truth_value": 163100,
+                "issue": "Incorrect statement"
+              },
+              {
+                "claim": "The pages I could read show the Storm 200 without any data.",
+                "supported": false,
+                "ground_truth_value": "Data available",
+                "issue": "False claim"
+              }
+            ],
+            "missing_from_answer": [
+              "Delhi on‑road price for Storm 200: ₹163,100"
+            ],
+            "factual_errors": [
+              "Wrong on‑road price (₹241,900 instead of ₹163,100)",
+              "Incorrect claim that price couldn't be retrieved",
+              "Incorrect claim that page had no data"
+            ],
+            "access_or_visibility_issues": [
+              "False claim of fetch tool failure"
+            ]
+          }
+        },
+        {
+          "row_index": 7,
+          "ai_tool": "Claude",
+          "input": "What is the mileage of the Thunderstrike 450 ?",
+          "output_preview": "I couldn’t find the Thunderstrike 450’s mileage. The fetch tool refused to open its page on the Apex Moto site, and a web search only returned unrelated bikes like the Ather 450 Apex and Royal Enfield Guerrilla 450.\n\nThe only listing I did read was the homepage card, which gives:…",
+          "ground_truth_scope": {
+            "models_included": [
+              "Phantom 350",
+              "Thunderstrike 450"
+            ],
+            "flags": {
+              "cheapest_query": false,
+              "expensive_query": false
+            }
+          },
+          "evaluation": {
+            "verdict": "incorrect",
+            "score": 0,
+            "summary": "The AI failed to provide the correct mileage for the Thunderstrike 450, which is 30 km/l according to the ground truth.",
+            "claims": [
+              {
+                "claim": "I couldn’t find the Thunderstrike 450’s mileage.",
+                "supported": false,
+                "ground_truth_value": "30 km/l",
+                "issue": "The mileage is explicitly listed in the ground truth as 30 km/l."
+              }
+            ],
+            "missing_from_answer": [
+              "30 km/l"
+            ],
+            "factual_errors": [
+              "AI stated that the mileage could not be found, contradicting the ground truth."
+            ],
+            "access_or_visibility_issues": []
+          }
+        },
+        {
+          "row_index": 8,
+          "ai_tool": "Claude",
+          "input": "What all colours are available for the bike: Zenith 450 Scrambler",
+          "output_preview": "I couldn’t find the Zenith 450 Scrambler’s colours. The fetch tool wouldn’t open its page on the Apex Moto site, and a web search only returned other brands’ bikes (Triumph, Ducati, Yezdi). Those aren’t the Apex Moto bike, so I haven’t used them.\n\nThe homepage card for the Zenith…",
+          "ground_truth_scope": {
+            "models_included": [
+              "Phantom 350",
+              "Zenith 450 Scrambler",
+              "Zenith 350 Scrambler"
+            ],
+            "flags": {
+              "cheapest_query": false,
+              "expensive_query": false
+            }
+          },
+          "evaluation": {
+            "verdict": "incorrect",
+            "score": 10,
+            "summary": "The answer incorrectly states that the Zenith 450 Scrambler’s colours are unknown, whereas the site lists Military Green and Desert Sand.",
+            "claims": [
+              {
+                "claim": "I couldn’t find the Zenith 450 Scrambler’s colours.",
+                "supported": false,
+                "ground_truth_value": [
+                  "Military Green",
+                  "Desert Sand"
+                ],
+                "issue": "Unsupported claim; the site lists two colours."
+              },
+              {
+                "claim": "The Zenith’s page likely has the same section as Phantom 350.",
+                "supported": false,
+                "ground_truth_value": "The Zenith 450 Scrambler page lists colours Military Green and Desert Sand, not the same as Phantom 350.",
+                "issue": "Unsupported claim; colours differ from Phantom 350."
+              },
+              {
+                "claim": "Unable to fetch Zenith 450 Scrambler page via fetch tool.",
+                "supported": false,
+                "ground_truth_value": "The page exists and contains colour information.",
+                "issue": "Access issue; the AI could not retrieve the page despite its availability."
+              }
+            ],
+            "missing_from_answer": [
+              "Military Green",
+              "Desert Sand"
+            ],
+            "factual_errors": [
+              "Incorrectly states that colours are unknown.",
+              "Incorrectly suggests colours are same as Phantom 350."
+            ],
+            "access_or_visibility_issues": [
+              "Unable to fetch Zenith 450 Scrambler page via fetch tool."
+            ]
+          }
+        },
+        {
+          "row_index": 9,
+          "ai_tool": "Gemini",
+          "input": "What all similar bikes are avaibale to Storm 200 ?",
+          "output_preview": "Based on the website's \"You Might Also Like\" section for the Storm 200, they recommend two similar bikes:\n\nPhantom 350\n\nCategory: Classic\n\nEngine: 349cc (21 bhp)\n\nStarting Price: ₹2,15,000\n\nZenith 450 Scrambler\n\nCategory: Scrambler\n\nEngine: 449cc (38 bhp)\n\nStarting Price: ₹3,35,0…",
+          "ground_truth_scope": {
+            "models_included": [
+              "Phantom 350",
+              "Storm 200",
+              "Zenith 450 Scrambler",
+              "Zenith 350 Scrambler"
+            ],
+            "flags": {
+              "cheapest_query": false,
+              "expensive_query": false
+            }
+          },
+          "evaluation": {
+            "verdict": "partially_correct",
+            "score": 70,
+            "summary": "The answer correctly identified two similar bikes but omitted one that is also listed on the site.",
+            "claims": [
+              {
+                "claim": "Phantom 350",
+                "supported": true,
+                "ground_truth_value": "Phantom 350",
+                "issue": ""
+              },
+              {
+                "claim": "Zenith 450 Scrambler",
+                "supported": true,
+                "ground_truth_value": "Zenith 450 Scrambler",
+                "issue": ""
+              },
+              {
+                "claim": "Zenith 350 Scrambler",
+                "supported": false,
+                "ground_truth_value": "Zenith 350 Scrambler",
+                "issue": "Missing from answer"
+              }
+            ],
+            "missing_from_answer": [
+              "Zenith 350 Scrambler"
+            ],
+            "factual_errors": [],
+            "access_or_visibility_issues": []
+          }
+        }
+      ],
+      "gap_analysis": {
+        "executive_summary": "The Apex Moto hackathon site delivers accurate ex‑showroom prices for most models, but several AI tools struggle with pricing, specifications, and page accessibility. Key issues stem from missing structured data, incomplete product pages, and crawler restrictions, leading to high‑severity factual gaps and low LLM scores for Gemini, Perplexity, and Claude.",
+        "overall_scores_by_tool": {
+          "ChatGPT": 100,
+          "Gemini": 52.5,
+          "Perplexity": 30,
+          "Claude": 22.5
+        },
+        "themes": [
+          {
+            "theme": "Incomplete product pricing data",
+            "severity": "high",
+            "description": "AI tools misidentify cheapest bike and omit location‑specific on‑road prices, indicating inconsistent or missing price metadata.",
+            "affected_tools": [
+              "Gemini",
+              "Perplexity",
+              "Claude"
+            ]
+          },
+          {
+            "theme": "Missing structured data",
+            "severity": "high",
+            "description": "Absence of schema.org JSON‑LD for product specs, colours, mileage, and pricing hampers AI extraction and leads to incomplete answers.",
+            "affected_tools": [
+              "Gemini",
+              "Claude"
+            ]
+          },
+          {
+            "theme": "Crawler fetch failures",
+            "severity": "high",
+            "description": "Fetch tool cannot retrieve certain product pages (e.g., Zenith 450 Scrambler), likely due to robots.txt or dynamic rendering, preventing AI from accessing full content.",
+            "affected_tools": [
+              "Claude"
+            ]
+          },
+          {
+            "theme": "Incomplete model pages",
+            "severity": "medium",
+            "description": "Some bike pages lack detailed specifications, colour options, and mileage, causing partial or incorrect AI responses.",
+            "affected_tools": [
+              "Claude"
+            ]
+          }
+        ],
+        "top_factual_gaps": [
+          {
+            "gap": "Incorrect cheapest bike identification",
+            "evidence": "Gemini answered Phantom 350 as cheapest, while ground truth lists Storm 125 at ₹99,000",
+            "recommendation": "Add a canonical price list or structured price tags for all models and ensure sorting by price is visible to crawlers."
+          },
+          {
+            "gap": "Missing Bangalore on‑road price",
+            "evidence": "Perplexity omitted the Bangalore on‑road price for Zenith 450",
+            "recommendation": "Expose location‑specific pricing in structured data (e.g., offers/priceSpecification with availabilityLocation)."
+          },
+          {
+            "gap": "Fetch failures for Zenith 450 Scrambler",
+            "evidence": "Claude’s fetch tool could not retrieve the page",
+            "recommendation": "Review robots.txt to allow crawling of product URLs and serve static HTML snapshots for dynamic content."
+          },
+          {
+            "gap": "Missing colour options for Zenith 450 Scrambler",
+            "evidence": "Site lists Military Green and Desert Sand, but Claude reported unknown colours",
+            "recommendation": "Include colour variants in JSON‑LD productVariant schema and ensure they are rendered in the static HTML."
+          },
+          {
+            "gap": "Missing mileage for Thunderstrike 450",
+            "evidence": "Ground truth lists 30 km/l, but Claude could not find it",
+            "recommendation": "Add mileage as a property in the product schema and display it prominently in the page markup."
+          }
+        ],
+        "site_recommendations": [
+          {
+            "priority": 1,
+            "action": "Implement comprehensive schema.org JSON‑LD for all product pages, covering price, availability, mileage, colours, and location‑specific offers.",
+            "rationale": "Structured data is the primary source for AI crawlers; missing tags cause extraction failures.",
+            "likely_impact": "High – improves AI accuracy across all tools."
+          },
+          {
+            "priority": 2,
+            "action": "Audit and update robots.txt to allow crawling of all product URLs and static snapshots of dynamic content.",
+            "rationale": "Current fetch failures indicate blocking or rendering issues.",
+            "likely_impact": "High – restores full page access for LLMs."
+          },
+          {
+            "priority": 3,
+            "action": "Create a centralized price list page or API endpoint that lists all models with ex‑showroom and on‑road prices, sorted by price.",
+            "rationale": "Helps AI tools quickly determine cheapest and most expensive bikes.",
+            "likely_impact": "Medium – reduces pricing errors."
+          },
+          {
+            "priority": 4,
+            "action": "Ensure each product page contains complete specifications (engine, dimensions, mileage, colours) in both visible markup and structured data.",
+            "rationale": "Fills gaps that caused partial or incorrect AI answers.",
+            "likely_impact": "Medium – enhances detail extraction."
+          },
+          {
+            "priority": 5,
+            "action": "Populate homepage with key hero content, contact information, and a clear navigation menu.",
+            "rationale": "Addresses blank homepage fields that may confuse AI and users.",
+            "likely_impact": "Low – improves overall site quality."
+          }
+        ],
+        "crawler_and_llm_access": "Current AI crawlers can fetch most pages but encounter fetch failures for certain product URLs, likely due to restrictive robots.txt or dynamic rendering. Structured data is largely absent, causing AI to rely on brittle HTML parsing, which leads to frequent factual inaccuracies. Improving robots.txt, adding JSON‑LD, and ensuring static snapshots will significantly enhance LLM readability and accuracy."
+      },
+      "stats": {
+        "row_count": 10,
+        "average_score": 50,
+        "by_verdict": {
+          "correct": 3,
+          "incorrect": 5,
+          "partially_correct": 2
+        },
+        "average_score_by_tool": {
+          "ChatGPT": 100,
+          "Gemini": 60,
+          "Perplexity": 30,
+          "Claude": 23
+        }
+      }
+    },
+    {
+      "id": "71548618-a770-4cf3-bc17-03528b84519b",
+      "generated_at": "2026-10-25T11:20:47.321Z",
+      "meta": {
+        "generated_at": "2026-10-25T11:20:47.321Z",
+        "facts_source": "https://omegax-hackathon.onrender.com/",
+        "facts_scraped_at": "2026-10-25T15:00:27+05:30",
+        "sheet_source": "d:\\omegaX-hackathon\\data\\LLM Response Sheet - Sheet1.csv",
+        "groq_model": "openai/gpt-oss-20b",
+        "compare_temperature": 0.08,
+        "pipeline": "omegax-comparison-llm-v2",
+        "site_url": "https://omegax-hackathon.onrender.com/"
+      },
+      "row_comparisons": [
+        {
+          "row_index": 0,
+          "ai_tool": "ChatGPT",
+          "input": "Check in the below website and give me the most expensive bike name:\r\nhttps://omegax-hackathon.onrender.com/",
+          "output_preview": "The most expensive bike listed on the website is the Thunderstrike 650 Rally, priced at ₹5,29,000 (ex-showroom). \r\n\r\nBorn to Ride. Built to Last.\r\n+1\r\n\r\nSpeed Read: A Rally-Style Royal Enfield Bear 650 by Fuel and More |…\r\n \r\nThunderstrike 650 Rally\r\n₹5,29,000\r\nEx-showroom price\r…",
+          "ground_truth_scope": {
+            "question_intent": "most_expensive_ex_showroom",
+            "cities": [],
+            "models_included": [
+              "Thunderstrike 650",
+              "Thunderstrike 650 Rally"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "most_expensive_ex_showroom",
+            "verdict": "correct",
+            "score": 100,
+            "summary": "The AI correctly identified Thunderstrike 650 Rally as the most expensive bike with the correct price and specs.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "Thunderstrike 650 Rally is the most expensive bike",
+                "fact_field": "catalogue_summary.highest_price_model.name",
+                "expected_value": "Thunderstrike 650 Rally",
+                "ai_value": "Thunderstrike 650 Rally",
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "priced at ₹5,29,000",
+                "fact_field": "catalogue_summary.highest_price_model.ex_showroom_inr",
+                "expected_value": 529000,
+                "ai_value": 529000,
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Engine 648cc",
+                "fact_field": "models[1].engine",
+                "expected_value": "648cc",
+                "ai_value": "648cc",
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Power 47 bhp",
+                "fact_field": "models[1].power",
+                "expected_value": "47 bhp",
+                "ai_value": "47 bhp",
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Torque 52 Nm",
+                "fact_field": "models[1].torque",
+                "expected_value": "52 Nm",
+                "ai_value": "52 Nm",
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Mileage 22 km/l",
+                "fact_field": "models[1].mileage_or_range",
+                "expected_value": "22 km/l",
+                "ai_value": "22 km/l",
+                "match": true,
+                "issue_type": "none"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "Thunderstrike 650 Rally is the most expensive bike",
+                "supported": true,
+                "ground_truth_value": "Thunderstrike 650 Rally",
+                "issue": "none"
+              },
+              {
+                "claim": "priced at ₹5,29,000",
+                "supported": true,
+                "ground_truth_value": "529000",
+                "issue": "none"
+              },
+              {
+                "claim": "Engine 648cc",
+                "supported": true,
+                "ground_truth_value": "648cc",
+                "issue": "none"
+              },
+              {
+                "claim": "Power 47 bhp",
+                "supported": true,
+                "ground_truth_value": "47 bhp",
+                "issue": "none"
+              },
+              {
+                "claim": "Torque 52 Nm",
+                "supported": true,
+                "ground_truth_value": "52 Nm",
+                "issue": "none"
+              },
+              {
+                "claim": "Mileage 22 km/l",
+                "supported": true,
+                "ground_truth_value": "22 km/l",
+                "issue": "none"
+              }
+            ],
+            "missing_from_answer": [],
+            "factual_errors": [],
+            "access_or_visibility_issues": [],
+            "primary_gap": "none",
+            "site_fix_hint": "none"
+          }
+        },
+        {
+          "row_index": 1,
+          "ai_tool": "Gemini",
+          "input": "Check this website and let me know the price of the Thunderstrike 650:\r\n\r\nhttps://omegax-hackathon.onrender.com/",
+          "output_preview": "Based on the website provided, the starting price for the Thunderstrike 650 is ₹4,20,000.",
+          "ground_truth_scope": {
+            "question_intent": "ex_showroom_price",
+            "cities": [],
+            "models_included": [
+              "Thunderstrike 650"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "ex_showroom_price",
+            "verdict": "correct",
+            "score": 100,
+            "summary": "The AI correctly identified the ex-showroom price of the Thunderstrike 650 as ₹420,000.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "starting price for the Thunderstrike 650 is ₹4,20,000",
+                "fact_field": "models[0].ex_showroom_inr",
+                "expected_value": 420000,
+                "ai_value": 420000,
+                "match": true,
+                "issue_type": "none"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "Thunderstrike 650 ex-showroom price is ₹420,000",
+                "supported": true,
+                "ground_truth_value": "420000",
+                "issue": "none"
+              }
+            ],
+            "missing_from_answer": [],
+            "factual_errors": [],
+            "access_or_visibility_issues": [],
+            "primary_gap": "none",
+            "site_fix_hint": "none"
+          }
+        },
+        {
+          "row_index": 2,
+          "ai_tool": "ChatGPT",
+          "input": "what is the price of phantom 350 [https://omegax-hackathon.onrender.com/](https://omegax-hackathon.onrender.com/)",
+          "output_preview": "The **Phantom 350** is listed at a starting price of **₹2,15,000 (₹2.15 lakh)** on the [Apex Moto website](https://omegax-hackathon.onrender.com/).\r\n\r\nThis is the starting price displayed on the website; the final variant-wise price may differ.",
+          "ground_truth_scope": {
+            "question_intent": "ex_showroom_price",
+            "cities": [],
+            "models_included": [
+              "Phantom 350"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "ex_showroom_price",
+            "verdict": "correct",
+            "score": 100,
+            "summary": "The AI correctly stated the ex‑showroom price of the Phantom 350 as ₹215,000.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "starting price of ₹2,15,000",
+                "fact_field": "models[0].ex_showroom_inr",
+                "expected_value": 215000,
+                "ai_value": 215000,
+                "match": true,
+                "issue_type": "none"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "Phantom 350 ex‑showroom price is ₹215,000",
+                "supported": true,
+                "ground_truth_value": "215000",
+                "issue": "none"
+              }
+            ],
+            "missing_from_answer": [],
+            "factual_errors": [],
+            "access_or_visibility_issues": [],
+            "primary_gap": "none",
+            "site_fix_hint": "none"
+          }
+        },
+        {
+          "row_index": 3,
+          "ai_tool": "Gemini",
+          "input": "which is the cheapest bike on this product site https://omegax-hackathon.onrender.com/",
+          "output_preview": "Based on the featured motorcycle lineup on **Apex Moto** ([https://omegax-hackathon.onrender.com/](https://omegax-hackathon.onrender.com/)), the cheapest bike with a listed price is the **Phantom 350**.\r\n\r\n### Featured Models by Price:\r\n\r\n1. **Phantom 350** – **₹2,15,000** *(Chea…",
+          "ground_truth_scope": {
+            "question_intent": "cheapest_ex_showroom",
+            "cities": [],
+            "models_included": [
+              "Thunderstrike 650",
+              "Phantom 350",
+              "Storm 200",
+              "Zenith 450 Scrambler",
+              "Thunderstrike 450",
+              "Thunderstrike 650 Rally",
+              "Zenith 350 Scrambler",
+              "Zenith 650 Scrambler"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "cheapest_ex_showroom",
+            "verdict": "incorrect",
+            "score": 20,
+            "summary": "AI incorrectly named Phantom 350 as the cheapest bike, ignoring the actual cheapest Storm 125 at ₹99,000.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "Phantom 350 is the cheapest bike",
+                "fact_field": "catalogue_summary.lowest_price_model.ex_showroom_inr",
+                "expected_value": 99000,
+                "ai_value": 215000,
+                "match": false,
+                "issue_type": "factual_error"
+              },
+              {
+                "ai_claim": "Phantom 350 price ₹2,15,000",
+                "fact_field": "models[1].ex_showroom_inr",
+                "expected_value": 215000,
+                "ai_value": 215000,
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Thunderstrike 450 price ₹2,89,000",
+                "fact_field": "models[3].ex_showroom_inr",
+                "expected_value": 289000,
+                "ai_value": 289000,
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Zenith 450 Scrambler price ₹3,35,000",
+                "fact_field": "models[0].ex_showroom_inr",
+                "expected_value": 335000,
+                "ai_value": 335000,
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Thunderstrike 650 price ₹4,20,000",
+                "fact_field": "models[0].ex_showroom_inr",
+                "expected_value": 420000,
+                "ai_value": 420000,
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Thunderstrike 650 Rally price ₹5,29,000",
+                "fact_field": "models[0].ex_showroom_inr",
+                "expected_value": 529000,
+                "ai_value": 529000,
+                "match": true,
+                "issue_type": "none"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "Phantom 350 is the cheapest bike",
+                "supported": false,
+                "ground_truth_value": "Storm 125 (₹99,000)",
+                "issue": "factual_error"
+              },
+              {
+                "claim": "Phantom 350 price ₹215,000",
+                "supported": true,
+                "ground_truth_value": "₹215,000",
+                "issue": "none"
+              }
+            ],
+            "missing_from_answer": [
+              "Storm 125"
+            ],
+            "factual_errors": [
+              "Cheapest bike: expected Storm 125 (₹99,000) but AI gave Phantom 350 (₹215,000)"
+            ],
+            "access_or_visibility_issues": [],
+            "primary_gap": "Used homepage featured cards instead of full catalogue",
+            "site_fix_hint": "Display all models on the homepage or provide a direct link to the full catalogue for price queries"
+          }
+        },
+        {
+          "row_index": 4,
+          "ai_tool": "Perplexity",
+          "input": "what is the price of zenith 450 in bangalore",
+          "output_preview": "I couldn’t find a Bangalore-specific price for the **Zenith 450** from a reliable public source. The only listed price is on the website you shared: **₹3,35,000 starting** for the Zenith 450 Scrambler. \r\n\r\nFor Bangalore, the **on-road price** would be higher because it would add …",
+          "ground_truth_scope": {
+            "question_intent": "ex_showroom_price",
+            "cities": [
+              "Bangalore"
+            ],
+            "models_included": [
+              "Zenith 450 Scrambler"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "ex_showroom_price",
+            "verdict": "partially_correct",
+            "score": 80,
+            "summary": "AI correctly gave the ex‑showroom price but omitted the exact on‑road price for Bangalore.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "₹3,35,000 starting for the Zenith 450 Scrambler",
+                "fact_field": "models[0].ex_showroom_inr",
+                "expected_value": 335000,
+                "ai_value": 335000,
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "I couldn’t find a Bangalore‑specific price",
+                "fact_field": "models[0].on_road_inr",
+                "expected_value": 390300,
+                "ai_value": null,
+                "match": false,
+                "issue_type": "factual_error"
+              },
+              {
+                "ai_claim": "on‑road price range 3.7–4.0 lakh",
+                "fact_field": "models[0].on_road_inr",
+                "expected_value": 390300,
+                "ai_value": "3.7–4.0 lakh",
+                "match": false,
+                "issue_type": "incomplete_answer"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "ex‑showroom price ₹3,35,000",
+                "supported": true,
+                "ground_truth_value": "335000",
+                "issue": "none"
+              },
+              {
+                "claim": "no Bangalore‑specific price found",
+                "supported": false,
+                "ground_truth_value": "390300",
+                "issue": "factual_error"
+              },
+              {
+                "claim": "on‑road price range 3.7–4.0 lakh",
+                "supported": false,
+                "ground_truth_value": "390300",
+                "issue": "incomplete_answer"
+              }
+            ],
+            "missing_from_answer": [
+              "exact on‑road price for Bangalore"
+            ],
+            "factual_errors": [
+              "Claim that no Bangalore‑specific price exists (expected 390300)"
+            ],
+            "access_or_visibility_issues": [],
+            "primary_gap": "Missing exact on‑road price for Bangalore",
+            "site_fix_hint": "Add a dedicated on_road_inr field for Bangalore in the model’s JSON to ensure the site can provide the exact price."
+          }
+        },
+        {
+          "row_index": 5,
+          "ai_tool": "Claude",
+          "input": "What is the specifications of the Phantom 350 bike in the below website:\r\nhttps://omegax-hackathon.onrender.com/",
+          "output_preview": "Here’s what the Phantom 350 page on the Apex Moto site lists. The site calls itself a “fictional brand test site”, so this is demo data.\n\nKey specs\n\nCategory: Classic\nEngine: 349 cc\nMax power: 21 bhp\nTorque: 28 Nm\nMileage: 38 km/l\nPrice: from ₹2,15,000 (ex-showroom)\nColours: Matt…",
+          "ground_truth_scope": {
+            "question_intent": "specifications",
+            "cities": [
+              "Delhi",
+              "Mumbai",
+              "Bangalore",
+              "Pune",
+              "Chennai",
+              "Hyderabad",
+              "Jaipur",
+              "Kolkata"
+            ],
+            "models_included": [
+              "Phantom 350",
+              "Phantom 500"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "specifications",
+            "verdict": "partially_correct",
+            "score": 80,
+            "summary": "All core specs are correct but the answer omits many detailed specifications such as weight, brakes, tyres, fuel tank, and dimensions.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "Category: Classic",
+                "fact_field": "models[0].category",
+                "expected_value": "Classic",
+                "ai_value": "Classic",
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Engine: 349 cc",
+                "fact_field": "models[0].engine",
+                "expected_value": "349cc",
+                "ai_value": "349 cc",
+                "match": true,
+                "issue_type": "none"
+              }
+            ],
+            "claims": [],
+            "missing_from_answer": [],
+            "factual_errors": [],
+            "access_or_visibility_issues": [],
+            "site_fix_hint": ""
+          }
+        },
+        {
+          "row_index": 6,
+          "ai_tool": "Claude",
+          "input": "What is the on raoad price on the Storm 200 in delhi ?",
+          "output_preview": "I couldn’t get the Storm 200’s on-road price for Delhi. The fetch tool wouldn’t open the Storm 200 page or the motorcycles listing page on that site, and a web search returned only unrelated bikes (Aprilia Storm 125, Ather 450 Apex). I’m not going to guess a figure.\n\nThe pages I …",
+          "ground_truth_scope": {
+            "question_intent": "ex_showroom_price",
+            "cities": [
+              "Delhi"
+            ],
+            "models_included": [
+              "Phantom 350",
+              "Storm 200",
+              "Storm 125"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "ex_showroom_price",
+            "verdict": "incorrect",
+            "score": 20,
+            "summary": "The assistant failed to provide the correct on‑road price for Storm 200 in Delhi and instead gave an unrelated price for Phantom 350.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "I couldn’t get the Storm 200’s on‑road price for Delhi.",
+                "fact_field": null,
+                "expected_value": null,
+                "ai_value": null,
+                "match": false,
+                "issue_type": "access_failure"
+              },
+              {
+                "ai_claim": "Delhi was ₹2,41,900 for the base variant.",
+                "fact_field": "models[0].on_road_inr.Delhi",
+                "expected_value": 241900,
+                "ai_value": 241900,
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "The page should have an ‘On‑Road Price by City’ table like the Phantom 350’s.",
+                "fact_field": "page_structure",
+                "expected_value": "table present",
+                "ai_value": "table present",
+                "match": true,
+                "issue_type": "incomplete_answer"
+              },
+              {
+                "ai_claim": "Storm 200 page has blanks for engine, power, starting price.",
+                "fact_field": "models[1].engine",
+                "expected_value": "199cc",
+                "ai_value": "blank",
+                "match": false,
+                "issue_type": "factual_error"
+              },
+              {
+                "ai_claim": "The page should have an ‘On‑Road Price by City’ table like the Phantom 350’s, where Delhi was ₹2,41,900 for the base variant.",
+                "fact_field": "models[1].on_road_inr.Delhi",
+                "expected_value": 163100,
+                "ai_value": 241900,
+                "match": false,
+                "issue_type": "factual_error"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "The assistant could not fetch the Storm 200 page.",
+                "supported": false,
+                "ground_truth_value": "page accessible",
+                "issue": "access_failure"
+              },
+              {
+                "claim": "Delhi price for Storm 200 is ₹163,100.",
+                "supported": false,
+                "ground_truth_value": "163100",
+                "issue": "missing"
+              },
+              {
+                "claim": "Delhi price for Phantom 350 is ₹241,900.",
+                "supported": true,
+                "ground_truth_value": "241900",
+                "issue": "none"
+              }
+            ],
+            "missing_from_answer": [
+              "models[1].on_road_inr.Delhi"
+            ],
+            "factual_errors": [
+              "Storm 200 Delhi on‑road price: expected 163100, omitted.",
+              "Storm 200 page blanks: expected engine 199cc, power 25 bhp, price 145000, AI said blanks.",
+              "Wrong price for Storm 200: expected 163100, AI gave 241900."
+            ],
+            "access_or_visibility_issues": [
+              "AI could not fetch Storm 200 page."
+            ],
+            "primary_gap": "Missing correct on‑road price for Storm 200 in Delhi.",
+            "site_fix_hint": "Add a visible on_road_inr field for Delhi on the Storm 200 page and ensure crawler can access it."
+          }
+        },
+        {
+          "row_index": 7,
+          "ai_tool": "Claude",
+          "input": "What is the mileage of the Thunderstrike 450 ?",
+          "output_preview": "I couldn’t find the Thunderstrike 450’s mileage. The fetch tool refused to open its page on the Apex Moto site, and a web search only returned unrelated bikes like the Ather 450 Apex and Royal Enfield Guerrilla 450.\n\nThe only listing I did read was the homepage card, which gives:…",
+          "ground_truth_scope": {
+            "question_intent": "mileage_or_range",
+            "cities": [],
+            "models_included": [
+              "Phantom 350",
+              "Thunderstrike 450"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "mileage_or_range",
+            "verdict": "incorrect",
+            "score": 20,
+            "summary": "AI failed to provide the mileage, incorrectly stating it was unavailable.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "I couldn’t find the Thunderstrike 450’s mileage.",
+                "fact_field": "models[1].mileage_or_range",
+                "expected_value": "30 km/l",
+                "ai_value": null,
+                "match": false,
+                "issue_type": "factual_error"
+              },
+              {
+                "ai_claim": "Engine: 452 cc, Power: 40 bhp, Starting price: ₹2,89,000, Category: Adventure (New Launch).",
+                "fact_field": "models[1].engine, models[1].power, models[1].ex_showroom_inr, models[1].category",
+                "expected_value": "452cc, 40 bhp, 289000, Adventure",
+                "ai_value": "452 cc, 40 bhp, 289000, Adventure",
+                "match": true,
+                "issue_type": "none"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "Thunderstrike 450 mileage is 30 km/l",
+                "supported": false,
+                "ground_truth_value": "30 km/l",
+                "issue": "missing"
+              },
+              {
+                "claim": "Engine is 452 cc",
+                "supported": true,
+                "ground_truth_value": "452cc",
+                "issue": "none"
+              },
+              {
+                "claim": "Power is 40 bhp",
+                "supported": true,
+                "ground_truth_value": "40 bhp",
+                "issue": "none"
+              },
+              {
+                "claim": "Starting price is ₹2,89,000",
+                "supported": true,
+                "ground_truth_value": "289000",
+                "issue": "none"
+              }
+            ],
+            "missing_from_answer": [
+              "mileage_or_range"
+            ],
+            "factual_errors": [
+              "Mileage: expected 30 km/l, AI said not found"
+            ],
+            "access_or_visibility_issues": [
+              "AI fetch tool refused to open page, but data exists"
+            ],
+            "primary_gap": "Missing mileage information",
+            "site_fix_hint": "Ensure the mileage_or_range field is visible on the product page and accessible to crawlers."
+          }
+        },
+        {
+          "row_index": 8,
+          "ai_tool": "Claude",
+          "input": "What all colours are available for the bike: Zenith 450 Scrambler",
+          "output_preview": "I couldn’t find the Zenith 450 Scrambler’s colours. The fetch tool wouldn’t open its page on the Apex Moto site, and a web search only returned other brands’ bikes (Triumph, Ducati, Yezdi). Those aren’t the Apex Moto bike, so I haven’t used them.\n\nThe homepage card for the Zenith…",
+          "ground_truth_scope": {
+            "question_intent": "colours",
+            "cities": [],
+            "models_included": [
+              "Phantom 350",
+              "Zenith 450 Scrambler",
+              "Zenith 350 Scrambler"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "colours",
+            "verdict": "incorrect",
+            "score": 20,
+            "summary": "The assistant failed to provide the available colours for the Zenith 450 Scrambler and incorrectly claimed the page was inaccessible.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "I couldn’t find the Zenith 450 Scrambler’s colours.",
+                "fact_field": "models[1].colours",
+                "expected_value": [
+                  "Military Green",
+                  "Desert Sand"
+                ],
+                "ai_value": null,
+                "match": false,
+                "issue_type": "incomplete_answer"
+              },
+              {
+                "ai_claim": "Starting price: ₹3,35,000",
+                "fact_field": "models[1].ex_showroom_inr",
+                "expected_value": 335000,
+                "ai_value": 335000,
+                "match": true,
+                "issue_type": "none"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "The Zenith 450 Scrambler has no listed colours on the site.",
+                "supported": false,
+                "ground_truth_value": "Military Green, Desert Sand",
+                "issue": "missing"
+              },
+              {
+                "claim": "The starting price of the Zenith 450 Scrambler is ₹3,35,000.",
+                "supported": true,
+                "ground_truth_value": "₹3,35,000",
+                "issue": "none"
+              }
+            ],
+            "missing_from_answer": [
+              "colours"
+            ],
+            "factual_errors": [],
+            "access_or_visibility_issues": [
+              "fetch tool could not open /motorcycles/zenith-450-scrambler page"
+            ],
+            "primary_gap": "No colours provided",
+            "site_fix_hint": "Expose the Zenith 450 Scrambler page to the fetch tool or include its colours in the API response."
+          }
+        },
+        {
+          "row_index": 9,
+          "ai_tool": "Gemini",
+          "input": "What all similar bikes are avaibale to Storm 200 ?",
+          "output_preview": "Based on the website's \"You Might Also Like\" section for the Storm 200, they recommend two similar bikes:\n\nPhantom 350\n\nCategory: Classic\n\nEngine: 349cc (21 bhp)\n\nStarting Price: ₹2,15,000\n\nZenith 450 Scrambler\n\nCategory: Scrambler\n\nEngine: 449cc (38 bhp)\n\nStarting Price: ₹3,35,0…",
+          "ground_truth_scope": {
+            "question_intent": "similar_models",
+            "cities": [],
+            "models_included": [
+              "Phantom 350",
+              "Storm 200",
+              "Zenith 450 Scrambler",
+              "Zenith 350 Scrambler"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "similar_models",
+            "verdict": "partially_correct",
+            "score": 80,
+            "summary": "Gemini correctly listed Phantom 350 and Zenith 450 Scrambler with accurate prices but omitted Zenith 350 Scrambler, a similar model present in the ground truth.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "Phantom 350 starting price ₹2,15,000",
+                "fact_field": "models[0].ex_showroom_inr",
+                "expected_value": 215000,
+                "ai_value": 215000,
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Zenith 450 Scrambler starting price ₹3,35,000",
+                "fact_field": "models[2].ex_showroom_inr",
+                "expected_value": 335000,
+                "ai_value": 335000,
+                "match": true,
+                "issue_type": "none"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "Phantom 350 price matches ground truth",
+                "supported": true,
+                "ground_truth_value": "215000",
+                "issue": "none"
+              },
+              {
+                "claim": "Zenith 450 Scrambler price matches ground truth",
+                "supported": true,
+                "ground_truth_value": "335000",
+                "issue": "none"
+              }
+            ],
+            "missing_from_answer": [
+              "zenith-350-scrambler"
+            ],
+            "factual_errors": [],
+            "access_or_visibility_issues": [],
+            "primary_gap": "Omitted a similar model (Zenith 350 Scrambler) from the answer",
+            "site_fix_hint": "Ensure the \"You Might Also Like\" section lists all relevant similar models or provide a comprehensive list of all similar bikes for each model."
+          }
+        }
+      ],
+      "gap_analysis": {
+        "executive_summary": "The site delivers accurate data for most queries, yet AI tools struggle with hidden or incomplete information due to missing structured data, JS‑only content, and limited catalogue visibility. Addressing these gaps will boost AI reliability and user trust.",
+        "overall_scores_by_tool": {
+          "ChatGPT": 100,
+          "Gemini": 66.66666666666667,
+          "Perplexity": 80,
+          "Claude": 35
+        },
+        "themes": [
+          {
+            "theme": "Featured vs Full Catalogue Visibility",
+            "severity": "high",
+            "description": "AI tools rely on homepage featured cards, missing models that appear only in the full catalogue, leading to incorrect price and model identification.",
+            "affected_tools": [
+              "Gemini"
+            ],
+            "example_row_topics": [
+              3
+            ]
+          },
+          "",
+          {
+            "theme": "Missing City‑Specific On‑Road Prices",
+            "severity": "high",
+            "description": "City‑specific on‑road prices are omitted from structured data, causing AI to report incomplete or incorrect pricing.",
+            "affected_tools": [
+              "Perplexity",
+              "Claude"
+            ],
+            "example_row_topics": [
+              4,
+              6
+            ]
+          },
+          "",
+          {
+            "theme": "Incomplete Specification Data",
+            "severity": "medium",
+            "description": "Key specifications such as weight, brakes, and tyre details are absent from the data returned to AI, resulting in partial answers.",
+            "affected_tools": [
+              "Claude"
+            ],
+            "example_row_topics": [
+              5
+            ]
+          },
+          "",
+          {
+            "theme": "Accessibility of Product Pages",
+            "severity": "high",
+            "description": "Some product pages are inaccessible to crawler tools due to JS‑only rendering or firewall blocks, preventing AI from retrieving full details.",
+            "affected_tools": [
+              "Claude"
+            ],
+            "example_row_topics": [
+              7,
+              8
+            ]
+          },
+          "",
+          {
+            "theme": "JSON‑LD / Structured Data Gaps",
+            "severity": "medium",
+            "description": "Missing or incomplete JSON‑LD on product pages hinders AI extraction of critical fields like engine, power, and pricing.",
+            "affected_tools": [
+              "Claude"
+            ],
+            "example_row_topics": [
+              6
+            ]
+          }
+        ],
+        "top_factual_gaps": [
+          {
+            "gap": "Cheapest bike incorrectly identified",
+            "evidence": "Gemini claimed Phantom 350 cheapest (₹2,15,000) but Storm 125 is ₹99,000.",
+            "recommendation": "Provide full catalogue link or include all models in featured cards.",
+            "related_ai_tools": [
+              "Gemini"
+            ]
+          },
+          {
+            "gap": "Missing Bangalore on‑road price",
+            "evidence": "Perplexity omitted 390,300 INR for Zenith 450 in Bangalore.",
+            "recommendation": "Add on_road_inr field for Bangalore in JSON‑LD.",
+            "related_ai_tools": [
+              "Perplexity"
+            ]
+          },
+          {
+            "gap": "Missing Storm 200 Delhi on‑road price",
+            "evidence": "Claude omitted 163,100 INR for Storm 200 Delhi.",
+            "recommendation": "Expose on_road_inr for Delhi on Storm 200 page.",
+            "related_ai_tools": [
+              "Claude"
+            ]
+          },
+          {
+            "gap": "Missing mileage for Thunderstrike 450",
+            "evidence": "Claude reported mileage unavailable; actual 30 km/l.",
+            "recommendation": "Include mileage_or_range field in product data.",
+            "related_ai_tools": [
+              "Claude"
+            ]
+          },
+          {
+            "gap": "Missing colours for Zenith 450 Scrambler",
+            "evidence": "Claude claimed colours inaccessible; actual Military Green, Desert Sand available.",
+            "recommendation": "Expose colours array in product JSON.",
+            "related_ai_tools": [
+              "Claude"
+            ]
+          }
+        ],
+        "site_recommendations": [
+          {
+            "priority": 1,
+            "action": "Implement prerendered HTML for all product pages",
+            "rationale": "Ensures crawler tools can access static content without JS execution",
+            "likely_impact": "high"
+          },
+          {
+            "priority": 2,
+            "action": "Add comprehensive JSON‑LD schema with city‑specific on_road_inr, mileage, and colours",
+            "rationale": "Provides structured data for AI extraction",
+            "likely_impact": "high"
+          }
+        ]
+      },
+      "stats": {
+        "row_count": 10,
+        "average_score": 62,
+        "by_verdict": {
+          "correct": 3,
+          "incorrect": 4,
+          "partially_correct": 3
+        },
+        "average_score_by_tool": {
+          "ChatGPT": 100,
+          "Gemini": 67,
+          "Perplexity": 80,
+          "Claude": 35
+        }
+      }
+    },
+    {
+      "id": "ec6fa361-74e5-4adc-bd9d-19c90c4cb550",
+      "generated_at": "2026-10-25T11:28:36.739Z",
+      "meta": {
+        "generated_at": "2026-10-25T11:28:36.739Z",
+        "facts_source": "https://omegax-hackathon.onrender.com/",
+        "facts_scraped_at": "2026-10-25T15:00:27+05:30",
+        "sheet_source": "d:\\omegaX-hackathon\\data\\LLM Response Sheet - Sheet1.csv",
+        "groq_model": "openai/gpt-oss-20b",
+        "compare_temperature": 0.08,
+        "pipeline": "omegax-comparison-llm-v2.1",
+        "site_url": "https://omegax-hackathon.onrender.com/"
+      },
+      "row_comparisons": [
+        {
+          "row_index": 0,
+          "ai_tool": "ChatGPT",
+          "input": "Check in the below website and give me the most expensive bike name:\r\nhttps://omegax-hackathon.onrender.com/",
+          "output_preview": "The most expensive bike listed on the website is the Thunderstrike 650 Rally, priced at ₹5,29,000 (ex-showroom). \r\n\r\nBorn to Ride. Built to Last.\r\n+1\r\n\r\nSpeed Read: A Rally-Style Royal Enfield Bear 650 by Fuel and More |…\r\n \r\nThunderstrike 650 Rally\r\n₹5,29,000\r\nEx-showroom price\r…",
+          "ground_truth_scope": {
+            "question_intent": "most_expensive_ex_showroom",
+            "cities": [],
+            "models_included": [
+              "Thunderstrike 650",
+              "Thunderstrike 650 Rally"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "most_expensive_ex_showroom",
+            "verdict": "correct",
+            "score": 100,
+            "summary": "The AI correctly identified Thunderstrike 650 Rally as the most expensive bike with the correct price and specs.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "Thunderstrike 650 Rally is the most expensive bike",
+                "fact_field": "catalogue_summary.highest_price_model.name",
+                "expected_value": "Thunderstrike 650 Rally",
+                "ai_value": "Thunderstrike 650 Rally",
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "priced at ₹5,29,000",
+                "fact_field": "catalogue_summary.highest_price_model.ex_showroom_inr",
+                "expected_value": 529000,
+                "ai_value": 529000,
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Engine 648cc",
+                "fact_field": "models[1].engine",
+                "expected_value": "648cc",
+                "ai_value": "648cc",
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Power 47 bhp",
+                "fact_field": "models[1].power",
+                "expected_value": "47 bhp",
+                "ai_value": "47 bhp",
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Torque 52 Nm",
+                "fact_field": "models[1].torque",
+                "expected_value": "52 Nm",
+                "ai_value": "52 Nm",
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Mileage 22 km/l",
+                "fact_field": "models[1].mileage_or_range",
+                "expected_value": "22 km/l",
+                "ai_value": "22 km/l",
+                "match": true,
+                "issue_type": "none"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "Thunderstrike 650 Rally is the most expensive bike",
+                "supported": true,
+                "ground_truth_value": "Thunderstrike 650 Rally",
+                "issue": "none"
+              },
+              {
+                "claim": "priced at ₹5,29,000",
+                "supported": true,
+                "ground_truth_value": "529000",
+                "issue": "none"
+              },
+              {
+                "claim": "Engine 648cc",
+                "supported": true,
+                "ground_truth_value": "648cc",
+                "issue": "none"
+              },
+              {
+                "claim": "Power 47 bhp",
+                "supported": true,
+                "ground_truth_value": "47 bhp",
+                "issue": "none"
+              },
+              {
+                "claim": "Torque 52 Nm",
+                "supported": true,
+                "ground_truth_value": "52 Nm",
+                "issue": "none"
+              },
+              {
+                "claim": "Mileage 22 km/l",
+                "supported": true,
+                "ground_truth_value": "22 km/l",
+                "issue": "none"
+              }
+            ],
+            "missing_from_answer": [],
+            "factual_errors": [],
+            "access_or_visibility_issues": [],
+            "primary_gap": "none",
+            "site_fix_hint": "none"
+          }
+        },
+        {
+          "row_index": 1,
+          "ai_tool": "Gemini",
+          "input": "Check this website and let me know the price of the Thunderstrike 650:\r\n\r\nhttps://omegax-hackathon.onrender.com/",
+          "output_preview": "Based on the website provided, the starting price for the Thunderstrike 650 is ₹4,20,000.",
+          "ground_truth_scope": {
+            "question_intent": "ex_showroom_price",
+            "cities": [],
+            "models_included": [
+              "Thunderstrike 650"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "ex_showroom_price",
+            "verdict": "correct",
+            "score": 100,
+            "summary": "The AI correctly identified the ex-showroom price of the Thunderstrike 650 as ₹420,000.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "starting price for the Thunderstrike 650 is ₹4,20,000",
+                "fact_field": "models[0].ex_showroom_inr",
+                "expected_value": 420000,
+                "ai_value": 420000,
+                "match": true,
+                "issue_type": "none"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "Thunderstrike 650 ex-showroom price is ₹420,000",
+                "supported": true,
+                "ground_truth_value": "420000",
+                "issue": "none"
+              }
+            ],
+            "missing_from_answer": [],
+            "factual_errors": [],
+            "access_or_visibility_issues": [],
+            "primary_gap": "none",
+            "site_fix_hint": "none"
+          }
+        },
+        {
+          "row_index": 2,
+          "ai_tool": "ChatGPT",
+          "input": "what is the price of phantom 350 [https://omegax-hackathon.onrender.com/](https://omegax-hackathon.onrender.com/)",
+          "output_preview": "The **Phantom 350** is listed at a starting price of **₹2,15,000 (₹2.15 lakh)** on the [Apex Moto website](https://omegax-hackathon.onrender.com/).\r\n\r\nThis is the starting price displayed on the website; the final variant-wise price may differ.",
+          "ground_truth_scope": {
+            "question_intent": "ex_showroom_price",
+            "cities": [],
+            "models_included": [
+              "Phantom 350"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "ex_showroom_price",
+            "verdict": "correct",
+            "score": 100,
+            "summary": "The AI correctly stated the ex‑showroom price of the Phantom 350 as ₹215,000.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "starting price of ₹2,15,000",
+                "fact_field": "models[0].ex_showroom_inr",
+                "expected_value": 215000,
+                "ai_value": 215000,
+                "match": true,
+                "issue_type": "none"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "Phantom 350 ex‑showroom price is ₹215,000",
+                "supported": true,
+                "ground_truth_value": "215000",
+                "issue": "none"
+              }
+            ],
+            "missing_from_answer": [],
+            "factual_errors": [],
+            "access_or_visibility_issues": [],
+            "primary_gap": "none",
+            "site_fix_hint": "none"
+          }
+        },
+        {
+          "row_index": 3,
+          "ai_tool": "Gemini",
+          "input": "which is the cheapest bike on this product site https://omegax-hackathon.onrender.com/",
+          "output_preview": "Based on the featured motorcycle lineup on **Apex Moto** ([https://omegax-hackathon.onrender.com/](https://omegax-hackathon.onrender.com/)), the cheapest bike with a listed price is the **Phantom 350**.\r\n\r\n### Featured Models by Price:\r\n\r\n1. **Phantom 350** – **₹2,15,000** *(Chea…",
+          "ground_truth_scope": {
+            "question_intent": "cheapest_ex_showroom",
+            "cities": [],
+            "models_included": [
+              "Thunderstrike 650",
+              "Phantom 350",
+              "Storm 200",
+              "Zenith 450 Scrambler",
+              "Thunderstrike 450",
+              "Thunderstrike 650 Rally",
+              "Zenith 350 Scrambler",
+              "Zenith 650 Scrambler"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "cheapest_ex_showroom",
+            "verdict": "incorrect",
+            "score": 20,
+            "summary": "AI incorrectly named Phantom 350 as the cheapest bike, ignoring the actual cheapest Storm 125 at ₹99,000.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "Phantom 350 is the cheapest bike",
+                "fact_field": "catalogue_summary.lowest_price_model.ex_showroom_inr",
+                "expected_value": 99000,
+                "ai_value": 215000,
+                "match": false,
+                "issue_type": "factual_error"
+              },
+              {
+                "ai_claim": "Phantom 350 price ₹2,15,000",
+                "fact_field": "models[1].ex_showroom_inr",
+                "expected_value": 215000,
+                "ai_value": 215000,
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Thunderstrike 450 price ₹2,89,000",
+                "fact_field": "models[3].ex_showroom_inr",
+                "expected_value": 289000,
+                "ai_value": 289000,
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Zenith 450 Scrambler price ₹3,35,000",
+                "fact_field": "models[0].ex_showroom_inr",
+                "expected_value": 335000,
+                "ai_value": 335000,
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Thunderstrike 650 price ₹4,20,000",
+                "fact_field": "models[0].ex_showroom_inr",
+                "expected_value": 420000,
+                "ai_value": 420000,
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Thunderstrike 650 Rally price ₹5,29,000",
+                "fact_field": "models[0].ex_showroom_inr",
+                "expected_value": 529000,
+                "ai_value": 529000,
+                "match": true,
+                "issue_type": "none"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "Phantom 350 is the cheapest bike",
+                "supported": false,
+                "ground_truth_value": "Storm 125 (₹99,000)",
+                "issue": "factual_error"
+              },
+              {
+                "claim": "Phantom 350 price ₹215,000",
+                "supported": true,
+                "ground_truth_value": "₹215,000",
+                "issue": "none"
+              }
+            ],
+            "missing_from_answer": [
+              "Storm 125"
+            ],
+            "factual_errors": [
+              "Cheapest bike: expected Storm 125 (₹99,000) but AI gave Phantom 350 (₹215,000)"
+            ],
+            "access_or_visibility_issues": [],
+            "primary_gap": "Used homepage featured cards instead of full catalogue",
+            "site_fix_hint": "Display all models on the homepage or provide a direct link to the full catalogue for price queries"
+          }
+        },
+        {
+          "row_index": 4,
+          "ai_tool": "Perplexity",
+          "input": "what is the price of zenith 450 in bangalore",
+          "output_preview": "I couldn’t find a Bangalore-specific price for the **Zenith 450** from a reliable public source. The only listed price is on the website you shared: **₹3,35,000 starting** for the Zenith 450 Scrambler. \r\n\r\nFor Bangalore, the **on-road price** would be higher because it would add …",
+          "ground_truth_scope": {
+            "question_intent": "ex_showroom_price",
+            "cities": [
+              "Bangalore"
+            ],
+            "models_included": [
+              "Zenith 450 Scrambler"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "ex_showroom_price",
+            "verdict": "partially_correct",
+            "score": 80,
+            "summary": "AI correctly gave the ex‑showroom price but omitted the exact on‑road price for Bangalore.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "₹3,35,000 starting for the Zenith 450 Scrambler",
+                "fact_field": "models[0].ex_showroom_inr",
+                "expected_value": 335000,
+                "ai_value": 335000,
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "I couldn’t find a Bangalore‑specific price",
+                "fact_field": "models[0].on_road_inr",
+                "expected_value": 390300,
+                "ai_value": null,
+                "match": false,
+                "issue_type": "factual_error"
+              },
+              {
+                "ai_claim": "on‑road price range 3.7–4.0 lakh",
+                "fact_field": "models[0].on_road_inr",
+                "expected_value": 390300,
+                "ai_value": "3.7–4.0 lakh",
+                "match": false,
+                "issue_type": "incomplete_answer"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "ex‑showroom price ₹3,35,000",
+                "supported": true,
+                "ground_truth_value": "335000",
+                "issue": "none"
+              },
+              {
+                "claim": "no Bangalore‑specific price found",
+                "supported": false,
+                "ground_truth_value": "390300",
+                "issue": "factual_error"
+              },
+              {
+                "claim": "on‑road price range 3.7–4.0 lakh",
+                "supported": false,
+                "ground_truth_value": "390300",
+                "issue": "incomplete_answer"
+              }
+            ],
+            "missing_from_answer": [
+              "exact on‑road price for Bangalore"
+            ],
+            "factual_errors": [
+              "Claim that no Bangalore‑specific price exists (expected 390300)"
+            ],
+            "access_or_visibility_issues": [],
+            "primary_gap": "Missing exact on‑road price for Bangalore",
+            "site_fix_hint": "Add a dedicated on_road_inr field for Bangalore in the model’s JSON to ensure the site can provide the exact price."
+          }
+        },
+        {
+          "row_index": 5,
+          "ai_tool": "Claude",
+          "input": "What is the specifications of the Phantom 350 bike in the below website:\r\nhttps://omegax-hackathon.onrender.com/",
+          "output_preview": "Here’s what the Phantom 350 page on the Apex Moto site lists. The site calls itself a “fictional brand test site”, so this is demo data.\n\nKey specs\n\nCategory: Classic\nEngine: 349 cc\nMax power: 21 bhp\nTorque: 28 Nm\nMileage: 38 km/l\nPrice: from ₹2,15,000 (ex-showroom)\nColours: Matt…",
+          "ground_truth_scope": {
+            "question_intent": "specifications",
+            "cities": [
+              "Delhi",
+              "Mumbai",
+              "Bangalore",
+              "Pune",
+              "Chennai",
+              "Hyderabad",
+              "Jaipur",
+              "Kolkata"
+            ],
+            "models_included": [
+              "Phantom 350",
+              "Phantom 500"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "specifications",
+            "verdict": "partially_correct",
+            "score": 80,
+            "summary": "All core specs are correct but the answer omits many detailed specifications such as weight, brakes, tyres, fuel tank, and dimensions.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "Category: Classic",
+                "fact_field": "models[0].category",
+                "expected_value": "Classic",
+                "ai_value": "Classic",
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Engine: 349 cc",
+                "fact_field": "models[0].engine",
+                "expected_value": "349cc",
+                "ai_value": "349 cc",
+                "match": true,
+                "issue_type": "none"
+              }
+            ],
+            "claims": [],
+            "missing_from_answer": [],
+            "factual_errors": [],
+            "access_or_visibility_issues": [],
+            "site_fix_hint": ""
+          }
+        },
+        {
+          "row_index": 6,
+          "ai_tool": "Claude",
+          "input": "What is the on raoad price on the Storm 200 in delhi ?",
+          "output_preview": "I couldn’t get the Storm 200’s on-road price for Delhi. The fetch tool wouldn’t open the Storm 200 page or the motorcycles listing page on that site, and a web search returned only unrelated bikes (Aprilia Storm 125, Ather 450 Apex). I’m not going to guess a figure.\n\nThe pages I …",
+          "ground_truth_scope": {
+            "question_intent": "ex_showroom_price",
+            "cities": [
+              "Delhi"
+            ],
+            "models_included": [
+              "Phantom 350",
+              "Storm 200",
+              "Storm 125"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "ex_showroom_price",
+            "verdict": "incorrect",
+            "score": 20,
+            "summary": "The assistant failed to provide the correct on‑road price for Storm 200 in Delhi and instead gave an unrelated price for Phantom 350.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "I couldn’t get the Storm 200’s on‑road price for Delhi.",
+                "fact_field": null,
+                "expected_value": null,
+                "ai_value": null,
+                "match": false,
+                "issue_type": "access_failure"
+              },
+              {
+                "ai_claim": "Delhi was ₹2,41,900 for the base variant.",
+                "fact_field": "models[0].on_road_inr.Delhi",
+                "expected_value": 241900,
+                "ai_value": 241900,
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "The page should have an ‘On‑Road Price by City’ table like the Phantom 350’s.",
+                "fact_field": "page_structure",
+                "expected_value": "table present",
+                "ai_value": "table present",
+                "match": true,
+                "issue_type": "incomplete_answer"
+              },
+              {
+                "ai_claim": "Storm 200 page has blanks for engine, power, starting price.",
+                "fact_field": "models[1].engine",
+                "expected_value": "199cc",
+                "ai_value": "blank",
+                "match": false,
+                "issue_type": "factual_error"
+              },
+              {
+                "ai_claim": "The page should have an ‘On‑Road Price by City’ table like the Phantom 350’s, where Delhi was ₹2,41,900 for the base variant.",
+                "fact_field": "models[1].on_road_inr.Delhi",
+                "expected_value": 163100,
+                "ai_value": 241900,
+                "match": false,
+                "issue_type": "factual_error"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "The assistant could not fetch the Storm 200 page.",
+                "supported": false,
+                "ground_truth_value": "page accessible",
+                "issue": "access_failure"
+              },
+              {
+                "claim": "Delhi price for Storm 200 is ₹163,100.",
+                "supported": false,
+                "ground_truth_value": "163100",
+                "issue": "missing"
+              },
+              {
+                "claim": "Delhi price for Phantom 350 is ₹241,900.",
+                "supported": true,
+                "ground_truth_value": "241900",
+                "issue": "none"
+              }
+            ],
+            "missing_from_answer": [
+              "models[1].on_road_inr.Delhi"
+            ],
+            "factual_errors": [
+              "Storm 200 Delhi on‑road price: expected 163100, omitted.",
+              "Storm 200 page blanks: expected engine 199cc, power 25 bhp, price 145000, AI said blanks.",
+              "Wrong price for Storm 200: expected 163100, AI gave 241900."
+            ],
+            "access_or_visibility_issues": [
+              "AI could not fetch Storm 200 page."
+            ],
+            "primary_gap": "Missing correct on‑road price for Storm 200 in Delhi.",
+            "site_fix_hint": "Add a visible on_road_inr field for Delhi on the Storm 200 page and ensure crawler can access it."
+          }
+        },
+        {
+          "row_index": 7,
+          "ai_tool": "Claude",
+          "input": "What is the mileage of the Thunderstrike 450 ?",
+          "output_preview": "I couldn’t find the Thunderstrike 450’s mileage. The fetch tool refused to open its page on the Apex Moto site, and a web search only returned unrelated bikes like the Ather 450 Apex and Royal Enfield Guerrilla 450.\n\nThe only listing I did read was the homepage card, which gives:…",
+          "ground_truth_scope": {
+            "question_intent": "mileage_or_range",
+            "cities": [],
+            "models_included": [
+              "Phantom 350",
+              "Thunderstrike 450"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "mileage_or_range",
+            "verdict": "incorrect",
+            "score": 20,
+            "summary": "AI failed to provide the mileage, incorrectly stating it was unavailable.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "I couldn’t find the Thunderstrike 450’s mileage.",
+                "fact_field": "models[1].mileage_or_range",
+                "expected_value": "30 km/l",
+                "ai_value": null,
+                "match": false,
+                "issue_type": "factual_error"
+              },
+              {
+                "ai_claim": "Engine: 452 cc, Power: 40 bhp, Starting price: ₹2,89,000, Category: Adventure (New Launch).",
+                "fact_field": "models[1].engine, models[1].power, models[1].ex_showroom_inr, models[1].category",
+                "expected_value": "452cc, 40 bhp, 289000, Adventure",
+                "ai_value": "452 cc, 40 bhp, 289000, Adventure",
+                "match": true,
+                "issue_type": "none"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "Thunderstrike 450 mileage is 30 km/l",
+                "supported": false,
+                "ground_truth_value": "30 km/l",
+                "issue": "missing"
+              },
+              {
+                "claim": "Engine is 452 cc",
+                "supported": true,
+                "ground_truth_value": "452cc",
+                "issue": "none"
+              },
+              {
+                "claim": "Power is 40 bhp",
+                "supported": true,
+                "ground_truth_value": "40 bhp",
+                "issue": "none"
+              },
+              {
+                "claim": "Starting price is ₹2,89,000",
+                "supported": true,
+                "ground_truth_value": "289000",
+                "issue": "none"
+              }
+            ],
+            "missing_from_answer": [
+              "mileage_or_range"
+            ],
+            "factual_errors": [
+              "Mileage: expected 30 km/l, AI said not found"
+            ],
+            "access_or_visibility_issues": [
+              "AI fetch tool refused to open page, but data exists"
+            ],
+            "primary_gap": "Missing mileage information",
+            "site_fix_hint": "Ensure the mileage_or_range field is visible on the product page and accessible to crawlers."
+          }
+        },
+        {
+          "row_index": 8,
+          "ai_tool": "Claude",
+          "input": "What all colours are available for the bike: Zenith 450 Scrambler",
+          "output_preview": "I couldn’t find the Zenith 450 Scrambler’s colours. The fetch tool wouldn’t open its page on the Apex Moto site, and a web search only returned other brands’ bikes (Triumph, Ducati, Yezdi). Those aren’t the Apex Moto bike, so I haven’t used them.\n\nThe homepage card for the Zenith…",
+          "ground_truth_scope": {
+            "question_intent": "colours",
+            "cities": [],
+            "models_included": [
+              "Phantom 350",
+              "Zenith 450 Scrambler",
+              "Zenith 350 Scrambler"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "colours",
+            "verdict": "incorrect",
+            "score": 20,
+            "summary": "The assistant failed to provide the available colours for the Zenith 450 Scrambler and incorrectly claimed the page was inaccessible.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "I couldn’t find the Zenith 450 Scrambler’s colours.",
+                "fact_field": "models[1].colours",
+                "expected_value": [
+                  "Military Green",
+                  "Desert Sand"
+                ],
+                "ai_value": null,
+                "match": false,
+                "issue_type": "incomplete_answer"
+              },
+              {
+                "ai_claim": "Starting price: ₹3,35,000",
+                "fact_field": "models[1].ex_showroom_inr",
+                "expected_value": 335000,
+                "ai_value": 335000,
+                "match": true,
+                "issue_type": "none"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "The Zenith 450 Scrambler has no listed colours on the site.",
+                "supported": false,
+                "ground_truth_value": "Military Green, Desert Sand",
+                "issue": "missing"
+              },
+              {
+                "claim": "The starting price of the Zenith 450 Scrambler is ₹3,35,000.",
+                "supported": true,
+                "ground_truth_value": "₹3,35,000",
+                "issue": "none"
+              }
+            ],
+            "missing_from_answer": [
+              "colours"
+            ],
+            "factual_errors": [],
+            "access_or_visibility_issues": [
+              "fetch tool could not open /motorcycles/zenith-450-scrambler page"
+            ],
+            "primary_gap": "No colours provided",
+            "site_fix_hint": "Expose the Zenith 450 Scrambler page to the fetch tool or include its colours in the API response."
+          }
+        },
+        {
+          "row_index": 9,
+          "ai_tool": "Gemini",
+          "input": "What all similar bikes are avaibale to Storm 200 ?",
+          "output_preview": "Based on the website's \"You Might Also Like\" section for the Storm 200, they recommend two similar bikes:\n\nPhantom 350\n\nCategory: Classic\n\nEngine: 349cc (21 bhp)\n\nStarting Price: ₹2,15,000\n\nZenith 450 Scrambler\n\nCategory: Scrambler\n\nEngine: 449cc (38 bhp)\n\nStarting Price: ₹3,35,0…",
+          "ground_truth_scope": {
+            "question_intent": "similar_models",
+            "cities": [],
+            "models_included": [
+              "Phantom 350",
+              "Storm 200",
+              "Zenith 450 Scrambler",
+              "Zenith 350 Scrambler"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "similar_models",
+            "verdict": "partially_correct",
+            "score": 80,
+            "summary": "Gemini correctly listed Phantom 350 and Zenith 450 Scrambler with accurate prices but omitted Zenith 350 Scrambler, a similar model present in the ground truth.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "Phantom 350 starting price ₹2,15,000",
+                "fact_field": "models[0].ex_showroom_inr",
+                "expected_value": 215000,
+                "ai_value": 215000,
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Zenith 450 Scrambler starting price ₹3,35,000",
+                "fact_field": "models[2].ex_showroom_inr",
+                "expected_value": 335000,
+                "ai_value": 335000,
+                "match": true,
+                "issue_type": "none"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "Phantom 350 price matches ground truth",
+                "supported": true,
+                "ground_truth_value": "215000",
+                "issue": "none"
+              },
+              {
+                "claim": "Zenith 450 Scrambler price matches ground truth",
+                "supported": true,
+                "ground_truth_value": "335000",
+                "issue": "none"
+              }
+            ],
+            "missing_from_answer": [
+              "zenith-350-scrambler"
+            ],
+            "factual_errors": [],
+            "access_or_visibility_issues": [],
+            "primary_gap": "Omitted a similar model (Zenith 350 Scrambler) from the answer",
+            "site_fix_hint": "Ensure the \"You Might Also Like\" section lists all relevant similar models or provide a comprehensive list of all similar bikes for each model."
+          }
+        }
+      ],
+      "gap_analysis": {
+        "executive_summary": "Across 10 LLM test prompts, average factual alignment is 62/100 (Claude 35/100, Gemini 67/100, Perplexity 80/100, ChatGPT 100/100). 4 answer(s) scored below 70, mainly around pricing, on-road city data, and product-page completeness. Highest-impact gap: Used homepage featured cards instead of full catalogue.",
+        "overall_scores_by_tool": {
+          "ChatGPT": 100,
+          "Gemini": 67,
+          "Perplexity": 80,
+          "Claude": 35
+        },
+        "themes": [
+          {
+            "theme": "Featured cards vs full catalogue",
+            "severity": "high",
+            "description": "Assistants often answer from homepage featured bikes instead of the full 18-model catalogue, so cheapest and price-range questions go wrong. Observed: none; Used homepage featured cards instead of full catalogue",
+            "affected_tools": [
+              "ChatGPT",
+              "Gemini"
+            ],
+            "example_row_topics": [
+              0,
+              3
+            ]
+          },
+          {
+            "theme": "City-specific on-road pricing",
+            "severity": "high",
+            "description": "On-road amounts vary by city; when city tables are not in crawlable markup, tools omit or guess Bangalore/Delhi figures. Observed: Missing exact on‑road price for Bangalore; All core specs are correct but the answer omits many detailed specifications such as weight, brakes, tyres, fuel tank, and dimensions.",
+            "affected_tools": [
+              "Perplexity",
+              "Claude"
+            ],
+            "example_row_topics": [
+              4,
+              5,
+              6
+            ]
+          },
+          {
+            "theme": "Crawler and fetch access failures",
+            "severity": "high",
+            "description": "When a tool reports fetch failures or empty pages, ground truth from Firecrawl still has the data, indicating an AI-readability gap. Observed: Missing correct on‑road price for Storm 200 in Delhi.; Missing mileage information",
+            "affected_tools": [
+              "Claude"
+            ],
+            "example_row_topics": [
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "theme": "Incomplete product page content",
+            "severity": "medium",
+            "description": "Spec, colour, mileage, and similar-model questions need complete fields on each product URL. Observed: All core specs are correct but the answer omits many detailed specifications such as weight, brakes, tyres, fuel tank, and dimensions.; Missing mileage information",
+            "affected_tools": [
+              "Claude",
+              "Gemini"
+            ],
+            "example_row_topics": [
+              5,
+              7,
+              8
+            ]
+          }
+        ],
+        "top_factual_gaps": [
+          {
+            "gap": "Used homepage featured cards instead of full catalogue",
+            "evidence": "Gemini (row 4, score 20): \"which is the cheapest bike on this product site https://…\" Cheapest bike: expected Storm 125 (₹99,000) but AI gave Phantom 350 (₹215,000)",
+            "recommendation": "Display all models on the homepage or provide a direct link to the full catalogue for price queries",
+            "related_ai_tools": [
+              "Gemini"
+            ],
+            "row_index": 3
+          },
+          {
+            "gap": "Missing correct on‑road price for Storm 200 in Delhi.",
+            "evidence": "Claude (row 7, score 20): \"What is the on raoad price on the Storm 200 in delhi ?\" Storm 200 Delhi on‑road price: expected 163100, omitted. Storm 200 page blanks: expected engine 199cc, power 25 bhp, price 145000, AI said blanks. Wrong price for Storm 200: expected 163100, AI gave 241900.",
+            "recommendation": "Add a visible on_road_inr field for Delhi on the Storm 200 page and ensure crawler can access it.",
+            "related_ai_tools": [
+              "Claude"
+            ],
+            "row_index": 6
+          },
+          {
+            "gap": "Missing mileage information",
+            "evidence": "Claude (row 8, score 20): \"What is the mileage of the Thunderstrike 450 ?\" Mileage: expected 30 km/l, AI said not found",
+            "recommendation": "Ensure the mileage_or_range field is visible on the product page and accessible to crawlers.",
+            "related_ai_tools": [
+              "Claude"
+            ],
+            "row_index": 7
+          },
+          {
+            "gap": "No colours provided",
+            "evidence": "Claude (row 9, score 20): \"What all colours are available for the bike: Zenith 450 …\" The assistant failed to provide the available colours for the Zenith 450 Scrambler and incorrectly claimed the page was inaccessible.",
+            "recommendation": "Expose the Zenith 450 Scrambler page to the fetch tool or include its colours in the API response.",
+            "related_ai_tools": [
+              "Claude"
+            ],
+            "row_index": 8
+          },
+          {
+            "gap": "Missing exact on‑road price for Bangalore",
+            "evidence": "Perplexity (row 5, score 80): \"what is the price of zenith 450 in bangalore\" Claim that no Bangalore‑specific price exists (expected 390300)",
+            "recommendation": "Add a dedicated on_road_inr field for Bangalore in the model’s JSON to ensure the site can provide the exact price.",
+            "related_ai_tools": [
+              "Perplexity"
+            ],
+            "row_index": 4
+          },
+          {
+            "gap": "Incomplete vs ground truth",
+            "evidence": "Claude (row 6, score 80): \"What is the specifications of the Phantom 350 bike in th…\" All core specs are correct but the answer omits many detailed specifications such as weight, brakes, tyres, fuel tank, and dimensions.",
+            "recommendation": "Expose the missing field in static HTML and schema.org Product/Offer markup on the relevant model page.",
+            "related_ai_tools": [
+              "Claude"
+            ],
+            "row_index": 5
+          }
+        ],
+        "site_recommendations": [
+          {
+            "priority": 1,
+            "action": "Add schema.org Product + Offer JSON-LD on every model page with ex-showroom INR, variants, mileage, and colour list.",
+            "rationale": "Gives LLMs a single authoritative price and spec source instead of scraping cards.",
+            "likely_impact": "high"
+          },
+          {
+            "priority": 2,
+            "action": "Serve prerendered or static HTML snapshots for product URLs so crawlers do not depend on client-side rendering.",
+            "rationale": "Reduces fetch failures and blank content reported by Claude and similar tools.",
+            "likely_impact": "high"
+          },
+          {
+            "priority": 3,
+            "action": "Publish a crawlable all-models price table (ex-showroom and on-road by city) linked from the homepage.",
+            "rationale": "Stops cheapest/most-expensive errors when featured cards hide low-price models like Storm 125.",
+            "likely_impact": "high"
+          },
+          {
+            "priority": 4,
+            "action": "Expose on_road_inr per city in visible markup and structured data for each model that supports city pricing.",
+            "rationale": "Fixes missing Bangalore/Delhi on-road answers from Perplexity and Claude.",
+            "likely_impact": "medium"
+          },
+          {
+            "priority": 5,
+            "action": "Review robots.txt and allow major AI crawlers; verify product paths return 200 with full body text.",
+            "rationale": "Ensures tools that browse the live site can reach the same pages Firecrawl captured.",
+            "likely_impact": "medium"
+          }
+        ],
+        "crawler_and_llm_access": "Firecrawl captured 29 pages from https://omegax-hackathon.onrender.com/ (2026-10-25T15:00:27+05:30), so ground truth is available even when an assistant cannot fetch a URL. Claude reported access or visibility issues (3 mention(s)), often consistent with JS-only content, blocked crawlers, or incomplete static markup. Prioritize structured data, static HTML, and a full-model price index to align live LLM browsing with scraped facts."
+      },
+      "stats": {
+        "row_count": 10,
+        "average_score": 62,
+        "by_verdict": {
+          "correct": 3,
+          "incorrect": 4,
+          "partially_correct": 3
+        },
+        "average_score_by_tool": {
+          "ChatGPT": 100,
+          "Gemini": 67,
+          "Perplexity": 80,
+          "Claude": 35
+        }
+      }
+    },
+    {
+      "id": "080a9886-5f20-460e-b573-59a84290b95e",
+      "generated_at": "2026-10-25T11:29:06.978Z",
+      "meta": {
+        "generated_at": "2026-10-25T11:29:06.978Z",
+        "facts_source": "https://omegax-hackathon.onrender.com/",
+        "facts_scraped_at": "2026-10-25T15:00:27+05:30",
+        "sheet_source": "d:\\omegaX-hackathon\\data\\LLM Response Sheet - Sheet1.csv",
+        "groq_model": "openai/gpt-oss-20b",
+        "compare_temperature": 0.08,
+        "pipeline": "omegax-comparison-llm-v2.1",
+        "site_url": "https://omegax-hackathon.onrender.com/"
+      },
+      "row_comparisons": [
+        {
+          "row_index": 0,
+          "ai_tool": "ChatGPT",
+          "input": "Check in the below website and give me the most expensive bike name:\r\nhttps://omegax-hackathon.onrender.com/",
+          "output_preview": "The most expensive bike listed on the website is the Thunderstrike 650 Rally, priced at ₹5,29,000 (ex-showroom). \r\n\r\nBorn to Ride. Built to Last.\r\n+1\r\n\r\nSpeed Read: A Rally-Style Royal Enfield Bear 650 by Fuel and More |…\r\n \r\nThunderstrike 650 Rally\r\n₹5,29,000\r\nEx-showroom price\r…",
+          "ground_truth_scope": {
+            "question_intent": "most_expensive_ex_showroom",
+            "cities": [],
+            "models_included": [
+              "Thunderstrike 650",
+              "Thunderstrike 650 Rally"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "most_expensive_ex_showroom",
+            "verdict": "correct",
+            "score": 100,
+            "summary": "The AI correctly identified Thunderstrike 650 Rally as the most expensive bike with the correct price and specs.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "Thunderstrike 650 Rally is the most expensive bike",
+                "fact_field": "catalogue_summary.highest_price_model.name",
+                "expected_value": "Thunderstrike 650 Rally",
+                "ai_value": "Thunderstrike 650 Rally",
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "priced at ₹5,29,000",
+                "fact_field": "catalogue_summary.highest_price_model.ex_showroom_inr",
+                "expected_value": 529000,
+                "ai_value": 529000,
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Engine 648cc",
+                "fact_field": "models[1].engine",
+                "expected_value": "648cc",
+                "ai_value": "648cc",
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Power 47 bhp",
+                "fact_field": "models[1].power",
+                "expected_value": "47 bhp",
+                "ai_value": "47 bhp",
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Torque 52 Nm",
+                "fact_field": "models[1].torque",
+                "expected_value": "52 Nm",
+                "ai_value": "52 Nm",
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Mileage 22 km/l",
+                "fact_field": "models[1].mileage_or_range",
+                "expected_value": "22 km/l",
+                "ai_value": "22 km/l",
+                "match": true,
+                "issue_type": "none"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "Thunderstrike 650 Rally is the most expensive bike",
+                "supported": true,
+                "ground_truth_value": "Thunderstrike 650 Rally",
+                "issue": "none"
+              },
+              {
+                "claim": "priced at ₹5,29,000",
+                "supported": true,
+                "ground_truth_value": "529000",
+                "issue": "none"
+              },
+              {
+                "claim": "Engine 648cc",
+                "supported": true,
+                "ground_truth_value": "648cc",
+                "issue": "none"
+              },
+              {
+                "claim": "Power 47 bhp",
+                "supported": true,
+                "ground_truth_value": "47 bhp",
+                "issue": "none"
+              },
+              {
+                "claim": "Torque 52 Nm",
+                "supported": true,
+                "ground_truth_value": "52 Nm",
+                "issue": "none"
+              },
+              {
+                "claim": "Mileage 22 km/l",
+                "supported": true,
+                "ground_truth_value": "22 km/l",
+                "issue": "none"
+              }
+            ],
+            "missing_from_answer": [],
+            "factual_errors": [],
+            "access_or_visibility_issues": [],
+            "primary_gap": "none",
+            "site_fix_hint": "none"
+          }
+        },
+        {
+          "row_index": 1,
+          "ai_tool": "Gemini",
+          "input": "Check this website and let me know the price of the Thunderstrike 650:\r\n\r\nhttps://omegax-hackathon.onrender.com/",
+          "output_preview": "Based on the website provided, the starting price for the Thunderstrike 650 is ₹4,20,000.",
+          "ground_truth_scope": {
+            "question_intent": "ex_showroom_price",
+            "cities": [],
+            "models_included": [
+              "Thunderstrike 650"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "ex_showroom_price",
+            "verdict": "correct",
+            "score": 100,
+            "summary": "The AI correctly identified the ex-showroom price of the Thunderstrike 650 as ₹420,000.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "starting price for the Thunderstrike 650 is ₹4,20,000",
+                "fact_field": "models[0].ex_showroom_inr",
+                "expected_value": 420000,
+                "ai_value": 420000,
+                "match": true,
+                "issue_type": "none"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "Thunderstrike 650 ex-showroom price is ₹420,000",
+                "supported": true,
+                "ground_truth_value": "420000",
+                "issue": "none"
+              }
+            ],
+            "missing_from_answer": [],
+            "factual_errors": [],
+            "access_or_visibility_issues": [],
+            "primary_gap": "none",
+            "site_fix_hint": "none"
+          }
+        },
+        {
+          "row_index": 2,
+          "ai_tool": "ChatGPT",
+          "input": "what is the price of phantom 350 [https://omegax-hackathon.onrender.com/](https://omegax-hackathon.onrender.com/)",
+          "output_preview": "The **Phantom 350** is listed at a starting price of **₹2,15,000 (₹2.15 lakh)** on the [Apex Moto website](https://omegax-hackathon.onrender.com/).\r\n\r\nThis is the starting price displayed on the website; the final variant-wise price may differ.",
+          "ground_truth_scope": {
+            "question_intent": "ex_showroom_price",
+            "cities": [],
+            "models_included": [
+              "Phantom 350"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "ex_showroom_price",
+            "verdict": "correct",
+            "score": 100,
+            "summary": "The AI correctly stated the ex‑showroom price of the Phantom 350 as ₹215,000.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "starting price of ₹2,15,000",
+                "fact_field": "models[0].ex_showroom_inr",
+                "expected_value": 215000,
+                "ai_value": 215000,
+                "match": true,
+                "issue_type": "none"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "Phantom 350 ex‑showroom price is ₹215,000",
+                "supported": true,
+                "ground_truth_value": "215000",
+                "issue": "none"
+              }
+            ],
+            "missing_from_answer": [],
+            "factual_errors": [],
+            "access_or_visibility_issues": [],
+            "primary_gap": "none",
+            "site_fix_hint": "none"
+          }
+        },
+        {
+          "row_index": 3,
+          "ai_tool": "Gemini",
+          "input": "which is the cheapest bike on this product site https://omegax-hackathon.onrender.com/",
+          "output_preview": "Based on the featured motorcycle lineup on **Apex Moto** ([https://omegax-hackathon.onrender.com/](https://omegax-hackathon.onrender.com/)), the cheapest bike with a listed price is the **Phantom 350**.\r\n\r\n### Featured Models by Price:\r\n\r\n1. **Phantom 350** – **₹2,15,000** *(Chea…",
+          "ground_truth_scope": {
+            "question_intent": "cheapest_ex_showroom",
+            "cities": [],
+            "models_included": [
+              "Thunderstrike 650",
+              "Phantom 350",
+              "Storm 200",
+              "Zenith 450 Scrambler",
+              "Thunderstrike 450",
+              "Thunderstrike 650 Rally",
+              "Zenith 350 Scrambler",
+              "Zenith 650 Scrambler"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "cheapest_ex_showroom",
+            "verdict": "incorrect",
+            "score": 20,
+            "summary": "AI incorrectly named Phantom 350 as the cheapest bike, ignoring the actual cheapest Storm 125 at ₹99,000.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "Phantom 350 is the cheapest bike",
+                "fact_field": "catalogue_summary.lowest_price_model.ex_showroom_inr",
+                "expected_value": 99000,
+                "ai_value": 215000,
+                "match": false,
+                "issue_type": "factual_error"
+              },
+              {
+                "ai_claim": "Phantom 350 price ₹2,15,000",
+                "fact_field": "models[1].ex_showroom_inr",
+                "expected_value": 215000,
+                "ai_value": 215000,
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Thunderstrike 450 price ₹2,89,000",
+                "fact_field": "models[3].ex_showroom_inr",
+                "expected_value": 289000,
+                "ai_value": 289000,
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Zenith 450 Scrambler price ₹3,35,000",
+                "fact_field": "models[0].ex_showroom_inr",
+                "expected_value": 335000,
+                "ai_value": 335000,
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Thunderstrike 650 price ₹4,20,000",
+                "fact_field": "models[0].ex_showroom_inr",
+                "expected_value": 420000,
+                "ai_value": 420000,
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Thunderstrike 650 Rally price ₹5,29,000",
+                "fact_field": "models[0].ex_showroom_inr",
+                "expected_value": 529000,
+                "ai_value": 529000,
+                "match": true,
+                "issue_type": "none"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "Phantom 350 is the cheapest bike",
+                "supported": false,
+                "ground_truth_value": "Storm 125 (₹99,000)",
+                "issue": "factual_error"
+              },
+              {
+                "claim": "Phantom 350 price ₹215,000",
+                "supported": true,
+                "ground_truth_value": "₹215,000",
+                "issue": "none"
+              }
+            ],
+            "missing_from_answer": [
+              "Storm 125"
+            ],
+            "factual_errors": [
+              "Cheapest bike: expected Storm 125 (₹99,000) but AI gave Phantom 350 (₹215,000)"
+            ],
+            "access_or_visibility_issues": [],
+            "primary_gap": "Used homepage featured cards instead of full catalogue",
+            "site_fix_hint": "Display all models on the homepage or provide a direct link to the full catalogue for price queries"
+          }
+        },
+        {
+          "row_index": 4,
+          "ai_tool": "Perplexity",
+          "input": "what is the price of zenith 450 in bangalore",
+          "output_preview": "I couldn’t find a Bangalore-specific price for the **Zenith 450** from a reliable public source. The only listed price is on the website you shared: **₹3,35,000 starting** for the Zenith 450 Scrambler. \r\n\r\nFor Bangalore, the **on-road price** would be higher because it would add …",
+          "ground_truth_scope": {
+            "question_intent": "ex_showroom_price",
+            "cities": [
+              "Bangalore"
+            ],
+            "models_included": [
+              "Zenith 450 Scrambler"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "ex_showroom_price",
+            "verdict": "partially_correct",
+            "score": 80,
+            "summary": "AI correctly gave the ex‑showroom price but omitted the exact on‑road price for Bangalore.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "₹3,35,000 starting for the Zenith 450 Scrambler",
+                "fact_field": "models[0].ex_showroom_inr",
+                "expected_value": 335000,
+                "ai_value": 335000,
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "I couldn’t find a Bangalore‑specific price",
+                "fact_field": "models[0].on_road_inr",
+                "expected_value": 390300,
+                "ai_value": null,
+                "match": false,
+                "issue_type": "factual_error"
+              },
+              {
+                "ai_claim": "on‑road price range 3.7–4.0 lakh",
+                "fact_field": "models[0].on_road_inr",
+                "expected_value": 390300,
+                "ai_value": "3.7–4.0 lakh",
+                "match": false,
+                "issue_type": "incomplete_answer"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "ex‑showroom price ₹3,35,000",
+                "supported": true,
+                "ground_truth_value": "335000",
+                "issue": "none"
+              },
+              {
+                "claim": "no Bangalore‑specific price found",
+                "supported": false,
+                "ground_truth_value": "390300",
+                "issue": "factual_error"
+              },
+              {
+                "claim": "on‑road price range 3.7–4.0 lakh",
+                "supported": false,
+                "ground_truth_value": "390300",
+                "issue": "incomplete_answer"
+              }
+            ],
+            "missing_from_answer": [
+              "exact on‑road price for Bangalore"
+            ],
+            "factual_errors": [
+              "Claim that no Bangalore‑specific price exists (expected 390300)"
+            ],
+            "access_or_visibility_issues": [],
+            "primary_gap": "Missing exact on‑road price for Bangalore",
+            "site_fix_hint": "Add a dedicated on_road_inr field for Bangalore in the model’s JSON to ensure the site can provide the exact price."
+          }
+        },
+        {
+          "row_index": 5,
+          "ai_tool": "Claude",
+          "input": "What is the specifications of the Phantom 350 bike in the below website:\r\nhttps://omegax-hackathon.onrender.com/",
+          "output_preview": "Here’s what the Phantom 350 page on the Apex Moto site lists. The site calls itself a “fictional brand test site”, so this is demo data.\n\nKey specs\n\nCategory: Classic\nEngine: 349 cc\nMax power: 21 bhp\nTorque: 28 Nm\nMileage: 38 km/l\nPrice: from ₹2,15,000 (ex-showroom)\nColours: Matt…",
+          "ground_truth_scope": {
+            "question_intent": "specifications",
+            "cities": [
+              "Delhi",
+              "Mumbai",
+              "Bangalore",
+              "Pune",
+              "Chennai",
+              "Hyderabad",
+              "Jaipur",
+              "Kolkata"
+            ],
+            "models_included": [
+              "Phantom 350",
+              "Phantom 500"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "specifications",
+            "verdict": "partially_correct",
+            "score": 80,
+            "summary": "All core specs are correct but the answer omits many detailed specifications such as weight, brakes, tyres, fuel tank, and dimensions.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "Category: Classic",
+                "fact_field": "models[0].category",
+                "expected_value": "Classic",
+                "ai_value": "Classic",
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Engine: 349 cc",
+                "fact_field": "models[0].engine",
+                "expected_value": "349cc",
+                "ai_value": "349 cc",
+                "match": true,
+                "issue_type": "none"
+              }
+            ],
+            "claims": [],
+            "missing_from_answer": [],
+            "factual_errors": [],
+            "access_or_visibility_issues": [],
+            "site_fix_hint": ""
+          }
+        },
+        {
+          "row_index": 6,
+          "ai_tool": "Claude",
+          "input": "What is the on raoad price on the Storm 200 in delhi ?",
+          "output_preview": "I couldn’t get the Storm 200’s on-road price for Delhi. The fetch tool wouldn’t open the Storm 200 page or the motorcycles listing page on that site, and a web search returned only unrelated bikes (Aprilia Storm 125, Ather 450 Apex). I’m not going to guess a figure.\n\nThe pages I …",
+          "ground_truth_scope": {
+            "question_intent": "ex_showroom_price",
+            "cities": [
+              "Delhi"
+            ],
+            "models_included": [
+              "Phantom 350",
+              "Storm 200",
+              "Storm 125"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "ex_showroom_price",
+            "verdict": "incorrect",
+            "score": 20,
+            "summary": "The assistant failed to provide the correct on‑road price for Storm 200 in Delhi and instead gave an unrelated price for Phantom 350.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "I couldn’t get the Storm 200’s on‑road price for Delhi.",
+                "fact_field": null,
+                "expected_value": null,
+                "ai_value": null,
+                "match": false,
+                "issue_type": "access_failure"
+              },
+              {
+                "ai_claim": "Delhi was ₹2,41,900 for the base variant.",
+                "fact_field": "models[0].on_road_inr.Delhi",
+                "expected_value": 241900,
+                "ai_value": 241900,
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "The page should have an ‘On‑Road Price by City’ table like the Phantom 350’s.",
+                "fact_field": "page_structure",
+                "expected_value": "table present",
+                "ai_value": "table present",
+                "match": true,
+                "issue_type": "incomplete_answer"
+              },
+              {
+                "ai_claim": "Storm 200 page has blanks for engine, power, starting price.",
+                "fact_field": "models[1].engine",
+                "expected_value": "199cc",
+                "ai_value": "blank",
+                "match": false,
+                "issue_type": "factual_error"
+              },
+              {
+                "ai_claim": "The page should have an ‘On‑Road Price by City’ table like the Phantom 350’s, where Delhi was ₹2,41,900 for the base variant.",
+                "fact_field": "models[1].on_road_inr.Delhi",
+                "expected_value": 163100,
+                "ai_value": 241900,
+                "match": false,
+                "issue_type": "factual_error"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "The assistant could not fetch the Storm 200 page.",
+                "supported": false,
+                "ground_truth_value": "page accessible",
+                "issue": "access_failure"
+              },
+              {
+                "claim": "Delhi price for Storm 200 is ₹163,100.",
+                "supported": false,
+                "ground_truth_value": "163100",
+                "issue": "missing"
+              },
+              {
+                "claim": "Delhi price for Phantom 350 is ₹241,900.",
+                "supported": true,
+                "ground_truth_value": "241900",
+                "issue": "none"
+              }
+            ],
+            "missing_from_answer": [
+              "models[1].on_road_inr.Delhi"
+            ],
+            "factual_errors": [
+              "Storm 200 Delhi on‑road price: expected 163100, omitted.",
+              "Storm 200 page blanks: expected engine 199cc, power 25 bhp, price 145000, AI said blanks.",
+              "Wrong price for Storm 200: expected 163100, AI gave 241900."
+            ],
+            "access_or_visibility_issues": [
+              "AI could not fetch Storm 200 page."
+            ],
+            "primary_gap": "Missing correct on‑road price for Storm 200 in Delhi.",
+            "site_fix_hint": "Add a visible on_road_inr field for Delhi on the Storm 200 page and ensure crawler can access it."
+          }
+        },
+        {
+          "row_index": 7,
+          "ai_tool": "Claude",
+          "input": "What is the mileage of the Thunderstrike 450 ?",
+          "output_preview": "I couldn’t find the Thunderstrike 450’s mileage. The fetch tool refused to open its page on the Apex Moto site, and a web search only returned unrelated bikes like the Ather 450 Apex and Royal Enfield Guerrilla 450.\n\nThe only listing I did read was the homepage card, which gives:…",
+          "ground_truth_scope": {
+            "question_intent": "mileage_or_range",
+            "cities": [],
+            "models_included": [
+              "Phantom 350",
+              "Thunderstrike 450"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "mileage_or_range",
+            "verdict": "incorrect",
+            "score": 20,
+            "summary": "AI failed to provide the mileage, incorrectly stating it was unavailable.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "I couldn’t find the Thunderstrike 450’s mileage.",
+                "fact_field": "models[1].mileage_or_range",
+                "expected_value": "30 km/l",
+                "ai_value": null,
+                "match": false,
+                "issue_type": "factual_error"
+              },
+              {
+                "ai_claim": "Engine: 452 cc, Power: 40 bhp, Starting price: ₹2,89,000, Category: Adventure (New Launch).",
+                "fact_field": "models[1].engine, models[1].power, models[1].ex_showroom_inr, models[1].category",
+                "expected_value": "452cc, 40 bhp, 289000, Adventure",
+                "ai_value": "452 cc, 40 bhp, 289000, Adventure",
+                "match": true,
+                "issue_type": "none"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "Thunderstrike 450 mileage is 30 km/l",
+                "supported": false,
+                "ground_truth_value": "30 km/l",
+                "issue": "missing"
+              },
+              {
+                "claim": "Engine is 452 cc",
+                "supported": true,
+                "ground_truth_value": "452cc",
+                "issue": "none"
+              },
+              {
+                "claim": "Power is 40 bhp",
+                "supported": true,
+                "ground_truth_value": "40 bhp",
+                "issue": "none"
+              },
+              {
+                "claim": "Starting price is ₹2,89,000",
+                "supported": true,
+                "ground_truth_value": "289000",
+                "issue": "none"
+              }
+            ],
+            "missing_from_answer": [
+              "mileage_or_range"
+            ],
+            "factual_errors": [
+              "Mileage: expected 30 km/l, AI said not found"
+            ],
+            "access_or_visibility_issues": [
+              "AI fetch tool refused to open page, but data exists"
+            ],
+            "primary_gap": "Missing mileage information",
+            "site_fix_hint": "Ensure the mileage_or_range field is visible on the product page and accessible to crawlers."
+          }
+        },
+        {
+          "row_index": 8,
+          "ai_tool": "Claude",
+          "input": "What all colours are available for the bike: Zenith 450 Scrambler",
+          "output_preview": "I couldn’t find the Zenith 450 Scrambler’s colours. The fetch tool wouldn’t open its page on the Apex Moto site, and a web search only returned other brands’ bikes (Triumph, Ducati, Yezdi). Those aren’t the Apex Moto bike, so I haven’t used them.\n\nThe homepage card for the Zenith…",
+          "ground_truth_scope": {
+            "question_intent": "colours",
+            "cities": [],
+            "models_included": [
+              "Phantom 350",
+              "Zenith 450 Scrambler",
+              "Zenith 350 Scrambler"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "colours",
+            "verdict": "incorrect",
+            "score": 20,
+            "summary": "The assistant failed to provide the available colours for the Zenith 450 Scrambler and incorrectly claimed the page was inaccessible.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "I couldn’t find the Zenith 450 Scrambler’s colours.",
+                "fact_field": "models[1].colours",
+                "expected_value": [
+                  "Military Green",
+                  "Desert Sand"
+                ],
+                "ai_value": null,
+                "match": false,
+                "issue_type": "incomplete_answer"
+              },
+              {
+                "ai_claim": "Starting price: ₹3,35,000",
+                "fact_field": "models[1].ex_showroom_inr",
+                "expected_value": 335000,
+                "ai_value": 335000,
+                "match": true,
+                "issue_type": "none"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "The Zenith 450 Scrambler has no listed colours on the site.",
+                "supported": false,
+                "ground_truth_value": "Military Green, Desert Sand",
+                "issue": "missing"
+              },
+              {
+                "claim": "The starting price of the Zenith 450 Scrambler is ₹3,35,000.",
+                "supported": true,
+                "ground_truth_value": "₹3,35,000",
+                "issue": "none"
+              }
+            ],
+            "missing_from_answer": [
+              "colours"
+            ],
+            "factual_errors": [],
+            "access_or_visibility_issues": [
+              "fetch tool could not open /motorcycles/zenith-450-scrambler page"
+            ],
+            "primary_gap": "No colours provided",
+            "site_fix_hint": "Expose the Zenith 450 Scrambler page to the fetch tool or include its colours in the API response."
+          }
+        },
+        {
+          "row_index": 9,
+          "ai_tool": "Gemini",
+          "input": "What all similar bikes are avaibale to Storm 200 ?",
+          "output_preview": "Based on the website's \"You Might Also Like\" section for the Storm 200, they recommend two similar bikes:\n\nPhantom 350\n\nCategory: Classic\n\nEngine: 349cc (21 bhp)\n\nStarting Price: ₹2,15,000\n\nZenith 450 Scrambler\n\nCategory: Scrambler\n\nEngine: 449cc (38 bhp)\n\nStarting Price: ₹3,35,0…",
+          "ground_truth_scope": {
+            "question_intent": "similar_models",
+            "cities": [],
+            "models_included": [
+              "Phantom 350",
+              "Storm 200",
+              "Zenith 450 Scrambler",
+              "Zenith 350 Scrambler"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "similar_models",
+            "verdict": "partially_correct",
+            "score": 80,
+            "summary": "Gemini correctly listed Phantom 350 and Zenith 450 Scrambler with accurate prices but omitted Zenith 350 Scrambler, a similar model present in the ground truth.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "Phantom 350 starting price ₹2,15,000",
+                "fact_field": "models[0].ex_showroom_inr",
+                "expected_value": 215000,
+                "ai_value": 215000,
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Zenith 450 Scrambler starting price ₹3,35,000",
+                "fact_field": "models[2].ex_showroom_inr",
+                "expected_value": 335000,
+                "ai_value": 335000,
+                "match": true,
+                "issue_type": "none"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "Phantom 350 price matches ground truth",
+                "supported": true,
+                "ground_truth_value": "215000",
+                "issue": "none"
+              },
+              {
+                "claim": "Zenith 450 Scrambler price matches ground truth",
+                "supported": true,
+                "ground_truth_value": "335000",
+                "issue": "none"
+              }
+            ],
+            "missing_from_answer": [
+              "zenith-350-scrambler"
+            ],
+            "factual_errors": [],
+            "access_or_visibility_issues": [],
+            "primary_gap": "Omitted a similar model (Zenith 350 Scrambler) from the answer",
+            "site_fix_hint": "Ensure the \"You Might Also Like\" section lists all relevant similar models or provide a comprehensive list of all similar bikes for each model."
+          }
+        }
+      ],
+      "gap_analysis": {
+        "executive_summary": "Across 10 LLM test prompts, average factual alignment is 62/100 (Claude 35/100, Gemini 67/100, Perplexity 80/100, ChatGPT 100/100). 4 answer(s) scored below 70, mainly around pricing, on-road city data, and product-page completeness. Highest-impact gap: Used homepage featured cards instead of full catalogue.",
+        "overall_scores_by_tool": {
+          "ChatGPT": 100,
+          "Gemini": 67,
+          "Perplexity": 80,
+          "Claude": 35
+        },
+        "themes": [
+          {
+            "theme": "Featured cards vs full catalogue",
+            "severity": "high",
+            "description": "Assistants often answer from homepage featured bikes instead of the full 18-model catalogue, so cheapest and price-range questions go wrong. Observed: Used homepage featured cards instead of full catalogue",
+            "affected_tools": [
+              "Gemini"
+            ],
+            "example_row_topics": [
+              3
+            ]
+          },
+          {
+            "theme": "City-specific on-road pricing",
+            "severity": "high",
+            "description": "On-road amounts vary by city; when city tables are not in crawlable markup, tools omit or guess Bangalore/Delhi figures. Observed: Missing exact on‑road price for Bangalore; All core specs are correct but the answer omits many detailed specifications such as weight, brakes, tyres, fuel tank, and dimensions.",
+            "affected_tools": [
+              "Perplexity",
+              "Claude"
+            ],
+            "example_row_topics": [
+              4,
+              5,
+              6
+            ]
+          },
+          {
+            "theme": "Crawler and fetch access failures",
+            "severity": "high",
+            "description": "When a tool reports fetch failures or empty pages, ground truth from Firecrawl still has the data, indicating an AI-readability gap. Observed: Missing correct on‑road price for Storm 200 in Delhi.; Missing mileage information",
+            "affected_tools": [
+              "Claude"
+            ],
+            "example_row_topics": [
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "theme": "Incomplete product page content",
+            "severity": "medium",
+            "description": "Spec, colour, mileage, and similar-model questions need complete fields on each product URL. Observed: All core specs are correct but the answer omits many detailed specifications such as weight, brakes, tyres, fuel tank, and dimensions.; Missing mileage information",
+            "affected_tools": [
+              "Claude",
+              "Gemini"
+            ],
+            "example_row_topics": [
+              5,
+              7,
+              8
+            ]
+          }
+        ],
+        "top_factual_gaps": [
+          {
+            "gap": "Used homepage featured cards instead of full catalogue",
+            "evidence": "Gemini (row 4, score 20): \"which is the cheapest bike on this product site https://…\" Cheapest bike: expected Storm 125 (₹99,000) but AI gave Phantom 350 (₹215,000)",
+            "recommendation": "Display all models on the homepage or provide a direct link to the full catalogue for price queries",
+            "related_ai_tools": [
+              "Gemini"
+            ],
+            "row_index": 3
+          },
+          {
+            "gap": "Missing correct on‑road price for Storm 200 in Delhi.",
+            "evidence": "Claude (row 7, score 20): \"What is the on raoad price on the Storm 200 in delhi ?\" Storm 200 Delhi on‑road price: expected 163100, omitted. Storm 200 page blanks: expected engine 199cc, power 25 bhp, price 145000, AI said blanks. Wrong price for Storm 200: expected 163100, AI gave 241900.",
+            "recommendation": "Add a visible on_road_inr field for Delhi on the Storm 200 page and ensure crawler can access it.",
+            "related_ai_tools": [
+              "Claude"
+            ],
+            "row_index": 6
+          },
+          {
+            "gap": "Missing mileage information",
+            "evidence": "Claude (row 8, score 20): \"What is the mileage of the Thunderstrike 450 ?\" Mileage: expected 30 km/l, AI said not found",
+            "recommendation": "Ensure the mileage_or_range field is visible on the product page and accessible to crawlers.",
+            "related_ai_tools": [
+              "Claude"
+            ],
+            "row_index": 7
+          },
+          {
+            "gap": "No colours provided",
+            "evidence": "Claude (row 9, score 20): \"What all colours are available for the bike: Zenith 450 …\" The assistant failed to provide the available colours for the Zenith 450 Scrambler and incorrectly claimed the page was inaccessible.",
+            "recommendation": "Expose the Zenith 450 Scrambler page to the fetch tool or include its colours in the API response.",
+            "related_ai_tools": [
+              "Claude"
+            ],
+            "row_index": 8
+          },
+          {
+            "gap": "Missing exact on‑road price for Bangalore",
+            "evidence": "Perplexity (row 5, score 80): \"what is the price of zenith 450 in bangalore\" Claim that no Bangalore‑specific price exists (expected 390300)",
+            "recommendation": "Add a dedicated on_road_inr field for Bangalore in the model’s JSON to ensure the site can provide the exact price.",
+            "related_ai_tools": [
+              "Perplexity"
+            ],
+            "row_index": 4
+          },
+          {
+            "gap": "Incomplete vs ground truth",
+            "evidence": "Claude (row 6, score 80): \"What is the specifications of the Phantom 350 bike in th…\" All core specs are correct but the answer omits many detailed specifications such as weight, brakes, tyres, fuel tank, and dimensions.",
+            "recommendation": "Expose the missing field in static HTML and schema.org Product/Offer markup on the relevant model page.",
+            "related_ai_tools": [
+              "Claude"
+            ],
+            "row_index": 5
+          }
+        ],
+        "site_recommendations": [
+          {
+            "priority": 1,
+            "action": "Add schema.org Product + Offer JSON-LD on every model page with ex-showroom INR, variants, mileage, and colour list.",
+            "rationale": "Gives LLMs a single authoritative price and spec source instead of scraping cards.",
+            "likely_impact": "high"
+          },
+          {
+            "priority": 2,
+            "action": "Serve prerendered or static HTML snapshots for product URLs so crawlers do not depend on client-side rendering.",
+            "rationale": "Reduces fetch failures and blank content reported by Claude and similar tools.",
+            "likely_impact": "high"
+          },
+          {
+            "priority": 3,
+            "action": "Publish a crawlable all-models price table (ex-showroom and on-road by city) linked from the homepage.",
+            "rationale": "Stops cheapest/most-expensive errors when featured cards hide low-price models like Storm 125.",
+            "likely_impact": "high"
+          },
+          {
+            "priority": 4,
+            "action": "Expose on_road_inr per city in visible markup and structured data for each model that supports city pricing.",
+            "rationale": "Fixes missing Bangalore/Delhi on-road answers from Perplexity and Claude.",
+            "likely_impact": "medium"
+          },
+          {
+            "priority": 5,
+            "action": "Review robots.txt and allow major AI crawlers; verify product paths return 200 with full body text.",
+            "rationale": "Ensures tools that browse the live site can reach the same pages Firecrawl captured.",
+            "likely_impact": "medium"
+          }
+        ],
+        "crawler_and_llm_access": "Firecrawl captured 29 pages from https://omegax-hackathon.onrender.com/ (2026-10-25T15:00:27+05:30), so ground truth is available even when an assistant cannot fetch a URL. Claude reported access or visibility issues (3 mention(s)), often consistent with JS-only content, blocked crawlers, or incomplete static markup. Prioritize structured data, static HTML, and a full-model price index to align live LLM browsing with scraped facts."
+      },
+      "stats": {
+        "row_count": 10,
+        "average_score": 62,
+        "by_verdict": {
+          "correct": 3,
+          "incorrect": 4,
+          "partially_correct": 3
+        },
+        "average_score_by_tool": {
+          "ChatGPT": 100,
+          "Gemini": 67,
+          "Perplexity": 80,
+          "Claude": 35
+        }
+      }
+    },
+    {
+      "id": "340eeead-eb98-4f36-9086-5ce2c5a781d8",
+      "generated_at": "2026-10-25T11:29:36.560Z",
+      "meta": {
+        "generated_at": "2026-10-25T11:29:36.560Z",
+        "facts_source": "https://omegax-hackathon.onrender.com/",
+        "facts_scraped_at": "2026-10-25T15:00:27+05:30",
+        "sheet_source": "d:\\omegaX-hackathon\\data\\LLM Response Sheet - Sheet1.csv",
+        "groq_model": "openai/gpt-oss-20b",
+        "compare_temperature": 0.08,
+        "pipeline": "omegax-comparison-llm-v2.1",
+        "site_url": "https://omegax-hackathon.onrender.com/"
+      },
+      "row_comparisons": [
+        {
+          "row_index": 0,
+          "ai_tool": "ChatGPT",
+          "input": "Check in the below website and give me the most expensive bike name:\r\nhttps://omegax-hackathon.onrender.com/",
+          "output_preview": "The most expensive bike listed on the website is the Thunderstrike 650 Rally, priced at ₹5,29,000 (ex-showroom). \r\n\r\nBorn to Ride. Built to Last.\r\n+1\r\n\r\nSpeed Read: A Rally-Style Royal Enfield Bear 650 by Fuel and More |…\r\n \r\nThunderstrike 650 Rally\r\n₹5,29,000\r\nEx-showroom price\r…",
+          "ground_truth_scope": {
+            "question_intent": "most_expensive_ex_showroom",
+            "cities": [],
+            "models_included": [
+              "Thunderstrike 650",
+              "Thunderstrike 650 Rally"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "most_expensive_ex_showroom",
+            "verdict": "correct",
+            "score": 100,
+            "summary": "The AI correctly identified Thunderstrike 650 Rally as the most expensive bike with the correct price and specs.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "Thunderstrike 650 Rally is the most expensive bike",
+                "fact_field": "catalogue_summary.highest_price_model.name",
+                "expected_value": "Thunderstrike 650 Rally",
+                "ai_value": "Thunderstrike 650 Rally",
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "priced at ₹5,29,000",
+                "fact_field": "catalogue_summary.highest_price_model.ex_showroom_inr",
+                "expected_value": 529000,
+                "ai_value": 529000,
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Engine 648cc",
+                "fact_field": "models[1].engine",
+                "expected_value": "648cc",
+                "ai_value": "648cc",
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Power 47 bhp",
+                "fact_field": "models[1].power",
+                "expected_value": "47 bhp",
+                "ai_value": "47 bhp",
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Torque 52 Nm",
+                "fact_field": "models[1].torque",
+                "expected_value": "52 Nm",
+                "ai_value": "52 Nm",
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Mileage 22 km/l",
+                "fact_field": "models[1].mileage_or_range",
+                "expected_value": "22 km/l",
+                "ai_value": "22 km/l",
+                "match": true,
+                "issue_type": "none"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "Thunderstrike 650 Rally is the most expensive bike",
+                "supported": true,
+                "ground_truth_value": "Thunderstrike 650 Rally",
+                "issue": "none"
+              },
+              {
+                "claim": "priced at ₹5,29,000",
+                "supported": true,
+                "ground_truth_value": "529000",
+                "issue": "none"
+              },
+              {
+                "claim": "Engine 648cc",
+                "supported": true,
+                "ground_truth_value": "648cc",
+                "issue": "none"
+              },
+              {
+                "claim": "Power 47 bhp",
+                "supported": true,
+                "ground_truth_value": "47 bhp",
+                "issue": "none"
+              },
+              {
+                "claim": "Torque 52 Nm",
+                "supported": true,
+                "ground_truth_value": "52 Nm",
+                "issue": "none"
+              },
+              {
+                "claim": "Mileage 22 km/l",
+                "supported": true,
+                "ground_truth_value": "22 km/l",
+                "issue": "none"
+              }
+            ],
+            "missing_from_answer": [],
+            "factual_errors": [],
+            "access_or_visibility_issues": [],
+            "primary_gap": "none",
+            "site_fix_hint": "none"
+          }
+        },
+        {
+          "row_index": 1,
+          "ai_tool": "Gemini",
+          "input": "Check this website and let me know the price of the Thunderstrike 650:\r\n\r\nhttps://omegax-hackathon.onrender.com/",
+          "output_preview": "Based on the website provided, the starting price for the Thunderstrike 650 is ₹4,20,000.",
+          "ground_truth_scope": {
+            "question_intent": "ex_showroom_price",
+            "cities": [],
+            "models_included": [
+              "Thunderstrike 650"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "ex_showroom_price",
+            "verdict": "correct",
+            "score": 100,
+            "summary": "The AI correctly identified the ex-showroom price of the Thunderstrike 650 as ₹420,000.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "starting price for the Thunderstrike 650 is ₹4,20,000",
+                "fact_field": "models[0].ex_showroom_inr",
+                "expected_value": 420000,
+                "ai_value": 420000,
+                "match": true,
+                "issue_type": "none"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "Thunderstrike 650 ex-showroom price is ₹420,000",
+                "supported": true,
+                "ground_truth_value": "420000",
+                "issue": "none"
+              }
+            ],
+            "missing_from_answer": [],
+            "factual_errors": [],
+            "access_or_visibility_issues": [],
+            "primary_gap": "none",
+            "site_fix_hint": "none"
+          }
+        },
+        {
+          "row_index": 2,
+          "ai_tool": "ChatGPT",
+          "input": "what is the price of phantom 350 [https://omegax-hackathon.onrender.com/](https://omegax-hackathon.onrender.com/)",
+          "output_preview": "The **Phantom 350** is listed at a starting price of **₹2,15,000 (₹2.15 lakh)** on the [Apex Moto website](https://omegax-hackathon.onrender.com/).\r\n\r\nThis is the starting price displayed on the website; the final variant-wise price may differ.",
+          "ground_truth_scope": {
+            "question_intent": "ex_showroom_price",
+            "cities": [],
+            "models_included": [
+              "Phantom 350"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "ex_showroom_price",
+            "verdict": "correct",
+            "score": 100,
+            "summary": "The AI correctly stated the ex‑showroom price of the Phantom 350 as ₹215,000.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "starting price of ₹2,15,000",
+                "fact_field": "models[0].ex_showroom_inr",
+                "expected_value": 215000,
+                "ai_value": 215000,
+                "match": true,
+                "issue_type": "none"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "Phantom 350 ex‑showroom price is ₹215,000",
+                "supported": true,
+                "ground_truth_value": "215000",
+                "issue": "none"
+              }
+            ],
+            "missing_from_answer": [],
+            "factual_errors": [],
+            "access_or_visibility_issues": [],
+            "primary_gap": "none",
+            "site_fix_hint": "none"
+          }
+        },
+        {
+          "row_index": 3,
+          "ai_tool": "Gemini",
+          "input": "which is the cheapest bike on this product site https://omegax-hackathon.onrender.com/",
+          "output_preview": "Based on the featured motorcycle lineup on **Apex Moto** ([https://omegax-hackathon.onrender.com/](https://omegax-hackathon.onrender.com/)), the cheapest bike with a listed price is the **Phantom 350**.\r\n\r\n### Featured Models by Price:\r\n\r\n1. **Phantom 350** – **₹2,15,000** *(Chea…",
+          "ground_truth_scope": {
+            "question_intent": "cheapest_ex_showroom",
+            "cities": [],
+            "models_included": [
+              "Thunderstrike 650",
+              "Phantom 350",
+              "Storm 200",
+              "Zenith 450 Scrambler",
+              "Thunderstrike 450",
+              "Thunderstrike 650 Rally",
+              "Zenith 350 Scrambler",
+              "Zenith 650 Scrambler"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "cheapest_ex_showroom",
+            "verdict": "incorrect",
+            "score": 20,
+            "summary": "AI incorrectly named Phantom 350 as the cheapest bike, ignoring the actual cheapest Storm 125 at ₹99,000.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "Phantom 350 is the cheapest bike",
+                "fact_field": "catalogue_summary.lowest_price_model.ex_showroom_inr",
+                "expected_value": 99000,
+                "ai_value": 215000,
+                "match": false,
+                "issue_type": "factual_error"
+              },
+              {
+                "ai_claim": "Phantom 350 price ₹2,15,000",
+                "fact_field": "models[1].ex_showroom_inr",
+                "expected_value": 215000,
+                "ai_value": 215000,
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Thunderstrike 450 price ₹2,89,000",
+                "fact_field": "models[3].ex_showroom_inr",
+                "expected_value": 289000,
+                "ai_value": 289000,
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Zenith 450 Scrambler price ₹3,35,000",
+                "fact_field": "models[0].ex_showroom_inr",
+                "expected_value": 335000,
+                "ai_value": 335000,
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Thunderstrike 650 price ₹4,20,000",
+                "fact_field": "models[0].ex_showroom_inr",
+                "expected_value": 420000,
+                "ai_value": 420000,
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Thunderstrike 650 Rally price ₹5,29,000",
+                "fact_field": "models[0].ex_showroom_inr",
+                "expected_value": 529000,
+                "ai_value": 529000,
+                "match": true,
+                "issue_type": "none"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "Phantom 350 is the cheapest bike",
+                "supported": false,
+                "ground_truth_value": "Storm 125 (₹99,000)",
+                "issue": "factual_error"
+              },
+              {
+                "claim": "Phantom 350 price ₹215,000",
+                "supported": true,
+                "ground_truth_value": "₹215,000",
+                "issue": "none"
+              }
+            ],
+            "missing_from_answer": [
+              "Storm 125"
+            ],
+            "factual_errors": [
+              "Cheapest bike: expected Storm 125 (₹99,000) but AI gave Phantom 350 (₹215,000)"
+            ],
+            "access_or_visibility_issues": [],
+            "primary_gap": "Used homepage featured cards instead of full catalogue",
+            "site_fix_hint": "Display all models on the homepage or provide a direct link to the full catalogue for price queries"
+          }
+        },
+        {
+          "row_index": 4,
+          "ai_tool": "Perplexity",
+          "input": "what is the price of zenith 450 in bangalore",
+          "output_preview": "I couldn’t find a Bangalore-specific price for the **Zenith 450** from a reliable public source. The only listed price is on the website you shared: **₹3,35,000 starting** for the Zenith 450 Scrambler. \r\n\r\nFor Bangalore, the **on-road price** would be higher because it would add …",
+          "ground_truth_scope": {
+            "question_intent": "ex_showroom_price",
+            "cities": [
+              "Bangalore"
+            ],
+            "models_included": [
+              "Zenith 450 Scrambler"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "ex_showroom_price",
+            "verdict": "partially_correct",
+            "score": 80,
+            "summary": "AI correctly gave the ex‑showroom price but omitted the exact on‑road price for Bangalore.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "₹3,35,000 starting for the Zenith 450 Scrambler",
+                "fact_field": "models[0].ex_showroom_inr",
+                "expected_value": 335000,
+                "ai_value": 335000,
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "I couldn’t find a Bangalore‑specific price",
+                "fact_field": "models[0].on_road_inr",
+                "expected_value": 390300,
+                "ai_value": null,
+                "match": false,
+                "issue_type": "factual_error"
+              },
+              {
+                "ai_claim": "on‑road price range 3.7–4.0 lakh",
+                "fact_field": "models[0].on_road_inr",
+                "expected_value": 390300,
+                "ai_value": "3.7–4.0 lakh",
+                "match": false,
+                "issue_type": "incomplete_answer"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "ex‑showroom price ₹3,35,000",
+                "supported": true,
+                "ground_truth_value": "335000",
+                "issue": "none"
+              },
+              {
+                "claim": "no Bangalore‑specific price found",
+                "supported": false,
+                "ground_truth_value": "390300",
+                "issue": "factual_error"
+              },
+              {
+                "claim": "on‑road price range 3.7–4.0 lakh",
+                "supported": false,
+                "ground_truth_value": "390300",
+                "issue": "incomplete_answer"
+              }
+            ],
+            "missing_from_answer": [
+              "exact on‑road price for Bangalore"
+            ],
+            "factual_errors": [
+              "Claim that no Bangalore‑specific price exists (expected 390300)"
+            ],
+            "access_or_visibility_issues": [],
+            "primary_gap": "Missing exact on‑road price for Bangalore",
+            "site_fix_hint": "Add a dedicated on_road_inr field for Bangalore in the model’s JSON to ensure the site can provide the exact price."
+          }
+        },
+        {
+          "row_index": 5,
+          "ai_tool": "Claude",
+          "input": "What is the specifications of the Phantom 350 bike in the below website:\r\nhttps://omegax-hackathon.onrender.com/",
+          "output_preview": "Here’s what the Phantom 350 page on the Apex Moto site lists. The site calls itself a “fictional brand test site”, so this is demo data.\n\nKey specs\n\nCategory: Classic\nEngine: 349 cc\nMax power: 21 bhp\nTorque: 28 Nm\nMileage: 38 km/l\nPrice: from ₹2,15,000 (ex-showroom)\nColours: Matt…",
+          "ground_truth_scope": {
+            "question_intent": "specifications",
+            "cities": [
+              "Delhi",
+              "Mumbai",
+              "Bangalore",
+              "Pune",
+              "Chennai",
+              "Hyderabad",
+              "Jaipur",
+              "Kolkata"
+            ],
+            "models_included": [
+              "Phantom 350",
+              "Phantom 500"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "specifications",
+            "verdict": "partially_correct",
+            "score": 80,
+            "summary": "All core specs are correct but the answer omits many detailed specifications such as weight, brakes, tyres, fuel tank, and dimensions.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "Category: Classic",
+                "fact_field": "models[0].category",
+                "expected_value": "Classic",
+                "ai_value": "Classic",
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Engine: 349 cc",
+                "fact_field": "models[0].engine",
+                "expected_value": "349cc",
+                "ai_value": "349 cc",
+                "match": true,
+                "issue_type": "none"
+              }
+            ],
+            "claims": [],
+            "missing_from_answer": [],
+            "factual_errors": [],
+            "access_or_visibility_issues": [],
+            "site_fix_hint": ""
+          }
+        },
+        {
+          "row_index": 6,
+          "ai_tool": "Claude",
+          "input": "What is the on raoad price on the Storm 200 in delhi ?",
+          "output_preview": "I couldn’t get the Storm 200’s on-road price for Delhi. The fetch tool wouldn’t open the Storm 200 page or the motorcycles listing page on that site, and a web search returned only unrelated bikes (Aprilia Storm 125, Ather 450 Apex). I’m not going to guess a figure.\n\nThe pages I …",
+          "ground_truth_scope": {
+            "question_intent": "ex_showroom_price",
+            "cities": [
+              "Delhi"
+            ],
+            "models_included": [
+              "Phantom 350",
+              "Storm 200",
+              "Storm 125"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "ex_showroom_price",
+            "verdict": "incorrect",
+            "score": 20,
+            "summary": "The assistant failed to provide the correct on‑road price for Storm 200 in Delhi and instead gave an unrelated price for Phantom 350.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "I couldn’t get the Storm 200’s on‑road price for Delhi.",
+                "fact_field": null,
+                "expected_value": null,
+                "ai_value": null,
+                "match": false,
+                "issue_type": "access_failure"
+              },
+              {
+                "ai_claim": "Delhi was ₹2,41,900 for the base variant.",
+                "fact_field": "models[0].on_road_inr.Delhi",
+                "expected_value": 241900,
+                "ai_value": 241900,
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "The page should have an ‘On‑Road Price by City’ table like the Phantom 350’s.",
+                "fact_field": "page_structure",
+                "expected_value": "table present",
+                "ai_value": "table present",
+                "match": true,
+                "issue_type": "incomplete_answer"
+              },
+              {
+                "ai_claim": "Storm 200 page has blanks for engine, power, starting price.",
+                "fact_field": "models[1].engine",
+                "expected_value": "199cc",
+                "ai_value": "blank",
+                "match": false,
+                "issue_type": "factual_error"
+              },
+              {
+                "ai_claim": "The page should have an ‘On‑Road Price by City’ table like the Phantom 350’s, where Delhi was ₹2,41,900 for the base variant.",
+                "fact_field": "models[1].on_road_inr.Delhi",
+                "expected_value": 163100,
+                "ai_value": 241900,
+                "match": false,
+                "issue_type": "factual_error"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "The assistant could not fetch the Storm 200 page.",
+                "supported": false,
+                "ground_truth_value": "page accessible",
+                "issue": "access_failure"
+              },
+              {
+                "claim": "Delhi price for Storm 200 is ₹163,100.",
+                "supported": false,
+                "ground_truth_value": "163100",
+                "issue": "missing"
+              },
+              {
+                "claim": "Delhi price for Phantom 350 is ₹241,900.",
+                "supported": true,
+                "ground_truth_value": "241900",
+                "issue": "none"
+              }
+            ],
+            "missing_from_answer": [
+              "models[1].on_road_inr.Delhi"
+            ],
+            "factual_errors": [
+              "Storm 200 Delhi on‑road price: expected 163100, omitted.",
+              "Storm 200 page blanks: expected engine 199cc, power 25 bhp, price 145000, AI said blanks.",
+              "Wrong price for Storm 200: expected 163100, AI gave 241900."
+            ],
+            "access_or_visibility_issues": [
+              "AI could not fetch Storm 200 page."
+            ],
+            "primary_gap": "Missing correct on‑road price for Storm 200 in Delhi.",
+            "site_fix_hint": "Add a visible on_road_inr field for Delhi on the Storm 200 page and ensure crawler can access it."
+          }
+        },
+        {
+          "row_index": 7,
+          "ai_tool": "Claude",
+          "input": "What is the mileage of the Thunderstrike 450 ?",
+          "output_preview": "I couldn’t find the Thunderstrike 450’s mileage. The fetch tool refused to open its page on the Apex Moto site, and a web search only returned unrelated bikes like the Ather 450 Apex and Royal Enfield Guerrilla 450.\n\nThe only listing I did read was the homepage card, which gives:…",
+          "ground_truth_scope": {
+            "question_intent": "mileage_or_range",
+            "cities": [],
+            "models_included": [
+              "Phantom 350",
+              "Thunderstrike 450"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "mileage_or_range",
+            "verdict": "incorrect",
+            "score": 20,
+            "summary": "AI failed to provide the mileage, incorrectly stating it was unavailable.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "I couldn’t find the Thunderstrike 450’s mileage.",
+                "fact_field": "models[1].mileage_or_range",
+                "expected_value": "30 km/l",
+                "ai_value": null,
+                "match": false,
+                "issue_type": "factual_error"
+              },
+              {
+                "ai_claim": "Engine: 452 cc, Power: 40 bhp, Starting price: ₹2,89,000, Category: Adventure (New Launch).",
+                "fact_field": "models[1].engine, models[1].power, models[1].ex_showroom_inr, models[1].category",
+                "expected_value": "452cc, 40 bhp, 289000, Adventure",
+                "ai_value": "452 cc, 40 bhp, 289000, Adventure",
+                "match": true,
+                "issue_type": "none"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "Thunderstrike 450 mileage is 30 km/l",
+                "supported": false,
+                "ground_truth_value": "30 km/l",
+                "issue": "missing"
+              },
+              {
+                "claim": "Engine is 452 cc",
+                "supported": true,
+                "ground_truth_value": "452cc",
+                "issue": "none"
+              },
+              {
+                "claim": "Power is 40 bhp",
+                "supported": true,
+                "ground_truth_value": "40 bhp",
+                "issue": "none"
+              },
+              {
+                "claim": "Starting price is ₹2,89,000",
+                "supported": true,
+                "ground_truth_value": "289000",
+                "issue": "none"
+              }
+            ],
+            "missing_from_answer": [
+              "mileage_or_range"
+            ],
+            "factual_errors": [
+              "Mileage: expected 30 km/l, AI said not found"
+            ],
+            "access_or_visibility_issues": [
+              "AI fetch tool refused to open page, but data exists"
+            ],
+            "primary_gap": "Missing mileage information",
+            "site_fix_hint": "Ensure the mileage_or_range field is visible on the product page and accessible to crawlers."
+          }
+        },
+        {
+          "row_index": 8,
+          "ai_tool": "Claude",
+          "input": "What all colours are available for the bike: Zenith 450 Scrambler",
+          "output_preview": "I couldn’t find the Zenith 450 Scrambler’s colours. The fetch tool wouldn’t open its page on the Apex Moto site, and a web search only returned other brands’ bikes (Triumph, Ducati, Yezdi). Those aren’t the Apex Moto bike, so I haven’t used them.\n\nThe homepage card for the Zenith…",
+          "ground_truth_scope": {
+            "question_intent": "colours",
+            "cities": [],
+            "models_included": [
+              "Phantom 350",
+              "Zenith 450 Scrambler",
+              "Zenith 350 Scrambler"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "colours",
+            "verdict": "incorrect",
+            "score": 20,
+            "summary": "The assistant failed to provide the available colours for the Zenith 450 Scrambler and incorrectly claimed the page was inaccessible.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "I couldn’t find the Zenith 450 Scrambler’s colours.",
+                "fact_field": "models[1].colours",
+                "expected_value": [
+                  "Military Green",
+                  "Desert Sand"
+                ],
+                "ai_value": null,
+                "match": false,
+                "issue_type": "incomplete_answer"
+              },
+              {
+                "ai_claim": "Starting price: ₹3,35,000",
+                "fact_field": "models[1].ex_showroom_inr",
+                "expected_value": 335000,
+                "ai_value": 335000,
+                "match": true,
+                "issue_type": "none"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "The Zenith 450 Scrambler has no listed colours on the site.",
+                "supported": false,
+                "ground_truth_value": "Military Green, Desert Sand",
+                "issue": "missing"
+              },
+              {
+                "claim": "The starting price of the Zenith 450 Scrambler is ₹3,35,000.",
+                "supported": true,
+                "ground_truth_value": "₹3,35,000",
+                "issue": "none"
+              }
+            ],
+            "missing_from_answer": [
+              "colours"
+            ],
+            "factual_errors": [],
+            "access_or_visibility_issues": [
+              "fetch tool could not open /motorcycles/zenith-450-scrambler page"
+            ],
+            "primary_gap": "No colours provided",
+            "site_fix_hint": "Expose the Zenith 450 Scrambler page to the fetch tool or include its colours in the API response."
+          }
+        },
+        {
+          "row_index": 9,
+          "ai_tool": "Gemini",
+          "input": "What all similar bikes are avaibale to Storm 200 ?",
+          "output_preview": "Based on the website's \"You Might Also Like\" section for the Storm 200, they recommend two similar bikes:\n\nPhantom 350\n\nCategory: Classic\n\nEngine: 349cc (21 bhp)\n\nStarting Price: ₹2,15,000\n\nZenith 450 Scrambler\n\nCategory: Scrambler\n\nEngine: 449cc (38 bhp)\n\nStarting Price: ₹3,35,0…",
+          "ground_truth_scope": {
+            "question_intent": "similar_models",
+            "cities": [],
+            "models_included": [
+              "Phantom 350",
+              "Storm 200",
+              "Zenith 450 Scrambler",
+              "Zenith 350 Scrambler"
+            ],
+            "catalogue_lowest": "Storm 125"
+          },
+          "evaluation": {
+            "question_intent": "similar_models",
+            "verdict": "partially_correct",
+            "score": 80,
+            "summary": "Gemini correctly listed Phantom 350 and Zenith 450 Scrambler with accurate prices but omitted Zenith 350 Scrambler, a similar model present in the ground truth.",
+            "mapped_comparisons": [
+              {
+                "ai_claim": "Phantom 350 starting price ₹2,15,000",
+                "fact_field": "models[0].ex_showroom_inr",
+                "expected_value": 215000,
+                "ai_value": 215000,
+                "match": true,
+                "issue_type": "none"
+              },
+              {
+                "ai_claim": "Zenith 450 Scrambler starting price ₹3,35,000",
+                "fact_field": "models[2].ex_showroom_inr",
+                "expected_value": 335000,
+                "ai_value": 335000,
+                "match": true,
+                "issue_type": "none"
+              }
+            ],
+            "claims": [
+              {
+                "claim": "Phantom 350 price matches ground truth",
+                "supported": true,
+                "ground_truth_value": "215000",
+                "issue": "none"
+              },
+              {
+                "claim": "Zenith 450 Scrambler price matches ground truth",
+                "supported": true,
+                "ground_truth_value": "335000",
+                "issue": "none"
+              }
+            ],
+            "missing_from_answer": [
+              "zenith-350-scrambler"
+            ],
+            "factual_errors": [],
+            "access_or_visibility_issues": [],
+            "primary_gap": "Omitted a similar model (Zenith 350 Scrambler) from the answer",
+            "site_fix_hint": "Ensure the \"You Might Also Like\" section lists all relevant similar models or provide a comprehensive list of all similar bikes for each model."
+          }
+        }
+      ],
+      "gap_analysis": {
+        "executive_summary": "Across 10 LLM test prompts, average factual alignment is 62/100 (Claude 35/100, Gemini 67/100, Perplexity 80/100, ChatGPT 100/100). 4 answer(s) scored below 70, mainly around pricing, on-road city data, and product-page completeness. Highest-impact gap: Used homepage featured cards instead of full catalogue.",
+        "overall_scores_by_tool": {
+          "ChatGPT": 100,
+          "Gemini": 67,
+          "Perplexity": 80,
+          "Claude": 35
+        },
+        "themes": [
+          {
+            "theme": "Featured cards vs full catalogue",
+            "severity": "high",
+            "description": "Assistants often answer from homepage featured bikes instead of the full 18-model catalogue, so cheapest and price-range questions go wrong. Observed: Used homepage featured cards instead of full catalogue",
+            "affected_tools": [
+              "Gemini"
+            ],
+            "example_row_topics": [
+              3
+            ]
+          },
+          {
+            "theme": "City-specific on-road pricing",
+            "severity": "high",
+            "description": "On-road amounts vary by city; when city tables are not in crawlable markup, tools omit or guess Bangalore/Delhi figures. Observed: Missing exact on‑road price for Bangalore; Missing correct on‑road price for Storm 200 in Delhi.",
+            "affected_tools": [
+              "Perplexity",
+              "Claude"
+            ],
+            "example_row_topics": [
+              4,
+              6
+            ]
+          },
+          {
+            "theme": "Crawler and fetch access failures",
+            "severity": "high",
+            "description": "When a tool reports fetch failures or empty pages, ground truth from Firecrawl still has the data, indicating an AI-readability gap. Observed: Missing correct on‑road price for Storm 200 in Delhi.; Missing mileage information",
+            "affected_tools": [
+              "Claude"
+            ],
+            "example_row_topics": [
+              6,
+              7,
+              8
+            ]
+          },
+          {
+            "theme": "Incomplete product page content",
+            "severity": "medium",
+            "description": "Spec, colour, mileage, and similar-model questions need complete fields on each product URL. Observed: All core specs are correct but the answer omits many detailed specifications such as weight, brakes, tyres, fuel tank, and dimensions.; Missing mileage information",
+            "affected_tools": [
+              "Claude",
+              "Gemini"
+            ],
+            "example_row_topics": [
+              5,
+              7,
+              8
+            ]
+          }
+        ],
+        "top_factual_gaps": [
+          {
+            "gap": "Used homepage featured cards instead of full catalogue",
+            "evidence": "Gemini (row 4, score 20): \"which is the cheapest bike on this product site https://…\" Cheapest bike: expected Storm 125 (₹99,000) but AI gave Phantom 350 (₹215,000)",
+            "recommendation": "Display all models on the homepage or provide a direct link to the full catalogue for price queries",
+            "related_ai_tools": [
+              "Gemini"
+            ],
+            "row_index": 3
+          },
+          {
+            "gap": "Missing correct on‑road price for Storm 200 in Delhi.",
+            "evidence": "Claude (row 7, score 20): \"What is the on raoad price on the Storm 200 in delhi ?\" Storm 200 Delhi on‑road price: expected 163100, omitted. Storm 200 page blanks: expected engine 199cc, power 25 bhp, price 145000, AI said blanks. Wrong price for Storm 200: expected 163100, AI gave 241900.",
+            "recommendation": "Add a visible on_road_inr field for Delhi on the Storm 200 page and ensure crawler can access it.",
+            "related_ai_tools": [
+              "Claude"
+            ],
+            "row_index": 6
+          },
+          {
+            "gap": "Missing mileage information",
+            "evidence": "Claude (row 8, score 20): \"What is the mileage of the Thunderstrike 450 ?\" Mileage: expected 30 km/l, AI said not found",
+            "recommendation": "Ensure the mileage_or_range field is visible on the product page and accessible to crawlers.",
+            "related_ai_tools": [
+              "Claude"
+            ],
+            "row_index": 7
+          },
+          {
+            "gap": "No colours provided",
+            "evidence": "Claude (row 9, score 20): \"What all colours are available for the bike: Zenith 450 …\" The assistant failed to provide the available colours for the Zenith 450 Scrambler and incorrectly claimed the page was inaccessible.",
+            "recommendation": "Expose the Zenith 450 Scrambler page to the fetch tool or include its colours in the API response.",
+            "related_ai_tools": [
+              "Claude"
+            ],
+            "row_index": 8
+          },
+          {
+            "gap": "Missing exact on‑road price for Bangalore",
+            "evidence": "Perplexity (row 5, score 80): \"what is the price of zenith 450 in bangalore\" Claim that no Bangalore‑specific price exists (expected 390300)",
+            "recommendation": "Add a dedicated on_road_inr field for Bangalore in the model’s JSON to ensure the site can provide the exact price.",
+            "related_ai_tools": [
+              "Perplexity"
+            ],
+            "row_index": 4
+          },
+          {
+            "gap": "Incomplete vs ground truth",
+            "evidence": "Claude (row 6, score 80): \"What is the specifications of the Phantom 350 bike in th…\" All core specs are correct but the answer omits many detailed specifications such as weight, brakes, tyres, fuel tank, and dimensions.",
+            "recommendation": "Expose the missing field in static HTML and schema.org Product/Offer markup on the relevant model page.",
+            "related_ai_tools": [
+              "Claude"
+            ],
+            "row_index": 5
+          }
+        ],
+        "site_recommendations": [
+          {
+            "priority": 1,
+            "action": "Add schema.org Product + Offer JSON-LD on every model page with ex-showroom INR, variants, mileage, and colour list.",
+            "rationale": "Gives LLMs a single authoritative price and spec source instead of scraping cards.",
+            "likely_impact": "high"
+          },
+          {
+            "priority": 2,
+            "action": "Serve prerendered or static HTML snapshots for product URLs so crawlers do not depend on client-side rendering.",
+            "rationale": "Reduces fetch failures and blank content reported by Claude and similar tools.",
+            "likely_impact": "high"
+          },
+          {
+            "priority": 3,
+            "action": "Publish a crawlable all-models price table (ex-showroom and on-road by city) linked from the homepage.",
+            "rationale": "Stops cheapest/most-expensive errors when featured cards hide low-price models like Storm 125.",
+            "likely_impact": "high"
+          },
+          {
+            "priority": 4,
+            "action": "Expose on_road_inr per city in visible markup and structured data for each model that supports city pricing.",
+            "rationale": "Fixes missing Bangalore/Delhi on-road answers from Perplexity and Claude.",
+            "likely_impact": "medium"
+          },
+          {
+            "priority": 5,
+            "action": "Review robots.txt and allow major AI crawlers; verify product paths return 200 with full body text.",
+            "rationale": "Ensures tools that browse the live site can reach the same pages Firecrawl captured.",
+            "likely_impact": "medium"
+          }
+        ],
+        "crawler_and_llm_access": "Firecrawl captured 29 pages from https://omegax-hackathon.onrender.com/ (2026-10-25T15:00:27+05:30), so ground truth is available even when an assistant cannot fetch a URL. Claude reported access or visibility issues (3 mention(s)), often consistent with JS-only content, blocked crawlers, or incomplete static markup. Prioritize structured data, static HTML, and a full-model price index to align live LLM browsing with scraped facts."
+      },
+      "stats": {
+        "row_count": 10,
+        "average_score": 62,
+        "by_verdict": {
+          "correct": 3,
+          "incorrect": 4,
+          "partially_correct": 3
+        },
+        "average_score_by_tool": {
+          "ChatGPT": 100,
+          "Gemini": 67,
+          "Perplexity": 80,
+          "Claude": 35
+        }
+      }
+    }
+  ]
+}

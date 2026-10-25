@@ -100,16 +100,24 @@ async function loadStatus() {
   const pill = $('pollStatus');
   const banner = $('configBanner');
 
-  if (!data.configured) {
+  if (data.dataSource === 'evidence') {
+    pill.textContent = data.lastPollAt
+      ? `Sample logs · ${formatTime(data.lastPollAt)}`
+      : 'Sample logs';
+    pill.className = 'status-chip';
+    banner.classList.remove('hidden');
+    banner.textContent =
+      'Showing team evidence export (demo). Save RENDER_API_KEY and RENDER_SERVICE_ID in tools/traffic-dashboard/.env and restart for live Render logs.';
+  } else if (!data.configured) {
     pill.textContent = 'Not configured';
     pill.className = 'status-chip status-chip-error';
     banner.classList.remove('hidden');
     banner.textContent =
       'Add RENDER_API_KEY and RENDER_SERVICE_ID to tools/traffic-dashboard/.env (see .env.example), then restart the dashboard.';
     return;
+  } else {
+    banner.classList.add('hidden');
   }
-
-  banner.classList.add('hidden');
   if (data.lastPollError) {
     pill.textContent = `Error: ${data.lastPollError}`;
     pill.className = 'status-chip status-chip-error';
@@ -169,7 +177,24 @@ $('btnRefresh').addEventListener('click', async () => {
   $('btnRefresh').textContent = 'Refresh now';
 });
 
-loadStatus();
-loadLogs();
-connectSSE();
-setInterval(loadStatus, 15000);
+async function boot() {
+  try {
+    const health = await fetch('/api/health');
+    if (!health.ok) throw new Error('no api');
+  } catch {
+    const banner = $('configBanner');
+    const pill = $('pollStatus');
+    pill.textContent = 'Wrong server';
+    pill.className = 'status-chip status-chip-error';
+    banner.classList.remove('hidden');
+    banner.textContent =
+      'This page is not talking to the traffic API. Stop any static preview on port 3456, then run: cd tools/traffic-dashboard && npm start';
+    return;
+  }
+  await loadStatus();
+  await loadLogs();
+  connectSSE();
+  setInterval(loadStatus, 15000);
+}
+
+boot();

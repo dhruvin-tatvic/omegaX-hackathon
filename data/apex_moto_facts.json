@@ -1,0 +1,2280 @@
+{
+  "meta": {
+    "source": "https://omegax-hackathon.onrender.com/",
+    "scraped_at": "2026-10-25T15:00:27+05:30",
+    "scraper": "Firecrawl",
+    "pages_scraped": 29,
+    "brochures_used": [
+      "storm-390",
+      "zenith-650-scrambler",
+      "voyager-650"
+    ],
+    "currency": "INR",
+    "notes": "Prices are ex-showroom unless the field name says on_road. All prices are indicative per the site.",
+    "warnings": [],
+    "changes_since_previous": null
+  },
+  "summary": {
+    "models_listed": 18,
+    "categories": {
+      "Adventure": 3,
+      "Classic": 3,
+      "Street": 4,
+      "Scrambler": 3,
+      "Tourer": 2,
+      "Cruiser": 2,
+      "Electric": 1
+    },
+    "lowest_ex_showroom_inr": 99000,
+    "highest_ex_showroom_inr": 529000,
+    "dealerships_listed": 8,
+    "active_offers": 6,
+    "partner_banks": 4,
+    "home_stats": {
+      "Riders Worldwide": "50,000+",
+      "Iconic Models": "18",
+      "Dealers Across India": "120+",
+      "Engineering Excellence": "10 Yrs"
+    },
+    "about_stats": {
+      "Happy Riders": "50K+",
+      "Dealerships": "120+",
+      "Iconic Models": "4",
+      "Years of Excellence": "10"
+    }
+  },
+  "models": [
+    {
+      "slug": "thunderstrike-650",
+      "name": "Thunderstrike 650",
+      "category": "Adventure",
+      "badge": "Bestseller",
+      "tagline": "Command the Horizon",
+      "engine": "648cc",
+      "power": "47 bhp",
+      "torque": "52 Nm",
+      "mileage_or_range": "24 km/l",
+      "ex_showroom_inr": 420000,
+      "availability": "In stock",
+      "colours": [
+        "Blazing Orange",
+        "Glacier White"
+      ],
+      "dealer_cities": [
+        "Delhi",
+        "Mumbai",
+        "Bangalore",
+        "Pune",
+        "Chennai",
+        "Hyderabad",
+        "Jaipur",
+        "Kolkata"
+      ],
+      "key_features": [
+        "Single seat",
+        "Basic instrument cluster",
+        "Alloy wheels"
+      ],
+      "variants": [
+        {
+          "name": "Standard",
+          "price_inr": 420000,
+          "features": [
+            "Single seat",
+            "Basic instrument cluster",
+            "Alloy wheels"
+          ]
+        },
+        {
+          "name": "Adventure+",
+          "price_inr": 475000,
+          "features": [
+            "Dual seat",
+            "TFT color display",
+            "Crash guards",
+            "USB charging"
+          ]
+        }
+      ],
+      "specs": {
+        "engine": "648cc, Parallel Twin, Liquid-Cooled, DOHC",
+        "displacement_cc": 648,
+        "max_power_bhp": 47,
+        "max_power_rpm": 7500,
+        "max_torque_nm": 52,
+        "max_torque_rpm": 5750,
+        "transmission": "6-Speed with Slipper Clutch",
+        "fuel_system": "Electronic Fuel Injection",
+        "front_suspension": "43mm USD Forks, 170mm Travel",
+        "rear_suspension": "Monoshock, 170mm Travel",
+        "front_brake": "320mm Disc, Radial Caliper",
+        "rear_brake": "240mm Disc, ABS",
+        "front_tyre": "90/90-21 Road/Trail",
+        "rear_tyre": "150/70-17 Road/Trail",
+        "wheelbase_mm": 1500,
+        "seat_height_mm": 835,
+        "fuel_tank_l": 17.5,
+        "kerb_weight_kg": 196,
+        "mileage_kmpl": 24
+      },
+      "on_road_inr": {
+        "Delhi": 472500,
+        "Mumbai": 482200,
+        "Bangalore": 489300,
+        "Pune": 476700,
+        "Chennai": 478800,
+        "Hyderabad": 483000,
+        "Jaipur": 474600,
+        "Kolkata": 470400
+      },
+      "sources": {
+        "specs": "model_page",
+        "on_road": "model_page",
+        "variants": "model_page"
+      },
+      "page_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-650",
+      "brochure_url": "https://omegax-hackathon.onrender.com/brochures/thunderstrike-650.pdf"
+    },
+    {
+      "slug": "phantom-350",
+      "name": "Phantom 350",
+      "category": "Classic",
+      "badge": "New Launch",
+      "tagline": "Classic Soul. Modern Heart.",
+      "engine": "349cc",
+      "power": "21 bhp",
+      "torque": "28 Nm",
+      "mileage_or_range": "38 km/l",
+      "ex_showroom_inr": 215000,
+      "availability": "In stock",
+      "colours": [
+        "Matte Black",
+        "Racing Green",
+        "Chrome Silver"
+      ],
+      "dealer_cities": [
+        "Delhi",
+        "Mumbai",
+        "Bangalore",
+        "Pune",
+        "Chennai",
+        "Hyderabad",
+        "Jaipur",
+        "Kolkata"
+      ],
+      "key_features": [
+        "Standard seat",
+        "Halogen headlight",
+        "Drum rear brake"
+      ],
+      "variants": [
+        {
+          "name": "Classic",
+          "price_inr": 215000,
+          "features": [
+            "Standard seat",
+            "Halogen headlight",
+            "Drum rear brake"
+          ]
+        },
+        {
+          "name": "Chrome Edition",
+          "price_inr": 245000,
+          "features": [
+            "Comfort seat",
+            "LED headlight",
+            "Disc rear brake",
+            "USB port"
+          ]
+        }
+      ],
+      "specs": {
+        "engine": "349cc, Single Cylinder, Air/Oil-Cooled, SOHC",
+        "displacement_cc": 349,
+        "max_power_bhp": 21,
+        "max_power_rpm": 6100,
+        "max_torque_nm": 28,
+        "max_torque_rpm": 4000,
+        "transmission": "5-Speed",
+        "fuel_system": "Electronic Fuel Injection",
+        "front_suspension": "41mm Telescopic Forks, 130mm Travel",
+        "rear_suspension": "Twin Shock Absorbers, 95mm Travel",
+        "front_brake": "300mm Disc, Single Piston",
+        "rear_brake": "270mm Disc, ABS",
+        "front_tyre": "100/90-19 Wire Spoke",
+        "rear_tyre": "120/80-18 Wire Spoke",
+        "wheelbase_mm": 1390,
+        "seat_height_mm": 800,
+        "fuel_tank_l": 13,
+        "kerb_weight_kg": 183,
+        "mileage_kmpl": 38
+      },
+      "on_road_inr": {
+        "Delhi": 241900,
+        "Mumbai": 246800,
+        "Bangalore": 250500,
+        "Pune": 244000,
+        "Chennai": 245100,
+        "Hyderabad": 247200,
+        "Jaipur": 242900,
+        "Kolkata": 240800
+      },
+      "sources": {
+        "specs": "model_page",
+        "on_road": "model_page",
+        "variants": "model_page"
+      },
+      "page_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350",
+      "brochure_url": "https://omegax-hackathon.onrender.com/brochures/phantom-350.pdf"
+    },
+    {
+      "slug": "storm-200",
+      "name": "Storm 200",
+      "category": "Street",
+      "badge": "Popular",
+      "tagline": "City. Conquered.",
+      "engine": "199cc",
+      "power": "25 bhp",
+      "torque": "19 Nm",
+      "mileage_or_range": "32 km/l",
+      "ex_showroom_inr": 145000,
+      "availability": "In stock",
+      "colours": [
+        "Ocean Blue",
+        "Stealth Black"
+      ],
+      "dealer_cities": [
+        "Delhi",
+        "Mumbai",
+        "Bangalore",
+        "Pune",
+        "Chennai",
+        "Hyderabad",
+        "Jaipur",
+        "Kolkata"
+      ],
+      "key_features": [
+        "Digital cluster",
+        "LED headlight",
+        "Single-channel ABS"
+      ],
+      "variants": [
+        {
+          "name": "Base",
+          "price_inr": 145000,
+          "features": [
+            "Digital cluster",
+            "LED headlight",
+            "Single-channel ABS"
+          ]
+        },
+        {
+          "name": "Sport",
+          "price_inr": 165000,
+          "features": [
+            "TFT display",
+            "Quickshifter",
+            "Dual-channel ABS",
+            "Sporty exhaust"
+          ]
+        }
+      ],
+      "specs": {
+        "engine": "199cc, Single Cylinder, Liquid-Cooled, DOHC",
+        "displacement_cc": 199,
+        "max_power_bhp": 25,
+        "max_power_rpm": 9500,
+        "max_torque_nm": 19,
+        "max_torque_rpm": 7500,
+        "transmission": "6-Speed",
+        "fuel_system": "Electronic Fuel Injection",
+        "front_suspension": "41mm USD Forks, 140mm Travel",
+        "rear_suspension": "Monoshock, 130mm Travel",
+        "front_brake": "300mm Disc, Radial Caliper",
+        "rear_brake": "220mm Disc, ABS",
+        "front_tyre": "110/70-17 Radial",
+        "rear_tyre": "150/60-17 Radial",
+        "wheelbase_mm": 1360,
+        "seat_height_mm": 820,
+        "fuel_tank_l": 12,
+        "kerb_weight_kg": 160,
+        "mileage_kmpl": 32
+      },
+      "on_road_inr": {
+        "Delhi": 163100,
+        "Mumbai": 166500,
+        "Bangalore": 168900,
+        "Pune": 164600,
+        "Chennai": 165300,
+        "Hyderabad": 166800,
+        "Jaipur": 163800,
+        "Kolkata": 162400
+      },
+      "sources": {
+        "specs": "model_page",
+        "on_road": "model_page",
+        "variants": "model_page"
+      },
+      "page_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-200",
+      "brochure_url": "https://omegax-hackathon.onrender.com/brochures/storm-200.pdf"
+    },
+    {
+      "slug": "zenith-450-scrambler",
+      "name": "Zenith 450 Scrambler",
+      "category": "Scrambler",
+      "badge": "Off-Road Ready",
+      "tagline": "Paved Roads Optional.",
+      "engine": "449cc",
+      "power": "38 bhp",
+      "torque": "43 Nm",
+      "mileage_or_range": "28 km/l",
+      "ex_showroom_inr": 335000,
+      "availability": "In stock",
+      "colours": [
+        "Military Green",
+        "Desert Sand"
+      ],
+      "dealer_cities": [
+        "Delhi",
+        "Mumbai",
+        "Bangalore",
+        "Pune",
+        "Chennai",
+        "Hyderabad",
+        "Jaipur",
+        "Kolkata"
+      ],
+      "key_features": [
+        "Standard knobby tyres",
+        "High exhaust",
+        "Skid plate"
+      ],
+      "variants": [
+        {
+          "name": "Trail",
+          "price_inr": 335000,
+          "features": [
+            "Standard knobby tyres",
+            "High exhaust",
+            "Skid plate"
+          ]
+        },
+        {
+          "name": "Enduro",
+          "price_inr": 375000,
+          "features": [
+            "Heavy duty knobby tyres",
+            "High exhaust",
+            "Full protection kit",
+            "Adjustable suspension"
+          ]
+        }
+      ],
+      "specs": {
+        "engine": "449cc, Single Cylinder, Liquid-Cooled, DOHC",
+        "displacement_cc": 449,
+        "max_power_bhp": 38,
+        "max_power_rpm": 7000,
+        "max_torque_nm": 43,
+        "max_torque_rpm": 5500,
+        "transmission": "5-Speed with Quick Shifter",
+        "fuel_system": "Electronic Fuel Injection",
+        "front_suspension": "45mm USD Forks, 200mm Travel",
+        "rear_suspension": "Piggyback Monoshock, 200mm Travel",
+        "front_brake": "300mm Disc, Radial Caliper",
+        "rear_brake": "240mm Disc, ABS (Switchable)",
+        "front_tyre": "90/90-21 Dual-Sport Knobby",
+        "rear_tyre": "130/80-18 Dual-Sport Knobby",
+        "wheelbase_mm": 1470,
+        "seat_height_mm": 855,
+        "fuel_tank_l": 15,
+        "kerb_weight_kg": 178,
+        "mileage_kmpl": 28
+      },
+      "on_road_inr": {
+        "Delhi": 376900,
+        "Mumbai": 384600,
+        "Bangalore": 390300,
+        "Pune": 380200,
+        "Chennai": 381900,
+        "Hyderabad": 385200,
+        "Jaipur": 378500,
+        "Kolkata": 375200
+      },
+      "sources": {
+        "specs": "model_page",
+        "on_road": "model_page",
+        "variants": "model_page"
+      },
+      "page_url": "https://omegax-hackathon.onrender.com/motorcycles/zenith-450-scrambler",
+      "brochure_url": "https://omegax-hackathon.onrender.com/brochures/zenith-450-scrambler.pdf"
+    },
+    {
+      "slug": "thunderstrike-450",
+      "name": "Thunderstrike 450",
+      "category": "Adventure",
+      "badge": "New Launch",
+      "tagline": "Adventure, Unlocked.",
+      "engine": "452cc",
+      "power": "40 bhp",
+      "torque": "40 Nm",
+      "mileage_or_range": "30 km/l",
+      "ex_showroom_inr": 289000,
+      "availability": "In stock",
+      "colours": [
+        "Kaza Brown",
+        "Slate Grey"
+      ],
+      "dealer_cities": [
+        "Delhi",
+        "Mumbai",
+        "Bangalore",
+        "Pune",
+        "Chennai",
+        "Hyderabad",
+        "Jaipur",
+        "Kolkata"
+      ],
+      "key_features": [
+        "LED lighting",
+        "Switchable ABS",
+        "Digital cluster"
+      ],
+      "variants": [
+        {
+          "name": "Standard",
+          "price_inr": 289000,
+          "features": [
+            "LED lighting",
+            "Switchable ABS",
+            "Digital cluster"
+          ]
+        },
+        {
+          "name": "Explorer",
+          "price_inr": 319000,
+          "features": [
+            "TFT navigation",
+            "Hand guards",
+            "Luggage rack"
+          ]
+        }
+      ],
+      "specs": {
+        "engine": "452cc, Single Cylinder, Liquid-Cooled, DOHC",
+        "displacement_cc": 452,
+        "max_power_bhp": 40,
+        "max_power_rpm": 8000,
+        "max_torque_nm": 40,
+        "max_torque_rpm": 5500,
+        "transmission": "6-Speed with Slipper Clutch",
+        "fuel_system": "Electronic Fuel Injection",
+        "front_suspension": "43mm USD Forks, 200mm Travel",
+        "rear_suspension": "Linked Monoshock, 200mm Travel",
+        "front_brake": "320mm Disc, Twin Piston",
+        "rear_brake": "270mm Disc, ABS (Switchable)",
+        "front_tyre": "90/90-21 Road/Trail",
+        "rear_tyre": "140/80-17 Road/Trail",
+        "wheelbase_mm": 1510,
+        "seat_height_mm": 825,
+        "fuel_tank_l": 17,
+        "kerb_weight_kg": 190,
+        "mileage_kmpl": 30
+      },
+      "on_road_inr": {
+        "Delhi": 325100,
+        "Mumbai": 331800,
+        "Bangalore": 336700,
+        "Pune": 328000,
+        "Chennai": 329500,
+        "Hyderabad": 332400,
+        "Jaipur": 326600,
+        "Kolkata": 323700
+      },
+      "sources": {
+        "specs": "model_page",
+        "on_road": "model_page",
+        "variants": "model_page"
+      },
+      "page_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450",
+      "brochure_url": "https://omegax-hackathon.onrender.com/brochures/thunderstrike-450.pdf"
+    },
+    {
+      "slug": "thunderstrike-650-rally",
+      "name": "Thunderstrike 650 Rally",
+      "category": "Adventure",
+      "badge": "Limited Edition",
+      "tagline": "Built for the Dakar in You.",
+      "engine": "648cc",
+      "power": "47 bhp",
+      "torque": "52 Nm",
+      "mileage_or_range": "22 km/l",
+      "ex_showroom_inr": 529000,
+      "availability": "2-3 weeks",
+      "colours": [
+        "Rally White",
+        "Racing Blue"
+      ],
+      "dealer_cities": [
+        "Delhi",
+        "Mumbai",
+        "Bangalore",
+        "Pune"
+      ],
+      "key_features": [
+        "Rally seat",
+        "Long-travel suspension",
+        "Navigation tower",
+        "Bash plate"
+      ],
+      "variants": [
+        {
+          "name": "Rally",
+          "price_inr": 529000,
+          "features": [
+            "Rally seat",
+            "Long-travel suspension",
+            "Navigation tower",
+            "Bash plate"
+          ]
+        }
+      ],
+      "specs": {
+        "engine": "648cc, Parallel Twin, Liquid-Cooled, DOHC",
+        "displacement_cc": 648,
+        "max_power_bhp": 47,
+        "max_power_rpm": 7500,
+        "max_torque_nm": 52,
+        "max_torque_rpm": 5750,
+        "transmission": "6-Speed with Slipper Clutch",
+        "fuel_system": "Electronic Fuel Injection",
+        "front_suspension": "48mm USD Forks, 230mm Travel",
+        "rear_suspension": "Adjustable Monoshock, 220mm Travel",
+        "front_brake": "320mm Disc, Radial Caliper",
+        "rear_brake": "240mm Disc, ABS (Switchable)",
+        "front_tyre": "90/90-21 Rally",
+        "rear_tyre": "140/80-18 Rally",
+        "wheelbase_mm": 1520,
+        "seat_height_mm": 880,
+        "fuel_tank_l": 18,
+        "kerb_weight_kg": 204,
+        "mileage_kmpl": 22
+      },
+      "on_road_inr": {
+        "Delhi": 595100,
+        "Mumbai": 607300,
+        "Bangalore": 616300,
+        "Pune": 600400
+      },
+      "sources": {
+        "specs": "model_page",
+        "on_road": "model_page",
+        "variants": "model_page"
+      },
+      "page_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-650-rally",
+      "brochure_url": "https://omegax-hackathon.onrender.com/brochures/thunderstrike-650-rally.pdf"
+    },
+    {
+      "slug": "phantom-500",
+      "name": "Phantom 500",
+      "category": "Classic",
+      "badge": "Heritage",
+      "tagline": "More Thump. Same Soul.",
+      "engine": "499cc",
+      "power": "27 bhp",
+      "torque": "41 Nm",
+      "mileage_or_range": "32 km/l",
+      "ex_showroom_inr": 259000,
+      "availability": "In stock",
+      "colours": [
+        "Royal Maroon",
+        "Matte Black"
+      ],
+      "dealer_cities": [
+        "Delhi",
+        "Mumbai",
+        "Bangalore",
+        "Pune",
+        "Chennai",
+        "Hyderabad",
+        "Jaipur",
+        "Kolkata"
+      ],
+      "key_features": [
+        "Halogen headlight",
+        "Analog-digital cluster"
+      ],
+      "variants": [
+        {
+          "name": "Standard",
+          "price_inr": 259000,
+          "features": [
+            "Halogen headlight",
+            "Analog-digital cluster"
+          ]
+        },
+        {
+          "name": "Signature",
+          "price_inr": 284000,
+          "features": [
+            "LED headlight",
+            "Tripper navigation",
+            "Premium paint"
+          ]
+        }
+      ],
+      "specs": {
+        "engine": "499cc, Single Cylinder, Air/Oil-Cooled, SOHC",
+        "displacement_cc": 499,
+        "max_power_bhp": 27,
+        "max_power_rpm": 6000,
+        "max_torque_nm": 41,
+        "max_torque_rpm": 4000,
+        "transmission": "5-Speed",
+        "fuel_system": "Electronic Fuel Injection",
+        "front_suspension": "41mm Telescopic Forks, 130mm Travel",
+        "rear_suspension": "Twin Shock Absorbers, 95mm Travel",
+        "front_brake": "300mm Disc, Twin Piston",
+        "rear_brake": "270mm Disc, ABS",
+        "front_tyre": "100/90-19 Wire Spoke",
+        "rear_tyre": "120/80-18 Wire Spoke",
+        "wheelbase_mm": 1400,
+        "seat_height_mm": 805,
+        "fuel_tank_l": 13.5,
+        "kerb_weight_kg": 195,
+        "mileage_kmpl": 32
+      },
+      "on_road_inr": {
+        "Delhi": 291400,
+        "Mumbai": 297300,
+        "Bangalore": 301700,
+        "Pune": 294000,
+        "Chennai": 295300,
+        "Hyderabad": 297800,
+        "Jaipur": 292700,
+        "Kolkata": 290100
+      },
+      "sources": {
+        "specs": "model_page",
+        "on_road": "model_page",
+        "variants": "model_page"
+      },
+      "page_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-500",
+      "brochure_url": "https://omegax-hackathon.onrender.com/brochures/phantom-500.pdf"
+    },
+    {
+      "slug": "phantom-350-bobber",
+      "name": "Phantom 350 Bobber",
+      "category": "Classic",
+      "badge": "New",
+      "tagline": "Ride Low. Ride Proud.",
+      "engine": "349cc",
+      "power": "21 bhp",
+      "torque": "28 Nm",
+      "mileage_or_range": "36 km/l",
+      "ex_showroom_inr": 235000,
+      "availability": "2-3 weeks",
+      "colours": [
+        "Graphite Black",
+        "Copper Brown"
+      ],
+      "dealer_cities": [
+        "Delhi",
+        "Mumbai",
+        "Bangalore",
+        "Pune",
+        "Chennai",
+        "Hyderabad"
+      ],
+      "key_features": [
+        "Floating single seat",
+        "Ape-hanger bars",
+        "Whitewall tyres"
+      ],
+      "variants": [
+        {
+          "name": "Bobber",
+          "price_inr": 235000,
+          "features": [
+            "Floating single seat",
+            "Ape-hanger bars",
+            "Whitewall tyres"
+          ]
+        }
+      ],
+      "specs": {
+        "engine": "349cc, Single Cylinder, Air/Oil-Cooled, SOHC",
+        "displacement_cc": 349,
+        "max_power_bhp": 21,
+        "max_power_rpm": 6100,
+        "max_torque_nm": 28,
+        "max_torque_rpm": 4000,
+        "transmission": "5-Speed",
+        "fuel_system": "Electronic Fuel Injection",
+        "front_suspension": "41mm Telescopic Forks, 130mm Travel",
+        "rear_suspension": "Hardtail-look Monoshock, 90mm Travel",
+        "front_brake": "300mm Disc, Single Piston",
+        "rear_brake": "270mm Disc, ABS",
+        "front_tyre": "100/90-19 Whitewall",
+        "rear_tyre": "130/90-16 Whitewall",
+        "wheelbase_mm": 1380,
+        "seat_height_mm": 740,
+        "fuel_tank_l": 12,
+        "kerb_weight_kg": 186,
+        "mileage_kmpl": 36
+      },
+      "on_road_inr": {
+        "Delhi": 264400,
+        "Mumbai": 269800,
+        "Bangalore": 273800,
+        "Pune": 266700,
+        "Chennai": 267900,
+        "Hyderabad": 270200
+      },
+      "sources": {
+        "specs": "model_page",
+        "on_road": "model_page",
+        "variants": "model_page"
+      },
+      "page_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber",
+      "brochure_url": "https://omegax-hackathon.onrender.com/brochures/phantom-350-bobber.pdf"
+    },
+    {
+      "slug": "storm-125",
+      "name": "Storm 125",
+      "category": "Street",
+      "badge": "Value",
+      "tagline": "Your First Storm.",
+      "engine": "124.7cc",
+      "power": "11.5 bhp",
+      "torque": "10.5 Nm",
+      "mileage_or_range": "55 km/l",
+      "ex_showroom_inr": 99000,
+      "availability": "In stock",
+      "colours": [
+        "Racing Red",
+        "Pearl White",
+        "Stealth Black"
+      ],
+      "dealer_cities": [
+        "Delhi",
+        "Mumbai",
+        "Bangalore",
+        "Pune",
+        "Chennai",
+        "Hyderabad",
+        "Jaipur",
+        "Kolkata"
+      ],
+      "key_features": [
+        "Digital cluster",
+        "CBS braking"
+      ],
+      "variants": [
+        {
+          "name": "Drum",
+          "price_inr": 99000,
+          "features": [
+            "Digital cluster",
+            "CBS braking"
+          ]
+        },
+        {
+          "name": "Disc",
+          "price_inr": 105000,
+          "features": [
+            "Front disc brake",
+            "LED headlight",
+            "Bluetooth connectivity"
+          ]
+        }
+      ],
+      "specs": {
+        "engine": "124.7cc, Single Cylinder, Air-Cooled, SOHC",
+        "displacement_cc": 125,
+        "max_power_bhp": 11.5,
+        "max_power_rpm": 8250,
+        "max_torque_nm": 10.5,
+        "max_torque_rpm": 6500,
+        "transmission": "5-Speed",
+        "fuel_system": "Electronic Fuel Injection",
+        "front_suspension": "37mm Telescopic Forks, 120mm Travel",
+        "rear_suspension": "Monoshock, 110mm Travel",
+        "front_brake": "240mm Disc",
+        "rear_brake": "130mm Drum, CBS",
+        "front_tyre": "80/100-17 Tubeless",
+        "rear_tyre": "110/80-17 Tubeless",
+        "wheelbase_mm": 1300,
+        "seat_height_mm": 790,
+        "fuel_tank_l": 10,
+        "kerb_weight_kg": 132,
+        "mileage_kmpl": 55
+      },
+      "on_road_inr": {
+        "Delhi": 111400,
+        "Mumbai": 113700,
+        "Bangalore": 115300,
+        "Pune": 112400,
+        "Chennai": 112900,
+        "Hyderabad": 113800,
+        "Jaipur": 111900,
+        "Kolkata": 110900
+      },
+      "sources": {
+        "specs": "model_page",
+        "on_road": "model_page",
+        "variants": "model_page"
+      },
+      "page_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125",
+      "brochure_url": "https://omegax-hackathon.onrender.com/brochures/storm-125.pdf"
+    },
+    {
+      "slug": "storm-160",
+      "name": "Storm 160",
+      "category": "Street",
+      "badge": "Popular",
+      "tagline": "Quick off the Line.",
+      "engine": "159.7cc",
+      "power": "16 bhp",
+      "torque": "14 Nm",
+      "mileage_or_range": "45 km/l",
+      "ex_showroom_inr": 122000,
+      "availability": "In stock",
+      "colours": [
+        "Neon Yellow",
+        "Stealth Black"
+      ],
+      "dealer_cities": [
+        "Delhi",
+        "Mumbai",
+        "Bangalore",
+        "Pune",
+        "Chennai",
+        "Hyderabad",
+        "Jaipur",
+        "Kolkata"
+      ],
+      "key_features": [
+        "Digital cluster",
+        "Single-channel ABS"
+      ],
+      "variants": [
+        {
+          "name": "Single Disc",
+          "price_inr": 122000,
+          "features": [
+            "Digital cluster",
+            "Single-channel ABS"
+          ]
+        },
+        {
+          "name": "Twin Disc",
+          "price_inr": 129000,
+          "features": [
+            "Rear disc brake",
+            "LED headlight",
+            "Bluetooth connectivity"
+          ]
+        }
+      ],
+      "specs": {
+        "engine": "159.7cc, Single Cylinder, Air/Oil-Cooled, SOHC",
+        "displacement_cc": 160,
+        "max_power_bhp": 16,
+        "max_power_rpm": 8500,
+        "max_torque_nm": 14,
+        "max_torque_rpm": 7000,
+        "transmission": "5-Speed",
+        "fuel_system": "Electronic Fuel Injection",
+        "front_suspension": "37mm Telescopic Forks, 120mm Travel",
+        "rear_suspension": "Monoshock, 120mm Travel",
+        "front_brake": "276mm Disc",
+        "rear_brake": "200mm Disc, ABS",
+        "front_tyre": "100/80-17 Tubeless",
+        "rear_tyre": "130/70-17 Tubeless",
+        "wheelbase_mm": 1330,
+        "seat_height_mm": 800,
+        "fuel_tank_l": 12,
+        "kerb_weight_kg": 142,
+        "mileage_kmpl": 45
+      },
+      "on_road_inr": {
+        "Delhi": 137200,
+        "Mumbai": 140100,
+        "Bangalore": 142100,
+        "Pune": 138500,
+        "Chennai": 139100,
+        "Hyderabad": 140300,
+        "Jaipur": 137900,
+        "Kolkata": 136600
+      },
+      "sources": {
+        "specs": "model_page",
+        "on_road": "model_page",
+        "variants": "model_page"
+      },
+      "page_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160",
+      "brochure_url": "https://omegax-hackathon.onrender.com/brochures/storm-160.pdf"
+    },
+    {
+      "slug": "storm-390",
+      "name": "Storm 390",
+      "category": "Street",
+      "badge": "Performance",
+      "tagline": "Unleash the Storm.",
+      "engine": "373cc",
+      "power": "43 bhp",
+      "torque": "37 Nm",
+      "mileage_or_range": "28 km/l",
+      "ex_showroom_inr": 279000,
+      "availability": "In stock",
+      "colours": [
+        "Electric Orange",
+        "Ocean Blue"
+      ],
+      "dealer_cities": [
+        "Delhi",
+        "Mumbai",
+        "Bangalore",
+        "Pune",
+        "Chennai",
+        "Hyderabad",
+        "Jaipur",
+        "Kolkata"
+      ],
+      "key_features": [],
+      "variants": [
+        {
+          "name": "Standard",
+          "price_inr": 279000,
+          "features": [
+            "TFT display",
+            "Dual-channel ABS",
+            "Ride-by-wire"
+          ]
+        },
+        {
+          "name": "Pro",
+          "price_inr": 309000,
+          "features": [
+            "Quickshifter+",
+            "Cornering ABS",
+            "Adjustable suspension"
+          ]
+        }
+      ],
+      "specs": {
+        "engine": "373cc, Single Cylinder, Liquid-Cooled, DOHC",
+        "displacement_cc": 373,
+        "max_power_bhp": 43,
+        "max_power_rpm": 9000,
+        "max_torque_nm": 37,
+        "max_torque_rpm": 7000,
+        "transmission": "6-Speed with Quickshifter",
+        "fuel_system": "Electronic Fuel Injection",
+        "front_suspension": "43mm USD Forks, 150mm Travel",
+        "rear_suspension": "Monoshock, 150mm Travel",
+        "front_brake": "320mm Disc, Radial Caliper",
+        "rear_brake": "240mm Disc, ABS",
+        "front_tyre": "110/70-17 Radial",
+        "rear_tyre": "150/60-17 Radial",
+        "wheelbase_mm": 1357,
+        "seat_height_mm": 820,
+        "fuel_tank_l": 13.4,
+        "kerb_weight_kg": 168,
+        "mileage_kmpl": 28
+      },
+      "on_road_inr": {
+        "Delhi": 313900,
+        "Mumbai": 320300,
+        "Bangalore": 325000,
+        "Pune": 316700,
+        "Chennai": 318100,
+        "Hyderabad": 320800,
+        "Jaipur": 315300,
+        "Kolkata": 312500
+      },
+      "sources": {
+        "specs": "brochure_pdf",
+        "on_road": "model_page",
+        "variants": "brochure_pdf"
+      },
+      "page_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-390",
+      "brochure_url": "https://omegax-hackathon.onrender.com/brochures/storm-390.pdf"
+    },
+    {
+      "slug": "zenith-350-scrambler",
+      "name": "Zenith 350 Scrambler",
+      "category": "Scrambler",
+      "badge": "New",
+      "tagline": "Dirt. Dust. Done.",
+      "engine": "349cc",
+      "power": "21 bhp",
+      "torque": "28 Nm",
+      "mileage_or_range": "34 km/l",
+      "ex_showroom_inr": 229000,
+      "availability": "In stock",
+      "colours": [
+        "Olive Drab",
+        "Sand Storm"
+      ],
+      "dealer_cities": [
+        "Delhi",
+        "Mumbai",
+        "Bangalore",
+        "Pune",
+        "Chennai",
+        "Hyderabad",
+        "Jaipur",
+        "Kolkata"
+      ],
+      "key_features": [
+        "Block-pattern tyres",
+        "Round LED headlight"
+      ],
+      "variants": [
+        {
+          "name": "Street",
+          "price_inr": 229000,
+          "features": [
+            "Block-pattern tyres",
+            "Round LED headlight"
+          ]
+        },
+        {
+          "name": "Trail",
+          "price_inr": 249000,
+          "features": [
+            "Knobby tyres",
+            "Headlight grille",
+            "Skid plate"
+          ]
+        }
+      ],
+      "specs": {
+        "engine": "349cc, Single Cylinder, Air/Oil-Cooled, SOHC",
+        "displacement_cc": 349,
+        "max_power_bhp": 21,
+        "max_power_rpm": 6100,
+        "max_torque_nm": 28,
+        "max_torque_rpm": 4000,
+        "transmission": "5-Speed",
+        "fuel_system": "Electronic Fuel Injection",
+        "front_suspension": "41mm Telescopic Forks, 160mm Travel",
+        "rear_suspension": "Monoshock, 150mm Travel",
+        "front_brake": "300mm Disc, Twin Piston",
+        "rear_brake": "240mm Disc, ABS (Switchable)",
+        "front_tyre": "100/90-19 Dual-Sport",
+        "rear_tyre": "130/80-17 Dual-Sport",
+        "wheelbase_mm": 1420,
+        "seat_height_mm": 810,
+        "fuel_tank_l": 13,
+        "kerb_weight_kg": 181,
+        "mileage_kmpl": 34
+      },
+      "on_road_inr": {
+        "Delhi": 257600,
+        "Mumbai": 262900,
+        "Bangalore": 266800,
+        "Pune": 259900,
+        "Chennai": 261100,
+        "Hyderabad": 263400,
+        "Jaipur": 258800,
+        "Kolkata": 256500
+      },
+      "sources": {
+        "specs": "model_page",
+        "on_road": "model_page",
+        "variants": "model_page"
+      },
+      "page_url": "https://omegax-hackathon.onrender.com/motorcycles/zenith-350-scrambler",
+      "brochure_url": "https://omegax-hackathon.onrender.com/brochures/zenith-350-scrambler.pdf"
+    },
+    {
+      "slug": "zenith-650-scrambler",
+      "name": "Zenith 650 Scrambler",
+      "category": "Scrambler",
+      "badge": "Flagship",
+      "tagline": "Twice the Twin. Twice the Trail.",
+      "engine": "648cc",
+      "power": "47 bhp",
+      "torque": "52 Nm",
+      "mileage_or_range": "25 km/l",
+      "ex_showroom_inr": 449000,
+      "availability": "2-3 weeks",
+      "colours": [
+        "Military Green",
+        "Chrome Black"
+      ],
+      "dealer_cities": [
+        "Delhi",
+        "Mumbai",
+        "Bangalore",
+        "Pune"
+      ],
+      "key_features": [
+        "Twin-pipe high exhaust",
+        "Switchable ABS",
+        "LED lighting"
+      ],
+      "variants": [
+        {
+          "name": "Standard",
+          "price_inr": 449000,
+          "features": [
+            "Twin-pipe high exhaust",
+            "Switchable ABS",
+            "LED lighting"
+          ]
+        }
+      ],
+      "specs": {
+        "engine": "648cc, Parallel Twin, Liquid-Cooled, DOHC",
+        "displacement_cc": 648,
+        "max_power_bhp": 47,
+        "max_power_rpm": 7250,
+        "max_torque_nm": 52,
+        "max_torque_rpm": 5150,
+        "transmission": "6-Speed with Slipper Clutch",
+        "fuel_system": "Electronic Fuel Injection",
+        "front_suspension": "43mm USD Forks, 150mm Travel",
+        "rear_suspension": "Twin Shock Absorbers, 115mm Travel",
+        "front_brake": "320mm Disc, Twin Piston",
+        "rear_brake": "240mm Disc, ABS Switchable",
+        "front_tyre": "100/90-19 Dual-Sport",
+        "rear_tyre": "140/80-17 Dual-Sport",
+        "wheelbase_mm": 1450,
+        "seat_height_mm": 820,
+        "fuel_tank_l": 13.7,
+        "kerb_weight_kg": 205,
+        "mileage_kmpl": 25
+      },
+      "on_road_inr": {
+        "Delhi": 505100,
+        "Mumbai": 515500,
+        "Bangalore": 523100,
+        "Pune": 509600
+      },
+      "sources": {
+        "specs": "brochure_pdf",
+        "on_road": "model_page",
+        "variants": "model_page"
+      },
+      "page_url": "https://omegax-hackathon.onrender.com/motorcycles/zenith-650-scrambler",
+      "brochure_url": "https://omegax-hackathon.onrender.com/brochures/zenith-650-scrambler.pdf"
+    },
+    {
+      "slug": "voyager-650",
+      "name": "Voyager 650",
+      "category": "Tourer",
+      "badge": "Grand Tourer",
+      "tagline": "Every Mile, First Class.",
+      "engine": "648cc",
+      "power": "47 bhp",
+      "torque": "52 Nm",
+      "mileage_or_range": "23 km/l",
+      "ex_showroom_inr": 459000,
+      "availability": "In stock",
+      "colours": [
+        "Glacier White",
+        "Midnight Blue"
+      ],
+      "dealer_cities": [
+        "Delhi",
+        "Mumbai",
+        "Bangalore",
+        "Pune",
+        "Chennai",
+        "Hyderabad",
+        "Jaipur",
+        "Kolkata"
+      ],
+      "key_features": [
+        "Full fairing",
+        "Cruise control",
+        "Panniers"
+      ],
+      "variants": [
+        {
+          "name": "Tourer",
+          "price_inr": 459000,
+          "features": [
+            "Full fairing",
+            "Cruise control",
+            "Panniers"
+          ]
+        }
+      ],
+      "specs": {
+        "engine": "648cc, Parallel Twin, Liquid-Cooled, DOHC",
+        "displacement_cc": 648,
+        "max_power_bhp": 47,
+        "max_power_rpm": 7250,
+        "max_torque_nm": 52,
+        "max_torque_rpm": 5150,
+        "transmission": "6-Speed with Slipper Clutch",
+        "fuel_system": "Electronic Fuel Injection",
+        "front_suspension": "43mm Telescopic Forks, 130mm Travel",
+        "rear_suspension": "Twin Shock Absorbers, 110mm Travel",
+        "front_brake": "320mm Disc, Twin Piston",
+        "rear_brake": "240mm Disc, ABS",
+        "front_tyre": "100/90-18 Touring",
+        "rear_tyre": "130/70-18 Touring",
+        "wheelbase_mm": 1475,
+        "seat_height_mm": 790,
+        "fuel_tank_l": 20,
+        "kerb_weight_kg": 222,
+        "mileage_kmpl": 23
+      },
+      "on_road_inr": {
+        "Delhi": 516400,
+        "Mumbai": 526900,
+        "Bangalore": 534700,
+        "Pune": 521000,
+        "Chennai": 523300,
+        "Hyderabad": 527800,
+        "Jaipur": 518700,
+        "Kolkata": 514100
+      },
+      "sources": {
+        "specs": "model_page",
+        "on_road": "brochure_pdf",
+        "variants": "model_page"
+      },
+      "page_url": "https://omegax-hackathon.onrender.com/motorcycles/voyager-650",
+      "brochure_url": "https://omegax-hackathon.onrender.com/brochures/voyager-650.pdf"
+    },
+    {
+      "slug": "voyager-450",
+      "name": "Voyager 450",
+      "category": "Tourer",
+      "badge": "New",
+      "tagline": "Long Roads. Light Feet.",
+      "engine": "452cc",
+      "power": "40 bhp",
+      "torque": "40 Nm",
+      "mileage_or_range": "30 km/l",
+      "ex_showroom_inr": 299000,
+      "availability": "In stock",
+      "colours": [
+        "Steel Grey",
+        "Glacier White"
+      ],
+      "dealer_cities": [
+        "Delhi",
+        "Mumbai",
+        "Bangalore",
+        "Pune",
+        "Chennai",
+        "Hyderabad",
+        "Jaipur",
+        "Kolkata"
+      ],
+      "key_features": [
+        "Half fairing",
+        "Touring seat"
+      ],
+      "variants": [
+        {
+          "name": "Standard",
+          "price_inr": 299000,
+          "features": [
+            "Half fairing",
+            "Touring seat"
+          ]
+        },
+        {
+          "name": "Touring",
+          "price_inr": 324000,
+          "features": [
+            "Panniers",
+            "Tall windscreen",
+            "Heated grips"
+          ]
+        }
+      ],
+      "specs": {
+        "engine": "452cc, Single Cylinder, Liquid-Cooled, DOHC",
+        "displacement_cc": 452,
+        "max_power_bhp": 40,
+        "max_power_rpm": 8000,
+        "max_torque_nm": 40,
+        "max_torque_rpm": 5500,
+        "transmission": "6-Speed with Slipper Clutch",
+        "fuel_system": "Electronic Fuel Injection",
+        "front_suspension": "41mm USD Forks, 140mm Travel",
+        "rear_suspension": "Monoshock, 140mm Travel",
+        "front_brake": "320mm Disc, Twin Piston",
+        "rear_brake": "240mm Disc, ABS",
+        "front_tyre": "110/80-17 Touring",
+        "rear_tyre": "150/70-17 Touring",
+        "wheelbase_mm": 1460,
+        "seat_height_mm": 800,
+        "fuel_tank_l": 18,
+        "kerb_weight_kg": 199,
+        "mileage_kmpl": 30
+      },
+      "on_road_inr": {
+        "Delhi": 336400,
+        "Mumbai": 343300,
+        "Bangalore": 348300,
+        "Pune": 339400,
+        "Chennai": 340900,
+        "Hyderabad": 343800,
+        "Jaipur": 337900,
+        "Kolkata": 334900
+      },
+      "sources": {
+        "specs": "model_page",
+        "on_road": "model_page",
+        "variants": "model_page"
+      },
+      "page_url": "https://omegax-hackathon.onrender.com/motorcycles/voyager-450",
+      "brochure_url": "https://omegax-hackathon.onrender.com/brochures/voyager-450.pdf"
+    },
+    {
+      "slug": "nightfall-350",
+      "name": "Nightfall 350",
+      "category": "Cruiser",
+      "badge": "Popular",
+      "tagline": "Own the Night.",
+      "engine": "349cc",
+      "power": "21 bhp",
+      "torque": "28 Nm",
+      "mileage_or_range": "35 km/l",
+      "ex_showroom_inr": 219000,
+      "availability": "In stock",
+      "colours": [
+        "Midnight Black",
+        "Wine Red"
+      ],
+      "dealer_cities": [
+        "Delhi",
+        "Mumbai",
+        "Bangalore",
+        "Pune",
+        "Chennai",
+        "Hyderabad",
+        "Jaipur",
+        "Kolkata"
+      ],
+      "key_features": [
+        "Low-slung seat",
+        "Forward controls"
+      ],
+      "variants": [
+        {
+          "name": "Standard",
+          "price_inr": 219000,
+          "features": [
+            "Low-slung seat",
+            "Forward controls"
+          ]
+        },
+        {
+          "name": "Dark",
+          "price_inr": 234000,
+          "features": [
+            "Blacked-out engine",
+            "LED headlight",
+            "USB port"
+          ]
+        }
+      ],
+      "specs": {
+        "engine": "349cc, Single Cylinder, Air/Oil-Cooled, SOHC",
+        "displacement_cc": 349,
+        "max_power_bhp": 21,
+        "max_power_rpm": 6100,
+        "max_torque_nm": 28,
+        "max_torque_rpm": 4000,
+        "transmission": "5-Speed",
+        "fuel_system": "Electronic Fuel Injection",
+        "front_suspension": "41mm Telescopic Forks, 130mm Travel",
+        "rear_suspension": "Twin Shock Absorbers, 80mm Travel",
+        "front_brake": "300mm Disc, Twin Piston",
+        "rear_brake": "270mm Disc, ABS",
+        "front_tyre": "100/90-19 Tubeless",
+        "rear_tyre": "150/80-16 Tubeless",
+        "wheelbase_mm": 1400,
+        "seat_height_mm": 765,
+        "fuel_tank_l": 13.5,
+        "kerb_weight_kg": 191,
+        "mileage_kmpl": 35
+      },
+      "on_road_inr": {
+        "Delhi": 246400,
+        "Mumbai": 251400,
+        "Bangalore": 255100,
+        "Pune": 248600,
+        "Chennai": 249700,
+        "Hyderabad": 251800,
+        "Jaipur": 247500,
+        "Kolkata": 245300
+      },
+      "sources": {
+        "specs": "model_page",
+        "on_road": "model_page",
+        "variants": "model_page"
+      },
+      "page_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350",
+      "brochure_url": "https://omegax-hackathon.onrender.com/brochures/nightfall-350.pdf"
+    },
+    {
+      "slug": "nightfall-650",
+      "name": "Nightfall 650",
+      "category": "Cruiser",
+      "badge": "Flagship",
+      "tagline": "Twin-Cylinder Swagger.",
+      "engine": "648cc",
+      "power": "46 bhp",
+      "torque": "52 Nm",
+      "mileage_or_range": "22 km/l",
+      "ex_showroom_inr": 395000,
+      "availability": "2-3 weeks",
+      "colours": [
+        "Astral Black",
+        "Celestial Red"
+      ],
+      "dealer_cities": [
+        "Delhi",
+        "Mumbai",
+        "Bangalore",
+        "Pune",
+        "Chennai",
+        "Hyderabad"
+      ],
+      "key_features": [
+        "Twin exhaust",
+        "Cruise-ready ergonomics"
+      ],
+      "variants": [
+        {
+          "name": "Standard",
+          "price_inr": 395000,
+          "features": [
+            "Twin exhaust",
+            "Cruise-ready ergonomics"
+          ]
+        },
+        {
+          "name": "Aero",
+          "price_inr": 425000,
+          "features": [
+            "Fly screen",
+            "Bar-end mirrors",
+            "Premium paint"
+          ]
+        }
+      ],
+      "specs": {
+        "engine": "648cc, Parallel Twin, Air/Oil-Cooled, SOHC",
+        "displacement_cc": 648,
+        "max_power_bhp": 46,
+        "max_power_rpm": 7250,
+        "max_torque_nm": 52,
+        "max_torque_rpm": 5650,
+        "transmission": "6-Speed with Slipper Clutch",
+        "fuel_system": "Electronic Fuel Injection",
+        "front_suspension": "43mm USD Forks, 120mm Travel",
+        "rear_suspension": "Twin Shock Absorbers, 100mm Travel",
+        "front_brake": "320mm Disc, Twin Piston",
+        "rear_brake": "300mm Disc, ABS",
+        "front_tyre": "100/90-19 Tubeless",
+        "rear_tyre": "150/80-16 Tubeless",
+        "wheelbase_mm": 1615,
+        "seat_height_mm": 740,
+        "fuel_tank_l": 15.7,
+        "kerb_weight_kg": 241,
+        "mileage_kmpl": 22
+      },
+      "on_road_inr": {
+        "Delhi": 444400,
+        "Mumbai": 453500,
+        "Bangalore": 460200,
+        "Pune": 448300,
+        "Chennai": 450300,
+        "Hyderabad": 454200
+      },
+      "sources": {
+        "specs": "model_page",
+        "on_road": "model_page",
+        "variants": "model_page"
+      },
+      "page_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-650",
+      "brochure_url": "https://omegax-hackathon.onrender.com/brochures/nightfall-650.pdf"
+    },
+    {
+      "slug": "spark-e1",
+      "name": "Spark E1",
+      "category": "Electric",
+      "badge": "Electric",
+      "tagline": "Silent. Swift. Smart.",
+      "engine": "Mid-drive PMSM, 9 kW peak",
+      "power": "12.1 bhp",
+      "torque": "40 Nm",
+      "mileage_or_range": "140 km",
+      "ex_showroom_inr": 149000,
+      "availability": "Pre-order",
+      "colours": [
+        "Arctic White",
+        "Volt Green"
+      ],
+      "dealer_cities": [
+        "Delhi",
+        "Mumbai",
+        "Bangalore",
+        "Pune"
+      ],
+      "key_features": [
+        "4G connectivity",
+        "Regenerative braking",
+        "Fast charging"
+      ],
+      "variants": [
+        {
+          "name": "Standard",
+          "price_inr": 149000,
+          "features": [
+            "4G connectivity",
+            "Regenerative braking",
+            "Fast charging"
+          ]
+        }
+      ],
+      "specs": {
+        "motor": "Mid-drive PMSM, 9 kW peak",
+        "peak_power_bhp": 12.1,
+        "max_torque_nm": 40,
+        "battery_kwh": 4,
+        "range_km": 140,
+        "charging_time_0_80": "3 h 30 min (home), 50 min (fast)",
+        "top_speed_kmph": 100,
+        "front_suspension": "37mm Telescopic Forks",
+        "rear_suspension": "Monoshock",
+        "front_brake": "240mm Disc",
+        "rear_brake": "220mm Disc, CBS",
+        "front_tyre": "90/80-17 Tubeless",
+        "rear_tyre": "110/80-17 Tubeless",
+        "wheelbase_mm": 1320,
+        "seat_height_mm": 790,
+        "kerb_weight_kg": 136
+      },
+      "on_road_inr": {
+        "Delhi": 155000,
+        "Mumbai": 155000,
+        "Bangalore": 155000,
+        "Pune": 155000
+      },
+      "sources": {
+        "specs": "model_page",
+        "on_road": "model_page",
+        "variants": "model_page"
+      },
+      "page_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1",
+      "brochure_url": "https://omegax-hackathon.onrender.com/brochures/spark-e1.pdf"
+    }
+  ],
+  "finance": {
+    "partner_banks": [
+      {
+        "bank": "HDFC Bank",
+        "interest_rate_pa": 0.085,
+        "max_tenure_months": 60,
+        "down_payment": "0–20%"
+      },
+      {
+        "bank": "ICICI Bank",
+        "interest_rate_pa": 0.09,
+        "max_tenure_months": 72,
+        "down_payment": "0–20%"
+      },
+      {
+        "bank": "SBI",
+        "interest_rate_pa": 0.079,
+        "max_tenure_months": 60,
+        "down_payment": "10–20%"
+      },
+      {
+        "bank": "Axis Bank",
+        "interest_rate_pa": 0.095,
+        "max_tenure_months": 48,
+        "down_payment": "0–15%"
+      }
+    ],
+    "emi_estimates": [
+      {
+        "model": "Thunderstrike 650",
+        "category": "Adventure",
+        "ex_showroom_inr": 420000,
+        "down_payment_inr": 42000,
+        "interest_rate_pa": 0.0999,
+        "tenure_months": 48,
+        "emi_inr": 9585,
+        "emi_recomputed_inr": 9585
+      },
+      {
+        "model": "Phantom 350",
+        "category": "Classic",
+        "ex_showroom_inr": 215000,
+        "down_payment_inr": 22000,
+        "interest_rate_pa": 0.0999,
+        "tenure_months": 48,
+        "emi_inr": 4894,
+        "emi_recomputed_inr": 4894
+      },
+      {
+        "model": "Storm 200",
+        "category": "Street",
+        "ex_showroom_inr": 145000,
+        "down_payment_inr": 14000,
+        "interest_rate_pa": 0.0949,
+        "tenure_months": 48,
+        "emi_inr": 3291,
+        "emi_recomputed_inr": 3291
+      },
+      {
+        "model": "Zenith 450 Scrambler",
+        "category": "Scrambler",
+        "ex_showroom_inr": 335000,
+        "down_payment_inr": 34000,
+        "interest_rate_pa": 0.0999,
+        "tenure_months": 48,
+        "emi_inr": 7633,
+        "emi_recomputed_inr": 7633
+      },
+      {
+        "model": "Thunderstrike 450",
+        "category": "Adventure",
+        "ex_showroom_inr": 289000,
+        "down_payment_inr": 29000,
+        "interest_rate_pa": 0.0999,
+        "tenure_months": 48,
+        "emi_inr": 6593,
+        "emi_recomputed_inr": 6593
+      },
+      {
+        "model": "Thunderstrike 650 Rally",
+        "category": "Adventure",
+        "ex_showroom_inr": 529000,
+        "down_payment_inr": 53000,
+        "interest_rate_pa": 0.0999,
+        "tenure_months": 48,
+        "emi_inr": 12070,
+        "emi_recomputed_inr": 12070
+      },
+      {
+        "model": "Phantom 500",
+        "category": "Classic",
+        "ex_showroom_inr": 259000,
+        "down_payment_inr": 26000,
+        "interest_rate_pa": 0.0999,
+        "tenure_months": 48,
+        "emi_inr": 5908,
+        "emi_recomputed_inr": 5908
+      },
+      {
+        "model": "Phantom 350 Bobber",
+        "category": "Classic",
+        "ex_showroom_inr": 235000,
+        "down_payment_inr": 24000,
+        "interest_rate_pa": 0.0999,
+        "tenure_months": 48,
+        "emi_inr": 5350,
+        "emi_recomputed_inr": 5350
+      },
+      {
+        "model": "Storm 125",
+        "category": "Street",
+        "ex_showroom_inr": 99000,
+        "down_payment_inr": 10000,
+        "interest_rate_pa": 0.0949,
+        "tenure_months": 48,
+        "emi_inr": 2236,
+        "emi_recomputed_inr": 2236
+      },
+      {
+        "model": "Storm 160",
+        "category": "Street",
+        "ex_showroom_inr": 122000,
+        "down_payment_inr": 12000,
+        "interest_rate_pa": 0.0949,
+        "tenure_months": 48,
+        "emi_inr": 2763,
+        "emi_recomputed_inr": 2763
+      },
+      {
+        "model": "Storm 390",
+        "category": "Street",
+        "ex_showroom_inr": 279000,
+        "down_payment_inr": 28000,
+        "interest_rate_pa": 0.0999,
+        "tenure_months": 48,
+        "emi_inr": 6365,
+        "emi_recomputed_inr": 6365
+      },
+      {
+        "model": "Zenith 350 Scrambler",
+        "category": "Scrambler",
+        "ex_showroom_inr": 229000,
+        "down_payment_inr": 23000,
+        "interest_rate_pa": 0.0999,
+        "tenure_months": 48,
+        "emi_inr": 5224,
+        "emi_recomputed_inr": 5224
+      },
+      {
+        "model": "Zenith 650 Scrambler",
+        "category": "Scrambler",
+        "ex_showroom_inr": 449000,
+        "down_payment_inr": 45000,
+        "interest_rate_pa": 0.0999,
+        "tenure_months": 48,
+        "emi_inr": 10245,
+        "emi_recomputed_inr": 10245
+      },
+      {
+        "model": "Voyager 650",
+        "category": "Tourer",
+        "ex_showroom_inr": 459000,
+        "down_payment_inr": 46000,
+        "interest_rate_pa": 0.0999,
+        "tenure_months": 48,
+        "emi_inr": 10473,
+        "emi_recomputed_inr": 10473
+      },
+      {
+        "model": "Voyager 450",
+        "category": "Tourer",
+        "ex_showroom_inr": 299000,
+        "down_payment_inr": 30000,
+        "interest_rate_pa": 0.0999,
+        "tenure_months": 48,
+        "emi_inr": 6821,
+        "emi_recomputed_inr": 6821
+      },
+      {
+        "model": "Nightfall 350",
+        "category": "Cruiser",
+        "ex_showroom_inr": 219000,
+        "down_payment_inr": 22000,
+        "interest_rate_pa": 0.0999,
+        "tenure_months": 48,
+        "emi_inr": 4995,
+        "emi_recomputed_inr": 4995
+      },
+      {
+        "model": "Spark E1",
+        "category": "Electric",
+        "ex_showroom_inr": 149000,
+        "down_payment_inr": 15000,
+        "interest_rate_pa": 0.0899,
+        "tenure_months": 48,
+        "emi_inr": 3334,
+        "emi_recomputed_inr": 3334
+      }
+    ]
+  },
+  "offers": [
+    {
+      "title": "Monsoon Mania Sale",
+      "type": "Limited Time",
+      "headline": "Save up to ₹25,000",
+      "applies_to": "Thunderstrike 650 from ₹4,20,000; Phantom 350 from ₹2,15,000",
+      "benefits": [
+        "₹25,000 cash discount on Thunderstrike 650",
+        "₹15,000 cash discount on Phantom 350",
+        "Free accessories kit worth ₹8,000",
+        "Extended warranty (2 + 2 years)"
+      ],
+      "valid_till": "November 30, 2026"
+    },
+    {
+      "title": "Zero Down Payment",
+      "type": "Finance Offer",
+      "headline": "Drive home today",
+      "applies_to": "All Models",
+      "benefits": [
+        "0% down payment through select banks",
+        "EMI starting at ₹4,999/month",
+        "Quick 24-hour loan approval",
+        "7-year repayment flexibility"
+      ],
+      "valid_till": "December 31, 2026"
+    },
+    {
+      "title": "Storm Urban Champion Package",
+      "type": "Bundle Offer",
+      "headline": "City ready. Savings included.",
+      "applies_to": "Storm 200 from ₹1,45,000",
+      "benefits": [
+        "Free helmet (₹5,000 value)",
+        "Free riding jacket (₹4,500 value)",
+        "Free smart phone mount",
+        "1st year insurance at 50% off"
+      ],
+      "valid_till": "October 31, 2026"
+    },
+    {
+      "title": "Zenith Scrambler Adventure Pack",
+      "type": "Adventure Offer",
+      "headline": "Gear up for the trail",
+      "applies_to": "Zenith 450 Scrambler from ₹3,25,000",
+      "benefits": [
+        "Free off-road riding kit",
+        "Free aluminium pannier set (₹15,000 value)",
+        "Complimentary off-road training day",
+        "3-year extended warranty"
+      ],
+      "valid_till": "January 15, 2027"
+    },
+    {
+      "title": "Corporate Fleet Discount",
+      "type": "Corporate",
+      "headline": "Buy 3 or more, save big",
+      "applies_to": "All Models",
+      "benefits": [
+        "Up to 12% fleet discount",
+        "Dedicated fleet service team",
+        "Priority service appointments",
+        "Custom livery options available"
+      ],
+      "valid_till": "Ongoing"
+    },
+    {
+      "title": "Student Rider Programme",
+      "type": "Student Offer",
+      "headline": "Your first bike, our best deal",
+      "applies_to": "Storm 200 from ₹1,45,000; Phantom 350 from ₹2,15,000",
+      "benefits": [
+        "₹10,000 special student discount",
+        "3 free riding skill sessions",
+        "Free first service",
+        "1-year roadside assistance"
+      ],
+      "valid_till": "March 31, 2027"
+    }
+  ],
+  "dealers": [
+    {
+      "name": "Apex Moto Delhi Central",
+      "city_state": "Delhi, Delhi",
+      "flagship": true,
+      "address": "42, Connaught Place, Central Delhi, New Delhi - 110001",
+      "phone": "+91-11-4123-5678",
+      "email": "delhi.central@apexmoto.in",
+      "hours": "Mon–Sat: 9:00 AM – 7:00 PM | Sun: 10:00 AM – 5:00 PM",
+      "services": [
+        "Sales",
+        "Service",
+        "Accessories",
+        "Test Ride"
+      ],
+      "models_in_stock": [
+        "Thunderstrike 650",
+        "Phantom 350",
+        "Storm 200",
+        "Zenith 450 Scrambler",
+        "Thunderstrike 450",
+        "Thunderstrike 650 Rally",
+        "Phantom 500",
+        "Phantom 350 Bobber",
+        "Storm 125",
+        "Storm 160",
+        "Storm 390",
+        "Zenith 350 Scrambler",
+        "Zenith 650 Scrambler",
+        "Voyager 650",
+        "Voyager 450",
+        "Nightfall 350",
+        "Nightfall 650",
+        "Spark E1"
+      ],
+      "models_not_stocked": []
+    },
+    {
+      "name": "Apex Moto Mumbai West",
+      "city_state": "Mumbai, Maharashtra",
+      "flagship": true,
+      "address": "Shop 12, Linking Road, Bandra West, Mumbai - 400053",
+      "phone": "+91-22-2655-9900",
+      "email": "mumbai.west@apexmoto.in",
+      "hours": "Mon–Sat: 9:30 AM – 7:30 PM | Sun: 11:00 AM – 5:00 PM",
+      "services": [
+        "Sales",
+        "Service",
+        "Accessories",
+        "Test Ride",
+        "Finance"
+      ],
+      "models_in_stock": [
+        "Thunderstrike 650",
+        "Phantom 350",
+        "Storm 200",
+        "Zenith 450 Scrambler",
+        "Thunderstrike 450",
+        "Thunderstrike 650 Rally",
+        "Phantom 500",
+        "Phantom 350 Bobber",
+        "Storm 125",
+        "Storm 160",
+        "Storm 390",
+        "Zenith 350 Scrambler",
+        "Zenith 650 Scrambler",
+        "Voyager 650",
+        "Voyager 450",
+        "Nightfall 350",
+        "Nightfall 650",
+        "Spark E1"
+      ],
+      "models_not_stocked": []
+    },
+    {
+      "name": "Apex Moto Bangalore Tech City",
+      "city_state": "Bangalore, Karnataka",
+      "flagship": true,
+      "address": "77, Brigade Road, Shivajinagar, Bengaluru - 560001",
+      "phone": "+91-80-4567-8901",
+      "email": "bangalore.tc@apexmoto.in",
+      "hours": "Mon–Sat: 9:00 AM – 8:00 PM | Sun: 10:00 AM – 6:00 PM",
+      "services": [
+        "Sales",
+        "Service",
+        "Accessories",
+        "Test Ride",
+        "Finance",
+        "Insurance"
+      ],
+      "models_in_stock": [
+        "Thunderstrike 650",
+        "Phantom 350",
+        "Storm 200",
+        "Zenith 450 Scrambler",
+        "Thunderstrike 450",
+        "Thunderstrike 650 Rally",
+        "Phantom 500",
+        "Phantom 350 Bobber",
+        "Storm 125",
+        "Storm 160",
+        "Storm 390",
+        "Zenith 350 Scrambler",
+        "Zenith 650 Scrambler",
+        "Voyager 650",
+        "Voyager 450",
+        "Nightfall 350",
+        "Nightfall 650",
+        "Spark E1"
+      ],
+      "models_not_stocked": []
+    },
+    {
+      "name": "Apex Moto Pune Camp",
+      "city_state": "Pune, Maharashtra",
+      "flagship": false,
+      "address": "15, MG Road, Camp Area, Pune - 411001",
+      "phone": "+91-20-2633-7788",
+      "email": "pune.camp@apexmoto.in",
+      "hours": "Mon–Sat: 9:00 AM – 7:00 PM | Sun: 10:00 AM – 4:00 PM",
+      "services": [
+        "Sales",
+        "Service",
+        "Accessories",
+        "Test Ride"
+      ],
+      "models_in_stock": [
+        "Thunderstrike 650",
+        "Phantom 350",
+        "Storm 200",
+        "Zenith 450 Scrambler",
+        "Thunderstrike 450",
+        "Thunderstrike 650 Rally",
+        "Phantom 500",
+        "Phantom 350 Bobber",
+        "Storm 125",
+        "Storm 160",
+        "Storm 390",
+        "Zenith 350 Scrambler",
+        "Zenith 650 Scrambler",
+        "Voyager 650",
+        "Voyager 450",
+        "Nightfall 350",
+        "Nightfall 650",
+        "Spark E1"
+      ],
+      "models_not_stocked": []
+    },
+    {
+      "name": "Apex Moto Chennai Anna Nagar",
+      "city_state": "Chennai, Tamil Nadu",
+      "flagship": false,
+      "address": "88, 2nd Avenue, Anna Nagar, Chennai - 600040",
+      "phone": "+91-44-2626-5544",
+      "email": "chennai.an@apexmoto.in",
+      "hours": "Mon–Sat: 9:30 AM – 7:00 PM | Sun: 10:00 AM – 4:00 PM",
+      "services": [
+        "Sales",
+        "Service",
+        "Accessories",
+        "Test Ride",
+        "Finance"
+      ],
+      "models_in_stock": [
+        "Thunderstrike 650",
+        "Phantom 350",
+        "Storm 200",
+        "Zenith 450 Scrambler",
+        "Thunderstrike 450",
+        "Phantom 500",
+        "Phantom 350 Bobber",
+        "Storm 125",
+        "Storm 160",
+        "Storm 390",
+        "Zenith 350 Scrambler",
+        "Voyager 650",
+        "Voyager 450",
+        "Nightfall 350",
+        "Nightfall 650"
+      ],
+      "models_not_stocked": [
+        "Thunderstrike 650 Rally",
+        "Zenith 650 Scrambler",
+        "Spark E1"
+      ]
+    },
+    {
+      "name": "Apex Moto Hyderabad Jubilee Hills",
+      "city_state": "Hyderabad, Telangana",
+      "flagship": false,
+      "address": "34, Road No. 10, Jubilee Hills, Hyderabad - 500033",
+      "phone": "+91-40-2355-1234",
+      "email": "hyderabad.jh@apexmoto.in",
+      "hours": "Mon–Sat: 10:00 AM – 8:00 PM | Sun: 11:00 AM – 5:00 PM",
+      "services": [
+        "Sales",
+        "Service",
+        "Accessories",
+        "Test Ride",
+        "Finance",
+        "Insurance"
+      ],
+      "models_in_stock": [
+        "Thunderstrike 650",
+        "Phantom 350",
+        "Storm 200",
+        "Zenith 450 Scrambler",
+        "Thunderstrike 450",
+        "Phantom 500",
+        "Phantom 350 Bobber",
+        "Storm 125",
+        "Storm 160",
+        "Storm 390",
+        "Zenith 350 Scrambler",
+        "Voyager 650",
+        "Voyager 450",
+        "Nightfall 350",
+        "Nightfall 650"
+      ],
+      "models_not_stocked": [
+        "Thunderstrike 650 Rally",
+        "Zenith 650 Scrambler",
+        "Spark E1"
+      ]
+    },
+    {
+      "name": "Apex Moto Jaipur Pink City",
+      "city_state": "Jaipur, Rajasthan",
+      "flagship": false,
+      "address": "23, Tonk Road, Near SMS Hospital, Jaipur - 302001",
+      "phone": "+91-141-2366-7890",
+      "email": "jaipur.pc@apexmoto.in",
+      "hours": "Mon–Sat: 9:00 AM – 7:00 PM | Sun: 10:00 AM – 4:00 PM",
+      "services": [
+        "Sales",
+        "Service",
+        "Accessories",
+        "Test Ride"
+      ],
+      "models_in_stock": [
+        "Thunderstrike 650",
+        "Phantom 350",
+        "Storm 200",
+        "Zenith 450 Scrambler",
+        "Thunderstrike 450",
+        "Phantom 500",
+        "Storm 125",
+        "Storm 160",
+        "Storm 390",
+        "Zenith 350 Scrambler",
+        "Voyager 650",
+        "Voyager 450",
+        "Nightfall 350"
+      ],
+      "models_not_stocked": [
+        "Thunderstrike 650 Rally",
+        "Phantom 350 Bobber",
+        "Zenith 650 Scrambler",
+        "Nightfall 650",
+        "Spark E1"
+      ]
+    },
+    {
+      "name": "Apex Moto Kolkata Park Street",
+      "city_state": "Kolkata, West Bengal",
+      "flagship": false,
+      "address": "56, Park Street, Kolkata - 700016",
+      "phone": "+91-33-2229-4455",
+      "email": "kolkata.ps@apexmoto.in",
+      "hours": "Mon–Sat: 10:00 AM – 7:30 PM | Sun: 11:00 AM – 5:00 PM",
+      "services": [
+        "Sales",
+        "Service",
+        "Accessories",
+        "Test Ride",
+        "Finance"
+      ],
+      "models_in_stock": [
+        "Thunderstrike 650",
+        "Phantom 350",
+        "Storm 200",
+        "Zenith 450 Scrambler",
+        "Thunderstrike 450",
+        "Phantom 500",
+        "Storm 125",
+        "Storm 160",
+        "Storm 390",
+        "Zenith 350 Scrambler",
+        "Voyager 650",
+        "Voyager 450",
+        "Nightfall 350"
+      ],
+      "models_not_stocked": [
+        "Thunderstrike 650 Rally",
+        "Phantom 350 Bobber",
+        "Zenith 650 Scrambler",
+        "Nightfall 650",
+        "Spark E1"
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "id": 1,
+      "question": "What is the price range of Apex Moto motorcycles?",
+      "answer": "Apex Moto motorcycles start at ₹99,000 ex-showroom for the entry commuter Storm 125 and go up to ₹5,29,000 ex-showroom for the flagship Thunderstrike 650 Rally adventure tourer across 18 models."
+    },
+    {
+      "id": 2,
+      "question": "Which is the most affordable and which is the most powerful motorcycle?",
+      "answer": "The most affordable motorcycle in our lineup is the Storm 125 priced at ₹99,000 ex-showroom. The most powerful machines are our 648cc twin-cylinder models — the Thunderstrike 650, Thunderstrike 650 Rally, Voyager 650, Zenith 650 Scrambler, and Nightfall 650 — each producing 47 bhp (or 46 bhp for Nightfall 650)."
+    },
+    {
+      "id": 3,
+      "question": "Does Apex Moto have an electric motorcycle?",
+      "answer": "Yes, the Spark E1 is our high-performance electric motorcycle. It features a 9 kW peak mid-drive PMSM motor, a 4.0 kWh battery pack, an IDC range of 140 km per charge, and fast-charging capability (0–80% in 50 minutes) priced at ₹1,49,000 ex-showroom."
+    },
+    {
+      "id": 4,
+      "question": "What manufacturer warranty is offered on Apex Moto motorcycles?",
+      "answer": "All Apex Moto motorcycles come standard with a comprehensive 5-year / 60,000 km manufacturer warranty covering the engine, transmission, frame, and electrical architecture, with optional extended warranty packages available through authorized dealers."
+    },
+    {
+      "id": 5,
+      "question": "How do I book a test ride?",
+      "answer": "You can book a free, zero-obligation test ride online via our Book a Test Ride page or walk into any of our 8 flagship dealerships in Delhi, Mumbai, Bangalore, Pune, Chennai, Hyderabad, Jaipur, and Kolkata. Helmet and safety gear are provided."
+    },
+    {
+      "id": 6,
+      "question": "What documents are required to purchase and register a motorcycle?",
+      "answer": "To complete purchase and RTO registration, you will need: government-issued photo ID (Aadhaar card or passport), PAN card, current proof of address, 4 passport-size photographs, and a valid two-wheeler driving licence."
+    },
+    {
+      "id": 7,
+      "question": "What financing options and interest rates are available?",
+      "answer": "Through our partner banking consortium (SBI, HDFC Bank, ICICI Bank, and Axis Bank), we offer attractive interest rates starting from 7.9% p.a., flexible repayment tenures up to 72 months, and down payment options ranging from 0% to 20%."
+    },
+    {
+      "id": 8,
+      "question": "In which cities does Apex Moto have authorized dealerships?",
+      "answer": "Apex Moto operates 8 flagship authorized dealerships located in Delhi (Connaught Place), Mumbai (Bandra West), Bangalore (Brigade Road), Pune (Camp), Chennai (Anna Nagar), Hyderabad (Jubilee Hills), Jaipur (Pink City / Tonk Road), and Kolkata (Park Street)."
+    },
+    {
+      "id": 9,
+      "question": "What is the typical delivery timeframe after booking?",
+      "answer": "In-stock motorcycles are delivered within 3 to 5 business days after full payment or loan disbursement. Special variants and limited editions (such as Thunderstrike 650 Rally, Phantom 350 Bobber, Zenith 650 Scrambler, and Nightfall 650) have an estimated delivery window of 2 to 3 weeks."
+    },
+    {
+      "id": 10,
+      "question": "What does the on-road price include?",
+      "answer": "The on-road price comprises the base ex-showroom price plus state road transport office (RTO) registration fees, road tax, mandatory 5-year third-party/1-year own damage insurance, and municipal cess where applicable."
+    },
+    {
+      "id": 11,
+      "question": "Can I exchange my existing two-wheeler for a new Apex Moto?",
+      "answer": "Yes, all 8 authorized dealerships have on-site vehicle appraisal counters that offer fair market evaluations and immediate exchange bonuses towards the down payment of your new Apex Moto motorcycle."
+    },
+    {
+      "id": 12,
+      "question": "Where can I download the official motorcycle brochures?",
+      "answer": "Every motorcycle model page has a dedicated link to download its official one-page brochure PDF containing complete technical specifications, variant pricing, on-road price estimates, and color options."
+    }
+  ],
+  "milestones": [
+    {
+      "year": 2026,
+      "title": "Next Chapter",
+      "detail": "New flagship model in development. The journey continues."
+    },
+    {
+      "year": 2024,
+      "title": "50,000 Riders",
+      "detail": "Apex Moto community crosses 50,000 registered riders nationwide."
+    },
+    {
+      "year": 2022,
+      "title": "Street Division",
+      "detail": "Storm 200 and Zenith 450 Scrambler join the lineup."
+    },
+    {
+      "year": 2020,
+      "title": "Adventure Launch",
+      "detail": "Thunderstrike 650 launches — our first twin-cylinder adventure bike."
+    },
+    {
+      "year": 2018,
+      "title": "National Reach",
+      "detail": "Expanded to 50 dealerships across 20 Indian cities."
+    },
+    {
+      "year": 2016,
+      "title": "First Model",
+      "detail": "Launch of the Phantom 350 — 10,000 units sold in the first year."
+    },
+    {
+      "year": 2014,
+      "title": "Founded",
+      "detail": "Apex Moto established in Pune with a vision to redefine Indian motorcycling."
+    }
+  ],
+  "contact": [
+    {
+      "channel": "Customer Support",
+      "detail": "1800-XXX-APEX (Toll Free)",
+      "availability": "Mon–Sat: 9:00 AM – 7:00 PM"
+    },
+    {
+      "channel": "Email Us",
+      "detail": "support@apexmoto.in",
+      "availability": "Response within 24–48 hours"
+    },
+    {
+      "channel": "Head Office",
+      "detail": "Apex Moto Ltd., 1 Innovation Drive, Pune, Maharashtra 411001",
+      "availability": "By appointment only"
+    },
+    {
+      "channel": "Live Chat",
+      "detail": "Available on our app",
+      "availability": "Mon–Sun: 8:00 AM – 10:00 PM"
+    }
+  ]
+}
