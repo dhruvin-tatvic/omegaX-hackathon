@@ -1,0 +1,1243 @@
+{
+  "schema_version": "1.0",
+  "url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450",
+  "final_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+  "page_type": "product_detail",
+  "page_type_reason": "path matches /motorcycles/{slug}",
+  "canonical_path": "/motorcycles/thunderstrike-450",
+  "canonical_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450",
+  "query": {},
+  "original_json_path": "out/human-view-20261025-061726.json",
+  "screenshot_path": "out/screenshots/motorcycles-thunderstrike-450-20261025-061726.png",
+  "rendered_html_path": "out/rendered_html/motorcycles-thunderstrike-450-20261025-061726.html",
+  "structured_facts": {
+    "schema_version": "1.0",
+    "entities": [
+      {
+        "id": "product:thunderstrike-450",
+        "type": "product",
+        "name": "Thunderstrike 450",
+        "slug": "thunderstrike-450"
+      },
+      {
+        "id": "financing_plan:thunderstrike-450-detail-emi",
+        "type": "financing_plan",
+        "name": "Thunderstrike 450 estimated EMI",
+        "slug": "thunderstrike-450-detail-emi"
+      },
+      {
+        "id": "product:thunderstrike-450-variant-standard",
+        "type": "product",
+        "name": "Thunderstrike 450 Standard",
+        "slug": "thunderstrike-450-variant-standard",
+        "variant_of": "product:thunderstrike-450",
+        "variant_name": "Standard"
+      },
+      {
+        "id": "product:thunderstrike-450-variant-explorer",
+        "type": "product",
+        "name": "Thunderstrike 450 Explorer",
+        "slug": "thunderstrike-450-variant-explorer",
+        "variant_of": "product:thunderstrike-450",
+        "variant_name": "Explorer"
+      },
+      {
+        "id": "product:thunderstrike-650",
+        "type": "product",
+        "name": "Thunderstrike 650",
+        "slug": "thunderstrike-650"
+      },
+      {
+        "id": "product:phantom-350",
+        "type": "product",
+        "name": "Phantom 350",
+        "slug": "phantom-350"
+      },
+      {
+        "id": "dealer:apex-moto-delhi-central",
+        "type": "dealer",
+        "name": "Apex Moto Delhi Central",
+        "slug": "apex-moto-delhi-central"
+      },
+      {
+        "id": "dealer:apex-moto-mumbai-west",
+        "type": "dealer",
+        "name": "Apex Moto Mumbai West",
+        "slug": "apex-moto-mumbai-west"
+      },
+      {
+        "id": "dealer:apex-moto-bangalore-tech-city",
+        "type": "dealer",
+        "name": "Apex Moto Bangalore Tech City",
+        "slug": "apex-moto-bangalore-tech-city"
+      },
+      {
+        "id": "dealer:apex-moto-pune-camp",
+        "type": "dealer",
+        "name": "Apex Moto Pune Camp",
+        "slug": "apex-moto-pune-camp"
+      },
+      {
+        "id": "dealer:apex-moto-chennai-anna-nagar",
+        "type": "dealer",
+        "name": "Apex Moto Chennai Anna Nagar",
+        "slug": "apex-moto-chennai-anna-nagar"
+      },
+      {
+        "id": "dealer:apex-moto-hyderabad-jubilee-hills",
+        "type": "dealer",
+        "name": "Apex Moto Hyderabad Jubilee Hills",
+        "slug": "apex-moto-hyderabad-jubilee-hills"
+      },
+      {
+        "id": "dealer:apex-moto-jaipur-pink-city",
+        "type": "dealer",
+        "name": "Apex Moto Jaipur Pink City",
+        "slug": "apex-moto-jaipur-pink-city"
+      },
+      {
+        "id": "dealer:apex-moto-kolkata-park-street",
+        "type": "dealer",
+        "name": "Apex Moto Kolkata Park Street",
+        "slug": "apex-moto-kolkata-park-street"
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact:1",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "starting_price",
+        "value": 289000,
+        "value_text": "₹2,89,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "label": "onwards (ex-showroom)"
+        },
+        "evidence": "Thunderstrike 450 ₹2,89,000 onwards (ex-showroom)",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.css:.moto-detail__price",
+        "status": "verified"
+      },
+      {
+        "id": "fact:2",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "ex_showroom_price",
+        "value": 289000,
+        "value_text": "₹2,89,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "label": "onwards (ex-showroom)"
+        },
+        "evidence": "Thunderstrike 450 ₹2,89,000 onwards (ex-showroom)",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.css:.moto-detail__price",
+        "status": "verified"
+      },
+      {
+        "id": "fact:3",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "tagline",
+        "value": "Adventure, Unlocked.",
+        "value_text": "Adventure, Unlocked.",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Adventure, Unlocked.",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.css:.moto-detail__hero-tagline",
+        "status": "verified"
+      },
+      {
+        "id": "fact:4",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "engine",
+        "value": "452cc",
+        "value_text": "452cc",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Engine / Powertrain: 452cc",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.css:.moto-detail__quick-spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:5",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "power",
+        "value": "40 bhp",
+        "value_text": "40 bhp",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Max Power: 40 bhp",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.css:.moto-detail__quick-spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:6",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "torque",
+        "value": "40 Nm",
+        "value_text": "40 Nm",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Torque: 40 Nm",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.css:.moto-detail__quick-spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:7",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "mileage",
+        "value": "30 km/l",
+        "value_text": "30 km/l",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Mileage: 30 km/l",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.css:.moto-detail__quick-spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:8",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 325100,
+        "value_text": "₹3,25,100",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Delhi",
+          "variant": "base"
+        },
+        "evidence": "On-road Delhi: ₹3,25,100",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:9",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 331800,
+        "value_text": "₹3,31,800",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Mumbai",
+          "variant": "base"
+        },
+        "evidence": "On-road Mumbai: ₹3,31,800",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:10",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 336700,
+        "value_text": "₹3,36,700",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Bangalore",
+          "variant": "base"
+        },
+        "evidence": "On-road Bangalore: ₹3,36,700",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:11",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 328000,
+        "value_text": "₹3,28,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Pune",
+          "variant": "base"
+        },
+        "evidence": "On-road Pune: ₹3,28,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:12",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 329500,
+        "value_text": "₹3,29,500",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Chennai",
+          "variant": "base"
+        },
+        "evidence": "On-road Chennai: ₹3,29,500",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:13",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 332400,
+        "value_text": "₹3,32,400",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Hyderabad",
+          "variant": "base"
+        },
+        "evidence": "On-road Hyderabad: ₹3,32,400",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:14",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 326600,
+        "value_text": "₹3,26,600",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Jaipur",
+          "variant": "base"
+        },
+        "evidence": "On-road Jaipur: ₹3,26,600",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:15",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 323700,
+        "value_text": "₹3,23,700",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Kolkata",
+          "variant": "base"
+        },
+        "evidence": "On-road Kolkata: ₹3,23,700",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:16",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "452cc, Single Cylinder, Liquid-Cooled, DOHC",
+        "value_text": "452cc, Single Cylinder, Liquid-Cooled, DOHC",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "engine"
+        },
+        "evidence": "engine: 452cc, Single Cylinder, Liquid-Cooled, DOHC",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:17",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "452",
+        "value_text": "452",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "displacement cc"
+        },
+        "evidence": "displacement cc: 452",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:18",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "40",
+        "value_text": "40",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "max power bhp"
+        },
+        "evidence": "max power bhp: 40",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:19",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "8000",
+        "value_text": "8000",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "max power rpm"
+        },
+        "evidence": "max power rpm: 8000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:20",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "40",
+        "value_text": "40",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "max torque nm"
+        },
+        "evidence": "max torque nm: 40",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:21",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "5500",
+        "value_text": "5500",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "max torque rpm"
+        },
+        "evidence": "max torque rpm: 5500",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:22",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "6-Speed with Slipper Clutch",
+        "value_text": "6-Speed with Slipper Clutch",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "transmission"
+        },
+        "evidence": "transmission: 6-Speed with Slipper Clutch",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:23",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "Electronic Fuel Injection",
+        "value_text": "Electronic Fuel Injection",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "fuel system"
+        },
+        "evidence": "fuel system: Electronic Fuel Injection",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:24",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "43mm USD Forks, 200mm Travel",
+        "value_text": "43mm USD Forks, 200mm Travel",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "front suspension"
+        },
+        "evidence": "front suspension: 43mm USD Forks, 200mm Travel",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:25",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "Linked Monoshock, 200mm Travel",
+        "value_text": "Linked Monoshock, 200mm Travel",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "rear suspension"
+        },
+        "evidence": "rear suspension: Linked Monoshock, 200mm Travel",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:26",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "320mm Disc, Twin Piston",
+        "value_text": "320mm Disc, Twin Piston",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "front brake"
+        },
+        "evidence": "front brake: 320mm Disc, Twin Piston",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:27",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "270mm Disc, ABS (Switchable)",
+        "value_text": "270mm Disc, ABS (Switchable)",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "rear brake"
+        },
+        "evidence": "rear brake: 270mm Disc, ABS (Switchable)",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:28",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "90/90-21 Road/Trail",
+        "value_text": "90/90-21 Road/Trail",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "front tyre"
+        },
+        "evidence": "front tyre: 90/90-21 Road/Trail",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:29",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "140/80-17 Road/Trail",
+        "value_text": "140/80-17 Road/Trail",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "rear tyre"
+        },
+        "evidence": "rear tyre: 140/80-17 Road/Trail",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:30",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "1510",
+        "value_text": "1510",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "wheelbase mm"
+        },
+        "evidence": "wheelbase mm: 1510",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:31",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "825",
+        "value_text": "825",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "seat height mm"
+        },
+        "evidence": "seat height mm: 825",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:32",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "17",
+        "value_text": "17",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "fuel tank l"
+        },
+        "evidence": "fuel tank l: 17",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:33",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "190",
+        "value_text": "190",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "kerb weight kg"
+        },
+        "evidence": "kerb weight kg: 190",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:34",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "30",
+        "value_text": "30",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "mileage kmpl"
+        },
+        "evidence": "mileage kmpl: 30",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:35",
+        "entity_id": "financing_plan:thunderstrike-450-detail-emi",
+        "entity_name": "Thunderstrike 450 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "down_payment",
+        "value": 29000,
+        "value_text": "₹29,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Thunderstrike 450 estimated finance Down Payment: ₹29,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:thunderstrike-450"
+      },
+      {
+        "id": "fact:36",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "down_payment",
+        "value": 29000,
+        "value_text": "₹29,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Thunderstrike 450 estimated finance Down Payment: ₹29,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:thunderstrike-450-detail-emi"
+      },
+      {
+        "id": "fact:37",
+        "entity_id": "financing_plan:thunderstrike-450-detail-emi",
+        "entity_name": "Thunderstrike 450 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.99,
+        "value_text": "9.99% p.a.",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Thunderstrike 450 estimated finance Interest Rate: 9.99% p.a.",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:thunderstrike-450"
+      },
+      {
+        "id": "fact:38",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.99,
+        "value_text": "9.99% p.a.",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Thunderstrike 450 estimated finance Interest Rate: 9.99% p.a.",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:thunderstrike-450-detail-emi"
+      },
+      {
+        "id": "fact:39",
+        "entity_id": "financing_plan:thunderstrike-450-detail-emi",
+        "entity_name": "Thunderstrike 450 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 months",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Thunderstrike 450 estimated finance Loan Tenure: 48 months",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:thunderstrike-450"
+      },
+      {
+        "id": "fact:40",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 months",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Thunderstrike 450 estimated finance Loan Tenure: 48 months",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:thunderstrike-450-detail-emi"
+      },
+      {
+        "id": "fact:41",
+        "entity_id": "financing_plan:thunderstrike-450-detail-emi",
+        "entity_name": "Thunderstrike 450 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "monthly_emi",
+        "value": 6593,
+        "value_text": "₹6,593",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Thunderstrike 450 estimated finance Estimated EMI: ₹6,593 / month",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:thunderstrike-450"
+      },
+      {
+        "id": "fact:42",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "monthly_emi",
+        "value": 6593,
+        "value_text": "₹6,593",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Thunderstrike 450 estimated finance Estimated EMI: ₹6,593 / month",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:thunderstrike-450-detail-emi"
+      },
+      {
+        "id": "fact:43",
+        "entity_id": "product:thunderstrike-450-variant-standard",
+        "entity_name": "Thunderstrike 450 Standard",
+        "entity_type": "product",
+        "fact_type": "variant_name",
+        "value": "Standard",
+        "value_text": "Standard",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Variant Standard",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.css:.variant-name",
+        "status": "verified",
+        "related_entity_id": "product:thunderstrike-450"
+      },
+      {
+        "id": "fact:44",
+        "entity_id": "product:thunderstrike-450-variant-standard",
+        "entity_name": "Thunderstrike 450 Standard",
+        "entity_type": "product",
+        "fact_type": "ex_showroom_price",
+        "value": 289000,
+        "value_text": "₹2,89,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "variant": "Standard",
+          "parent_product": "Thunderstrike 450"
+        },
+        "evidence": "Variant Standard ₹2,89,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.css:.variant-name+.price",
+        "status": "verified",
+        "related_entity_id": "product:thunderstrike-450"
+      },
+      {
+        "id": "fact:45",
+        "entity_id": "product:thunderstrike-450-variant-explorer",
+        "entity_name": "Thunderstrike 450 Explorer",
+        "entity_type": "product",
+        "fact_type": "variant_name",
+        "value": "Explorer",
+        "value_text": "Explorer",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Variant Explorer",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.css:.variant-name",
+        "status": "verified",
+        "related_entity_id": "product:thunderstrike-450"
+      },
+      {
+        "id": "fact:46",
+        "entity_id": "product:thunderstrike-450-variant-explorer",
+        "entity_name": "Thunderstrike 450 Explorer",
+        "entity_type": "product",
+        "fact_type": "ex_showroom_price",
+        "value": 319000,
+        "value_text": "₹3,19,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "variant": "Explorer",
+          "parent_product": "Thunderstrike 450"
+        },
+        "evidence": "Variant Explorer ₹3,19,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.css:.variant-name+.price",
+        "status": "verified",
+        "related_entity_id": "product:thunderstrike-450"
+      },
+      {
+        "id": "fact:47",
+        "entity_id": "product:thunderstrike-650",
+        "entity_name": "Thunderstrike 650",
+        "entity_type": "product",
+        "fact_type": "tagline",
+        "value": "Command the Horizon",
+        "value_text": "Command the Horizon",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Command the Horizon",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.css:.product-card__tagline",
+        "status": "verified"
+      },
+      {
+        "id": "fact:48",
+        "entity_id": "product:thunderstrike-650",
+        "entity_name": "Thunderstrike 650",
+        "entity_type": "product",
+        "fact_type": "starting_price",
+        "value": 420000,
+        "value_text": "₹4,20,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "role": "related_card"
+        },
+        "evidence": "Thunderstrike 650 ₹4,20,000 BestsellerAdventureThunderstrike 650Command the Horizon648ccEngine47 bhpPower₹4,",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.css:.product-card .price",
+        "status": "verified"
+      },
+      {
+        "id": "fact:49",
+        "entity_id": "product:thunderstrike-650",
+        "entity_name": "Thunderstrike 650",
+        "entity_type": "product",
+        "fact_type": "engine",
+        "value": "648cc",
+        "value_text": "648cc",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Thunderstrike 650 Engine: 648cc",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:50",
+        "entity_id": "product:thunderstrike-650",
+        "entity_name": "Thunderstrike 650",
+        "entity_type": "product",
+        "fact_type": "power",
+        "value": "47 bhp",
+        "value_text": "47 bhp",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Thunderstrike 650 Power: 47 bhp",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:51",
+        "entity_id": "product:thunderstrike-650",
+        "entity_name": "Thunderstrike 650",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "₹4,20,000",
+        "value_text": "₹4,20,000",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Thunderstrike 650 Starting*: ₹4,20,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:52",
+        "entity_id": "product:phantom-350",
+        "entity_name": "Phantom 350",
+        "entity_type": "product",
+        "fact_type": "tagline",
+        "value": "Classic Soul. Modern Heart.",
+        "value_text": "Classic Soul. Modern Heart.",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Classic Soul. Modern Heart.",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.css:.product-card__tagline",
+        "status": "verified"
+      },
+      {
+        "id": "fact:53",
+        "entity_id": "product:phantom-350",
+        "entity_name": "Phantom 350",
+        "entity_type": "product",
+        "fact_type": "starting_price",
+        "value": 215000,
+        "value_text": "₹2,15,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "role": "related_card"
+        },
+        "evidence": "Phantom 350 ₹2,15,000 New LaunchClassicPhantom 350Classic Soul. Modern Heart.349ccEngine21 bhpPower₹2,",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.css:.product-card .price",
+        "status": "verified"
+      },
+      {
+        "id": "fact:54",
+        "entity_id": "product:phantom-350",
+        "entity_name": "Phantom 350",
+        "entity_type": "product",
+        "fact_type": "engine",
+        "value": "349cc",
+        "value_text": "349cc",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Phantom 350 Engine: 349cc",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:55",
+        "entity_id": "product:phantom-350",
+        "entity_name": "Phantom 350",
+        "entity_type": "product",
+        "fact_type": "power",
+        "value": "21 bhp",
+        "value_text": "21 bhp",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Phantom 350 Power: 21 bhp",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:56",
+        "entity_id": "product:phantom-350",
+        "entity_name": "Phantom 350",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "₹2,15,000",
+        "value_text": "₹2,15,000",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Phantom 350 Starting*: ₹2,15,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:57",
+        "entity_id": "dealer:apex-moto-delhi-central",
+        "entity_name": "Apex Moto Delhi Central",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Delhi",
+        "value_text": "Delhi",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Delhi • +91-11-4123-5678",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:58",
+        "entity_id": "dealer:apex-moto-mumbai-west",
+        "entity_name": "Apex Moto Mumbai West",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Mumbai",
+        "value_text": "Mumbai",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Mumbai • +91-22-2655-9900",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:59",
+        "entity_id": "dealer:apex-moto-bangalore-tech-city",
+        "entity_name": "Apex Moto Bangalore Tech City",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Bangalore",
+        "value_text": "Bangalore",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Bangalore • +91-80-4567-8901",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:60",
+        "entity_id": "dealer:apex-moto-pune-camp",
+        "entity_name": "Apex Moto Pune Camp",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Pune",
+        "value_text": "Pune",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Pune • +91-20-2633-7788",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:61",
+        "entity_id": "dealer:apex-moto-chennai-anna-nagar",
+        "entity_name": "Apex Moto Chennai Anna Nagar",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Chennai",
+        "value_text": "Chennai",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Chennai • +91-44-2626-5544",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:62",
+        "entity_id": "dealer:apex-moto-hyderabad-jubilee-hills",
+        "entity_name": "Apex Moto Hyderabad Jubilee Hills",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Hyderabad",
+        "value_text": "Hyderabad",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Hyderabad • +91-40-2355-1234",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:63",
+        "entity_id": "dealer:apex-moto-jaipur-pink-city",
+        "entity_name": "Apex Moto Jaipur Pink City",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Jaipur",
+        "value_text": "Jaipur",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Jaipur • +91-141-2366-7890",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:64",
+        "entity_id": "dealer:apex-moto-kolkata-park-street",
+        "entity_name": "Apex Moto Kolkata Park Street",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Kolkata",
+        "value_text": "Kolkata",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Kolkata • +91-33-2229-4455",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      }
+    ],
+    "page_type": "product_detail",
+    "limitations": [
+      "Facts come from semantic HTML containers on the saved rendered snapshot, not from pairing disconnected arrays.",
+      "Amounts without a typed label or a unique enclosing entity are marked ambiguous or omitted.",
+      "Derived discounts are never calculated.",
+      "JSON-LD is used only when HTML did not already provide the same product price."
+    ]
+  }
+}

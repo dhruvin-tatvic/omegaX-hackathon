@@ -1,0 +1,1116 @@
+{
+  "schema_version": "1.0",
+  "url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber",
+  "final_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+  "page_type": "product_detail",
+  "page_type_reason": "path matches /motorcycles/{slug}",
+  "canonical_path": "/motorcycles/phantom-350-bobber",
+  "canonical_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber",
+  "query": {},
+  "original_json_path": "out/human-view-20261025-061842.json",
+  "screenshot_path": "out/screenshots/motorcycles-phantom-350-bobber-20261025-061842.png",
+  "rendered_html_path": "out/rendered_html/motorcycles-phantom-350-bobber-20261025-061842.html",
+  "structured_facts": {
+    "schema_version": "1.0",
+    "entities": [
+      {
+        "id": "product:phantom-350-bobber",
+        "type": "product",
+        "name": "Phantom 350 Bobber",
+        "slug": "phantom-350-bobber"
+      },
+      {
+        "id": "financing_plan:phantom-350-bobber-detail-emi",
+        "type": "financing_plan",
+        "name": "Phantom 350 Bobber estimated EMI",
+        "slug": "phantom-350-bobber-detail-emi"
+      },
+      {
+        "id": "product:phantom-350-bobber-variant-bobber",
+        "type": "product",
+        "name": "Phantom 350 Bobber Bobber",
+        "slug": "phantom-350-bobber-variant-bobber",
+        "variant_of": "product:phantom-350-bobber",
+        "variant_name": "Bobber"
+      },
+      {
+        "id": "product:thunderstrike-650",
+        "type": "product",
+        "name": "Thunderstrike 650",
+        "slug": "thunderstrike-650"
+      },
+      {
+        "id": "product:phantom-350",
+        "type": "product",
+        "name": "Phantom 350",
+        "slug": "phantom-350"
+      },
+      {
+        "id": "dealer:apex-moto-delhi-central",
+        "type": "dealer",
+        "name": "Apex Moto Delhi Central",
+        "slug": "apex-moto-delhi-central"
+      },
+      {
+        "id": "dealer:apex-moto-mumbai-west",
+        "type": "dealer",
+        "name": "Apex Moto Mumbai West",
+        "slug": "apex-moto-mumbai-west"
+      },
+      {
+        "id": "dealer:apex-moto-bangalore-tech-city",
+        "type": "dealer",
+        "name": "Apex Moto Bangalore Tech City",
+        "slug": "apex-moto-bangalore-tech-city"
+      },
+      {
+        "id": "dealer:apex-moto-pune-camp",
+        "type": "dealer",
+        "name": "Apex Moto Pune Camp",
+        "slug": "apex-moto-pune-camp"
+      },
+      {
+        "id": "dealer:apex-moto-chennai-anna-nagar",
+        "type": "dealer",
+        "name": "Apex Moto Chennai Anna Nagar",
+        "slug": "apex-moto-chennai-anna-nagar"
+      },
+      {
+        "id": "dealer:apex-moto-hyderabad-jubilee-hills",
+        "type": "dealer",
+        "name": "Apex Moto Hyderabad Jubilee Hills",
+        "slug": "apex-moto-hyderabad-jubilee-hills"
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact:1",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "starting_price",
+        "value": 235000,
+        "value_text": "₹2,35,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "label": "onwards (ex-showroom)"
+        },
+        "evidence": "Phantom 350 Bobber ₹2,35,000 onwards (ex-showroom)",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.css:.moto-detail__price",
+        "status": "verified"
+      },
+      {
+        "id": "fact:2",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "ex_showroom_price",
+        "value": 235000,
+        "value_text": "₹2,35,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "label": "onwards (ex-showroom)"
+        },
+        "evidence": "Phantom 350 Bobber ₹2,35,000 onwards (ex-showroom)",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.css:.moto-detail__price",
+        "status": "verified"
+      },
+      {
+        "id": "fact:3",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "tagline",
+        "value": "Ride Low. Ride Proud.",
+        "value_text": "Ride Low. Ride Proud.",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Ride Low. Ride Proud.",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.css:.moto-detail__hero-tagline",
+        "status": "verified"
+      },
+      {
+        "id": "fact:4",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "engine",
+        "value": "349cc",
+        "value_text": "349cc",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Engine / Powertrain: 349cc",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.css:.moto-detail__quick-spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:5",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "power",
+        "value": "21 bhp",
+        "value_text": "21 bhp",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Max Power: 21 bhp",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.css:.moto-detail__quick-spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:6",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "torque",
+        "value": "28 Nm",
+        "value_text": "28 Nm",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Torque: 28 Nm",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.css:.moto-detail__quick-spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:7",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "mileage",
+        "value": "36 km/l",
+        "value_text": "36 km/l",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Mileage: 36 km/l",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.css:.moto-detail__quick-spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:8",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 264400,
+        "value_text": "₹2,64,400",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Delhi",
+          "variant": "base"
+        },
+        "evidence": "On-road Delhi: ₹2,64,400",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:9",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 269800,
+        "value_text": "₹2,69,800",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Mumbai",
+          "variant": "base"
+        },
+        "evidence": "On-road Mumbai: ₹2,69,800",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:10",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 273800,
+        "value_text": "₹2,73,800",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Bangalore",
+          "variant": "base"
+        },
+        "evidence": "On-road Bangalore: ₹2,73,800",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:11",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 266700,
+        "value_text": "₹2,66,700",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Pune",
+          "variant": "base"
+        },
+        "evidence": "On-road Pune: ₹2,66,700",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:12",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 267900,
+        "value_text": "₹2,67,900",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Chennai",
+          "variant": "base"
+        },
+        "evidence": "On-road Chennai: ₹2,67,900",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:13",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 270200,
+        "value_text": "₹2,70,200",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Hyderabad",
+          "variant": "base"
+        },
+        "evidence": "On-road Hyderabad: ₹2,70,200",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:14",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "349cc, Single Cylinder, Air/Oil-Cooled, SOHC",
+        "value_text": "349cc, Single Cylinder, Air/Oil-Cooled, SOHC",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "engine"
+        },
+        "evidence": "engine: 349cc, Single Cylinder, Air/Oil-Cooled, SOHC",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:15",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "349",
+        "value_text": "349",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "displacement cc"
+        },
+        "evidence": "displacement cc: 349",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:16",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "21",
+        "value_text": "21",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "max power bhp"
+        },
+        "evidence": "max power bhp: 21",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:17",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "6100",
+        "value_text": "6100",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "max power rpm"
+        },
+        "evidence": "max power rpm: 6100",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:18",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "28",
+        "value_text": "28",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "max torque nm"
+        },
+        "evidence": "max torque nm: 28",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:19",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "4000",
+        "value_text": "4000",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "max torque rpm"
+        },
+        "evidence": "max torque rpm: 4000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:20",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "5-Speed",
+        "value_text": "5-Speed",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "transmission"
+        },
+        "evidence": "transmission: 5-Speed",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:21",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "Electronic Fuel Injection",
+        "value_text": "Electronic Fuel Injection",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "fuel system"
+        },
+        "evidence": "fuel system: Electronic Fuel Injection",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:22",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "41mm Telescopic Forks, 130mm Travel",
+        "value_text": "41mm Telescopic Forks, 130mm Travel",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "front suspension"
+        },
+        "evidence": "front suspension: 41mm Telescopic Forks, 130mm Travel",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:23",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "Hardtail-look Monoshock, 90mm Travel",
+        "value_text": "Hardtail-look Monoshock, 90mm Travel",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "rear suspension"
+        },
+        "evidence": "rear suspension: Hardtail-look Monoshock, 90mm Travel",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:24",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "300mm Disc, Single Piston",
+        "value_text": "300mm Disc, Single Piston",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "front brake"
+        },
+        "evidence": "front brake: 300mm Disc, Single Piston",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:25",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "270mm Disc, ABS",
+        "value_text": "270mm Disc, ABS",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "rear brake"
+        },
+        "evidence": "rear brake: 270mm Disc, ABS",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:26",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "100/90-19 Whitewall",
+        "value_text": "100/90-19 Whitewall",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "front tyre"
+        },
+        "evidence": "front tyre: 100/90-19 Whitewall",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:27",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "130/90-16 Whitewall",
+        "value_text": "130/90-16 Whitewall",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "rear tyre"
+        },
+        "evidence": "rear tyre: 130/90-16 Whitewall",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:28",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "1380",
+        "value_text": "1380",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "wheelbase mm"
+        },
+        "evidence": "wheelbase mm: 1380",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:29",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "740",
+        "value_text": "740",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "seat height mm"
+        },
+        "evidence": "seat height mm: 740",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:30",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "12",
+        "value_text": "12",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "fuel tank l"
+        },
+        "evidence": "fuel tank l: 12",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:31",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "186",
+        "value_text": "186",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "kerb weight kg"
+        },
+        "evidence": "kerb weight kg: 186",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:32",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "36",
+        "value_text": "36",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "mileage kmpl"
+        },
+        "evidence": "mileage kmpl: 36",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:33",
+        "entity_id": "financing_plan:phantom-350-bobber-detail-emi",
+        "entity_name": "Phantom 350 Bobber finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "down_payment",
+        "value": 24000,
+        "value_text": "₹24,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Phantom 350 Bobber estimated finance Down Payment: ₹24,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:phantom-350-bobber"
+      },
+      {
+        "id": "fact:34",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "down_payment",
+        "value": 24000,
+        "value_text": "₹24,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Phantom 350 Bobber estimated finance Down Payment: ₹24,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:phantom-350-bobber-detail-emi"
+      },
+      {
+        "id": "fact:35",
+        "entity_id": "financing_plan:phantom-350-bobber-detail-emi",
+        "entity_name": "Phantom 350 Bobber finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.99,
+        "value_text": "9.99% p.a.",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Phantom 350 Bobber estimated finance Interest Rate: 9.99% p.a.",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:phantom-350-bobber"
+      },
+      {
+        "id": "fact:36",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.99,
+        "value_text": "9.99% p.a.",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Phantom 350 Bobber estimated finance Interest Rate: 9.99% p.a.",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:phantom-350-bobber-detail-emi"
+      },
+      {
+        "id": "fact:37",
+        "entity_id": "financing_plan:phantom-350-bobber-detail-emi",
+        "entity_name": "Phantom 350 Bobber finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 months",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Phantom 350 Bobber estimated finance Loan Tenure: 48 months",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:phantom-350-bobber"
+      },
+      {
+        "id": "fact:38",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 months",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Phantom 350 Bobber estimated finance Loan Tenure: 48 months",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:phantom-350-bobber-detail-emi"
+      },
+      {
+        "id": "fact:39",
+        "entity_id": "financing_plan:phantom-350-bobber-detail-emi",
+        "entity_name": "Phantom 350 Bobber finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "monthly_emi",
+        "value": 5350,
+        "value_text": "₹5,350",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Phantom 350 Bobber estimated finance Estimated EMI: ₹5,350 / month",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:phantom-350-bobber"
+      },
+      {
+        "id": "fact:40",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "monthly_emi",
+        "value": 5350,
+        "value_text": "₹5,350",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Phantom 350 Bobber estimated finance Estimated EMI: ₹5,350 / month",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:phantom-350-bobber-detail-emi"
+      },
+      {
+        "id": "fact:41",
+        "entity_id": "product:phantom-350-bobber-variant-bobber",
+        "entity_name": "Phantom 350 Bobber Bobber",
+        "entity_type": "product",
+        "fact_type": "variant_name",
+        "value": "Bobber",
+        "value_text": "Bobber",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Variant Bobber",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.css:.variant-name",
+        "status": "verified",
+        "related_entity_id": "product:phantom-350-bobber"
+      },
+      {
+        "id": "fact:42",
+        "entity_id": "product:phantom-350-bobber-variant-bobber",
+        "entity_name": "Phantom 350 Bobber Bobber",
+        "entity_type": "product",
+        "fact_type": "ex_showroom_price",
+        "value": 235000,
+        "value_text": "₹2,35,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "variant": "Bobber",
+          "parent_product": "Phantom 350 Bobber"
+        },
+        "evidence": "Variant Bobber ₹2,35,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.css:.variant-name+.price",
+        "status": "verified",
+        "related_entity_id": "product:phantom-350-bobber"
+      },
+      {
+        "id": "fact:43",
+        "entity_id": "product:thunderstrike-650",
+        "entity_name": "Thunderstrike 650",
+        "entity_type": "product",
+        "fact_type": "tagline",
+        "value": "Command the Horizon",
+        "value_text": "Command the Horizon",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Command the Horizon",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.css:.product-card__tagline",
+        "status": "verified"
+      },
+      {
+        "id": "fact:44",
+        "entity_id": "product:thunderstrike-650",
+        "entity_name": "Thunderstrike 650",
+        "entity_type": "product",
+        "fact_type": "starting_price",
+        "value": 420000,
+        "value_text": "₹4,20,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "role": "related_card"
+        },
+        "evidence": "Thunderstrike 650 ₹4,20,000 BestsellerAdventureThunderstrike 650Command the Horizon648ccEngine47 bhpPower₹4,",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.css:.product-card .price",
+        "status": "verified"
+      },
+      {
+        "id": "fact:45",
+        "entity_id": "product:thunderstrike-650",
+        "entity_name": "Thunderstrike 650",
+        "entity_type": "product",
+        "fact_type": "engine",
+        "value": "648cc",
+        "value_text": "648cc",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Thunderstrike 650 Engine: 648cc",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:46",
+        "entity_id": "product:thunderstrike-650",
+        "entity_name": "Thunderstrike 650",
+        "entity_type": "product",
+        "fact_type": "power",
+        "value": "47 bhp",
+        "value_text": "47 bhp",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Thunderstrike 650 Power: 47 bhp",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:47",
+        "entity_id": "product:thunderstrike-650",
+        "entity_name": "Thunderstrike 650",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "₹4,20,000",
+        "value_text": "₹4,20,000",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Thunderstrike 650 Starting*: ₹4,20,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:48",
+        "entity_id": "product:phantom-350",
+        "entity_name": "Phantom 350",
+        "entity_type": "product",
+        "fact_type": "tagline",
+        "value": "Classic Soul. Modern Heart.",
+        "value_text": "Classic Soul. Modern Heart.",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Classic Soul. Modern Heart.",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.css:.product-card__tagline",
+        "status": "verified"
+      },
+      {
+        "id": "fact:49",
+        "entity_id": "product:phantom-350",
+        "entity_name": "Phantom 350",
+        "entity_type": "product",
+        "fact_type": "starting_price",
+        "value": 215000,
+        "value_text": "₹2,15,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "role": "related_card"
+        },
+        "evidence": "Phantom 350 ₹2,15,000 New LaunchClassicPhantom 350Classic Soul. Modern Heart.349ccEngine21 bhpPower₹2,",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.css:.product-card .price",
+        "status": "verified"
+      },
+      {
+        "id": "fact:50",
+        "entity_id": "product:phantom-350",
+        "entity_name": "Phantom 350",
+        "entity_type": "product",
+        "fact_type": "engine",
+        "value": "349cc",
+        "value_text": "349cc",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Phantom 350 Engine: 349cc",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:51",
+        "entity_id": "product:phantom-350",
+        "entity_name": "Phantom 350",
+        "entity_type": "product",
+        "fact_type": "power",
+        "value": "21 bhp",
+        "value_text": "21 bhp",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Phantom 350 Power: 21 bhp",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:52",
+        "entity_id": "product:phantom-350",
+        "entity_name": "Phantom 350",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "₹2,15,000",
+        "value_text": "₹2,15,000",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Phantom 350 Starting*: ₹2,15,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:53",
+        "entity_id": "dealer:apex-moto-delhi-central",
+        "entity_name": "Apex Moto Delhi Central",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Delhi",
+        "value_text": "Delhi",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Delhi • +91-11-4123-5678",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:54",
+        "entity_id": "dealer:apex-moto-mumbai-west",
+        "entity_name": "Apex Moto Mumbai West",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Mumbai",
+        "value_text": "Mumbai",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Mumbai • +91-22-2655-9900",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:55",
+        "entity_id": "dealer:apex-moto-bangalore-tech-city",
+        "entity_name": "Apex Moto Bangalore Tech City",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Bangalore",
+        "value_text": "Bangalore",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Bangalore • +91-80-4567-8901",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:56",
+        "entity_id": "dealer:apex-moto-pune-camp",
+        "entity_name": "Apex Moto Pune Camp",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Pune",
+        "value_text": "Pune",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Pune • +91-20-2633-7788",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:57",
+        "entity_id": "dealer:apex-moto-chennai-anna-nagar",
+        "entity_name": "Apex Moto Chennai Anna Nagar",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Chennai",
+        "value_text": "Chennai",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Chennai • +91-44-2626-5544",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:58",
+        "entity_id": "dealer:apex-moto-hyderabad-jubilee-hills",
+        "entity_name": "Apex Moto Hyderabad Jubilee Hills",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Hyderabad",
+        "value_text": "Hyderabad",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Hyderabad • +91-40-2355-1234",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      }
+    ],
+    "page_type": "product_detail",
+    "limitations": [
+      "Facts come from semantic HTML containers on the saved rendered snapshot, not from pairing disconnected arrays.",
+      "Amounts without a typed label or a unique enclosing entity are marked ambiguous or omitted.",
+      "Derived discounts are never calculated.",
+      "JSON-LD is used only when HTML did not already provide the same product price."
+    ]
+  }
+}

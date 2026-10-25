@@ -1,0 +1,489 @@
+{
+  "url": "https://omegax-hackathon.onrender.com/motorcycles/zenith-650-scrambler",
+  "final_url": "https://omegax-hackathon.onrender.com/motorcycles/zenith-650-scrambler/",
+  "captured_at": "2026-10-25T06:21:16Z",
+  "capture_method": "playwright_chromium",
+  "viewport": {
+    "width": 1366,
+    "height": 768
+  },
+  "page_title": "Zenith 650 Scrambler — Apex Moto",
+  "status": "success",
+  "errors": [],
+  "screenshot_path": "out/screenshots/motorcycles-zenith-650-scrambler-20261025-062116.png",
+  "rendered_html_path": "out/rendered_html/motorcycles-zenith-650-scrambler-20261025-062116.html",
+  "content": {
+    "headings": [
+      {
+        "level": 1,
+        "text": "ZENITH 650 SCRAMBLER"
+      },
+      {
+        "level": 2,
+        "text": "Command The Road"
+      },
+      {
+        "level": 3,
+        "text": "Available Colours"
+      },
+      {
+        "level": 3,
+        "text": "Stock & Availability"
+      },
+      {
+        "level": 3,
+        "text": "On-Road Price by City (Base Variant)"
+      },
+      {
+        "level": 3,
+        "text": "Available at these Authorized Dealerships"
+      },
+      {
+        "level": 3,
+        "text": "Estimated Finance & EMI"
+      },
+      {
+        "level": 2,
+        "text": "You Might Also Like"
+      },
+      {
+        "level": 3,
+        "text": "Storm 200"
+      },
+      {
+        "level": 3,
+        "text": "Zenith 450 Scrambler"
+      },
+      {
+        "level": 4,
+        "text": "MOTORCYCLES"
+      },
+      {
+        "level": 4,
+        "text": "EXPERIENCE"
+      },
+      {
+        "level": 4,
+        "text": "COMPANY"
+      },
+      {
+        "level": 2,
+        "text": "Key Features"
+      },
+      {
+        "level": 3,
+        "text": "Twin-pipe high exhaust"
+      },
+      {
+        "level": 3,
+        "text": "Switchable ABS"
+      },
+      {
+        "level": 3,
+        "text": "LED lighting"
+      },
+      {
+        "level": 2,
+        "text": "Technical Specifications"
+      },
+      {
+        "level": 2,
+        "text": "Available Variants"
+      }
+    ],
+    "visible_text": "Motorcycles Offers Finance Dealers FAQ About Contact Test Ride Book Now Home Motorcycles Zenith 650 Scrambler Scrambler Zenith 650 Scrambler Twice the Twin. Twice the Trail. ₹4,49,000 onwards (ex-showroom) Book a Test Ride Enquire Now Find a Dealer 648cc Engine / Powertrain 47 bhp Max Power 52 Nm Torque 25 km/l Mileage Overview Features Specs Variants Command The Road Twice the Twin. Twice the Trail. . Designed and built by Apex Moto to deliver an unforgettable riding experience. Available Colours Military Green Chrome Black Stock & Availability 2-3 weeks Official Brochure Complete specifications, on-road prices, and accessories. Download PDF ↗ On-Road Price by City (Base Variant) On-road price for the base variant: ex-showroom + RTO + insurance, indicative City Indicative On-Road Price Delhi ₹5,05,100 Mumbai ₹5,15,500 Bangalore ₹5,23,100 Pune ₹5,09,600 Available at these Authorized Dealerships Apex Moto Delhi Central Delhi • +91-11-4123-5678 Apex Moto Mumbai West Mumbai • +91-22-2655-9900 Apex Moto Bangalore Tech City Bangalore • +91-80-4567-8901 Apex Moto Pune Camp Pune • +91-20-2633-7788 Estimated Finance & EMI Base variant ex-showroom minus down payment, 48 months Down Payment Interest Rate Loan Tenure Estimated EMI ₹45,000 9.99 % p.a. 48 months ₹10,245 / month View Full Finance & Bank Options → Explore More You Might Also Like Popular Street Storm 200 City. Conquered. 199cc Engine 25 bhp Power ₹1,45,000 Starting* Explore Test Ride Off-Road Ready Scrambler Zenith 450 Scrambler Paved Roads Optional. 449cc Engine 38 bhp Power ₹3,35,000 Starting* Explore Test Ride Born to Ride. Built to Last. Apex Moto crafts motorcycles that embody the spirit of the road — precision engineering, enduring quality, and the freedom to go anywhere. Motorcycles All 18 Models Thunderstrike 650 Phantom 350 Storm 200 Zenith 450 Scrambler Experience Book a Test Ride Find a Dealer Offers & Deals Finance & EMI Plans Buyer FAQs Contact Support Company About Apex Moto Rider Portal Rider Login © 2026 Apex Moto. All rights reserved. Fictional brand test site for AI-readability audit. Privacy Policy Terms of Use Sitemap Key Features ✓ Twin-pipe high exhaust Engineered to Apex Moto standards for maximum rider feedback and control. ✓ Switchable ABS Engineered to Apex Moto standards for maximum rider feedback and control. ✓ LED lighting Engineered to Apex Moto standards for maximum rider feedback and control. Technical Specifications Available Variants Standard ₹4,49,000 • Twin-pipe high exhaust • Switchable ABS • LED lighting",
+    "product_names": [
+      "ZENITH 650 SCRAMBLER",
+      "Storm 200",
+      "Zenith 450 Scrambler"
+    ],
+    "prices": [
+      "₹4,49,000",
+      "₹5,05,100",
+      "₹5,15,500",
+      "₹5,23,100",
+      "₹5,09,600",
+      "₹45,000",
+      "₹10,245",
+      "₹1,45,000",
+      "₹3,35,000"
+    ],
+    "product_descriptions": [
+      {
+        "product": "ZENITH 650 SCRAMBLER",
+        "text": "Twice the Twin. Twice the Trail."
+      },
+      {
+        "product": "Storm 200",
+        "text": "City. Conquered."
+      },
+      {
+        "product": "Zenith 450 Scrambler",
+        "text": "Paved Roads Optional."
+      }
+    ],
+    "specifications": [
+      {
+        "label": "Delhi",
+        "value": "₹5,05,100",
+        "source": "table"
+      },
+      {
+        "label": "Mumbai",
+        "value": "₹5,15,500",
+        "source": "table"
+      },
+      {
+        "label": "Bangalore",
+        "value": "₹5,23,100",
+        "source": "table"
+      },
+      {
+        "label": "Pune",
+        "value": "₹5,09,600",
+        "source": "table"
+      },
+      {
+        "label": "ENGINE / POWERTRAIN",
+        "value": "648cc",
+        "product": "ZENITH 650 SCRAMBLER"
+      },
+      {
+        "label": "MAX POWER",
+        "value": "47 bhp",
+        "product": "ZENITH 650 SCRAMBLER"
+      },
+      {
+        "label": "TORQUE",
+        "value": "52 Nm",
+        "product": "ZENITH 650 SCRAMBLER"
+      },
+      {
+        "label": "MILEAGE",
+        "value": "25 km/l",
+        "product": "ZENITH 650 SCRAMBLER"
+      },
+      {
+        "label": "ENGINE",
+        "value": "199cc",
+        "product": "Storm 200"
+      },
+      {
+        "label": "POWER",
+        "value": "25 bhp",
+        "product": "Storm 200"
+      },
+      {
+        "label": "STARTING*",
+        "value": "₹1,45,000",
+        "product": "Storm 200"
+      },
+      {
+        "label": "ENGINE",
+        "value": "449cc",
+        "product": "Zenith 450 Scrambler"
+      },
+      {
+        "label": "POWER",
+        "value": "38 bhp",
+        "product": "Zenith 450 Scrambler"
+      },
+      {
+        "label": "STARTING*",
+        "value": "₹3,35,000",
+        "product": "Zenith 450 Scrambler"
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "https://omegax-hackathon.onrender.com/"
+      },
+      {
+        "text": "Motorcycles",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles"
+      },
+      {
+        "text": "Offers",
+        "href": "https://omegax-hackathon.onrender.com/offers"
+      },
+      {
+        "text": "Finance",
+        "href": "https://omegax-hackathon.onrender.com/finance"
+      },
+      {
+        "text": "Dealers",
+        "href": "https://omegax-hackathon.onrender.com/dealers"
+      },
+      {
+        "text": "FAQ",
+        "href": "https://omegax-hackathon.onrender.com/faq"
+      },
+      {
+        "text": "About",
+        "href": "https://omegax-hackathon.onrender.com/about"
+      },
+      {
+        "text": "Contact",
+        "href": "https://omegax-hackathon.onrender.com/contact"
+      },
+      {
+        "text": "TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride"
+      },
+      {
+        "text": "BOOK NOW",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride"
+      },
+      {
+        "text": "Home",
+        "href": "https://omegax-hackathon.onrender.com/"
+      },
+      {
+        "text": "BOOK A TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride?bike=zenith-650-scrambler"
+      },
+      {
+        "text": "ENQUIRE NOW",
+        "href": "https://omegax-hackathon.onrender.com/offers"
+      },
+      {
+        "text": "FIND A DEALER",
+        "href": "https://omegax-hackathon.onrender.com/dealers"
+      },
+      {
+        "text": "DOWNLOAD PDF ↗",
+        "href": "https://omegax-hackathon.onrender.com/brochures/zenith-650-scrambler.pdf"
+      },
+      {
+        "text": "Apex Moto Delhi Central Delhi • +91-11-4123-5678",
+        "href": "https://omegax-hackathon.onrender.com/dealers"
+      },
+      {
+        "text": "Apex Moto Mumbai West Mumbai • +91-22-2655-9900",
+        "href": "https://omegax-hackathon.onrender.com/dealers"
+      },
+      {
+        "text": "Apex Moto Bangalore Tech City Bangalore • +91-80-4567-8901",
+        "href": "https://omegax-hackathon.onrender.com/dealers"
+      },
+      {
+        "text": "Apex Moto Pune Camp Pune • +91-20-2633-7788",
+        "href": "https://omegax-hackathon.onrender.com/dealers"
+      },
+      {
+        "text": "VIEW FULL FINANCE & BANK OPTIONS →",
+        "href": "https://omegax-hackathon.onrender.com/finance"
+      },
+      {
+        "text": "Storm 200",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/storm-200"
+      },
+      {
+        "text": "EXPLORE",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/storm-200"
+      },
+      {
+        "text": "TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride?bike=storm-200"
+      },
+      {
+        "text": "Zenith 450 Scrambler",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/zenith-450-scrambler"
+      },
+      {
+        "text": "EXPLORE",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/zenith-450-scrambler"
+      },
+      {
+        "text": "TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride?bike=zenith-450-scrambler"
+      },
+      {
+        "text": "📸",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/zenith-650-scrambler/#"
+      },
+      {
+        "text": "👤",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/zenith-650-scrambler/#"
+      },
+      {
+        "text": "▶️",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/zenith-650-scrambler/#"
+      },
+      {
+        "text": "🐦",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/zenith-650-scrambler/#"
+      },
+      {
+        "text": "All 18 Models",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles"
+      },
+      {
+        "text": "Thunderstrike 650",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-650"
+      },
+      {
+        "text": "Phantom 350",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350"
+      },
+      {
+        "text": "Book a Test Ride",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride"
+      },
+      {
+        "text": "Find a Dealer",
+        "href": "https://omegax-hackathon.onrender.com/dealers"
+      },
+      {
+        "text": "Offers & Deals",
+        "href": "https://omegax-hackathon.onrender.com/offers"
+      },
+      {
+        "text": "Finance & EMI Plans",
+        "href": "https://omegax-hackathon.onrender.com/finance"
+      },
+      {
+        "text": "Buyer FAQs",
+        "href": "https://omegax-hackathon.onrender.com/faq"
+      },
+      {
+        "text": "Contact Support",
+        "href": "https://omegax-hackathon.onrender.com/contact"
+      },
+      {
+        "text": "About Apex Moto",
+        "href": "https://omegax-hackathon.onrender.com/about"
+      },
+      {
+        "text": "Rider Portal",
+        "href": "https://omegax-hackathon.onrender.com/account"
+      },
+      {
+        "text": "Rider Login",
+        "href": "https://omegax-hackathon.onrender.com/login"
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/zenith-650-scrambler/#"
+      },
+      {
+        "text": "Terms of Use",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/zenith-650-scrambler/#"
+      },
+      {
+        "text": "Sitemap",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/zenith-650-scrambler/#"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://omegax-hackathon.onrender.com/assets/apex_moto_logo-dhs_X3_e.jpg",
+        "alt": "Apex Moto"
+      },
+      {
+        "src": "https://omegax-hackathon.onrender.com/assets/motorcycle_zenith-BsWwUWmy.jpg",
+        "alt": "Zenith 650 Scrambler"
+      },
+      {
+        "src": "https://omegax-hackathon.onrender.com/assets/motorcycle_storm-DKOU4CLL.jpg",
+        "alt": "Storm 200"
+      },
+      {
+        "src": "https://omegax-hackathon.onrender.com/assets/motorcycle_zenith-BsWwUWmy.jpg",
+        "alt": "Zenith 450 Scrambler"
+      },
+      {
+        "src": "https://omegax-hackathon.onrender.com/specs/zenith-650-scrambler.png",
+        "alt": ""
+      }
+    ],
+    "tables": [
+      {
+        "caption": "",
+        "headers": [
+          "CITY",
+          "INDICATIVE ON-ROAD PRICE"
+        ],
+        "rows": [
+          [
+            "Delhi",
+            "₹5,05,100"
+          ],
+          [
+            "Mumbai",
+            "₹5,15,500"
+          ],
+          [
+            "Bangalore",
+            "₹5,23,100"
+          ],
+          [
+            "Pune",
+            "₹5,09,600"
+          ]
+        ]
+      },
+      {
+        "caption": "",
+        "headers": [
+          "DOWN PAYMENT",
+          "INTEREST RATE",
+          "LOAN TENURE",
+          "ESTIMATED EMI"
+        ],
+        "rows": [
+          [
+            "₹45,000",
+            "9.99% p.a.",
+            "48 months",
+            "₹10,245 / month"
+          ]
+        ]
+      }
+    ],
+    "primary_product": {
+      "name": "ZENITH 650 SCRAMBLER",
+      "ex_showroom_price": "₹4,49,000",
+      "engine": "648cc",
+      "power": "47 bhp",
+      "torque": "52 Nm",
+      "mileage": "25 km/l",
+      "features": [
+        "Twin-pipe high exhaust",
+        "Switchable ABS",
+        "LED lighting"
+      ],
+      "variants": [
+        {
+          "name": "Standard",
+          "price": "₹4,49,000",
+          "price_kind": "ex_showroom"
+        }
+      ]
+    },
+    "related_products": [
+      {
+        "name": "Storm 200",
+        "price": "₹1,45,000",
+        "price_kind": "starting"
+      },
+      {
+        "name": "Zenith 450 Scrambler",
+        "price": "₹3,35,000",
+        "price_kind": "starting"
+      }
+    ]
+  },
+  "limitations": [
+    "In-page role=tab controls are clicked so tabbed features/specs can be read; forms, links, and purchase CTAs are not clicked.",
+    "Closed accordions without a tab role, and off-screen overflow, may still hide text.",
+    "Text painted only inside images (OCR not performed) is not captured as visible_text.",
+    "Overlapping or visually clipped elements can still contribute DOM text if CSS visibility checks pass.",
+    "aria-hidden subtrees are excluded from visible_text even if they occupy pixels (common for duplicate image links).",
+    "Lazy content beyond the configured scroll budget is not captured.",
+    "Related product cards on the same page may appear in product_names alongside the primary H1."
+  ],
+  "http_status": 200,
+  "json_path": "out/human-view-20261025-062116.json"
+}

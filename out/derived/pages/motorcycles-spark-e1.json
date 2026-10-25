@@ -1,0 +1,980 @@
+{
+  "schema_version": "1.0",
+  "url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1",
+  "final_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+  "page_type": "product_detail",
+  "page_type_reason": "path matches /motorcycles/{slug}",
+  "canonical_path": "/motorcycles/spark-e1",
+  "canonical_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1",
+  "query": {},
+  "original_json_path": "out/human-view-20261025-062338.json",
+  "screenshot_path": "out/screenshots/motorcycles-spark-e1-20261025-062338.png",
+  "rendered_html_path": "out/rendered_html/motorcycles-spark-e1-20261025-062338.html",
+  "structured_facts": {
+    "schema_version": "1.0",
+    "entities": [
+      {
+        "id": "product:spark-e1",
+        "type": "product",
+        "name": "Spark E1",
+        "slug": "spark-e1"
+      },
+      {
+        "id": "financing_plan:spark-e1-detail-emi",
+        "type": "financing_plan",
+        "name": "Spark E1 estimated EMI",
+        "slug": "spark-e1-detail-emi"
+      },
+      {
+        "id": "product:spark-e1-variant-standard",
+        "type": "product",
+        "name": "Spark E1 Standard",
+        "slug": "spark-e1-variant-standard",
+        "variant_of": "product:spark-e1",
+        "variant_name": "Standard"
+      },
+      {
+        "id": "product:nightfall-350",
+        "type": "product",
+        "name": "Nightfall 350",
+        "slug": "nightfall-350"
+      },
+      {
+        "id": "product:nightfall-650",
+        "type": "product",
+        "name": "Nightfall 650",
+        "slug": "nightfall-650"
+      },
+      {
+        "id": "dealer:apex-moto-delhi-central",
+        "type": "dealer",
+        "name": "Apex Moto Delhi Central",
+        "slug": "apex-moto-delhi-central"
+      },
+      {
+        "id": "dealer:apex-moto-mumbai-west",
+        "type": "dealer",
+        "name": "Apex Moto Mumbai West",
+        "slug": "apex-moto-mumbai-west"
+      },
+      {
+        "id": "dealer:apex-moto-bangalore-tech-city",
+        "type": "dealer",
+        "name": "Apex Moto Bangalore Tech City",
+        "slug": "apex-moto-bangalore-tech-city"
+      },
+      {
+        "id": "dealer:apex-moto-pune-camp",
+        "type": "dealer",
+        "name": "Apex Moto Pune Camp",
+        "slug": "apex-moto-pune-camp"
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact:1",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "starting_price",
+        "value": 149000,
+        "value_text": "₹1,49,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "label": "onwards (ex-showroom)"
+        },
+        "evidence": "Spark E1 ₹1,49,000 onwards (ex-showroom)",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.css:.moto-detail__price",
+        "status": "verified"
+      },
+      {
+        "id": "fact:2",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "ex_showroom_price",
+        "value": 149000,
+        "value_text": "₹1,49,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "label": "onwards (ex-showroom)"
+        },
+        "evidence": "Spark E1 ₹1,49,000 onwards (ex-showroom)",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.css:.moto-detail__price",
+        "status": "verified"
+      },
+      {
+        "id": "fact:3",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "tagline",
+        "value": "Silent. Swift. Smart.",
+        "value_text": "Silent. Swift. Smart.",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Silent. Swift. Smart.",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.css:.moto-detail__hero-tagline",
+        "status": "verified"
+      },
+      {
+        "id": "fact:4",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "engine",
+        "value": "Mid-drive PMSM, 9 kW peak",
+        "value_text": "Mid-drive PMSM, 9 kW peak",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Engine / Powertrain: Mid-drive PMSM, 9 kW peak",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.css:.moto-detail__quick-spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:5",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "power",
+        "value": "12.1 bhp",
+        "value_text": "12.1 bhp",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Max Power: 12.1 bhp",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.css:.moto-detail__quick-spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:6",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "torque",
+        "value": "40 Nm",
+        "value_text": "40 Nm",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Torque: 40 Nm",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.css:.moto-detail__quick-spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:7",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "140 km",
+        "value_text": "140 km",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Range: 140 km",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.css:.moto-detail__quick-spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:8",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 155000,
+        "value_text": "₹1,55,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Delhi",
+          "variant": "base"
+        },
+        "evidence": "On-road Delhi: ₹1,55,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:9",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 155000,
+        "value_text": "₹1,55,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Mumbai",
+          "variant": "base"
+        },
+        "evidence": "On-road Mumbai: ₹1,55,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:10",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 155000,
+        "value_text": "₹1,55,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Bangalore",
+          "variant": "base"
+        },
+        "evidence": "On-road Bangalore: ₹1,55,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:11",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 155000,
+        "value_text": "₹1,55,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Pune",
+          "variant": "base"
+        },
+        "evidence": "On-road Pune: ₹1,55,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:12",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "Mid-drive PMSM, 9 kW peak",
+        "value_text": "Mid-drive PMSM, 9 kW peak",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "motor"
+        },
+        "evidence": "motor: Mid-drive PMSM, 9 kW peak",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:13",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "12.1",
+        "value_text": "12.1",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "peak power bhp"
+        },
+        "evidence": "peak power bhp: 12.1",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:14",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "40",
+        "value_text": "40",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "max torque nm"
+        },
+        "evidence": "max torque nm: 40",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:15",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "4",
+        "value_text": "4",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "battery kwh"
+        },
+        "evidence": "battery kwh: 4",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:16",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "140",
+        "value_text": "140",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "range km"
+        },
+        "evidence": "range km: 140",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:17",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "3 h 30 min (home), 50 min (fast)",
+        "value_text": "3 h 30 min (home), 50 min (fast)",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "charging time 0 80"
+        },
+        "evidence": "charging time 0 80: 3 h 30 min (home), 50 min (fast)",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:18",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "100",
+        "value_text": "100",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "top speed kmph"
+        },
+        "evidence": "top speed kmph: 100",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:19",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "37mm Telescopic Forks",
+        "value_text": "37mm Telescopic Forks",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "front suspension"
+        },
+        "evidence": "front suspension: 37mm Telescopic Forks",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:20",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "Monoshock",
+        "value_text": "Monoshock",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "rear suspension"
+        },
+        "evidence": "rear suspension: Monoshock",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:21",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "240mm Disc",
+        "value_text": "240mm Disc",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "front brake"
+        },
+        "evidence": "front brake: 240mm Disc",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:22",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "220mm Disc, CBS",
+        "value_text": "220mm Disc, CBS",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "rear brake"
+        },
+        "evidence": "rear brake: 220mm Disc, CBS",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:23",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "90/80-17 Tubeless",
+        "value_text": "90/80-17 Tubeless",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "front tyre"
+        },
+        "evidence": "front tyre: 90/80-17 Tubeless",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:24",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "110/80-17 Tubeless",
+        "value_text": "110/80-17 Tubeless",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "rear tyre"
+        },
+        "evidence": "rear tyre: 110/80-17 Tubeless",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:25",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "1320",
+        "value_text": "1320",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "wheelbase mm"
+        },
+        "evidence": "wheelbase mm: 1320",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:26",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "790",
+        "value_text": "790",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "seat height mm"
+        },
+        "evidence": "seat height mm: 790",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:27",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "136",
+        "value_text": "136",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "kerb weight kg"
+        },
+        "evidence": "kerb weight kg: 136",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:28",
+        "entity_id": "financing_plan:spark-e1-detail-emi",
+        "entity_name": "Spark E1 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "down_payment",
+        "value": 15000,
+        "value_text": "₹15,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Spark E1 estimated finance Down Payment: ₹15,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:spark-e1"
+      },
+      {
+        "id": "fact:29",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "down_payment",
+        "value": 15000,
+        "value_text": "₹15,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Spark E1 estimated finance Down Payment: ₹15,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:spark-e1-detail-emi"
+      },
+      {
+        "id": "fact:30",
+        "entity_id": "financing_plan:spark-e1-detail-emi",
+        "entity_name": "Spark E1 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 8.99,
+        "value_text": "8.99% p.a.",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Spark E1 estimated finance Interest Rate: 8.99% p.a.",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:spark-e1"
+      },
+      {
+        "id": "fact:31",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 8.99,
+        "value_text": "8.99% p.a.",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Spark E1 estimated finance Interest Rate: 8.99% p.a.",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:spark-e1-detail-emi"
+      },
+      {
+        "id": "fact:32",
+        "entity_id": "financing_plan:spark-e1-detail-emi",
+        "entity_name": "Spark E1 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 months",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Spark E1 estimated finance Loan Tenure: 48 months",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:spark-e1"
+      },
+      {
+        "id": "fact:33",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 months",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Spark E1 estimated finance Loan Tenure: 48 months",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:spark-e1-detail-emi"
+      },
+      {
+        "id": "fact:34",
+        "entity_id": "financing_plan:spark-e1-detail-emi",
+        "entity_name": "Spark E1 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "monthly_emi",
+        "value": 3334,
+        "value_text": "₹3,334",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Spark E1 estimated finance Estimated EMI: ₹3,334 / month",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:spark-e1"
+      },
+      {
+        "id": "fact:35",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "monthly_emi",
+        "value": 3334,
+        "value_text": "₹3,334",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Spark E1 estimated finance Estimated EMI: ₹3,334 / month",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:spark-e1-detail-emi"
+      },
+      {
+        "id": "fact:36",
+        "entity_id": "product:spark-e1-variant-standard",
+        "entity_name": "Spark E1 Standard",
+        "entity_type": "product",
+        "fact_type": "variant_name",
+        "value": "Standard",
+        "value_text": "Standard",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Variant Standard",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.css:.variant-name",
+        "status": "verified",
+        "related_entity_id": "product:spark-e1"
+      },
+      {
+        "id": "fact:37",
+        "entity_id": "product:spark-e1-variant-standard",
+        "entity_name": "Spark E1 Standard",
+        "entity_type": "product",
+        "fact_type": "ex_showroom_price",
+        "value": 149000,
+        "value_text": "₹1,49,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "variant": "Standard",
+          "parent_product": "Spark E1"
+        },
+        "evidence": "Variant Standard ₹1,49,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.css:.variant-name+.price",
+        "status": "verified",
+        "related_entity_id": "product:spark-e1"
+      },
+      {
+        "id": "fact:38",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "tagline",
+        "value": "Own the Night.",
+        "value_text": "Own the Night.",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Own the Night.",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.css:.product-card__tagline",
+        "status": "verified"
+      },
+      {
+        "id": "fact:39",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "starting_price",
+        "value": 219000,
+        "value_text": "₹2,19,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "role": "related_card"
+        },
+        "evidence": "Nightfall 350 ₹2,19,000 PopularCruiserNightfall 350Own the Night.349ccEngine21 bhpPower₹2,19,000Starting",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.css:.product-card .price",
+        "status": "verified"
+      },
+      {
+        "id": "fact:40",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "engine",
+        "value": "349cc",
+        "value_text": "349cc",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Nightfall 350 Engine: 349cc",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:41",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "power",
+        "value": "21 bhp",
+        "value_text": "21 bhp",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Nightfall 350 Power: 21 bhp",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:42",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "₹2,19,000",
+        "value_text": "₹2,19,000",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Nightfall 350 Starting*: ₹2,19,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:43",
+        "entity_id": "product:nightfall-650",
+        "entity_name": "Nightfall 650",
+        "entity_type": "product",
+        "fact_type": "tagline",
+        "value": "Twin-Cylinder Swagger.",
+        "value_text": "Twin-Cylinder Swagger.",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Twin-Cylinder Swagger.",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.css:.product-card__tagline",
+        "status": "verified"
+      },
+      {
+        "id": "fact:44",
+        "entity_id": "product:nightfall-650",
+        "entity_name": "Nightfall 650",
+        "entity_type": "product",
+        "fact_type": "starting_price",
+        "value": 395000,
+        "value_text": "₹3,95,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "role": "related_card"
+        },
+        "evidence": "Nightfall 650 ₹3,95,000 FlagshipCruiserNightfall 650Twin-Cylinder Swagger.648ccEngine46 bhpPower₹3,95,00",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.css:.product-card .price",
+        "status": "verified"
+      },
+      {
+        "id": "fact:45",
+        "entity_id": "product:nightfall-650",
+        "entity_name": "Nightfall 650",
+        "entity_type": "product",
+        "fact_type": "engine",
+        "value": "648cc",
+        "value_text": "648cc",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Nightfall 650 Engine: 648cc",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:46",
+        "entity_id": "product:nightfall-650",
+        "entity_name": "Nightfall 650",
+        "entity_type": "product",
+        "fact_type": "power",
+        "value": "46 bhp",
+        "value_text": "46 bhp",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Nightfall 650 Power: 46 bhp",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:47",
+        "entity_id": "product:nightfall-650",
+        "entity_name": "Nightfall 650",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "₹3,95,000",
+        "value_text": "₹3,95,000",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Nightfall 650 Starting*: ₹3,95,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:48",
+        "entity_id": "dealer:apex-moto-delhi-central",
+        "entity_name": "Apex Moto Delhi Central",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Delhi",
+        "value_text": "Delhi",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Delhi • +91-11-4123-5678",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:49",
+        "entity_id": "dealer:apex-moto-mumbai-west",
+        "entity_name": "Apex Moto Mumbai West",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Mumbai",
+        "value_text": "Mumbai",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Mumbai • +91-22-2655-9900",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:50",
+        "entity_id": "dealer:apex-moto-bangalore-tech-city",
+        "entity_name": "Apex Moto Bangalore Tech City",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Bangalore",
+        "value_text": "Bangalore",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Bangalore • +91-80-4567-8901",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:51",
+        "entity_id": "dealer:apex-moto-pune-camp",
+        "entity_name": "Apex Moto Pune Camp",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Pune",
+        "value_text": "Pune",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Pune • +91-20-2633-7788",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      }
+    ],
+    "page_type": "product_detail",
+    "limitations": [
+      "Facts come from semantic HTML containers on the saved rendered snapshot, not from pairing disconnected arrays.",
+      "Amounts without a typed label or a unique enclosing entity are marked ambiguous or omitted.",
+      "Derived discounts are never calculated.",
+      "JSON-LD is used only when HTML did not already provide the same product price."
+    ]
+  }
+}

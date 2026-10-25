@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "url": "https://omegax-hackathon.onrender.com/book-test-ride?bike=zenith-350-scrambler",
+  "final_url": "https://omegax-hackathon.onrender.com/book-test-ride/?bike=zenith-350-scrambler",
+  "page_type": "booking",
+  "page_type_reason": "path is /book-test-ride (query ignored)",
+  "canonical_path": "/book-test-ride",
+  "canonical_url": "https://omegax-hackathon.onrender.com/book-test-ride",
+  "query": {
+    "bike": "zenith-350-scrambler"
+  },
+  "original_json_path": "out/human-view-20261025-062107.json",
+  "screenshot_path": "out/screenshots/book-test-ride-20261025-062107.png",
+  "rendered_html_path": "out/rendered_html/book-test-ride-20261025-062107.html",
+  "structured_facts": {
+    "schema_version": "1.0",
+    "entities": [
+      {
+        "id": "product:zenith-350-scrambler",
+        "type": "product",
+        "name": "Zenith 350 Scrambler",
+        "slug": "zenith-350-scrambler"
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact:1",
+        "entity_id": "product:zenith-350-scrambler",
+        "entity_name": "Zenith 350 Scrambler",
+        "entity_type": "product",
+        "fact_type": "name",
+        "value": "Zenith 350 Scrambler",
+        "value_text": "Zenith 350 Scrambler",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "context": "booking_query"
+        },
+        "evidence": "booking query bike=zenith-350-scrambler",
+        "source_url": "https://omegax-hackathon.onrender.com/book-test-ride/?bike=zenith-350-scrambler",
+        "extraction_method": "url.query.bike",
+        "status": "verified"
+      }
+    ],
+    "page_type": "booking",
+    "limitations": [
+      "Facts come from semantic HTML containers on the saved rendered snapshot, not from pairing disconnected arrays.",
+      "Amounts without a typed label or a unique enclosing entity are marked ambiguous or omitted.",
+      "Derived discounts are never calculated.",
+      "JSON-LD is used only when HTML did not already provide the same product price."
+    ]
+  }
+}

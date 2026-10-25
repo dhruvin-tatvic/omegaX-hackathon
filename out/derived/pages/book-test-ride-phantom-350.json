@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "url": "https://omegax-hackathon.onrender.com/book-test-ride?bike=phantom-350",
+  "final_url": "https://omegax-hackathon.onrender.com/book-test-ride/?bike=phantom-350",
+  "page_type": "booking",
+  "page_type_reason": "path is /book-test-ride (query ignored)",
+  "canonical_path": "/book-test-ride",
+  "canonical_url": "https://omegax-hackathon.onrender.com/book-test-ride",
+  "query": {
+    "bike": "phantom-350"
+  },
+  "original_json_path": "out/human-view-20261025-061622.json",
+  "screenshot_path": "out/screenshots/book-test-ride-20261025-061622.png",
+  "rendered_html_path": "out/rendered_html/book-test-ride-20261025-061622.html",
+  "structured_facts": {
+    "schema_version": "1.0",
+    "entities": [
+      {
+        "id": "product:phantom-350",
+        "type": "product",
+        "name": "Phantom 350",
+        "slug": "phantom-350"
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact:1",
+        "entity_id": "product:phantom-350",
+        "entity_name": "Phantom 350",
+        "entity_type": "product",
+        "fact_type": "name",
+        "value": "Phantom 350",
+        "value_text": "Phantom 350",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "context": "booking_query"
+        },
+        "evidence": "booking query bike=phantom-350",
+        "source_url": "https://omegax-hackathon.onrender.com/book-test-ride/?bike=phantom-350",
+        "extraction_method": "url.query.bike",
+        "status": "verified"
+      }
+    ],
+    "page_type": "booking",
+    "limitations": [
+      "Facts come from semantic HTML containers on the saved rendered snapshot, not from pairing disconnected arrays.",
+      "Amounts without a typed label or a unique enclosing entity are marked ambiguous or omitted.",
+      "Derived discounts are never calculated.",
+      "JSON-LD is used only when HTML did not already provide the same product price."
+    ]
+  }
+}

@@ -1,0 +1,422 @@
+{
+  "url": "https://omegax-hackathon.onrender.com/",
+  "final_url": "https://omegax-hackathon.onrender.com/",
+  "captured_at": "2026-10-25T04:50:48Z",
+  "capture_method": "playwright_chromium",
+  "viewport": {
+    "width": 1366,
+    "height": 768
+  },
+  "page_title": "Apex Moto — Born to Ride. Built to Last.",
+  "status": "success",
+  "errors": [],
+  "screenshot_path": "out/screenshots/homepage-20261025-045048.png",
+  "rendered_html_path": "out/rendered_html/homepage-20261025-045048.html",
+  "content": {
+    "headings": [
+      {
+        "level": 1,
+        "text": "BORN TO RIDE. BUILT TO LAST."
+      },
+      {
+        "level": 2,
+        "text": "Featured Motorcycles"
+      },
+      {
+        "level": 3,
+        "text": "Thunderstrike 650"
+      },
+      {
+        "level": 3,
+        "text": "Phantom 350"
+      },
+      {
+        "level": 3,
+        "text": "Storm 200"
+      },
+      {
+        "level": 3,
+        "text": "Zenith 450 Scrambler"
+      },
+      {
+        "level": 3,
+        "text": "Thunderstrike 450"
+      },
+      {
+        "level": 3,
+        "text": "Thunderstrike 650 Rally"
+      },
+      {
+        "level": 2,
+        "text": "Built Without Compromise"
+      },
+      {
+        "level": 3,
+        "text": "Engineering First"
+      },
+      {
+        "level": 3,
+        "text": "Designed to Inspire"
+      },
+      {
+        "level": 3,
+        "text": "Built to Last"
+      },
+      {
+        "level": 3,
+        "text": "Rider Community"
+      },
+      {
+        "level": 2,
+        "text": "Ready to Experience Apex Moto?"
+      },
+      {
+        "level": 4,
+        "text": "MOTORCYCLES"
+      },
+      {
+        "level": 4,
+        "text": "EXPERIENCE"
+      },
+      {
+        "level": 4,
+        "text": "COMPANY"
+      }
+    ],
+    "visible_text": "Motorcycles Offers Finance Dealers FAQ About Contact Test Ride Book Now APEX MOTO — Est. 2014 Born to Ride. Built to Last. Precision-engineered motorcycles forged for those who demand more from every road. Power. Style. Character. This is the Apex difference. Explore Motorcycles → Book a Test Ride Find a Dealer 50,000+ Riders Worldwide 18 Iconic Models 120+ Dealers Across India 10 Yrs Engineering Excellence Our Machines Featured Motorcycles From pure urban aggression to trans-continental capability. Handpicked from our line-up. Bestseller Adventure Thunderstrike 650 Command the Horizon 648cc Engine 47 bhp Power ₹4,20,000 Starting* Explore Test Ride New Launch Classic Phantom 350 Classic Soul. Modern Heart. 349cc Engine 21 bhp Power ₹2,15,000 Starting* Explore Test Ride Popular Street Storm 200 City. Conquered. 199cc Engine 25 bhp Power ₹1,45,000 Starting* Explore Test Ride Off-Road Ready Scrambler Zenith 450 Scrambler Paved Roads Optional. 449cc Engine 38 bhp Power ₹3,35,000 Starting* Explore Test Ride New Launch Adventure Thunderstrike 450 Adventure, Unlocked. 452cc Engine 40 bhp Power ₹2,89,000 Starting* Explore Test Ride Limited Edition Adventure Thunderstrike 650 Rally Built for the Dakar in You. 648cc Engine 47 bhp Power ₹5,29,000 Starting* Explore Test Ride View All 18 Models → The Apex Standard Built Without Compromise Four cornerstones that define every motorcycle that leaves our facility. Engineering First Every component is precision-engineered for performance, reliability, and longevity. Designed to Inspire Timeless aesthetics that turn every ride into a statement. Built to be noticed. Built to Last Rigorous quality testing across 50+ parameters ensures your Apex Moto goes the distance. Rider Community Join 50,000+ Apex Moto riders in a global community of passion, adventure, and brotherhood. Feel The Ride Ready to Experience Apex Moto? Book a free, zero-obligation test ride at your nearest dealership today. Helmet and safety gear provided. Book Your Test Ride Find Nearest Dealer Born to Ride. Built to Last. Apex Moto crafts motorcycles that embody the spirit of the road — precision engineering, enduring quality, and the freedom to go anywhere. Motorcycles All 18 Models Thunderstrike 650 Phantom 350 Storm 200 Zenith 450 Scrambler Experience Book a Test Ride Find a Dealer Offers & Deals Finance & EMI Plans Buyer FAQs Contact Support Company About Apex Moto Rider Portal Rider Login © 2026 Apex Moto. All rights reserved. Fictional brand test site for AI-readability audit. Privacy Policy Terms of Use Sitemap",
+    "product_names": [],
+    "prices": [
+      "₹4,20,000",
+      "₹2,15,000",
+      "₹1,45,000",
+      "₹3,35,000",
+      "₹2,89,000",
+      "₹5,29,000"
+    ],
+    "product_descriptions": [],
+    "specifications": [
+      {
+        "label": "ENGINE",
+        "value": "648cc",
+        "product": null
+      },
+      {
+        "label": "POWER",
+        "value": "47 bhp",
+        "product": null
+      },
+      {
+        "label": "STARTING*",
+        "value": "₹4,20,000",
+        "product": null
+      },
+      {
+        "label": "ENGINE",
+        "value": "349cc",
+        "product": null
+      },
+      {
+        "label": "POWER",
+        "value": "21 bhp",
+        "product": null
+      },
+      {
+        "label": "STARTING*",
+        "value": "₹2,15,000",
+        "product": null
+      },
+      {
+        "label": "ENGINE",
+        "value": "199cc",
+        "product": null
+      },
+      {
+        "label": "POWER",
+        "value": "25 bhp",
+        "product": null
+      },
+      {
+        "label": "STARTING*",
+        "value": "₹1,45,000",
+        "product": null
+      },
+      {
+        "label": "ENGINE",
+        "value": "449cc",
+        "product": null
+      },
+      {
+        "label": "POWER",
+        "value": "38 bhp",
+        "product": null
+      },
+      {
+        "label": "STARTING*",
+        "value": "₹3,35,000",
+        "product": null
+      },
+      {
+        "label": "ENGINE",
+        "value": "452cc",
+        "product": null
+      },
+      {
+        "label": "POWER",
+        "value": "40 bhp",
+        "product": null
+      },
+      {
+        "label": "STARTING*",
+        "value": "₹2,89,000",
+        "product": null
+      },
+      {
+        "label": "STARTING*",
+        "value": "₹5,29,000",
+        "product": null
+      }
+    ],
+    "links": [
+      {
+        "text": "",
+        "href": "https://omegax-hackathon.onrender.com/"
+      },
+      {
+        "text": "Motorcycles",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles"
+      },
+      {
+        "text": "Offers",
+        "href": "https://omegax-hackathon.onrender.com/offers"
+      },
+      {
+        "text": "Finance",
+        "href": "https://omegax-hackathon.onrender.com/finance"
+      },
+      {
+        "text": "Dealers",
+        "href": "https://omegax-hackathon.onrender.com/dealers"
+      },
+      {
+        "text": "FAQ",
+        "href": "https://omegax-hackathon.onrender.com/faq"
+      },
+      {
+        "text": "About",
+        "href": "https://omegax-hackathon.onrender.com/about"
+      },
+      {
+        "text": "Contact",
+        "href": "https://omegax-hackathon.onrender.com/contact"
+      },
+      {
+        "text": "TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride"
+      },
+      {
+        "text": "BOOK NOW",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride"
+      },
+      {
+        "text": "EXPLORE MOTORCYCLES →",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles"
+      },
+      {
+        "text": "BOOK A TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride"
+      },
+      {
+        "text": "FIND A DEALER",
+        "href": "https://omegax-hackathon.onrender.com/dealers"
+      },
+      {
+        "text": "Thunderstrike 650",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-650"
+      },
+      {
+        "text": "EXPLORE",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-650"
+      },
+      {
+        "text": "TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride?bike=thunderstrike-650"
+      },
+      {
+        "text": "Phantom 350",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350"
+      },
+      {
+        "text": "EXPLORE",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350"
+      },
+      {
+        "text": "TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride?bike=phantom-350"
+      },
+      {
+        "text": "Storm 200",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/storm-200"
+      },
+      {
+        "text": "EXPLORE",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/storm-200"
+      },
+      {
+        "text": "TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride?bike=storm-200"
+      },
+      {
+        "text": "Zenith 450 Scrambler",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/zenith-450-scrambler"
+      },
+      {
+        "text": "EXPLORE",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/zenith-450-scrambler"
+      },
+      {
+        "text": "TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride?bike=zenith-450-scrambler"
+      },
+      {
+        "text": "Thunderstrike 450",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450"
+      },
+      {
+        "text": "EXPLORE",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450"
+      },
+      {
+        "text": "TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride?bike=thunderstrike-450"
+      },
+      {
+        "text": "Thunderstrike 650 Rally",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-650-rally"
+      },
+      {
+        "text": "EXPLORE",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-650-rally"
+      },
+      {
+        "text": "TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride?bike=thunderstrike-650-rally"
+      },
+      {
+        "text": "VIEW ALL 18 MODELS →",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles"
+      },
+      {
+        "text": "BOOK YOUR TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride"
+      },
+      {
+        "text": "FIND NEAREST DEALER",
+        "href": "https://omegax-hackathon.onrender.com/dealers"
+      },
+      {
+        "text": "📸",
+        "href": "https://omegax-hackathon.onrender.com/#"
+      },
+      {
+        "text": "👤",
+        "href": "https://omegax-hackathon.onrender.com/#"
+      },
+      {
+        "text": "▶️",
+        "href": "https://omegax-hackathon.onrender.com/#"
+      },
+      {
+        "text": "🐦",
+        "href": "https://omegax-hackathon.onrender.com/#"
+      },
+      {
+        "text": "All 18 Models",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles"
+      },
+      {
+        "text": "Book a Test Ride",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride"
+      },
+      {
+        "text": "Find a Dealer",
+        "href": "https://omegax-hackathon.onrender.com/dealers"
+      },
+      {
+        "text": "Offers & Deals",
+        "href": "https://omegax-hackathon.onrender.com/offers"
+      },
+      {
+        "text": "Finance & EMI Plans",
+        "href": "https://omegax-hackathon.onrender.com/finance"
+      },
+      {
+        "text": "Buyer FAQs",
+        "href": "https://omegax-hackathon.onrender.com/faq"
+      },
+      {
+        "text": "Contact Support",
+        "href": "https://omegax-hackathon.onrender.com/contact"
+      },
+      {
+        "text": "About Apex Moto",
+        "href": "https://omegax-hackathon.onrender.com/about"
+      },
+      {
+        "text": "Rider Portal",
+        "href": "https://omegax-hackathon.onrender.com/account"
+      },
+      {
+        "text": "Rider Login",
+        "href": "https://omegax-hackathon.onrender.com/login"
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://omegax-hackathon.onrender.com/#"
+      },
+      {
+        "text": "Terms of Use",
+        "href": "https://omegax-hackathon.onrender.com/#"
+      },
+      {
+        "text": "Sitemap",
+        "href": "https://omegax-hackathon.onrender.com/#"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://omegax-hackathon.onrender.com/assets/apex_moto_logo-dhs_X3_e.jpg",
+        "alt": "Apex Moto"
+      },
+      {
+        "src": "https://omegax-hackathon.onrender.com/assets/motorcycle_thunderstrike-8FE7-Duu.jpg",
+        "alt": "Thunderstrike 650"
+      },
+      {
+        "src": "https://omegax-hackathon.onrender.com/assets/motorcycle_phantom-7OLH6b0-.jpg",
+        "alt": "Phantom 350"
+      },
+      {
+        "src": "https://omegax-hackathon.onrender.com/assets/motorcycle_storm-DKOU4CLL.jpg",
+        "alt": "Storm 200"
+      },
+      {
+        "src": "https://omegax-hackathon.onrender.com/assets/motorcycle_zenith-BsWwUWmy.jpg",
+        "alt": "Zenith 450 Scrambler"
+      },
+      {
+        "src": "https://omegax-hackathon.onrender.com/assets/hero_motorcycle-yqv0dmuW.jpg",
+        "alt": "Apex Moto flagship motorcycle on a mountain road at golden hour",
+        "role": "img"
+      }
+    ],
+    "tables": []
+  },
+  "limitations": [
+    "Closed accordions, tabs, and off-screen overflow may hide text until opened; this collector does not click.",
+    "Text painted only inside images (OCR not performed) is not captured as visible_text.",
+    "Overlapping or visually clipped elements can still contribute DOM text if CSS visibility checks pass.",
+    "aria-hidden subtrees are excluded from visible_text even if they occupy pixels (common for duplicate image links).",
+    "Lazy content beyond the configured scroll budget is not captured."
+  ],
+  "http_status": 200
+}

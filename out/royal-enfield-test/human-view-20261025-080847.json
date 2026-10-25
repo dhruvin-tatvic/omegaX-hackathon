@@ -1,0 +1,102 @@
+{
+  "url": "https://www.royalenfield.com/uk/en/flipbook",
+  "final_url": "https://www.royalenfield.com/uk/en/flipbook/",
+  "captured_at": "2026-10-25T08:08:47Z",
+  "capture_method": "playwright_chromium",
+  "viewport": {
+    "width": 1366,
+    "height": 768
+  },
+  "page_title": "RE- FlipBook",
+  "status": "partial",
+  "errors": [
+    "No human-visible text was extracted."
+  ],
+  "screenshot_path": "out/royal-enfield-test/screenshots/uk-en-flipbook-20261025-080847.png",
+  "rendered_html_path": "out/royal-enfield-test/rendered_html/uk-en-flipbook-20261025-080847.html",
+  "content": {
+    "headings": [],
+    "visible_text": "",
+    "product_names": [],
+    "prices": [],
+    "product_descriptions": [],
+    "specifications": [],
+    "links": [],
+    "images": [
+      {
+        "src": "https://www.royalenfield.com/uk/en/flipbook/files/mobile-ext/appLogoIcon.png",
+        "alt": ""
+      },
+      {
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAABzklEQVR4AdySPU4jQRCFX3k9u5I90drWBt6b8BNwABIggASEyEwCHAMCCAwhPxIigIgLIMBHASSETWQswRgX9TxuoWZmDBKQ0FJNdb169c1f5/BN6weB7zvRaKv9dNR8iK4sHi2uWFP/yNdLfApVzTcfuvWe4hKQqiq2VGVRFZs9kf/U2TdfgCErAW52nncAXRCRmVIYjFfCYL0S5g8rYbBRKQZj1Nk33/YQLjywveaIQJdseL5UyJ+kDVJnnz760zzUPLD2tKZAg8NsurDva7KrAPZNaJh/+VX1dz5YZAKKU9+SUZlPRcYzuvDAZvoHyDUGi0/KYMnM4D6Ovq8c75PXt+Bb+zFVZysXA2GwZmZwH4fS14z3yasHFtUzCCaTthTFfOa/SOn0JR+ck7oAo61Od7rfHVz8JwWsP0WfmH9gSSQP/LcQNACp2+Hft2EPjsGibv0DmC/2I3V5YDpKhV8rgOzZ8HGrHZ3ftaO1u3Z3jtnqC+rs27+oYchKgO3wR+VivpYTjNnwjQhWRXSX2epr6uyX7cf6p8S/SwLs2nzNUvh71gBViz8WVdbUncc0yYJngt3wezkL/mkwb5wG/xKwgzO7+DKwA7r8beAXAAAA//+tTHX2AAAABklEQVQDAG2izy2sb1pKAAAAAElFTkSuQmCC",
+        "alt": ""
+      },
+      {
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAApUlEQVR4AeyRsQqAMAxEVXBy9f+/0NXJQXnQhCYhWzoIFY40d9eTJtsy6Pt58HU/bwaZWKbDi4caRnEe++qBsYfX6XudcwiGrMAM1imGUbBdD3W3g9fpm6TFBLPdDHIj0+HFQzXBEFUwwTwpg/ww0+HFQzXBEDzJA76H1+l7nXMIhqzADNYphlGwXQ91t4PX6ZukxQSz3QxyI9PhxUM1wRBVGBb8AQAA//+IKbRzAAAABklEQVQDALFlwC3TlcBhAAAAAElFTkSuQmCC",
+        "alt": ""
+      },
+      {
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAh0lEQVR4AdzSuwqAMAyFYRWcXH3/J3R1clD+IdChl9NEoSiEFFo+D2mX6aPv5/BxXrc6OXkUoPu2zq/CvSg/byb2oE3Yi1bhCFqEQdmkq8X5tLIzttunK5WCts7CbAKSlrWnijBYBK/CEbwJe3EJ9uAybDhdqS5YAe3M2DDP0pJaHzuxpUz7AwAA//+h13fGAAAABklEQVQDANOmXC0MpxLmAAAAAElFTkSuQmCC",
+        "alt": ""
+      },
+      {
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAlElEQVR4AezSwQ6AIAgG4Grr1LX3f8KunTrU/oMOVERg3mpjkIyvpm7LpOeH88ayrbju582dRqH16QiDaaOsgZ7Hvpbr0vsQbEXxMRX2oCrsRbtwBBXhKNqEgaKBbA3MpagOL10pZGskFLmCsQgQf4vaG00YWBQX4SjehSO4CnvxIdiDMxgHBkQKrU/nGEwb0Xoa/AEAAP//N8Lo4AAAAAZJREFUAwASMHAtAvk0aQAAAABJRU5ErkJggg==",
+        "alt": ""
+      },
+      {
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAh0lEQVR4AezSuQ6AIBBFUTWxsvX/v9DWykJzi6FhmS10krwMYTkhwLZMaj9cLtZ1Fdf9vGWn0jHDoOexr4pXpk2wF0VX4QiqwlF0CGfQLpxFmzAoE1Rv2CepHk++FNUbQakVzCAgp6UfTRMGy+JdOIsP4QyuwlHcBEdwMyw41RIXbAFlzTT4AwAA//+oJxxyAAAABklEQVQDAAO7bC3hS62vAAAAAElFTkSuQmCC",
+        "alt": ""
+      },
+      {
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAiUlEQVR4AezSsQqAMAwEUBWcXP3/L3R1clBuSAdbm7uEbgpHRMlrabpMg54fLgcrHcVxXnfpdF4keN/WmcUlGJtkcRlm8RDM4GHYw1NwD69gTF0NFkAPqqWCMXU1wNCDaqlg+8FW7PSNojcFf6EpuIeGYQ8NwQwqwywqw63pA2kldStaoH0bBj8AAAD//9w+myYAAAAGSURBVAMAQ39sLez5yw4AAAAASUVORK5CYII=",
+        "alt": ""
+      },
+      {
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAjUlEQVR4AezSMQqAMBBEURWsbL3/CW2tLJTfhCREM7OQTmFJcJmnZLNMg54fTgcrH8VxXndKNTZ1X4b3bZ3rcMNPr2SYhINbsIPbsIqHYAUPwz28gJm6W3yADGteBczU3QIjw5pXAecNZc+ftlCyYfgLDcM9NAQrqA2rqAU7qAW/TR+EqvvhWwH2VcPgBwAA//84zV9LAAAABklEQVQDABIDcC0k1G+gAAAAAElFTkSuQmCC",
+        "alt": ""
+      },
+      {
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAjElEQVR4AdzRuwqAMAyFYRWcXH3/J3R1clD+QSglsScROyiEeglfYjINH10/h7f9ONXJhUaxLvOo4iGYblU8DKt4ClbwNNzCTZgFqUEBcjnLMGESWJISdy5nGS5cJnn3dEpx63safkIplIJbaApW0DCsomHYWxRQHakZ14j13BeO/LLVLe/6dkzFt3EBAAD//2r4usMAAAAGSURBVAMAU4hcLdMtzzcAAAAASUVORK5CYII=",
+        "alt": ""
+      },
+      {
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAhElEQVR4AdRTMQrAMAhsC5269v8v7NqpQ8MNwuVMwMEMBo5oPC944LEtOsWFn/f7FTOnlIecuc6K+zp3BpM5Zg5iriF2wnjMQHHhkVdRW7S3uBXRsSO84lboWkZGNo72FrfCxsq4nRXwijH7hDmIldcJYy0V2mC58pBbDXcnjIcsLBNuAAAA//+wyQnmAAAABklEQVQDAAsAUC2eB+1OAAAAAElFTkSuQmCC",
+        "alt": ""
+      },
+      {
+        "src": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABYAAAAWCAYAAADEtGw7AAAAmUlEQVR4AdTQwQ5AMBCEYSROrt7/CV2dHMh/aFK2dHbLgWRCaL+OHbqPrp/Dy7rtkZSmaUYxT2PvSUIplJ65G5iXb6QKX5uoh1ZhoAguwczci0swrb24DIN7IsOMgtYqLsFelMMl2NMUlFThCCrBLIrENGaentwdeoL57UhK+Almgadtvpa9eQwcaZz2PML5x5Zn07gFy/ceAAAA//9/Un9cAAAABklEQVQDAL12vC0EqVQKAAAAAElFTkSuQmCC",
+        "alt": ""
+      },
+      {
+        "src": "https://www.royalenfield.com/uk/en/flipbook/mobile/style/icon/previous_normal.png",
+        "alt": ""
+      },
+      {
+        "src": "https://www.royalenfield.com/uk/en/flipbook/mobile/style/icon/next_normal.png",
+        "alt": ""
+      },
+      {
+        "src": "https://www.royalenfield.com/uk/en/flipbook/mobile/style/icon/slide_firstButton.png",
+        "alt": ""
+      },
+      {
+        "src": "https://www.royalenfield.com/uk/en/flipbook/mobile/style/icon/slide_lastButton.png",
+        "alt": ""
+      }
+    ],
+    "tables": [],
+    "primary_product": null,
+    "related_products": []
+  },
+  "limitations": [
+    "In-page role=tab controls are clicked so tabbed features/specs can be read; forms, links, and purchase CTAs are not clicked.",
+    "Closed accordions without a tab role, and off-screen overflow, may still hide text.",
+    "Text painted only inside images (OCR not performed) is not captured as visible_text.",
+    "Overlapping or visually clipped elements can still contribute DOM text if CSS visibility checks pass.",
+    "aria-hidden subtrees are excluded from visible_text even if they occupy pixels (common for duplicate image links).",
+    "Lazy content beyond the configured scroll budget is not captured.",
+    "Related product cards on the same page may appear in product_names alongside the primary H1."
+  ],
+  "http_status": 200,
+  "json_path": "out/royal-enfield-test/human-view-20261025-080847.json"
+}

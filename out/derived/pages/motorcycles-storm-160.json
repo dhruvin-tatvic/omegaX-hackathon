@@ -1,0 +1,1243 @@
+{
+  "schema_version": "1.0",
+  "url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160",
+  "final_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+  "page_type": "product_detail",
+  "page_type_reason": "path matches /motorcycles/{slug}",
+  "canonical_path": "/motorcycles/storm-160",
+  "canonical_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160",
+  "query": {},
+  "original_json_path": "out/human-view-20261025-061935.json",
+  "screenshot_path": "out/screenshots/motorcycles-storm-160-20261025-061935.png",
+  "rendered_html_path": "out/rendered_html/motorcycles-storm-160-20261025-061935.html",
+  "structured_facts": {
+    "schema_version": "1.0",
+    "entities": [
+      {
+        "id": "product:storm-160",
+        "type": "product",
+        "name": "Storm 160",
+        "slug": "storm-160"
+      },
+      {
+        "id": "financing_plan:storm-160-detail-emi",
+        "type": "financing_plan",
+        "name": "Storm 160 estimated EMI",
+        "slug": "storm-160-detail-emi"
+      },
+      {
+        "id": "product:storm-160-variant-single-disc",
+        "type": "product",
+        "name": "Storm 160 Single Disc",
+        "slug": "storm-160-variant-single-disc",
+        "variant_of": "product:storm-160",
+        "variant_name": "Single Disc"
+      },
+      {
+        "id": "product:storm-160-variant-twin-disc",
+        "type": "product",
+        "name": "Storm 160 Twin Disc",
+        "slug": "storm-160-variant-twin-disc",
+        "variant_of": "product:storm-160",
+        "variant_name": "Twin Disc"
+      },
+      {
+        "id": "product:phantom-350",
+        "type": "product",
+        "name": "Phantom 350",
+        "slug": "phantom-350"
+      },
+      {
+        "id": "product:storm-200",
+        "type": "product",
+        "name": "Storm 200",
+        "slug": "storm-200"
+      },
+      {
+        "id": "dealer:apex-moto-delhi-central",
+        "type": "dealer",
+        "name": "Apex Moto Delhi Central",
+        "slug": "apex-moto-delhi-central"
+      },
+      {
+        "id": "dealer:apex-moto-mumbai-west",
+        "type": "dealer",
+        "name": "Apex Moto Mumbai West",
+        "slug": "apex-moto-mumbai-west"
+      },
+      {
+        "id": "dealer:apex-moto-bangalore-tech-city",
+        "type": "dealer",
+        "name": "Apex Moto Bangalore Tech City",
+        "slug": "apex-moto-bangalore-tech-city"
+      },
+      {
+        "id": "dealer:apex-moto-pune-camp",
+        "type": "dealer",
+        "name": "Apex Moto Pune Camp",
+        "slug": "apex-moto-pune-camp"
+      },
+      {
+        "id": "dealer:apex-moto-chennai-anna-nagar",
+        "type": "dealer",
+        "name": "Apex Moto Chennai Anna Nagar",
+        "slug": "apex-moto-chennai-anna-nagar"
+      },
+      {
+        "id": "dealer:apex-moto-hyderabad-jubilee-hills",
+        "type": "dealer",
+        "name": "Apex Moto Hyderabad Jubilee Hills",
+        "slug": "apex-moto-hyderabad-jubilee-hills"
+      },
+      {
+        "id": "dealer:apex-moto-jaipur-pink-city",
+        "type": "dealer",
+        "name": "Apex Moto Jaipur Pink City",
+        "slug": "apex-moto-jaipur-pink-city"
+      },
+      {
+        "id": "dealer:apex-moto-kolkata-park-street",
+        "type": "dealer",
+        "name": "Apex Moto Kolkata Park Street",
+        "slug": "apex-moto-kolkata-park-street"
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact:1",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "starting_price",
+        "value": 122000,
+        "value_text": "₹1,22,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "label": "onwards (ex-showroom)"
+        },
+        "evidence": "Storm 160 ₹1,22,000 onwards (ex-showroom)",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.css:.moto-detail__price",
+        "status": "verified"
+      },
+      {
+        "id": "fact:2",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "ex_showroom_price",
+        "value": 122000,
+        "value_text": "₹1,22,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "label": "onwards (ex-showroom)"
+        },
+        "evidence": "Storm 160 ₹1,22,000 onwards (ex-showroom)",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.css:.moto-detail__price",
+        "status": "verified"
+      },
+      {
+        "id": "fact:3",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "tagline",
+        "value": "Quick off the Line.",
+        "value_text": "Quick off the Line.",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Quick off the Line.",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.css:.moto-detail__hero-tagline",
+        "status": "verified"
+      },
+      {
+        "id": "fact:4",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "engine",
+        "value": "159.7cc",
+        "value_text": "159.7cc",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Engine / Powertrain: 159.7cc",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.css:.moto-detail__quick-spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:5",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "power",
+        "value": "16 bhp",
+        "value_text": "16 bhp",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Max Power: 16 bhp",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.css:.moto-detail__quick-spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:6",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "torque",
+        "value": "14 Nm",
+        "value_text": "14 Nm",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Torque: 14 Nm",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.css:.moto-detail__quick-spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:7",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "mileage",
+        "value": "45 km/l",
+        "value_text": "45 km/l",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Mileage: 45 km/l",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.css:.moto-detail__quick-spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:8",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 137200,
+        "value_text": "₹1,37,200",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Delhi",
+          "variant": "base"
+        },
+        "evidence": "On-road Delhi: ₹1,37,200",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:9",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 140100,
+        "value_text": "₹1,40,100",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Mumbai",
+          "variant": "base"
+        },
+        "evidence": "On-road Mumbai: ₹1,40,100",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:10",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 142100,
+        "value_text": "₹1,42,100",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Bangalore",
+          "variant": "base"
+        },
+        "evidence": "On-road Bangalore: ₹1,42,100",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:11",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 138500,
+        "value_text": "₹1,38,500",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Pune",
+          "variant": "base"
+        },
+        "evidence": "On-road Pune: ₹1,38,500",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:12",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 139100,
+        "value_text": "₹1,39,100",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Chennai",
+          "variant": "base"
+        },
+        "evidence": "On-road Chennai: ₹1,39,100",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:13",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 140300,
+        "value_text": "₹1,40,300",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Hyderabad",
+          "variant": "base"
+        },
+        "evidence": "On-road Hyderabad: ₹1,40,300",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:14",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 137900,
+        "value_text": "₹1,37,900",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Jaipur",
+          "variant": "base"
+        },
+        "evidence": "On-road Jaipur: ₹1,37,900",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:15",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 136600,
+        "value_text": "₹1,36,600",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Kolkata",
+          "variant": "base"
+        },
+        "evidence": "On-road Kolkata: ₹1,36,600",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:16",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "159.7cc, Single Cylinder, Air/Oil-Cooled, SOHC",
+        "value_text": "159.7cc, Single Cylinder, Air/Oil-Cooled, SOHC",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "engine"
+        },
+        "evidence": "engine: 159.7cc, Single Cylinder, Air/Oil-Cooled, SOHC",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:17",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "160",
+        "value_text": "160",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "displacement cc"
+        },
+        "evidence": "displacement cc: 160",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:18",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "16",
+        "value_text": "16",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "max power bhp"
+        },
+        "evidence": "max power bhp: 16",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:19",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "8500",
+        "value_text": "8500",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "max power rpm"
+        },
+        "evidence": "max power rpm: 8500",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:20",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "14",
+        "value_text": "14",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "max torque nm"
+        },
+        "evidence": "max torque nm: 14",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:21",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "7000",
+        "value_text": "7000",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "max torque rpm"
+        },
+        "evidence": "max torque rpm: 7000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:22",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "5-Speed",
+        "value_text": "5-Speed",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "transmission"
+        },
+        "evidence": "transmission: 5-Speed",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:23",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "Electronic Fuel Injection",
+        "value_text": "Electronic Fuel Injection",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "fuel system"
+        },
+        "evidence": "fuel system: Electronic Fuel Injection",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:24",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "37mm Telescopic Forks, 120mm Travel",
+        "value_text": "37mm Telescopic Forks, 120mm Travel",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "front suspension"
+        },
+        "evidence": "front suspension: 37mm Telescopic Forks, 120mm Travel",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:25",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "Monoshock, 120mm Travel",
+        "value_text": "Monoshock, 120mm Travel",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "rear suspension"
+        },
+        "evidence": "rear suspension: Monoshock, 120mm Travel",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:26",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "276mm Disc",
+        "value_text": "276mm Disc",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "front brake"
+        },
+        "evidence": "front brake: 276mm Disc",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:27",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "200mm Disc, ABS",
+        "value_text": "200mm Disc, ABS",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "rear brake"
+        },
+        "evidence": "rear brake: 200mm Disc, ABS",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:28",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "100/80-17 Tubeless",
+        "value_text": "100/80-17 Tubeless",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "front tyre"
+        },
+        "evidence": "front tyre: 100/80-17 Tubeless",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:29",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "130/70-17 Tubeless",
+        "value_text": "130/70-17 Tubeless",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "rear tyre"
+        },
+        "evidence": "rear tyre: 130/70-17 Tubeless",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:30",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "1330",
+        "value_text": "1330",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "wheelbase mm"
+        },
+        "evidence": "wheelbase mm: 1330",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:31",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "800",
+        "value_text": "800",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "seat height mm"
+        },
+        "evidence": "seat height mm: 800",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:32",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "12",
+        "value_text": "12",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "fuel tank l"
+        },
+        "evidence": "fuel tank l: 12",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:33",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "142",
+        "value_text": "142",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "kerb weight kg"
+        },
+        "evidence": "kerb weight kg: 142",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:34",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "45",
+        "value_text": "45",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "mileage kmpl"
+        },
+        "evidence": "mileage kmpl: 45",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:35",
+        "entity_id": "financing_plan:storm-160-detail-emi",
+        "entity_name": "Storm 160 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "down_payment",
+        "value": 12000,
+        "value_text": "₹12,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Storm 160 estimated finance Down Payment: ₹12,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:storm-160"
+      },
+      {
+        "id": "fact:36",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "down_payment",
+        "value": 12000,
+        "value_text": "₹12,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Storm 160 estimated finance Down Payment: ₹12,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:storm-160-detail-emi"
+      },
+      {
+        "id": "fact:37",
+        "entity_id": "financing_plan:storm-160-detail-emi",
+        "entity_name": "Storm 160 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.49,
+        "value_text": "9.49% p.a.",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Storm 160 estimated finance Interest Rate: 9.49% p.a.",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:storm-160"
+      },
+      {
+        "id": "fact:38",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.49,
+        "value_text": "9.49% p.a.",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Storm 160 estimated finance Interest Rate: 9.49% p.a.",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:storm-160-detail-emi"
+      },
+      {
+        "id": "fact:39",
+        "entity_id": "financing_plan:storm-160-detail-emi",
+        "entity_name": "Storm 160 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 months",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Storm 160 estimated finance Loan Tenure: 48 months",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:storm-160"
+      },
+      {
+        "id": "fact:40",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 months",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Storm 160 estimated finance Loan Tenure: 48 months",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:storm-160-detail-emi"
+      },
+      {
+        "id": "fact:41",
+        "entity_id": "financing_plan:storm-160-detail-emi",
+        "entity_name": "Storm 160 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "monthly_emi",
+        "value": 2763,
+        "value_text": "₹2,763",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Storm 160 estimated finance Estimated EMI: ₹2,763 / month",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:storm-160"
+      },
+      {
+        "id": "fact:42",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "monthly_emi",
+        "value": 2763,
+        "value_text": "₹2,763",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Storm 160 estimated finance Estimated EMI: ₹2,763 / month",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:storm-160-detail-emi"
+      },
+      {
+        "id": "fact:43",
+        "entity_id": "product:storm-160-variant-single-disc",
+        "entity_name": "Storm 160 Single Disc",
+        "entity_type": "product",
+        "fact_type": "variant_name",
+        "value": "Single Disc",
+        "value_text": "Single Disc",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Variant Single Disc",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.css:.variant-name",
+        "status": "verified",
+        "related_entity_id": "product:storm-160"
+      },
+      {
+        "id": "fact:44",
+        "entity_id": "product:storm-160-variant-single-disc",
+        "entity_name": "Storm 160 Single Disc",
+        "entity_type": "product",
+        "fact_type": "ex_showroom_price",
+        "value": 122000,
+        "value_text": "₹1,22,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "variant": "Single Disc",
+          "parent_product": "Storm 160"
+        },
+        "evidence": "Variant Single Disc ₹1,22,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.css:.variant-name+.price",
+        "status": "verified",
+        "related_entity_id": "product:storm-160"
+      },
+      {
+        "id": "fact:45",
+        "entity_id": "product:storm-160-variant-twin-disc",
+        "entity_name": "Storm 160 Twin Disc",
+        "entity_type": "product",
+        "fact_type": "variant_name",
+        "value": "Twin Disc",
+        "value_text": "Twin Disc",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Variant Twin Disc",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.css:.variant-name",
+        "status": "verified",
+        "related_entity_id": "product:storm-160"
+      },
+      {
+        "id": "fact:46",
+        "entity_id": "product:storm-160-variant-twin-disc",
+        "entity_name": "Storm 160 Twin Disc",
+        "entity_type": "product",
+        "fact_type": "ex_showroom_price",
+        "value": 129000,
+        "value_text": "₹1,29,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "variant": "Twin Disc",
+          "parent_product": "Storm 160"
+        },
+        "evidence": "Variant Twin Disc ₹1,29,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.css:.variant-name+.price",
+        "status": "verified",
+        "related_entity_id": "product:storm-160"
+      },
+      {
+        "id": "fact:47",
+        "entity_id": "product:phantom-350",
+        "entity_name": "Phantom 350",
+        "entity_type": "product",
+        "fact_type": "tagline",
+        "value": "Classic Soul. Modern Heart.",
+        "value_text": "Classic Soul. Modern Heart.",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Classic Soul. Modern Heart.",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.css:.product-card__tagline",
+        "status": "verified"
+      },
+      {
+        "id": "fact:48",
+        "entity_id": "product:phantom-350",
+        "entity_name": "Phantom 350",
+        "entity_type": "product",
+        "fact_type": "starting_price",
+        "value": 215000,
+        "value_text": "₹2,15,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "role": "related_card"
+        },
+        "evidence": "Phantom 350 ₹2,15,000 New LaunchClassicPhantom 350Classic Soul. Modern Heart.349ccEngine21 bhpPower₹2,",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.css:.product-card .price",
+        "status": "verified"
+      },
+      {
+        "id": "fact:49",
+        "entity_id": "product:phantom-350",
+        "entity_name": "Phantom 350",
+        "entity_type": "product",
+        "fact_type": "engine",
+        "value": "349cc",
+        "value_text": "349cc",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Phantom 350 Engine: 349cc",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:50",
+        "entity_id": "product:phantom-350",
+        "entity_name": "Phantom 350",
+        "entity_type": "product",
+        "fact_type": "power",
+        "value": "21 bhp",
+        "value_text": "21 bhp",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Phantom 350 Power: 21 bhp",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:51",
+        "entity_id": "product:phantom-350",
+        "entity_name": "Phantom 350",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "₹2,15,000",
+        "value_text": "₹2,15,000",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Phantom 350 Starting*: ₹2,15,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:52",
+        "entity_id": "product:storm-200",
+        "entity_name": "Storm 200",
+        "entity_type": "product",
+        "fact_type": "tagline",
+        "value": "City. Conquered.",
+        "value_text": "City. Conquered.",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "City. Conquered.",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.css:.product-card__tagline",
+        "status": "verified"
+      },
+      {
+        "id": "fact:53",
+        "entity_id": "product:storm-200",
+        "entity_name": "Storm 200",
+        "entity_type": "product",
+        "fact_type": "starting_price",
+        "value": 145000,
+        "value_text": "₹1,45,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "role": "related_card"
+        },
+        "evidence": "Storm 200 ₹1,45,000 PopularStreetStorm 200City. Conquered.199ccEngine25 bhpPower₹1,45,000Starting*Ex",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.css:.product-card .price",
+        "status": "verified"
+      },
+      {
+        "id": "fact:54",
+        "entity_id": "product:storm-200",
+        "entity_name": "Storm 200",
+        "entity_type": "product",
+        "fact_type": "engine",
+        "value": "199cc",
+        "value_text": "199cc",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Storm 200 Engine: 199cc",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:55",
+        "entity_id": "product:storm-200",
+        "entity_name": "Storm 200",
+        "entity_type": "product",
+        "fact_type": "power",
+        "value": "25 bhp",
+        "value_text": "25 bhp",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Storm 200 Power: 25 bhp",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:56",
+        "entity_id": "product:storm-200",
+        "entity_name": "Storm 200",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "₹1,45,000",
+        "value_text": "₹1,45,000",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Storm 200 Starting*: ₹1,45,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:57",
+        "entity_id": "dealer:apex-moto-delhi-central",
+        "entity_name": "Apex Moto Delhi Central",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Delhi",
+        "value_text": "Delhi",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Delhi • +91-11-4123-5678",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:58",
+        "entity_id": "dealer:apex-moto-mumbai-west",
+        "entity_name": "Apex Moto Mumbai West",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Mumbai",
+        "value_text": "Mumbai",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Mumbai • +91-22-2655-9900",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:59",
+        "entity_id": "dealer:apex-moto-bangalore-tech-city",
+        "entity_name": "Apex Moto Bangalore Tech City",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Bangalore",
+        "value_text": "Bangalore",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Bangalore • +91-80-4567-8901",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:60",
+        "entity_id": "dealer:apex-moto-pune-camp",
+        "entity_name": "Apex Moto Pune Camp",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Pune",
+        "value_text": "Pune",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Pune • +91-20-2633-7788",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:61",
+        "entity_id": "dealer:apex-moto-chennai-anna-nagar",
+        "entity_name": "Apex Moto Chennai Anna Nagar",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Chennai",
+        "value_text": "Chennai",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Chennai • +91-44-2626-5544",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:62",
+        "entity_id": "dealer:apex-moto-hyderabad-jubilee-hills",
+        "entity_name": "Apex Moto Hyderabad Jubilee Hills",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Hyderabad",
+        "value_text": "Hyderabad",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Hyderabad • +91-40-2355-1234",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:63",
+        "entity_id": "dealer:apex-moto-jaipur-pink-city",
+        "entity_name": "Apex Moto Jaipur Pink City",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Jaipur",
+        "value_text": "Jaipur",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Jaipur • +91-141-2366-7890",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:64",
+        "entity_id": "dealer:apex-moto-kolkata-park-street",
+        "entity_name": "Apex Moto Kolkata Park Street",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Kolkata",
+        "value_text": "Kolkata",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Kolkata • +91-33-2229-4455",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      }
+    ],
+    "page_type": "product_detail",
+    "limitations": [
+      "Facts come from semantic HTML containers on the saved rendered snapshot, not from pairing disconnected arrays.",
+      "Amounts without a typed label or a unique enclosing entity are marked ambiguous or omitted.",
+      "Derived discounts are never calculated.",
+      "JSON-LD is used only when HTML did not already provide the same product price."
+    ]
+  }
+}

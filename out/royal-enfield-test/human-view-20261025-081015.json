@@ -1,0 +1,987 @@
+{
+  "url": "https://www.royalenfield.com/in/en/rides/events/motoverse",
+  "final_url": "https://www.royalenfield.com/in/en/rides/events/motoverse/?utm_medium=ig&utm_source=social&utm_campaign=motoverse+2026+%7C+register+here",
+  "captured_at": "2026-10-25T08:10:15Z",
+  "capture_method": "playwright_chromium",
+  "viewport": {
+    "width": 1366,
+    "height": 768
+  },
+  "page_title": "Royal Enfield Motoverse 2026 | Motorcycle Event Goa, India",
+  "status": "partial",
+  "errors": [
+    "Could not restore the first tab: Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"[role=\\\"tab\\\"]\").first\n    - locator resolved to <li role=\"tab\" aria-label=\"Slide 1\" data-cmp-hook-carousel=\"indicator\" class=\"cmp-carousel__indicator cmp-carousel__indicator--active\">↵          1↵        </li>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    5 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 500ms\n"
+  ],
+  "screenshot_path": "out/royal-enfield-test/screenshots/in-en-rides-events-motoverse-20261025-081015.png",
+  "rendered_html_path": "out/royal-enfield-test/rendered_html/in-en-rides-events-motoverse-20261025-081015.html",
+  "content": {
+    "headings": [
+      {
+        "level": 2,
+        "text": "Motorcycles"
+      },
+      {
+        "level": 2,
+        "text": "Shop"
+      },
+      {
+        "level": 2,
+        "text": "Service"
+      },
+      {
+        "level": 2,
+        "text": "Ride"
+      },
+      {
+        "level": 2,
+        "text": "MotoCulture"
+      },
+      {
+        "level": 2,
+        "text": "Explore"
+      },
+      {
+        "level": 3,
+        "text": "27, 28, 29 November 2026"
+      },
+      {
+        "level": 4,
+        "text": "32"
+      },
+      {
+        "level": 4,
+        "text": "22"
+      },
+      {
+        "level": 4,
+        "text": "19"
+      },
+      {
+        "level": 4,
+        "text": "11"
+      },
+      {
+        "level": 4,
+        "text": "This is Motoverse"
+      },
+      {
+        "level": 3,
+        "text": "One map. 20,000 players. 3,76,736 sq ft of machines, music and mates. From 120 bpm to 5000 rpm. From podiums to pints. From first-timers to longtime legends. COME UNLOCK IT ALL."
+      },
+      {
+        "level": 2,
+        "text": "Into the motoverse"
+      },
+      {
+        "level": 2,
+        "text": "This is MotoCulture"
+      },
+      {
+        "level": 2,
+        "text": "This is Motorsport"
+      },
+      {
+        "level": 2,
+        "text": "This is MotoReel"
+      },
+      {
+        "level": 2,
+        "text": "This is MotoMusic"
+      },
+      {
+        "level": 2,
+        "text": "This is MotoTribe"
+      },
+      {
+        "level": 2,
+        "text": "This is MotoSpa"
+      },
+      {
+        "level": 2,
+        "text": "This is Motoverse"
+      },
+      {
+        "level": 1,
+        "text": "What to Expect"
+      },
+      {
+        "level": 4,
+        "text": "Himalayan Spirit"
+      },
+      {
+        "level": 4,
+        "text": "Slide School Cup"
+      },
+      {
+        "level": 4,
+        "text": "Motopolo"
+      },
+      {
+        "level": 4,
+        "text": "Dirt Race"
+      },
+      {
+        "level": 4,
+        "text": "Ace the hill"
+      },
+      {
+        "level": 4,
+        "text": "Maut Ka Kuan"
+      },
+      {
+        "level": 4,
+        "text": "Motoverse where riders, makers, musicians and explorers sync to the rhythm of “Pure Motorcycling.”"
+      },
+      {
+        "level": 4,
+        "text": "Motoverse isn’t just an event, but a pilgrimage for enthusiasts who see motorcycles as an identity and not just a mode of transport."
+      },
+      {
+        "level": 4,
+        "text": "Regardless of the badge on the bike, Motoverse is a pilgrimage for every biker alike. It was a “Moto Mela” of epic proportions."
+      },
+      {
+        "level": 4,
+        "text": "Built by the community, for the community, every experience at Motoverse was led by the very people who live this culture every single day."
+      },
+      {
+        "level": 4,
+        "text": "Motoverse has grown so quickly over the years that it has started to feel like a general tourism festival with motorcycles in the background."
+      },
+      {
+        "level": 4,
+        "text": "The event was uniquely community-built, with activities led by members of various riding groups, rather than being a passive spectacle for an audience."
+      },
+      {
+        "level": 4,
+        "text": "This was by far the biggest event organized by a single manufacturer that I had ever witnessed."
+      },
+      {
+        "level": 4,
+        "text": "It was not an event made for “an audience”; it provided a space for people who live and shape motorcycling culture every day."
+      },
+      {
+        "level": 4,
+        "text": "It’s the kind of event every biker should experience at least once."
+      },
+      {
+        "level": 3,
+        "text": "Community Wall"
+      },
+      {
+        "level": 4,
+        "text": "More from Community"
+      },
+      {
+        "level": 2,
+        "text": "Uncover the Universe"
+      },
+      {
+        "level": 4,
+        "text": "2018"
+      },
+      {
+        "level": 4,
+        "text": "2019"
+      },
+      {
+        "level": 4,
+        "text": "2022"
+      },
+      {
+        "level": 4,
+        "text": "2023"
+      },
+      {
+        "level": 4,
+        "text": "2024"
+      },
+      {
+        "level": 4,
+        "text": "2012"
+      },
+      {
+        "level": 4,
+        "text": "2013"
+      },
+      {
+        "level": 4,
+        "text": "2014"
+      },
+      {
+        "level": 4,
+        "text": "2015"
+      },
+      {
+        "level": 4,
+        "text": "2016"
+      },
+      {
+        "level": 4,
+        "text": "2017"
+      },
+      {
+        "level": 4,
+        "text": "Epic Motoculture Era"
+      },
+      {
+        "level": 4,
+        "text": "The Thump that Binds"
+      },
+      {
+        "level": 4,
+        "text": "Continental GT 535 makes India debut"
+      },
+      {
+        "level": 4,
+        "text": "Customs take the stage"
+      },
+      {
+        "level": 4,
+        "text": "Riding from Rider Mania"
+      },
+      {
+        "level": 4,
+        "text": "72 Hours of Enfieldom"
+      },
+      {
+        "level": 4,
+        "text": "Relive Your Ride"
+      },
+      {
+        "level": 4,
+        "text": "World's largest Royal Enfield Gathering"
+      },
+      {
+        "level": 4,
+        "text": "Leave Every Place Better"
+      },
+      {
+        "level": 4,
+        "text": "Into the Motoverse"
+      },
+      {
+        "level": 4,
+        "text": "The Universe Unleashed"
+      },
+      {
+        "level": 3,
+        "text": "Gallery"
+      },
+      {
+        "level": 3,
+        "text": "FAQs"
+      },
+      {
+        "level": 2,
+        "text": "How can I register for Motoverse?"
+      },
+      {
+        "level": 2,
+        "text": "Where does Motoverse take place?"
+      },
+      {
+        "level": 2,
+        "text": "Do I need a Royal Enfield to register?"
+      },
+      {
+        "level": 2,
+        "text": "What if I’m not a rider?"
+      },
+      {
+        "level": 2,
+        "text": "What motorcycling events can I expect?"
+      },
+      {
+        "level": 2,
+        "text": "Is it compulsory to ride to Motoverse?"
+      },
+      {
+        "level": 2,
+        "text": "How will I get my tickets?"
+      },
+      {
+        "level": 2,
+        "text": "Is there a ticket limit?"
+      },
+      {
+        "level": 2,
+        "text": "What does my ticket include?"
+      },
+      {
+        "level": 2,
+        "text": "What if I paid but didn’t get my confirmation?"
+      },
+      {
+        "level": 2,
+        "text": "Can I buy Royal Enfield merchandise?"
+      },
+      {
+        "level": 2,
+        "text": "Does ticket include food & beverages?"
+      },
+      {
+        "level": 2,
+        "text": "Do you accommodate special needs guests?"
+      },
+      {
+        "level": 2,
+        "text": "Will medical help be available on-site?"
+      },
+      {
+        "level": 2,
+        "text": "Are handbags & backpacks allowed?"
+      },
+      {
+        "level": 2,
+        "text": "Can I rent a motorcycle for Motoverse?"
+      },
+      {
+        "level": 3,
+        "text": "Motorcycles"
+      },
+      {
+        "level": 3,
+        "text": "Shop"
+      },
+      {
+        "level": 3,
+        "text": "Service"
+      },
+      {
+        "level": 3,
+        "text": "Ride"
+      },
+      {
+        "level": 3,
+        "text": "MotoCulture"
+      },
+      {
+        "level": 3,
+        "text": "Reach Us"
+      },
+      {
+        "level": 3,
+        "text": "Explore"
+      },
+      {
+        "level": 3,
+        "text": "Own a Royal Enfield"
+      },
+      {
+        "level": 3,
+        "text": "For further queries or appointments reach us at:"
+      }
+    ],
+    "visible_text": "Motorcycles Shop Service Ride MotoCulture Explore IN Note We use our own cookies for the use of this site, personalize content and ads and to perform analysis of our traffic. We also share information about your use of our site with analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services. If you want to learn more about cookies and opt out, click the Privacy Policy and Cookie Policy If you choose not to agree to the use of cookies all features of this site may not operate as intended. Accept Decline The Greatest Celebration of Motorcycling Culture on Earth 27, 28, 29 November 2026 | Vagator, Goa REGISTER Book your passes now 27, 28, 29 November 2026 32 Days 22 Hours 19 Minutes 11 Seconds Buy Now This is Motoverse O n e m a p . 2 0 , 0 0 0 p l a y e r s . 3 , 7 6 , 7 3 6 s q f t o f m a c h i n e s , m u s i c a n d m a t e s . F r o m 1 2 0 b p m t o 5 0 0 0 r p m . F r o m p o d i u m s t o p i n t s . F r o m f i r s t - t i m e r s t o l o n g t i m e l e g e n d s . C O M E U N L O C K I T A L L . Welcome to the Next Level of Motoverse. Into the motoverse This is MotoCulture Where motorcycles meet art, music, style, creativity and self-expression. A living showcase of the people, ideas and passions that shape motorcycling culture. This is Motorsport Where skill, speed and spectacle take center stage. From dirt tracks to hill climbs, every race is a celebration of pure motorcycling and the riders who push themselves further. This is MotoReel Where adventurers, creators, racers and legends share stories from the road. Journeys, lessons and experiences that inspire the next ride and the next chapter. This is MotoMusic Where the country's finest musical acts turn a gathering of riders into a celebration that echoes long after the ride. This is MotoTribe Where strangers become riding buddies and riding buddies become family. Clubs, communities and riders from every corner of the world come together as one tribe. This is MotoSpa Where everything is for the riders, by the riders, and you’ll find anything you could ever need, from essential gear and epic merchandise to a cold pint. This is Motoverse Where every ride, race, story, friendship and experience comes together. Co-curated by everyone who shows up, Motoverse is the annual celebration of motorcycling culture. What to Expect Puresport Motosonic Workshop Motoshambles Tribal village Himalayan Spirit Himalayan Spirit rides into Motoverse- master off-road skills and adventure mindset on your Himalayan. Register Now Slide School Cup Train hard, compete harder- crash courses with daily podium glory Register Now Motopolo Dust, dodges, and full-send action-MotoPolo is polo with motorcycles and maximum fun. Dirt Race The ultimate Motoverse Dirt Race - novices to pros battle for glory, solo or as clubs Register Now Ace the hill Defy gravity-Goan hills, steep climbs, and unstoppable adrenaline at Motoverse Hill Climb Register Now Maut Ka Kuan The legendary Maut Ka Kuan - the most dangerous, thrilling stunt you can’t miss. Motoverse where riders, makers, musicians and explorers sync to the rhythm of “Pure Motorcycling.” Car&Bike carandbike Motoverse isn’t just an event, but a pilgrimage for enthusiasts who see motorcycles as an identity and not just a mode of transport. Autocar India autocar_india Regardless of the badge on the bike, Motoverse is a pilgrimage for every biker alike. It was a “Moto Mela” of epic proportions. Outlook Business outlook_business Built by the community, for the community, every experience at Motoverse was led by the very people who live this culture every single day. ANI News ani_trending Motoverse has grown so quickly over the years that it has started to feel like a general tourism festival with motorcycles in the background. BikeWale Bikewaleindia The event was uniquely community-built, with activities led by members of various riding groups, rather than being a passive spectacle for an audience. GaadiKey gaadikey This was by far the biggest event organized by a single manufacturer that I had ever witnessed. Revzilla revzilla It was not an event made for “an audience”; it provided a space for people who live and shape motorcycling culture every day. AutoGuide autoguide It’s the kind of event every biker should experience at least once. Top Gear topgearmagindia Community Wall Built by riders, for riders. Register and represent your club, and become part of the ever-growing Motoverse community. Create A Club More from Community Uncover the Universe 2018 2019 2022 2023 2024 2012 2013 2014 2015 2016 2017 Epic Motoculture Era Motoverse’s 14th edition transformed Goa into a vibrant motorcycling universe with launches like the Goan Classic, Scram 440, and the electric Flying Flea C6. The event pulsed with the return of Maut Ka Kuan, epic dirt tracks, the Art of Motorcycling finale, and an electrifying music stage headlined by Rajakumari, Raftaar, Tech Panda x Kenzani who brought unmatched energy! The Thump that Binds From a gathering of motorcycling clubs to a motorcycling festival, Rider Mania 2012 marked a pivotal shift as over 1500 Royal Enfield riders rode to Goa. It became the beginning of “The Thump that Binds”, celebrating motorcycling friendships, loyal communities, and shared journeys that shaped the future of the gathering, creating what we know as the brotherhood of motorcycling in India today. Continental GT 535 makes India debut Rider Mania 2013 arrived with a fresh look as “Thump Central,” transforming the festival into a new-age motorcycling hub. The year was monumental with the launch of the Continental GT 535, blending exploration with the thrill of product unveilings for the first time. Customs take the stage Over 3,400 like-minded riders gathered at Rider Mania, creating a mecca for friendships. The event celebrated inclusivity, introducing the first Women's Class in the Dirt Track competition. Custom bikes were a key highlight, with builders showcasing their creativity and competing for top honors, with awards for Best Custom Bike and Most Popular Custom Bike. Riding from Rider Mania Rider Mania in 2015 started expanding its horizons to embrace not just the riders, but the culture they created on the way. Banter between mates and stories became core as Rider Mania embraced art and subcultures. While riding to Rider Mania had always been a thing, 2015 saw the start of riding from Rider Mania even during the festival, because a true rider and their machine are never still. 72 Hours of Enfieldom With the trend of custom builds catching up in the country, 'Custom' and 'Expression' slowly started taking a larger mindspace in establishing the narrative of personalisation for motorcycles - a wave that Rider Mania rode in 2016. The Himalayan Class made its Dirt Track debut, heralding Royal Enfield’s bold entry into adventure motorcycling in India and inspiring a new wave of exploration. Relive Your Ride The #Relive theme defined Rider Mania in 2017, as an attempt to enable riders to relive their kind of motorcycling through the diverse avenues present across events, art, music, community. The India unveil of the 650 Twins thrilled the new-age riders, as well as introduction to the Garage Cafe - Royal Enfield’s adaptation to Goa and its culture. World's largest Royal Enfield Gathering Rider Mania 2018 set history with 6500+ Royal Enfields together, the largest gathering of its kind anywhere on the planet. Fresh experiences like Motoball, Hill Climb, and Custom Workshops amplified the motorcycling culture 2018 also saw the experiential launch of the 650 twins - making Rider Mania the place to be, not just for our audiences and community in India but for aspirers and media across the globe. Leave Every Place Better In 2019 Royal Enfield launched the #LeaveEveryPlaceBetter campaign to ensure we are catalyzing the power of our community to not just explore and discover new places, but to leave them better than we found. This campaign saw its essence within the largest Royal Enfield community gathering and set the tone for values held close by Royal Enfield. Into the Motoverse Post-pandemic, Rider Mania evolved into Motoverse. With a new vision, we expanded our universe beyond riders, inviting new audiences to experience the soul of motorcycling, while holding true to Rider Mania’s core essence. With the launch of Super Meteor 650, launches on the Motoverse Mainstage became keynotes, uniting the company with our community. Headlined by Divine, electrifying audiences with his raw, street-rooted hip-hop sound. The Universe Unleashed Motoverse 2023 unveiled the Himalayan 450’s official pricing, celebrated custom culture with Shed Builds, and launched the Shotgun 650 Motoverse Edition. Music and artistry converged in a new Culture Stage and Spotify RADAR collaboration, with the Motoverse main stage headlined by Seedhe Maut and Benny Dayal, blending powerhouse rap and soulful melodies. Gallery FAQs How can I register for Motoverse? Where does Motoverse take place? Do I need a Royal Enfield to register? What if I’m not a rider? What motorcycling events can I expect? Is it compulsory to ride to Motoverse? How will I get my tickets? Is there a ticket limit? What does my ticket include? What if I paid but didn’t get my confirmation? Can I buy Royal Enfield merchandise? Does ticket include food & beverages? Do you accommodate special needs guests? Will medical help be available on-site? Are handbags & backpacks allowed? Can I rent a motorcycle for Motoverse? Locate Us Book a Test Ride Book a Service Configure Now Motorcycles Himalayan 440 Bullet 650 Hunter 350 Classic 650 Scram 440 Goan Classic 350 Bear 650 Classic 350 Guerrilla 450 Shotgun 650 Himalayan 450 Bullet 350 Super Meteor 650 Meteor 350 Interceptor 650 Continental GT 650 Shop Apparel Royal Enfield Accessories Service Extended Warranty Royal Enfield Maestros Ride Sure Rentals Tours REOwn Tripper Pod Tripper Dash Service Book a Service Service Cost Calculator Genuine Parts Distributors Locate Us Ride Sure Owner's Manual Quick Start Guide Maintenance Borderless Warranty Ride Rides & Events Rentals Tours Royal Enfield APP Wingman MotoCulture Royal Enfield TV Custom World Art of Motorcycling MLG Comics Wallpapers Reach Us Locate Us Contact Us Become a Dealer Become a Distributor Corporate Enquiry FAQs Explore News & Media Press Release Since 1901 Social Mission About Eicher Motors Own a Royal Enfield Make it Yours Finance Assured Buyback Programme REOwn For further queries or appointments reach us at: 1800 210 0008 support@royalenfield.com Private Import Policy Privacy Policy Terms & Conditions Cookie Policy © 2026, Royal Enfield *T&C apply. Images shown here may differ from actual product.",
+    "product_names": [],
+    "prices": [
+      "rs 19",
+      "rs,"
+    ],
+    "product_descriptions": [],
+    "specifications": [],
+    "links": [
+      {
+        "text": "",
+        "href": "https://www.royalenfield.com/in/en/home/"
+      },
+      {
+        "text": "",
+        "href": "https://flyingflea.royalenfield.com/in/en/product/c6/?utm_source=re-website&utm_medium=re-homepage&utm_campaign=re-top-banner&utm_content=c6-pdp"
+      },
+      {
+        "text": "",
+        "href": "https://www.royalenfield.com/in/en/locate-us/"
+      },
+      {
+        "text": "",
+        "href": "https://www.royalenfield.com/in/en/rides/events/motoverse/?utm_medium=ig&utm_source=social&utm_campaign=motoverse+2026+%7C+register+here#"
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://www.royalenfield.com/in/en/legal/privacy-policy/"
+      },
+      {
+        "text": "Cookie Policy",
+        "href": "https://www.royalenfield.com/in/en/legal/cookie-policy/"
+      },
+      {
+        "text": "REGISTER",
+        "href": "https://www.royalenfield.com/in/en/rides/events/motoverse/?utm_medium=ig&utm_source=social&utm_campaign=motoverse+2026+%7C+register+here#"
+      },
+      {
+        "text": "BUY NOW",
+        "href": "https://www.royalenfield.com/in/en/rides/events/motoverse/?utm_medium=ig&utm_source=social&utm_campaign=motoverse+2026+%7C+register+here#"
+      },
+      {
+        "text": "Register Now",
+        "href": "https://www.skillboxes.com/events-widget/himalayan-spirit-motoverse-2026-sbkuqiop"
+      },
+      {
+        "text": "Register Now",
+        "href": "https://www.skillboxes.com/events-widget/slide-school-sbkzjvbz"
+      },
+      {
+        "text": "Register Now",
+        "href": "https://www.skillboxes.com/events-widget/dirt-track-sbmmkglr"
+      },
+      {
+        "text": "Register Now",
+        "href": "https://www.skillboxes.com/events-widget/ace-the-hill-sbnihfkf"
+      },
+      {
+        "text": "carandbike",
+        "href": "https://www.instagram.com/carandbike/?hl=en"
+      },
+      {
+        "text": "autocar_india",
+        "href": "https://www.instagram.com/autocar_india/?hl=en"
+      },
+      {
+        "text": "outlook_business",
+        "href": "https://www.instagram.com/outlook_business/?hl=en"
+      },
+      {
+        "text": "ani_trending",
+        "href": "https://www.instagram.com/ani_trending/?hl=en"
+      },
+      {
+        "text": "Bikewaleindia",
+        "href": "https://www.instagram.com/bikewaleindia/?hl=en"
+      },
+      {
+        "text": "gaadikey",
+        "href": "https://www.instagram.com/gaadikey?igsh=eWNnZnIyY2xvc24="
+      },
+      {
+        "text": "revzilla",
+        "href": "https://www.instagram.com/revzilla/?hl=en"
+      },
+      {
+        "text": "autoguide",
+        "href": "https://www.instagram.com/autoguide/"
+      },
+      {
+        "text": "topgearmagindia",
+        "href": "https://www.instagram.com/topgearmagindia/"
+      },
+      {
+        "text": "CREATE A CLUB",
+        "href": "https://www.royalenfield.com/in/en/community-form/"
+      },
+      {
+        "text": "Locate Us",
+        "href": "https://www.royalenfield.com/in/en/locate-us/"
+      },
+      {
+        "text": "Book a Test Ride",
+        "href": "https://www.royalenfield.com/in/en/forms/book-a-test-ride/"
+      },
+      {
+        "text": "Book a Service",
+        "href": "https://www.royalenfield.com/in/en/service/"
+      },
+      {
+        "text": "Configure Now",
+        "href": "https://makeityours.royalenfield.com/configurator/"
+      },
+      {
+        "text": "Himalayan 440",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/himalayan-440/"
+      },
+      {
+        "text": "Bullet 650",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/bullet-650/"
+      },
+      {
+        "text": "Hunter 350",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/hunter-350/"
+      },
+      {
+        "text": "Classic 650",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/classic-650/"
+      },
+      {
+        "text": "Scram 440",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/scram-440/"
+      },
+      {
+        "text": "Goan Classic 350",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/goan-classic-350/"
+      },
+      {
+        "text": "Bear 650",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/bear-650/"
+      },
+      {
+        "text": "Classic 350",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/classic-350/"
+      },
+      {
+        "text": "Guerrilla 450",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/guerrilla-450/"
+      },
+      {
+        "text": "Shotgun 650",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/shotgun-650/"
+      },
+      {
+        "text": "Himalayan 450",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/new-himalayan/"
+      },
+      {
+        "text": "Bullet 350",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/bullet-350/"
+      },
+      {
+        "text": "Super Meteor 650",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/super-meteor-650/"
+      },
+      {
+        "text": "Meteor 350",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/meteor/"
+      },
+      {
+        "text": "Interceptor 650",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/interceptor/"
+      },
+      {
+        "text": "Continental GT 650",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/continental-gt/"
+      },
+      {
+        "text": "Apparel",
+        "href": "https://www.royalenfield.com/in/en/apparel/"
+      },
+      {
+        "text": "Royal Enfield Accessories",
+        "href": "https://www.royalenfield.com/in/en/gma/"
+      },
+      {
+        "text": "Service",
+        "href": "https://www.royalenfield.com/in/en/service/"
+      },
+      {
+        "text": "Extended Warranty",
+        "href": "https://www.royalenfield.com/in/en/service/ride-sure/?highlight=ew"
+      },
+      {
+        "text": "Royal Enfield Maestros",
+        "href": "https://www.royalenfield.com/in/en/service/ride-sure/?highlight=amc"
+      },
+      {
+        "text": "Ride Sure",
+        "href": "https://www.royalenfield.com/in/en/service/ride-sure/"
+      },
+      {
+        "text": "Rentals",
+        "href": "https://www.royalenfield.com/in/en/rentals/"
+      },
+      {
+        "text": "Tours",
+        "href": "https://www.royalenfield.com/in/en/tours/"
+      },
+      {
+        "text": "REOwn",
+        "href": "https://www.royalenfield.com/in/en/reown/"
+      },
+      {
+        "text": "Tripper Pod",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/tripper/"
+      },
+      {
+        "text": "Tripper Dash",
+        "href": "https://www.royalenfield.com/in/en/tripper-dash/"
+      },
+      {
+        "text": "Service Cost Calculator",
+        "href": "https://www.royalenfield.com/in/en/service/#scc"
+      },
+      {
+        "text": "Genuine Parts Distributors",
+        "href": "https://www.royalenfield.com/in/en/locate-us/genuine-parts-distributors/"
+      },
+      {
+        "text": "Owner's Manual",
+        "href": "https://www.royalenfield.com/in/en/support/owners-manual/"
+      },
+      {
+        "text": "Quick Start Guide",
+        "href": "https://www.royalenfield.com/in/en/support/digital-quickstart/"
+      },
+      {
+        "text": "Maintenance",
+        "href": "https://www.royalenfield.com/in/en/service/periodic-maintenance/"
+      },
+      {
+        "text": "Borderless Warranty",
+        "href": "https://www.royalenfield.com/uk/en/after-sales/borderless-warranty/"
+      },
+      {
+        "text": "Rides & Events",
+        "href": "https://www.royalenfield.com/in/en/rides-calendar/"
+      },
+      {
+        "text": "Royal Enfield APP",
+        "href": "https://www.royalenfield.com/in/en/re-app/"
+      },
+      {
+        "text": "Wingman",
+        "href": "https://www.royalenfield.com/in/en/royal-enfield-wingman/"
+      },
+      {
+        "text": "Royal Enfield TV",
+        "href": "https://www.royalenfield.com/in/en/website-under-maintenance/"
+      },
+      {
+        "text": "Custom World",
+        "href": "https://www.royalenfield.com/in/en/custom-world/"
+      },
+      {
+        "text": "Art of Motorcycling",
+        "href": "https://www.royalenfield.com/in/en/art-of-motorcycling/"
+      },
+      {
+        "text": "MLG Comics",
+        "href": "https://www.royalenfield.com/in/en/mlg/"
+      },
+      {
+        "text": "Wallpapers",
+        "href": "https://www.royalenfield.com/in/en/our-world/wallpaper/"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://www.royalenfield.com/in/en/support/contact-us/"
+      },
+      {
+        "text": "Become a Dealer",
+        "href": "https://www.royalenfield.com/in/en/forms/become-a-dealer/"
+      },
+      {
+        "text": "Become a Distributor",
+        "href": "https://www.royalenfield.com/in/en/support/genuine-part-distributor/"
+      },
+      {
+        "text": "Corporate Enquiry",
+        "href": "https://www.royalenfield.com/in/en/support/bulk-enquiry/"
+      },
+      {
+        "text": "FAQs",
+        "href": "https://www.royalenfield.com/in/en/support/#faq"
+      },
+      {
+        "text": "News & Media",
+        "href": "https://www.royalenfield.com/in/en/our-world/media/news/"
+      },
+      {
+        "text": "Press Release",
+        "href": "https://www.royalenfield.com/in/en/our-world/media/press-releases/"
+      },
+      {
+        "text": "Since 1901",
+        "href": "https://www.royalenfield.com/in/en/our-world/since-1901/"
+      },
+      {
+        "text": "Social Mission",
+        "href": "https://socialmission.royalenfield.com/"
+      },
+      {
+        "text": "About Eicher Motors",
+        "href": "https://www.eicher.in/"
+      },
+      {
+        "text": "Make it Yours",
+        "href": "https://makeityours.royalenfield.com/"
+      },
+      {
+        "text": "Finance",
+        "href": "https://www.royalenfield.com/in/en/finance/"
+      },
+      {
+        "text": "Assured Buyback Programme",
+        "href": "https://www.royalenfield.com/in/en/finance/assured-buyback/"
+      },
+      {
+        "text": "1800 210 0008",
+        "href": "tel:1800%20210%200008"
+      },
+      {
+        "text": "support@royalenfield.com",
+        "href": "mailto:support@royalenfield.com"
+      },
+      {
+        "text": "",
+        "href": "https://www.facebook.com/RoyalEnfield/"
+      },
+      {
+        "text": "",
+        "href": "https://x.com/royalenfield"
+      },
+      {
+        "text": "",
+        "href": "https://www.youtube.com/channel/UCyxUUHqmz9IiAnrROJc0mag"
+      },
+      {
+        "text": "",
+        "href": "https://www.instagram.com/royalenfield"
+      },
+      {
+        "text": "",
+        "href": "https://www.linkedin.com/company/royal-enfield/"
+      },
+      {
+        "text": "Private Import Policy",
+        "href": "https://www.royalenfield.com/in/en/legal/private-import-policy/"
+      },
+      {
+        "text": "Terms & Conditions",
+        "href": "https://www.royalenfield.com/in/en/legal/terms-and-conditions/"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.royalenfield.com/content/dam/RE-Platform-Revamp/re-revamp-commons/logo.webp",
+        "alt": "Royal Enfield "
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/icons/1080xgreen.svg",
+        "alt": "Location Icon"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/logos/motoverse-logo.png",
+        "alt": "Motoverse Logo"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2025/notification-bar/early-bird-tickets-new.jpg",
+        "alt": "background image"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/banner/manifesto.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/top-events/himalayan-spirit.jpg",
+        "alt": "Himalayan Spirit"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/top-events/slide-school-cup.jpg",
+        "alt": "Slide School Cup"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/top-events/motopolo.jpg",
+        "alt": "Motopolo"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/top-events/dirt-race.jpg",
+        "alt": "Dirt Race "
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/top-events/ace-the-hill.jpg",
+        "alt": "Ace the hill "
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/top-events/maut-ka-kuan.jpg",
+        "alt": "Maut Ka Kuan"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2025/insta-logo.png",
+        "alt": ""
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/community-wall/desktop.jpeg",
+        "alt": "Community Wall"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/community-wall/1.jpg",
+        "alt": "Motoverse Community Wall"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/community-wall/2.jpg",
+        "alt": "Motoverse Community Wall"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/community-wall/3.jpg",
+        "alt": "Motoverse Community Wall"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/community-wall/4.jpg",
+        "alt": "Motoverse Community Wall"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/community-wall/5.jpg",
+        "alt": "Motoverse Community Wall"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/community-wall/6.jpg",
+        "alt": "Motoverse Community Wall"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/community-wall/7.jpg",
+        "alt": "Motoverse Community Wall"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2025/uncover-the-universe/new/2018.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2025/uncover-the-universe/new/2019.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2025/uncover-the-universe/new/2022.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2025/uncover-the-universe/new/2023-new.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2025/uncover-the-universe/new/2024.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2025/uncover-the-universe/new/2012.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2025/uncover-the-universe/new/2013.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2025/uncover-the-universe/new/2014.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2025/uncover-the-universe/new/2015.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2025/uncover-the-universe/new/2016.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2025/uncover-the-universe/new/2017.jpg",
+        "alt": ""
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/motoverse-text.png",
+        "alt": "bg image text"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/gallery/desktop/gallery-1.jpg",
+        "alt": "Motorverse Gallery Images"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/gallery/desktop/gallery-2.jpg",
+        "alt": "Motorverse Gallery Images"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/gallery/desktop/gallery-3.jpg",
+        "alt": "Motorverse Gallery Images"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/gallery/desktop/gallery-4.jpg",
+        "alt": "Motorverse Gallery Images"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/gallery/desktop/gallery-5.jpg",
+        "alt": "Motorverse Gallery Images"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/gallery/desktop/gallery-6.jpg",
+        "alt": "Motorverse Gallery Images"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/gallery/desktop/gallery-7.jpg",
+        "alt": "Motorverse Gallery Images"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/gallery/desktop/gallery-8.jpg",
+        "alt": "Motorverse Gallery Images"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/gallery/desktop/gallery-9.jpg",
+        "alt": "Motorverse Gallery Images"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/gallery/desktop/gallery-10.jpg",
+        "alt": "Motorverse Gallery Images"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/gallery/desktop/gallery-11.jpg",
+        "alt": "Motorverse Gallery Images"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/gallery/desktop/gallery-12.jpg",
+        "alt": "Motorverse Gallery Images"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/gallery/desktop/gallery-13.jpg",
+        "alt": "Motorverse Gallery Images"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/gallery/desktop/gallery-14.jpg",
+        "alt": "Motorverse Gallery Images"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/gallery/desktop/gallery-15.jpg",
+        "alt": "Motorverse Gallery Images"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/gallery/desktop/gallery-16.jpg",
+        "alt": "Motorverse Gallery Images"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/RE-Platform-Revamp/header-footer/secFooterImgDesktop.svg",
+        "alt": "Locate Us"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/RE-Platform-Revamp/header-footer/secFooterTwo.svg",
+        "alt": "Book a Test Ride"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/RE-Platform-Revamp/header-footer/secFooterImgDesktopFour.svg",
+        "alt": "Book a Service"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/RE-Platform-Revamp/header-footer/secFooterImgDesktopThree.svg",
+        "alt": "Configure Now"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/icons/facebook-50.png",
+        "alt": "Social Media Icon"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/bullet-meri-jaan/icons/twitter-white.png",
+        "alt": "Social Media Icon"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/reown/reown-icons/Youtube-white.webp",
+        "alt": "Social Media Icon"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/riders-portal/icons/Instagram-white-logo.png",
+        "alt": "Social Media Icon"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/RE-Platform-Revamp/header-footer/footer-icons/linkedin%201.png",
+        "alt": "Social Media Icon"
+      }
+    ],
+    "tables": [],
+    "primary_product": null,
+    "related_products": []
+  },
+  "limitations": [
+    "In-page role=tab controls are clicked so tabbed features/specs can be read; forms, links, and purchase CTAs are not clicked.",
+    "Closed accordions without a tab role, and off-screen overflow, may still hide text.",
+    "Text painted only inside images (OCR not performed) is not captured as visible_text.",
+    "Overlapping or visually clipped elements can still contribute DOM text if CSS visibility checks pass.",
+    "aria-hidden subtrees are excluded from visible_text even if they occupy pixels (common for duplicate image links).",
+    "Lazy content beyond the configured scroll budget is not captured.",
+    "Related product cards on the same page may appear in product_names alongside the primary H1."
+  ],
+  "http_status": 200,
+  "json_path": "out/royal-enfield-test/human-view-20261025-081015.json"
+}

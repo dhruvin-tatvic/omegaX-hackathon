@@ -1,0 +1,1147 @@
+{
+  "base_url": "https://www.royalenfield.com/in/en/home",
+  "started_at": "2026-10-25T08:08:16Z",
+  "finished_at": "2026-10-25T08:11:29Z",
+  "capture_method": "playwright_chromium",
+  "max_pages": 8,
+  "max_depth": 2,
+  "stopped_reason": "page_limit",
+  "total_pages_discovered": 67,
+  "total_pages_captured": 4,
+  "total_pages_failed": 4,
+  "pages": [
+    {
+      "url": "https://www.royalenfield.com/in/en/home",
+      "final_url": "https://www.royalenfield.com/in/en/home/",
+      "status": "partial",
+      "http_status": 200,
+      "page_title": "Royal Enfield India | Roadster, Cruiser & Adventure Bikes",
+      "json_path": "out/royal-enfield-test/human-view-20261025-080817.json",
+      "screenshot_path": "out/royal-enfield-test/screenshots/in-en-home-20261025-080817.png",
+      "rendered_html_path": "out/royal-enfield-test/rendered_html/in-en-home-20261025-080817.html",
+      "product_names": [],
+      "primary_product": null,
+      "errors": [
+        "Read-only tab click failed at index 7: Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"[role=\\\"tab\\\"]\").nth(7)\n    - locator resolved to <li role=\"tab\" tabindex=\"0\" aria-selected=\"true\" search-type=\"dealer\" id=\"locatecard-1-tab\" data-cmp-hook-tabs=\"tab\" class=\"cmp-tabs__tab tab-listing cmp-tabs__tab--active\">↵                                            Stor…</li>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"cookie-description\">…</div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 500ms\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"cookie-description\">…</div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n  3 × retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 500ms\n",
+        "Could not restore the first tab: Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"[role=\\\"tab\\\"]\").first\n    - locator resolved to <li role=\"tab\" aria-label=\"Slide 1\" data-cmp-hook-carousel=\"indicator\" class=\"cmp-carousel__indicator cmp-carousel__indicator--active\">↵          ↵        </li>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    5 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 500ms\n"
+      ],
+      "depth": 0
+    },
+    {
+      "url": "https://www.royalenfield.com/uk/en/flipbook",
+      "final_url": "https://www.royalenfield.com/uk/en/flipbook/",
+      "status": "partial",
+      "http_status": 200,
+      "page_title": "RE- FlipBook",
+      "json_path": "out/royal-enfield-test/human-view-20261025-080847.json",
+      "screenshot_path": "out/royal-enfield-test/screenshots/uk-en-flipbook-20261025-080847.png",
+      "rendered_html_path": "out/royal-enfield-test/rendered_html/uk-en-flipbook-20261025-080847.html",
+      "product_names": [],
+      "primary_product": null,
+      "errors": [
+        "No human-visible text was extracted."
+      ],
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/locate-us",
+      "final_url": "https://www.royalenfield.com/in/en/locate-us/",
+      "status": "partial",
+      "http_status": 200,
+      "page_title": "Locate Us",
+      "json_path": "out/royal-enfield-test/human-view-20261025-080854.json",
+      "screenshot_path": "out/royal-enfield-test/screenshots/in-en-locate-us-20261025-080854.png",
+      "rendered_html_path": "out/royal-enfield-test/rendered_html/in-en-locate-us-20261025-080854.html",
+      "product_names": [],
+      "primary_product": null,
+      "errors": [
+        "Read-only tab click failed at index 0: Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"[role=\\\"tab\\\"]\").first\n    - locator resolved to <li role=\"tab\" tabindex=\"0\" aria-selected=\"true\" search-type=\"dealer\" id=\"locatetabs-1-tab\" data-cmp-hook-tabs=\"tab\" class=\"cmp-tabs__tab tab-listing cmp-tabs__tab--active\">↵                                STORE↵          …</li>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    5 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n",
+        "Read-only tab click failed at index 1: Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"[role=\\\"tab\\\"]\").nth(1)\n    - locator resolved to <li role=\"tab\" tabindex=\"-1\" id=\"locatetabs-2-tab\" aria-selected=\"false\" data-cmp-hook-tabs=\"tab\" search-type=\"serviceCentres\" class=\"cmp-tabs__tab tab-listing\">↵                                SERVICE CENTRES↵…</li>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    5 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n",
+        "Read-only tab click failed at index 2: Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"[role=\\\"tab\\\"]\").nth(2)\n    - locator resolved to <li role=\"tab\" tabindex=\"-1\" id=\"locatetabs-3-tab\" aria-selected=\"false\" data-cmp-hook-tabs=\"tab\" search-type=\"spareParts\" class=\"cmp-tabs__tab tab-listing\">↵                                GENUINE PARTS DI…</li>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    5 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n",
+        "Could not restore the first tab: Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"[role=\\\"tab\\\"]\").first\n    - locator resolved to <li role=\"tab\" tabindex=\"0\" aria-selected=\"true\" search-type=\"dealer\" id=\"locatetabs-1-tab\" data-cmp-hook-tabs=\"tab\" class=\"cmp-tabs__tab tab-listing cmp-tabs__tab--active\">↵                                STORE↵          …</li>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    5 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n"
+      ],
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/legal/privacy-policy",
+      "final_url": "https://www.royalenfield.com/in/en/legal/privacy-policy/",
+      "status": "success",
+      "http_status": 200,
+      "page_title": "Privacy Policy - Royal Enfield India",
+      "json_path": "out/royal-enfield-test/human-view-20261025-080925.json",
+      "screenshot_path": "out/royal-enfield-test/screenshots/in-en-legal-privacy-policy-20261025-080925.png",
+      "rendered_html_path": "out/royal-enfield-test/rendered_html/in-en-legal-privacy-policy-20261025-080925.html",
+      "product_names": [
+        "PRIVACY POLICY"
+      ],
+      "primary_product": null,
+      "errors": [],
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/legal/cookie-policy",
+      "final_url": "https://www.royalenfield.com/in/en/legal/cookie-policy/",
+      "status": "success",
+      "http_status": 200,
+      "page_title": "Cookie Policy | Royal Enfield",
+      "json_path": "out/royal-enfield-test/human-view-20261025-080950.json",
+      "screenshot_path": "out/royal-enfield-test/screenshots/in-en-legal-cookie-policy-20261025-080950.png",
+      "rendered_html_path": "out/royal-enfield-test/rendered_html/in-en-legal-cookie-policy-20261025-080950.html",
+      "product_names": [
+        "Cookie Policy"
+      ],
+      "primary_product": null,
+      "errors": [],
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/rides/events/motoverse",
+      "final_url": "https://www.royalenfield.com/in/en/rides/events/motoverse/?utm_medium=ig&utm_source=social&utm_campaign=motoverse+2026+%7C+register+here",
+      "status": "partial",
+      "http_status": 200,
+      "page_title": "Royal Enfield Motoverse 2026 | Motorcycle Event Goa, India",
+      "json_path": "out/royal-enfield-test/human-view-20261025-081015.json",
+      "screenshot_path": "out/royal-enfield-test/screenshots/in-en-rides-events-motoverse-20261025-081015.png",
+      "rendered_html_path": "out/royal-enfield-test/rendered_html/in-en-rides-events-motoverse-20261025-081015.html",
+      "product_names": [],
+      "primary_product": null,
+      "errors": [
+        "Could not restore the first tab: Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"[role=\\\"tab\\\"]\").first\n    - locator resolved to <li role=\"tab\" aria-label=\"Slide 1\" data-cmp-hook-carousel=\"indicator\" class=\"cmp-carousel__indicator cmp-carousel__indicator--active\">↵          1↵        </li>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    5 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 500ms\n"
+      ],
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/motorcycles/goan-classic-350",
+      "final_url": "https://www.royalenfield.com/in/en/motorcycles/goan-classic-350/",
+      "status": "success",
+      "http_status": 200,
+      "page_title": "Royal Enfield Goan Classic 350 Price, Colours & Images in India",
+      "json_path": "out/royal-enfield-test/human-view-20261025-081056.json",
+      "screenshot_path": "out/royal-enfield-test/screenshots/in-en-motorcycles-goan-classic-350-20261025-081056.png",
+      "rendered_html_path": "out/royal-enfield-test/rendered_html/in-en-motorcycles-goan-classic-350-20261025-081056.html",
+      "product_names": [],
+      "primary_product": null,
+      "errors": [],
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/forms/book-a-test-ride?modelId=VGCL81JB",
+      "final_url": "https://www.royalenfield.com/in/en/forms/book-a-test-ride/?modelId=VGCL81JB",
+      "status": "success",
+      "http_status": 200,
+      "page_title": "Royal Enfield Bike Test Drive | Book Free Motorcycle Test Ride Online",
+      "json_path": "out/royal-enfield-test/human-view-20261025-081119.json",
+      "screenshot_path": "out/royal-enfield-test/screenshots/in-en-forms-book-a-test-ride-20261025-081119.png",
+      "rendered_html_path": "out/royal-enfield-test/rendered_html/in-en-forms-book-a-test-ride-20261025-081119.html",
+      "product_names": [],
+      "primary_product": null,
+      "errors": [],
+      "depth": 1
+    }
+  ],
+  "skipped": [
+    {
+      "url": "https://makeityours.royalenfield.com/configurator",
+      "reason": "external",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/au/en/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/us/en/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/uk/en/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/ar/es/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/ca/en/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/mx/es/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/co/es/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/es/es/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/br/pt/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/pt/pt/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/th/th/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/id/id/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/fr/fr/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/it/it/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/de/de/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/vn/vi/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/kr/kr/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/my/en/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/ph/en/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/ma/fr/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/sg/en/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/jp/ja/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/kh/en/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/be/fr/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/be/nl/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/at/de/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/ch/de/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/nl/nl/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/cz/cs/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/sk/sk/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/pl/pl/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/se/sv/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/rs/sr/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/mn/mn/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/qa/en/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/ru/ru/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/tr/tr/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/ae/en/sitemap.xml",
+      "reason": "binary_asset:.xml",
+      "depth": 1
+    },
+    {
+      "url": "https://www.skillboxes.com/events/royal-enfield-motoverse-2026-sbmndqhv",
+      "reason": "external",
+      "depth": 1
+    },
+    {
+      "url": "https://flyingflea.royalenfield.com/in/en/product/c6/?utm_source=re-website&utm_medium=re-homepage&utm_campaign=re-top-banner&utm_content=c6-pdp",
+      "reason": "external",
+      "depth": 1
+    },
+    {
+      "url": "https://makeityours.royalenfield.com/configurator/goan-350",
+      "reason": "external",
+      "depth": 1
+    },
+    {
+      "url": "https://socialmission.royalenfield.com/",
+      "reason": "external",
+      "depth": 1
+    },
+    {
+      "url": "https://store.royalenfield.com/",
+      "reason": "external",
+      "depth": 1
+    },
+    {
+      "url": "https://makeityours.royalenfield.com/configurator/",
+      "reason": "external",
+      "depth": 1
+    },
+    {
+      "url": "https://www.eicher.in/",
+      "reason": "external",
+      "depth": 1
+    },
+    {
+      "url": "https://makeityours.royalenfield.com/",
+      "reason": "external",
+      "depth": 1
+    },
+    {
+      "url": "tel:1800%20210%200008",
+      "reason": "non_page_scheme:tel",
+      "depth": 1
+    },
+    {
+      "url": "mailto:support@royalenfield.com",
+      "reason": "non_page_scheme:mailto",
+      "depth": 1
+    },
+    {
+      "url": "https://www.facebook.com/RoyalEnfield/",
+      "reason": "external",
+      "depth": 1
+    },
+    {
+      "url": "https://x.com/royalenfield",
+      "reason": "external",
+      "depth": 1
+    },
+    {
+      "url": "https://www.youtube.com/channel/UCyxUUHqmz9IiAnrROJc0mag",
+      "reason": "external",
+      "depth": 1
+    },
+    {
+      "url": "https://www.instagram.com/royalenfield",
+      "reason": "external",
+      "depth": 1
+    },
+    {
+      "url": "https://www.linkedin.com/company/royal-enfield/",
+      "reason": "external",
+      "depth": 1
+    },
+    {
+      "url": "https://dealers.royalenfield.com/delhi/new-delhi/mangolpur-soni-automobiles-9110019410",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "tel:082915 00891",
+      "reason": "non_page_scheme:tel",
+      "depth": 2
+    },
+    {
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJG3nti6cGDTkR3ewU-7ROsfM",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://dealers.royalenfield.com/delhi/new-delhi/saraswati-vihar-north-delhi-motorcycles-9110052060",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "tel:082914 64776",
+      "reason": "non_page_scheme:tel",
+      "depth": 2
+    },
+    {
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJr1-1qsYDDTkRbCmx0f-56E8",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://dealers.royalenfield.com/haryana/jhajjar/dariyapur-jmd-automobiles-9113001330",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "tel:082912 59258",
+      "reason": "non_page_scheme:tel",
+      "depth": 2
+    },
+    {
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJE_jy983ZcjkRs_ItCpchHCQ",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://dealers.royalenfield.com/delhi/new-delhi/raja-garden-dua-auto-india-9110120350",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "tel:082913 58641",
+      "reason": "non_page_scheme:tel",
+      "depth": 2
+    },
+    {
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJB3rVHzsDDTkRObwLnZBRVRs",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://dealers.royalenfield.com/delhi/new-delhi/shalimar-bagh-united-automobiles-9110077070",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "tel:082915 02246",
+      "reason": "non_page_scheme:tel",
+      "depth": 2
+    },
+    {
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJCTjxSWMDDTkR-98O8DR68EU",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://dealers.royalenfield.com/delhi/new-delhi/gujranwala-kays-auto-9110000990",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "tel:082914 66109",
+      "reason": "non_page_scheme:tel",
+      "depth": 2
+    },
+    {
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJVwAQoQ8CDTkRR8djUgjlyKQ",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://dealers.royalenfield.com/delhi/new-delhi/ganesh-nagar-lamba-enterprises-9110001000",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "tel:082914 87414",
+      "reason": "non_page_scheme:tel",
+      "depth": 2
+    },
+    {
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJneXCKJkEDTkRNq-da7PDjk8",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://dealers.royalenfield.com/delhi/new-delhi/burari-north-delhi-motorcycles-9110116180",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "tel:082918 22920",
+      "reason": "non_page_scheme:tel",
+      "depth": 2
+    },
+    {
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJEXpyQCn-DDkRz1BDaPvXH6U",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://dealers.royalenfield.com/delhi/new-delhi/jhandewalan-ess-aar-motors-9110000980",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "tel:082914 77021",
+      "reason": "non_page_scheme:tel",
+      "depth": 2
+    },
+    {
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJ1zwdIF39DDkRs2dwhjUc6NI",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://dealers.royalenfield.com/delhi/new-delhi/dwarka-cruiser-motors-pvt-ltd-9110051120",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "tel:082914 74880",
+      "reason": "non_page_scheme:tel",
+      "depth": 2
+    },
+    {
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJh4YEkNUaDTkRLZB8M_AY2xA",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://dealers.royalenfield.com/delhi/daryaganj/asaf-ali-road-t-r-sawhney-motorcycles-9110136340",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "tel:082912 78832",
+      "reason": "non_page_scheme:tel",
+      "depth": 2
+    },
+    {
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJEbULkGz9DDkRZxchfWmMiv4",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://dealers.royalenfield.com/delhi/new-delhi/narela-balaji-motors-9110115700",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "tel:082914 76285",
+      "reason": "non_page_scheme:tel",
+      "depth": 2
+    },
+    {
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJq3904Y2pDTkRPmMF0ChXI1I",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://dealers.royalenfield.com/delhi/delhi/najafgarh-jupiter-wheels-9110138210",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "tel:082911 46627",
+      "reason": "non_page_scheme:tel",
+      "depth": 2
+    },
+    {
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJf78iAs8bDTkR0Oduxv-qeGg",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://dealers.royalenfield.com/delhi/new-delhi/bhajanpura-sunshine-automobiles-9110115460",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "tel:082916 49329",
+      "reason": "non_page_scheme:tel",
+      "depth": 2
+    },
+    {
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJz0r2TWf9DDkREFtX62BVit4",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://dealers.royalenfield.com/delhi/new-delhi/mahipalpur-kaytee-automobiles-9110045340",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "tel:082914 85118",
+      "reason": "non_page_scheme:tel",
+      "depth": 2
+    },
+    {
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJFczaO0AdDTkRoHlbCSkuOzE",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://dealers.royalenfield.com/delhi/new-delhi/durgapuri-sunshine-automobiles-9110075290",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "tel:082915 02059",
+      "reason": "non_page_scheme:tel",
+      "depth": 2
+    },
+    {
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJ47iPsNj9DDkRfK9Ag1Mtcdo",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://dealers.royalenfield.com/delhi/new-delhi/kanti-nagar-amar-autos-9110000960",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "tel:082914 69519",
+      "reason": "non_page_scheme:tel",
+      "depth": 2
+    },
+    {
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJZWy1kIP8DDkRF1GgIgnOueA",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://dealers.royalenfield.com/uttar-pradesh/ghaziabad/loni-power-and-torque-9110121260",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "tel:8291198665",
+      "reason": "non_page_scheme:tel",
+      "depth": 2
+    },
+    {
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJXcXdLlP_DDkRqWm-zIE_yaY",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://dealers.royalenfield.com/delhi/new-delhi/defence-colony-ess-aar-motors-9110072210",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "tel:082914 75761",
+      "reason": "non_page_scheme:tel",
+      "depth": 2
+    },
+    {
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJZUo0DYbjDDkRZGOjgleZLv8",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://dealers.royalenfield.com/haryana/bahadurgarh/krishna-nagar-jmd-automobiles-9110072930",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "tel:082912 60267",
+      "reason": "non_page_scheme:tel",
+      "depth": 2
+    },
+    {
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJGZnGJTEJDTkRkx2f_qaUe0A",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://dealers.royalenfield.com/delhi/new-delhi/vikas-marg-amar-auto-9110080220",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "tel:082914 67506",
+      "reason": "non_page_scheme:tel",
+      "depth": 2
+    },
+    {
+      "url": "https://www.google.com/maps/place/?q=place_id:ChIJVVXJTDcCDTkRbxeHHJa-K80",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://maps.google.com/maps?ll=28.7041,77.1025&z=10&t=m&hl=en-US&gl=US&mapclient=apiv3",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://www.google.com/intl/en-US_US/help/terms_maps.html",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://www.google.com/maps/@28.7041,77.1025,10z/data=!10m1!1e1!12b1?source=apiv3&rapsrc=apiv3",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "mailto:privacy.india@royalenfield.com",
+      "reason": "non_page_scheme:mailto",
+      "depth": 2
+    },
+    {
+      "url": "mailto:grievance.officer.India@royalenfield.com",
+      "reason": "non_page_scheme:mailto",
+      "depth": 2
+    },
+    {
+      "url": "javascript:void(0)",
+      "reason": "non_page_scheme:javascript",
+      "depth": 2
+    },
+    {
+      "url": "https://www.skillboxes.com/events-widget/himalayan-spirit-motoverse-2026-sbkuqiop",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://www.skillboxes.com/events-widget/slide-school-sbkzjvbz",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://www.skillboxes.com/events-widget/dirt-track-sbmmkglr",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://www.skillboxes.com/events-widget/ace-the-hill-sbnihfkf",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://www.instagram.com/carandbike/?hl=en",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://www.instagram.com/autocar_india/?hl=en",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://www.instagram.com/outlook_business/?hl=en",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://www.instagram.com/ani_trending/?hl=en",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://www.instagram.com/bikewaleindia/?hl=en",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://www.instagram.com/gaadikey?igsh=eWNnZnIyY2xvc24=",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://www.instagram.com/revzilla/?hl=en",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://www.instagram.com/autoguide/",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://www.instagram.com/topgearmagindia/",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://royalenfield.metadome.ai/?bike1Model=GOAN%20CLASSIC%20350&bike1Title=GOAN%20CLASSIC%20350&bike1Color=Purple%20Haze",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://makeityours.royalenfield.com/configurator/goan-350/",
+      "reason": "external",
+      "depth": 2
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/website-under-maintenance",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/custom-world",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/rides-calendar",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/rentals",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/tours",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/rides/marquee-rides/offline-uttarakhand",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/rides/marquee-rides/moroccan-odyssey-2026",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/rides/marquee-rides/royal-enfield-madhya-pradesh-tourism",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/rides/marquee-rides/moto-mongolia",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/our-world/since-1901",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/gma",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/service/ride-sure",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/forms/book-a-test-ride",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/service",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/motorcycles/himalayan-440",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/motorcycles/bullet-650",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/motorcycles/hunter-350",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/motorcycles/classic-650",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/motorcycles/scram-440",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/motorcycles/bear-650",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/motorcycles/classic-350",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/motorcycles/guerrilla-450",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/motorcycles/shotgun-650",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/motorcycles/new-himalayan",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/motorcycles/bullet-350",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/motorcycles/super-meteor-650",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/motorcycles/meteor",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/motorcycles/interceptor",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/motorcycles/continental-gt",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/apparel",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/service/ride-sure?highlight=ew",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/service/ride-sure?highlight=amc",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/reown",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/motorcycles/tripper",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/tripper-dash",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/locate-us/genuine-parts-distributors",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/support/owners-manual",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/support/digital-quickstart",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/service/periodic-maintenance",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/uk/en/after-sales/borderless-warranty",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/re-app",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/royal-enfield-wingman",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/art-of-motorcycling",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/mlg",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/our-world/wallpaper",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/support/contact-us",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/forms/become-a-dealer",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/support/genuine-part-distributor",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/support/bulk-enquiry",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/support",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/our-world/media/news",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/our-world/media/press-releases",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/finance",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/finance/assured-buyback",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/legal/private-import-policy",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/legal/terms-and-conditions",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/community-form",
+      "reason": "page_limit",
+      "depth": 2
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/gma/goan-classic-350",
+      "reason": "page_limit",
+      "depth": 2
+    },
+    {
+      "url": "https://www.royalenfield.com/in/en/reown/exchange",
+      "reason": "page_limit",
+      "depth": 2
+    }
+  ],
+  "warnings": [],
+  "errors": [
+    "https://www.royalenfield.com/in/en/home: Read-only tab click failed at index 7: Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"[role=\\\"tab\\\"]\").nth(7)\n    - locator resolved to <li role=\"tab\" tabindex=\"0\" aria-selected=\"true\" search-type=\"dealer\" id=\"locatecard-1-tab\" data-cmp-hook-tabs=\"tab\" class=\"cmp-tabs__tab tab-listing cmp-tabs__tab--active\">↵                                            Stor…</li>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"cookie-description\">…</div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 500ms\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"cookie-description\">…</div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n  3 × retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 500ms\n",
+    "https://www.royalenfield.com/in/en/home: Could not restore the first tab: Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"[role=\\\"tab\\\"]\").first\n    - locator resolved to <li role=\"tab\" aria-label=\"Slide 1\" data-cmp-hook-carousel=\"indicator\" class=\"cmp-carousel__indicator cmp-carousel__indicator--active\">↵          ↵        </li>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    5 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 500ms\n",
+    "https://www.royalenfield.com/uk/en/flipbook: No human-visible text was extracted.",
+    "https://www.royalenfield.com/in/en/locate-us: Read-only tab click failed at index 0: Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"[role=\\\"tab\\\"]\").first\n    - locator resolved to <li role=\"tab\" tabindex=\"0\" aria-selected=\"true\" search-type=\"dealer\" id=\"locatetabs-1-tab\" data-cmp-hook-tabs=\"tab\" class=\"cmp-tabs__tab tab-listing cmp-tabs__tab--active\">↵                                STORE↵          …</li>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    5 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n",
+    "https://www.royalenfield.com/in/en/locate-us: Read-only tab click failed at index 1: Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"[role=\\\"tab\\\"]\").nth(1)\n    - locator resolved to <li role=\"tab\" tabindex=\"-1\" id=\"locatetabs-2-tab\" aria-selected=\"false\" data-cmp-hook-tabs=\"tab\" search-type=\"serviceCentres\" class=\"cmp-tabs__tab tab-listing\">↵                                SERVICE CENTRES↵…</li>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    5 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n",
+    "https://www.royalenfield.com/in/en/locate-us: Read-only tab click failed at index 2: Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"[role=\\\"tab\\\"]\").nth(2)\n    - locator resolved to <li role=\"tab\" tabindex=\"-1\" id=\"locatetabs-3-tab\" aria-selected=\"false\" data-cmp-hook-tabs=\"tab\" search-type=\"spareParts\" class=\"cmp-tabs__tab tab-listing\">↵                                GENUINE PARTS DI…</li>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    5 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n",
+    "https://www.royalenfield.com/in/en/locate-us: Could not restore the first tab: Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"[role=\\\"tab\\\"]\").first\n    - locator resolved to <li role=\"tab\" tabindex=\"0\" aria-selected=\"true\" search-type=\"dealer\" id=\"locatetabs-1-tab\" data-cmp-hook-tabs=\"tab\" class=\"cmp-tabs__tab tab-listing cmp-tabs__tab--active\">↵                                STORE↵          …</li>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    5 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n",
+    "https://www.royalenfield.com/in/en/rides/events/motoverse: Could not restore the first tab: Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"[role=\\\"tab\\\"]\").first\n    - locator resolved to <li role=\"tab\" aria-label=\"Slide 1\" data-cmp-hook-carousel=\"indicator\" class=\"cmp-carousel__indicator cmp-carousel__indicator--active\">↵          1↵        </li>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    5 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 500ms\n"
+  ],
+  "coverage_complete": false,
+  "coverage_note": "coverage_complete is true only when stopped_reason is queue_exhausted and every captured page succeeded. It is not a claim of complete website coverage. Use stopped_reason as the primary completion signal. Skipped robots paths, PDFs, external URLs, and sitemap warnings are out of scope."
+}

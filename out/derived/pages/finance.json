@@ -1,0 +1,3240 @@
+{
+  "schema_version": "1.0",
+  "url": "https://omegax-hackathon.onrender.com/finance",
+  "final_url": "https://omegax-hackathon.onrender.com/finance/",
+  "page_type": "finance",
+  "page_type_reason": "path is /finance",
+  "canonical_path": "/finance",
+  "canonical_url": "https://omegax-hackathon.onrender.com/finance",
+  "query": {},
+  "original_json_path": "out/human-view-20261025-061425.json",
+  "screenshot_path": "out/screenshots/finance-20261025-061425.png",
+  "rendered_html_path": "out/rendered_html/finance-20261025-061425.html",
+  "structured_facts": {
+    "schema_version": "1.0",
+    "entities": [
+      {
+        "id": "product:thunderstrike-650",
+        "type": "product",
+        "name": "Thunderstrike 650",
+        "slug": "thunderstrike-650"
+      },
+      {
+        "id": "financing_plan:thunderstrike-650-finance",
+        "type": "financing_plan",
+        "name": "Thunderstrike 650 finance plan",
+        "slug": "thunderstrike-650-finance"
+      },
+      {
+        "id": "product:phantom-350",
+        "type": "product",
+        "name": "Phantom 350",
+        "slug": "phantom-350"
+      },
+      {
+        "id": "financing_plan:phantom-350-finance",
+        "type": "financing_plan",
+        "name": "Phantom 350 finance plan",
+        "slug": "phantom-350-finance"
+      },
+      {
+        "id": "product:storm-200",
+        "type": "product",
+        "name": "Storm 200",
+        "slug": "storm-200"
+      },
+      {
+        "id": "financing_plan:storm-200-finance",
+        "type": "financing_plan",
+        "name": "Storm 200 finance plan",
+        "slug": "storm-200-finance"
+      },
+      {
+        "id": "product:zenith-450-scrambler",
+        "type": "product",
+        "name": "Zenith 450 Scrambler",
+        "slug": "zenith-450-scrambler"
+      },
+      {
+        "id": "financing_plan:zenith-450-scrambler-finance",
+        "type": "financing_plan",
+        "name": "Zenith 450 Scrambler finance plan",
+        "slug": "zenith-450-scrambler-finance"
+      },
+      {
+        "id": "product:thunderstrike-450",
+        "type": "product",
+        "name": "Thunderstrike 450",
+        "slug": "thunderstrike-450"
+      },
+      {
+        "id": "financing_plan:thunderstrike-450-finance",
+        "type": "financing_plan",
+        "name": "Thunderstrike 450 finance plan",
+        "slug": "thunderstrike-450-finance"
+      },
+      {
+        "id": "product:thunderstrike-650-rally",
+        "type": "product",
+        "name": "Thunderstrike 650 Rally",
+        "slug": "thunderstrike-650-rally"
+      },
+      {
+        "id": "financing_plan:thunderstrike-650-rally-finance",
+        "type": "financing_plan",
+        "name": "Thunderstrike 650 Rally finance plan",
+        "slug": "thunderstrike-650-rally-finance"
+      },
+      {
+        "id": "product:phantom-500",
+        "type": "product",
+        "name": "Phantom 500",
+        "slug": "phantom-500"
+      },
+      {
+        "id": "financing_plan:phantom-500-finance",
+        "type": "financing_plan",
+        "name": "Phantom 500 finance plan",
+        "slug": "phantom-500-finance"
+      },
+      {
+        "id": "product:phantom-350-bobber",
+        "type": "product",
+        "name": "Phantom 350 Bobber",
+        "slug": "phantom-350-bobber"
+      },
+      {
+        "id": "financing_plan:phantom-350-bobber-finance",
+        "type": "financing_plan",
+        "name": "Phantom 350 Bobber finance plan",
+        "slug": "phantom-350-bobber-finance"
+      },
+      {
+        "id": "product:storm-125",
+        "type": "product",
+        "name": "Storm 125",
+        "slug": "storm-125"
+      },
+      {
+        "id": "financing_plan:storm-125-finance",
+        "type": "financing_plan",
+        "name": "Storm 125 finance plan",
+        "slug": "storm-125-finance"
+      },
+      {
+        "id": "product:storm-160",
+        "type": "product",
+        "name": "Storm 160",
+        "slug": "storm-160"
+      },
+      {
+        "id": "financing_plan:storm-160-finance",
+        "type": "financing_plan",
+        "name": "Storm 160 finance plan",
+        "slug": "storm-160-finance"
+      },
+      {
+        "id": "product:storm-390",
+        "type": "product",
+        "name": "Storm 390",
+        "slug": "storm-390"
+      },
+      {
+        "id": "financing_plan:storm-390-finance",
+        "type": "financing_plan",
+        "name": "Storm 390 finance plan",
+        "slug": "storm-390-finance"
+      },
+      {
+        "id": "product:zenith-350-scrambler",
+        "type": "product",
+        "name": "Zenith 350 Scrambler",
+        "slug": "zenith-350-scrambler"
+      },
+      {
+        "id": "financing_plan:zenith-350-scrambler-finance",
+        "type": "financing_plan",
+        "name": "Zenith 350 Scrambler finance plan",
+        "slug": "zenith-350-scrambler-finance"
+      },
+      {
+        "id": "product:zenith-650-scrambler",
+        "type": "product",
+        "name": "Zenith 650 Scrambler",
+        "slug": "zenith-650-scrambler"
+      },
+      {
+        "id": "financing_plan:zenith-650-scrambler-finance",
+        "type": "financing_plan",
+        "name": "Zenith 650 Scrambler finance plan",
+        "slug": "zenith-650-scrambler-finance"
+      },
+      {
+        "id": "product:voyager-650",
+        "type": "product",
+        "name": "Voyager 650",
+        "slug": "voyager-650"
+      },
+      {
+        "id": "financing_plan:voyager-650-finance",
+        "type": "financing_plan",
+        "name": "Voyager 650 finance plan",
+        "slug": "voyager-650-finance"
+      },
+      {
+        "id": "product:voyager-450",
+        "type": "product",
+        "name": "Voyager 450",
+        "slug": "voyager-450"
+      },
+      {
+        "id": "financing_plan:voyager-450-finance",
+        "type": "financing_plan",
+        "name": "Voyager 450 finance plan",
+        "slug": "voyager-450-finance"
+      },
+      {
+        "id": "product:nightfall-350",
+        "type": "product",
+        "name": "Nightfall 350",
+        "slug": "nightfall-350"
+      },
+      {
+        "id": "financing_plan:nightfall-350-finance",
+        "type": "financing_plan",
+        "name": "Nightfall 350 finance plan",
+        "slug": "nightfall-350-finance"
+      },
+      {
+        "id": "product:spark-e1",
+        "type": "product",
+        "name": "Spark E1",
+        "slug": "spark-e1"
+      },
+      {
+        "id": "financing_plan:spark-e1-finance",
+        "type": "financing_plan",
+        "name": "Spark E1 finance plan",
+        "slug": "spark-e1-finance"
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact:1",
+        "entity_id": "product:thunderstrike-650",
+        "entity_name": "Thunderstrike 650",
+        "entity_type": "product",
+        "fact_type": "ex_showroom_price",
+        "value": 420000,
+        "value_text": "₹4,20,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {},
+        "evidence": "Thunderstrike 650 Ex-showroom: ₹4,20,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.css:.finance-bike-card .price",
+        "status": "verified",
+        "related_entity_id": "financing_plan:thunderstrike-650-finance"
+      },
+      {
+        "id": "fact:2",
+        "entity_id": "financing_plan:thunderstrike-650-finance",
+        "entity_name": "Thunderstrike 650 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "down_payment",
+        "value": 42000,
+        "value_text": "₹42,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Thunderstrike 650 finance card Down Payment: ₹42,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:thunderstrike-650"
+      },
+      {
+        "id": "fact:3",
+        "entity_id": "product:thunderstrike-650",
+        "entity_name": "Thunderstrike 650",
+        "entity_type": "product",
+        "fact_type": "down_payment",
+        "value": 42000,
+        "value_text": "₹42,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Thunderstrike 650 finance card Down Payment: ₹42,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:thunderstrike-650-finance"
+      },
+      {
+        "id": "fact:4",
+        "entity_id": "financing_plan:thunderstrike-650-finance",
+        "entity_name": "Thunderstrike 650 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.99,
+        "value_text": "9.99%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Thunderstrike 650 finance card Interest Rate: 9.99%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:thunderstrike-650"
+      },
+      {
+        "id": "fact:5",
+        "entity_id": "product:thunderstrike-650",
+        "entity_name": "Thunderstrike 650",
+        "entity_type": "product",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.99,
+        "value_text": "9.99%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Thunderstrike 650 finance card Interest Rate: 9.99%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:thunderstrike-650-finance"
+      },
+      {
+        "id": "fact:6",
+        "entity_id": "financing_plan:thunderstrike-650-finance",
+        "entity_name": "Thunderstrike 650 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Thunderstrike 650 finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:thunderstrike-650"
+      },
+      {
+        "id": "fact:7",
+        "entity_id": "product:thunderstrike-650",
+        "entity_name": "Thunderstrike 650",
+        "entity_type": "product",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Thunderstrike 650 finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:thunderstrike-650-finance"
+      },
+      {
+        "id": "fact:8",
+        "entity_id": "financing_plan:thunderstrike-650-finance",
+        "entity_name": "Thunderstrike 650 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "monthly_emi",
+        "value": 9585,
+        "value_text": "₹9,585",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Thunderstrike 650 finance card Monthly EMI: ₹9,585",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:thunderstrike-650"
+      },
+      {
+        "id": "fact:9",
+        "entity_id": "product:thunderstrike-650",
+        "entity_name": "Thunderstrike 650",
+        "entity_type": "product",
+        "fact_type": "monthly_emi",
+        "value": 9585,
+        "value_text": "₹9,585",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Thunderstrike 650 finance card Monthly EMI: ₹9,585",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:thunderstrike-650-finance"
+      },
+      {
+        "id": "fact:10",
+        "entity_id": "product:phantom-350",
+        "entity_name": "Phantom 350",
+        "entity_type": "product",
+        "fact_type": "ex_showroom_price",
+        "value": 215000,
+        "value_text": "₹2,15,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {},
+        "evidence": "Phantom 350 Ex-showroom: ₹2,15,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.css:.finance-bike-card .price",
+        "status": "verified",
+        "related_entity_id": "financing_plan:phantom-350-finance"
+      },
+      {
+        "id": "fact:11",
+        "entity_id": "financing_plan:phantom-350-finance",
+        "entity_name": "Phantom 350 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "down_payment",
+        "value": 22000,
+        "value_text": "₹22,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Phantom 350 finance card Down Payment: ₹22,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:phantom-350"
+      },
+      {
+        "id": "fact:12",
+        "entity_id": "product:phantom-350",
+        "entity_name": "Phantom 350",
+        "entity_type": "product",
+        "fact_type": "down_payment",
+        "value": 22000,
+        "value_text": "₹22,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Phantom 350 finance card Down Payment: ₹22,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:phantom-350-finance"
+      },
+      {
+        "id": "fact:13",
+        "entity_id": "financing_plan:phantom-350-finance",
+        "entity_name": "Phantom 350 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.99,
+        "value_text": "9.99%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Phantom 350 finance card Interest Rate: 9.99%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:phantom-350"
+      },
+      {
+        "id": "fact:14",
+        "entity_id": "product:phantom-350",
+        "entity_name": "Phantom 350",
+        "entity_type": "product",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.99,
+        "value_text": "9.99%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Phantom 350 finance card Interest Rate: 9.99%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:phantom-350-finance"
+      },
+      {
+        "id": "fact:15",
+        "entity_id": "financing_plan:phantom-350-finance",
+        "entity_name": "Phantom 350 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Phantom 350 finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:phantom-350"
+      },
+      {
+        "id": "fact:16",
+        "entity_id": "product:phantom-350",
+        "entity_name": "Phantom 350",
+        "entity_type": "product",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Phantom 350 finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:phantom-350-finance"
+      },
+      {
+        "id": "fact:17",
+        "entity_id": "financing_plan:phantom-350-finance",
+        "entity_name": "Phantom 350 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "monthly_emi",
+        "value": 4894,
+        "value_text": "₹4,894",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Phantom 350 finance card Monthly EMI: ₹4,894",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:phantom-350"
+      },
+      {
+        "id": "fact:18",
+        "entity_id": "product:phantom-350",
+        "entity_name": "Phantom 350",
+        "entity_type": "product",
+        "fact_type": "monthly_emi",
+        "value": 4894,
+        "value_text": "₹4,894",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Phantom 350 finance card Monthly EMI: ₹4,894",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:phantom-350-finance"
+      },
+      {
+        "id": "fact:19",
+        "entity_id": "product:storm-200",
+        "entity_name": "Storm 200",
+        "entity_type": "product",
+        "fact_type": "ex_showroom_price",
+        "value": 145000,
+        "value_text": "₹1,45,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {},
+        "evidence": "Storm 200 Ex-showroom: ₹1,45,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.css:.finance-bike-card .price",
+        "status": "verified",
+        "related_entity_id": "financing_plan:storm-200-finance"
+      },
+      {
+        "id": "fact:20",
+        "entity_id": "financing_plan:storm-200-finance",
+        "entity_name": "Storm 200 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "down_payment",
+        "value": 14000,
+        "value_text": "₹14,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Storm 200 finance card Down Payment: ₹14,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:storm-200"
+      },
+      {
+        "id": "fact:21",
+        "entity_id": "product:storm-200",
+        "entity_name": "Storm 200",
+        "entity_type": "product",
+        "fact_type": "down_payment",
+        "value": 14000,
+        "value_text": "₹14,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Storm 200 finance card Down Payment: ₹14,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:storm-200-finance"
+      },
+      {
+        "id": "fact:22",
+        "entity_id": "financing_plan:storm-200-finance",
+        "entity_name": "Storm 200 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.49,
+        "value_text": "9.49%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Storm 200 finance card Interest Rate: 9.49%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:storm-200"
+      },
+      {
+        "id": "fact:23",
+        "entity_id": "product:storm-200",
+        "entity_name": "Storm 200",
+        "entity_type": "product",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.49,
+        "value_text": "9.49%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Storm 200 finance card Interest Rate: 9.49%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:storm-200-finance"
+      },
+      {
+        "id": "fact:24",
+        "entity_id": "financing_plan:storm-200-finance",
+        "entity_name": "Storm 200 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Storm 200 finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:storm-200"
+      },
+      {
+        "id": "fact:25",
+        "entity_id": "product:storm-200",
+        "entity_name": "Storm 200",
+        "entity_type": "product",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Storm 200 finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:storm-200-finance"
+      },
+      {
+        "id": "fact:26",
+        "entity_id": "financing_plan:storm-200-finance",
+        "entity_name": "Storm 200 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "monthly_emi",
+        "value": 3291,
+        "value_text": "₹3,291",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Storm 200 finance card Monthly EMI: ₹3,291",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:storm-200"
+      },
+      {
+        "id": "fact:27",
+        "entity_id": "product:storm-200",
+        "entity_name": "Storm 200",
+        "entity_type": "product",
+        "fact_type": "monthly_emi",
+        "value": 3291,
+        "value_text": "₹3,291",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Storm 200 finance card Monthly EMI: ₹3,291",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:storm-200-finance"
+      },
+      {
+        "id": "fact:28",
+        "entity_id": "product:zenith-450-scrambler",
+        "entity_name": "Zenith 450 Scrambler",
+        "entity_type": "product",
+        "fact_type": "ex_showroom_price",
+        "value": 335000,
+        "value_text": "₹3,35,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {},
+        "evidence": "Zenith 450 Scrambler Ex-showroom: ₹3,35,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.css:.finance-bike-card .price",
+        "status": "verified",
+        "related_entity_id": "financing_plan:zenith-450-scrambler-finance"
+      },
+      {
+        "id": "fact:29",
+        "entity_id": "financing_plan:zenith-450-scrambler-finance",
+        "entity_name": "Zenith 450 Scrambler finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "down_payment",
+        "value": 34000,
+        "value_text": "₹34,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Zenith 450 Scrambler finance card Down Payment: ₹34,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:zenith-450-scrambler"
+      },
+      {
+        "id": "fact:30",
+        "entity_id": "product:zenith-450-scrambler",
+        "entity_name": "Zenith 450 Scrambler",
+        "entity_type": "product",
+        "fact_type": "down_payment",
+        "value": 34000,
+        "value_text": "₹34,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Zenith 450 Scrambler finance card Down Payment: ₹34,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:zenith-450-scrambler-finance"
+      },
+      {
+        "id": "fact:31",
+        "entity_id": "financing_plan:zenith-450-scrambler-finance",
+        "entity_name": "Zenith 450 Scrambler finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.99,
+        "value_text": "9.99%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Zenith 450 Scrambler finance card Interest Rate: 9.99%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:zenith-450-scrambler"
+      },
+      {
+        "id": "fact:32",
+        "entity_id": "product:zenith-450-scrambler",
+        "entity_name": "Zenith 450 Scrambler",
+        "entity_type": "product",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.99,
+        "value_text": "9.99%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Zenith 450 Scrambler finance card Interest Rate: 9.99%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:zenith-450-scrambler-finance"
+      },
+      {
+        "id": "fact:33",
+        "entity_id": "financing_plan:zenith-450-scrambler-finance",
+        "entity_name": "Zenith 450 Scrambler finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Zenith 450 Scrambler finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:zenith-450-scrambler"
+      },
+      {
+        "id": "fact:34",
+        "entity_id": "product:zenith-450-scrambler",
+        "entity_name": "Zenith 450 Scrambler",
+        "entity_type": "product",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Zenith 450 Scrambler finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:zenith-450-scrambler-finance"
+      },
+      {
+        "id": "fact:35",
+        "entity_id": "financing_plan:zenith-450-scrambler-finance",
+        "entity_name": "Zenith 450 Scrambler finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "monthly_emi",
+        "value": 7633,
+        "value_text": "₹7,633",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Zenith 450 Scrambler finance card Monthly EMI: ₹7,633",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:zenith-450-scrambler"
+      },
+      {
+        "id": "fact:36",
+        "entity_id": "product:zenith-450-scrambler",
+        "entity_name": "Zenith 450 Scrambler",
+        "entity_type": "product",
+        "fact_type": "monthly_emi",
+        "value": 7633,
+        "value_text": "₹7,633",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Zenith 450 Scrambler finance card Monthly EMI: ₹7,633",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:zenith-450-scrambler-finance"
+      },
+      {
+        "id": "fact:37",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "ex_showroom_price",
+        "value": 289000,
+        "value_text": "₹2,89,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {},
+        "evidence": "Thunderstrike 450 Ex-showroom: ₹2,89,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.css:.finance-bike-card .price",
+        "status": "verified",
+        "related_entity_id": "financing_plan:thunderstrike-450-finance"
+      },
+      {
+        "id": "fact:38",
+        "entity_id": "financing_plan:thunderstrike-450-finance",
+        "entity_name": "Thunderstrike 450 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "down_payment",
+        "value": 29000,
+        "value_text": "₹29,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Thunderstrike 450 finance card Down Payment: ₹29,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:thunderstrike-450"
+      },
+      {
+        "id": "fact:39",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "down_payment",
+        "value": 29000,
+        "value_text": "₹29,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Thunderstrike 450 finance card Down Payment: ₹29,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:thunderstrike-450-finance"
+      },
+      {
+        "id": "fact:40",
+        "entity_id": "financing_plan:thunderstrike-450-finance",
+        "entity_name": "Thunderstrike 450 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.99,
+        "value_text": "9.99%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Thunderstrike 450 finance card Interest Rate: 9.99%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:thunderstrike-450"
+      },
+      {
+        "id": "fact:41",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.99,
+        "value_text": "9.99%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Thunderstrike 450 finance card Interest Rate: 9.99%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:thunderstrike-450-finance"
+      },
+      {
+        "id": "fact:42",
+        "entity_id": "financing_plan:thunderstrike-450-finance",
+        "entity_name": "Thunderstrike 450 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Thunderstrike 450 finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:thunderstrike-450"
+      },
+      {
+        "id": "fact:43",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Thunderstrike 450 finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:thunderstrike-450-finance"
+      },
+      {
+        "id": "fact:44",
+        "entity_id": "financing_plan:thunderstrike-450-finance",
+        "entity_name": "Thunderstrike 450 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "monthly_emi",
+        "value": 6593,
+        "value_text": "₹6,593",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Thunderstrike 450 finance card Monthly EMI: ₹6,593",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:thunderstrike-450"
+      },
+      {
+        "id": "fact:45",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "monthly_emi",
+        "value": 6593,
+        "value_text": "₹6,593",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Thunderstrike 450 finance card Monthly EMI: ₹6,593",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:thunderstrike-450-finance"
+      },
+      {
+        "id": "fact:46",
+        "entity_id": "product:thunderstrike-650-rally",
+        "entity_name": "Thunderstrike 650 Rally",
+        "entity_type": "product",
+        "fact_type": "ex_showroom_price",
+        "value": 529000,
+        "value_text": "₹5,29,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {},
+        "evidence": "Thunderstrike 650 Rally Ex-showroom: ₹5,29,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.css:.finance-bike-card .price",
+        "status": "verified",
+        "related_entity_id": "financing_plan:thunderstrike-650-rally-finance"
+      },
+      {
+        "id": "fact:47",
+        "entity_id": "financing_plan:thunderstrike-650-rally-finance",
+        "entity_name": "Thunderstrike 650 Rally finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "down_payment",
+        "value": 53000,
+        "value_text": "₹53,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Thunderstrike 650 Rally finance card Down Payment: ₹53,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:thunderstrike-650-rally"
+      },
+      {
+        "id": "fact:48",
+        "entity_id": "product:thunderstrike-650-rally",
+        "entity_name": "Thunderstrike 650 Rally",
+        "entity_type": "product",
+        "fact_type": "down_payment",
+        "value": 53000,
+        "value_text": "₹53,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Thunderstrike 650 Rally finance card Down Payment: ₹53,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:thunderstrike-650-rally-finance"
+      },
+      {
+        "id": "fact:49",
+        "entity_id": "financing_plan:thunderstrike-650-rally-finance",
+        "entity_name": "Thunderstrike 650 Rally finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.99,
+        "value_text": "9.99%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Thunderstrike 650 Rally finance card Interest Rate: 9.99%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:thunderstrike-650-rally"
+      },
+      {
+        "id": "fact:50",
+        "entity_id": "product:thunderstrike-650-rally",
+        "entity_name": "Thunderstrike 650 Rally",
+        "entity_type": "product",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.99,
+        "value_text": "9.99%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Thunderstrike 650 Rally finance card Interest Rate: 9.99%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:thunderstrike-650-rally-finance"
+      },
+      {
+        "id": "fact:51",
+        "entity_id": "financing_plan:thunderstrike-650-rally-finance",
+        "entity_name": "Thunderstrike 650 Rally finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Thunderstrike 650 Rally finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:thunderstrike-650-rally"
+      },
+      {
+        "id": "fact:52",
+        "entity_id": "product:thunderstrike-650-rally",
+        "entity_name": "Thunderstrike 650 Rally",
+        "entity_type": "product",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Thunderstrike 650 Rally finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:thunderstrike-650-rally-finance"
+      },
+      {
+        "id": "fact:53",
+        "entity_id": "financing_plan:thunderstrike-650-rally-finance",
+        "entity_name": "Thunderstrike 650 Rally finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "monthly_emi",
+        "value": 12070,
+        "value_text": "₹12,070",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Thunderstrike 650 Rally finance card Monthly EMI: ₹12,070",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:thunderstrike-650-rally"
+      },
+      {
+        "id": "fact:54",
+        "entity_id": "product:thunderstrike-650-rally",
+        "entity_name": "Thunderstrike 650 Rally",
+        "entity_type": "product",
+        "fact_type": "monthly_emi",
+        "value": 12070,
+        "value_text": "₹12,070",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Thunderstrike 650 Rally finance card Monthly EMI: ₹12,070",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:thunderstrike-650-rally-finance"
+      },
+      {
+        "id": "fact:55",
+        "entity_id": "product:phantom-500",
+        "entity_name": "Phantom 500",
+        "entity_type": "product",
+        "fact_type": "ex_showroom_price",
+        "value": 259000,
+        "value_text": "₹2,59,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {},
+        "evidence": "Phantom 500 Ex-showroom: ₹2,59,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.css:.finance-bike-card .price",
+        "status": "verified",
+        "related_entity_id": "financing_plan:phantom-500-finance"
+      },
+      {
+        "id": "fact:56",
+        "entity_id": "financing_plan:phantom-500-finance",
+        "entity_name": "Phantom 500 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "down_payment",
+        "value": 26000,
+        "value_text": "₹26,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Phantom 500 finance card Down Payment: ₹26,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:phantom-500"
+      },
+      {
+        "id": "fact:57",
+        "entity_id": "product:phantom-500",
+        "entity_name": "Phantom 500",
+        "entity_type": "product",
+        "fact_type": "down_payment",
+        "value": 26000,
+        "value_text": "₹26,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Phantom 500 finance card Down Payment: ₹26,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:phantom-500-finance"
+      },
+      {
+        "id": "fact:58",
+        "entity_id": "financing_plan:phantom-500-finance",
+        "entity_name": "Phantom 500 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.99,
+        "value_text": "9.99%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Phantom 500 finance card Interest Rate: 9.99%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:phantom-500"
+      },
+      {
+        "id": "fact:59",
+        "entity_id": "product:phantom-500",
+        "entity_name": "Phantom 500",
+        "entity_type": "product",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.99,
+        "value_text": "9.99%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Phantom 500 finance card Interest Rate: 9.99%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:phantom-500-finance"
+      },
+      {
+        "id": "fact:60",
+        "entity_id": "financing_plan:phantom-500-finance",
+        "entity_name": "Phantom 500 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Phantom 500 finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:phantom-500"
+      },
+      {
+        "id": "fact:61",
+        "entity_id": "product:phantom-500",
+        "entity_name": "Phantom 500",
+        "entity_type": "product",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Phantom 500 finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:phantom-500-finance"
+      },
+      {
+        "id": "fact:62",
+        "entity_id": "financing_plan:phantom-500-finance",
+        "entity_name": "Phantom 500 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "monthly_emi",
+        "value": 5908,
+        "value_text": "₹5,908",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Phantom 500 finance card Monthly EMI: ₹5,908",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:phantom-500"
+      },
+      {
+        "id": "fact:63",
+        "entity_id": "product:phantom-500",
+        "entity_name": "Phantom 500",
+        "entity_type": "product",
+        "fact_type": "monthly_emi",
+        "value": 5908,
+        "value_text": "₹5,908",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Phantom 500 finance card Monthly EMI: ₹5,908",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:phantom-500-finance"
+      },
+      {
+        "id": "fact:64",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "ex_showroom_price",
+        "value": 235000,
+        "value_text": "₹2,35,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {},
+        "evidence": "Phantom 350 Bobber Ex-showroom: ₹2,35,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.css:.finance-bike-card .price",
+        "status": "verified",
+        "related_entity_id": "financing_plan:phantom-350-bobber-finance"
+      },
+      {
+        "id": "fact:65",
+        "entity_id": "financing_plan:phantom-350-bobber-finance",
+        "entity_name": "Phantom 350 Bobber finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "down_payment",
+        "value": 24000,
+        "value_text": "₹24,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Phantom 350 Bobber finance card Down Payment: ₹24,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:phantom-350-bobber"
+      },
+      {
+        "id": "fact:66",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "down_payment",
+        "value": 24000,
+        "value_text": "₹24,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Phantom 350 Bobber finance card Down Payment: ₹24,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:phantom-350-bobber-finance"
+      },
+      {
+        "id": "fact:67",
+        "entity_id": "financing_plan:phantom-350-bobber-finance",
+        "entity_name": "Phantom 350 Bobber finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.99,
+        "value_text": "9.99%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Phantom 350 Bobber finance card Interest Rate: 9.99%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:phantom-350-bobber"
+      },
+      {
+        "id": "fact:68",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.99,
+        "value_text": "9.99%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Phantom 350 Bobber finance card Interest Rate: 9.99%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:phantom-350-bobber-finance"
+      },
+      {
+        "id": "fact:69",
+        "entity_id": "financing_plan:phantom-350-bobber-finance",
+        "entity_name": "Phantom 350 Bobber finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Phantom 350 Bobber finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:phantom-350-bobber"
+      },
+      {
+        "id": "fact:70",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Phantom 350 Bobber finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:phantom-350-bobber-finance"
+      },
+      {
+        "id": "fact:71",
+        "entity_id": "financing_plan:phantom-350-bobber-finance",
+        "entity_name": "Phantom 350 Bobber finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "monthly_emi",
+        "value": 5350,
+        "value_text": "₹5,350",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Phantom 350 Bobber finance card Monthly EMI: ₹5,350",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:phantom-350-bobber"
+      },
+      {
+        "id": "fact:72",
+        "entity_id": "product:phantom-350-bobber",
+        "entity_name": "Phantom 350 Bobber",
+        "entity_type": "product",
+        "fact_type": "monthly_emi",
+        "value": 5350,
+        "value_text": "₹5,350",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Phantom 350 Bobber finance card Monthly EMI: ₹5,350",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:phantom-350-bobber-finance"
+      },
+      {
+        "id": "fact:73",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "ex_showroom_price",
+        "value": 99000,
+        "value_text": "₹99,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {},
+        "evidence": "Storm 125 Ex-showroom: ₹99,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.css:.finance-bike-card .price",
+        "status": "verified",
+        "related_entity_id": "financing_plan:storm-125-finance"
+      },
+      {
+        "id": "fact:74",
+        "entity_id": "financing_plan:storm-125-finance",
+        "entity_name": "Storm 125 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "down_payment",
+        "value": 10000,
+        "value_text": "₹10,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Storm 125 finance card Down Payment: ₹10,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:storm-125"
+      },
+      {
+        "id": "fact:75",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "down_payment",
+        "value": 10000,
+        "value_text": "₹10,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Storm 125 finance card Down Payment: ₹10,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:storm-125-finance"
+      },
+      {
+        "id": "fact:76",
+        "entity_id": "financing_plan:storm-125-finance",
+        "entity_name": "Storm 125 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.49,
+        "value_text": "9.49%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Storm 125 finance card Interest Rate: 9.49%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:storm-125"
+      },
+      {
+        "id": "fact:77",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.49,
+        "value_text": "9.49%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Storm 125 finance card Interest Rate: 9.49%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:storm-125-finance"
+      },
+      {
+        "id": "fact:78",
+        "entity_id": "financing_plan:storm-125-finance",
+        "entity_name": "Storm 125 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Storm 125 finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:storm-125"
+      },
+      {
+        "id": "fact:79",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Storm 125 finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:storm-125-finance"
+      },
+      {
+        "id": "fact:80",
+        "entity_id": "financing_plan:storm-125-finance",
+        "entity_name": "Storm 125 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "monthly_emi",
+        "value": 2236,
+        "value_text": "₹2,236",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Storm 125 finance card Monthly EMI: ₹2,236",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:storm-125"
+      },
+      {
+        "id": "fact:81",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "monthly_emi",
+        "value": 2236,
+        "value_text": "₹2,236",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Storm 125 finance card Monthly EMI: ₹2,236",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:storm-125-finance"
+      },
+      {
+        "id": "fact:82",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "ex_showroom_price",
+        "value": 122000,
+        "value_text": "₹1,22,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {},
+        "evidence": "Storm 160 Ex-showroom: ₹1,22,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.css:.finance-bike-card .price",
+        "status": "verified",
+        "related_entity_id": "financing_plan:storm-160-finance"
+      },
+      {
+        "id": "fact:83",
+        "entity_id": "financing_plan:storm-160-finance",
+        "entity_name": "Storm 160 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "down_payment",
+        "value": 12000,
+        "value_text": "₹12,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Storm 160 finance card Down Payment: ₹12,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:storm-160"
+      },
+      {
+        "id": "fact:84",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "down_payment",
+        "value": 12000,
+        "value_text": "₹12,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Storm 160 finance card Down Payment: ₹12,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:storm-160-finance"
+      },
+      {
+        "id": "fact:85",
+        "entity_id": "financing_plan:storm-160-finance",
+        "entity_name": "Storm 160 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.49,
+        "value_text": "9.49%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Storm 160 finance card Interest Rate: 9.49%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:storm-160"
+      },
+      {
+        "id": "fact:86",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.49,
+        "value_text": "9.49%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Storm 160 finance card Interest Rate: 9.49%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:storm-160-finance"
+      },
+      {
+        "id": "fact:87",
+        "entity_id": "financing_plan:storm-160-finance",
+        "entity_name": "Storm 160 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Storm 160 finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:storm-160"
+      },
+      {
+        "id": "fact:88",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Storm 160 finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:storm-160-finance"
+      },
+      {
+        "id": "fact:89",
+        "entity_id": "financing_plan:storm-160-finance",
+        "entity_name": "Storm 160 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "monthly_emi",
+        "value": 2763,
+        "value_text": "₹2,763",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Storm 160 finance card Monthly EMI: ₹2,763",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:storm-160"
+      },
+      {
+        "id": "fact:90",
+        "entity_id": "product:storm-160",
+        "entity_name": "Storm 160",
+        "entity_type": "product",
+        "fact_type": "monthly_emi",
+        "value": 2763,
+        "value_text": "₹2,763",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Storm 160 finance card Monthly EMI: ₹2,763",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:storm-160-finance"
+      },
+      {
+        "id": "fact:91",
+        "entity_id": "product:storm-390",
+        "entity_name": "Storm 390",
+        "entity_type": "product",
+        "fact_type": "ex_showroom_price",
+        "value": 279000,
+        "value_text": "₹2,79,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {},
+        "evidence": "Storm 390 Ex-showroom: ₹2,79,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.css:.finance-bike-card .price",
+        "status": "verified",
+        "related_entity_id": "financing_plan:storm-390-finance"
+      },
+      {
+        "id": "fact:92",
+        "entity_id": "financing_plan:storm-390-finance",
+        "entity_name": "Storm 390 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "down_payment",
+        "value": 28000,
+        "value_text": "₹28,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Storm 390 finance card Down Payment: ₹28,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:storm-390"
+      },
+      {
+        "id": "fact:93",
+        "entity_id": "product:storm-390",
+        "entity_name": "Storm 390",
+        "entity_type": "product",
+        "fact_type": "down_payment",
+        "value": 28000,
+        "value_text": "₹28,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Storm 390 finance card Down Payment: ₹28,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:storm-390-finance"
+      },
+      {
+        "id": "fact:94",
+        "entity_id": "financing_plan:storm-390-finance",
+        "entity_name": "Storm 390 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.99,
+        "value_text": "9.99%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Storm 390 finance card Interest Rate: 9.99%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:storm-390"
+      },
+      {
+        "id": "fact:95",
+        "entity_id": "product:storm-390",
+        "entity_name": "Storm 390",
+        "entity_type": "product",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.99,
+        "value_text": "9.99%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Storm 390 finance card Interest Rate: 9.99%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:storm-390-finance"
+      },
+      {
+        "id": "fact:96",
+        "entity_id": "financing_plan:storm-390-finance",
+        "entity_name": "Storm 390 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Storm 390 finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:storm-390"
+      },
+      {
+        "id": "fact:97",
+        "entity_id": "product:storm-390",
+        "entity_name": "Storm 390",
+        "entity_type": "product",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Storm 390 finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:storm-390-finance"
+      },
+      {
+        "id": "fact:98",
+        "entity_id": "financing_plan:storm-390-finance",
+        "entity_name": "Storm 390 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "monthly_emi",
+        "value": 6365,
+        "value_text": "₹6,365",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Storm 390 finance card Monthly EMI: ₹6,365",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:storm-390"
+      },
+      {
+        "id": "fact:99",
+        "entity_id": "product:storm-390",
+        "entity_name": "Storm 390",
+        "entity_type": "product",
+        "fact_type": "monthly_emi",
+        "value": 6365,
+        "value_text": "₹6,365",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Storm 390 finance card Monthly EMI: ₹6,365",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:storm-390-finance"
+      },
+      {
+        "id": "fact:100",
+        "entity_id": "product:zenith-350-scrambler",
+        "entity_name": "Zenith 350 Scrambler",
+        "entity_type": "product",
+        "fact_type": "ex_showroom_price",
+        "value": 229000,
+        "value_text": "₹2,29,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {},
+        "evidence": "Zenith 350 Scrambler Ex-showroom: ₹2,29,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.css:.finance-bike-card .price",
+        "status": "verified",
+        "related_entity_id": "financing_plan:zenith-350-scrambler-finance"
+      },
+      {
+        "id": "fact:101",
+        "entity_id": "financing_plan:zenith-350-scrambler-finance",
+        "entity_name": "Zenith 350 Scrambler finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "down_payment",
+        "value": 23000,
+        "value_text": "₹23,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Zenith 350 Scrambler finance card Down Payment: ₹23,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:zenith-350-scrambler"
+      },
+      {
+        "id": "fact:102",
+        "entity_id": "product:zenith-350-scrambler",
+        "entity_name": "Zenith 350 Scrambler",
+        "entity_type": "product",
+        "fact_type": "down_payment",
+        "value": 23000,
+        "value_text": "₹23,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Zenith 350 Scrambler finance card Down Payment: ₹23,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:zenith-350-scrambler-finance"
+      },
+      {
+        "id": "fact:103",
+        "entity_id": "financing_plan:zenith-350-scrambler-finance",
+        "entity_name": "Zenith 350 Scrambler finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.99,
+        "value_text": "9.99%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Zenith 350 Scrambler finance card Interest Rate: 9.99%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:zenith-350-scrambler"
+      },
+      {
+        "id": "fact:104",
+        "entity_id": "product:zenith-350-scrambler",
+        "entity_name": "Zenith 350 Scrambler",
+        "entity_type": "product",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.99,
+        "value_text": "9.99%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Zenith 350 Scrambler finance card Interest Rate: 9.99%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:zenith-350-scrambler-finance"
+      },
+      {
+        "id": "fact:105",
+        "entity_id": "financing_plan:zenith-350-scrambler-finance",
+        "entity_name": "Zenith 350 Scrambler finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Zenith 350 Scrambler finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:zenith-350-scrambler"
+      },
+      {
+        "id": "fact:106",
+        "entity_id": "product:zenith-350-scrambler",
+        "entity_name": "Zenith 350 Scrambler",
+        "entity_type": "product",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Zenith 350 Scrambler finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:zenith-350-scrambler-finance"
+      },
+      {
+        "id": "fact:107",
+        "entity_id": "financing_plan:zenith-350-scrambler-finance",
+        "entity_name": "Zenith 350 Scrambler finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "monthly_emi",
+        "value": 5224,
+        "value_text": "₹5,224",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Zenith 350 Scrambler finance card Monthly EMI: ₹5,224",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:zenith-350-scrambler"
+      },
+      {
+        "id": "fact:108",
+        "entity_id": "product:zenith-350-scrambler",
+        "entity_name": "Zenith 350 Scrambler",
+        "entity_type": "product",
+        "fact_type": "monthly_emi",
+        "value": 5224,
+        "value_text": "₹5,224",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Zenith 350 Scrambler finance card Monthly EMI: ₹5,224",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:zenith-350-scrambler-finance"
+      },
+      {
+        "id": "fact:109",
+        "entity_id": "product:zenith-650-scrambler",
+        "entity_name": "Zenith 650 Scrambler",
+        "entity_type": "product",
+        "fact_type": "ex_showroom_price",
+        "value": 449000,
+        "value_text": "₹4,49,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {},
+        "evidence": "Zenith 650 Scrambler Ex-showroom: ₹4,49,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.css:.finance-bike-card .price",
+        "status": "verified",
+        "related_entity_id": "financing_plan:zenith-650-scrambler-finance"
+      },
+      {
+        "id": "fact:110",
+        "entity_id": "financing_plan:zenith-650-scrambler-finance",
+        "entity_name": "Zenith 650 Scrambler finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "down_payment",
+        "value": 45000,
+        "value_text": "₹45,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Zenith 650 Scrambler finance card Down Payment: ₹45,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:zenith-650-scrambler"
+      },
+      {
+        "id": "fact:111",
+        "entity_id": "product:zenith-650-scrambler",
+        "entity_name": "Zenith 650 Scrambler",
+        "entity_type": "product",
+        "fact_type": "down_payment",
+        "value": 45000,
+        "value_text": "₹45,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Zenith 650 Scrambler finance card Down Payment: ₹45,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:zenith-650-scrambler-finance"
+      },
+      {
+        "id": "fact:112",
+        "entity_id": "financing_plan:zenith-650-scrambler-finance",
+        "entity_name": "Zenith 650 Scrambler finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.99,
+        "value_text": "9.99%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Zenith 650 Scrambler finance card Interest Rate: 9.99%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:zenith-650-scrambler"
+      },
+      {
+        "id": "fact:113",
+        "entity_id": "product:zenith-650-scrambler",
+        "entity_name": "Zenith 650 Scrambler",
+        "entity_type": "product",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.99,
+        "value_text": "9.99%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Zenith 650 Scrambler finance card Interest Rate: 9.99%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:zenith-650-scrambler-finance"
+      },
+      {
+        "id": "fact:114",
+        "entity_id": "financing_plan:zenith-650-scrambler-finance",
+        "entity_name": "Zenith 650 Scrambler finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Zenith 650 Scrambler finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:zenith-650-scrambler"
+      },
+      {
+        "id": "fact:115",
+        "entity_id": "product:zenith-650-scrambler",
+        "entity_name": "Zenith 650 Scrambler",
+        "entity_type": "product",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Zenith 650 Scrambler finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:zenith-650-scrambler-finance"
+      },
+      {
+        "id": "fact:116",
+        "entity_id": "financing_plan:zenith-650-scrambler-finance",
+        "entity_name": "Zenith 650 Scrambler finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "monthly_emi",
+        "value": 10245,
+        "value_text": "₹10,245",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Zenith 650 Scrambler finance card Monthly EMI: ₹10,245",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:zenith-650-scrambler"
+      },
+      {
+        "id": "fact:117",
+        "entity_id": "product:zenith-650-scrambler",
+        "entity_name": "Zenith 650 Scrambler",
+        "entity_type": "product",
+        "fact_type": "monthly_emi",
+        "value": 10245,
+        "value_text": "₹10,245",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Zenith 650 Scrambler finance card Monthly EMI: ₹10,245",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:zenith-650-scrambler-finance"
+      },
+      {
+        "id": "fact:118",
+        "entity_id": "product:voyager-650",
+        "entity_name": "Voyager 650",
+        "entity_type": "product",
+        "fact_type": "ex_showroom_price",
+        "value": 459000,
+        "value_text": "₹4,59,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {},
+        "evidence": "Voyager 650 Ex-showroom: ₹4,59,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.css:.finance-bike-card .price",
+        "status": "verified",
+        "related_entity_id": "financing_plan:voyager-650-finance"
+      },
+      {
+        "id": "fact:119",
+        "entity_id": "financing_plan:voyager-650-finance",
+        "entity_name": "Voyager 650 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "down_payment",
+        "value": 46000,
+        "value_text": "₹46,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Voyager 650 finance card Down Payment: ₹46,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:voyager-650"
+      },
+      {
+        "id": "fact:120",
+        "entity_id": "product:voyager-650",
+        "entity_name": "Voyager 650",
+        "entity_type": "product",
+        "fact_type": "down_payment",
+        "value": 46000,
+        "value_text": "₹46,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Voyager 650 finance card Down Payment: ₹46,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:voyager-650-finance"
+      },
+      {
+        "id": "fact:121",
+        "entity_id": "financing_plan:voyager-650-finance",
+        "entity_name": "Voyager 650 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.99,
+        "value_text": "9.99%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Voyager 650 finance card Interest Rate: 9.99%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:voyager-650"
+      },
+      {
+        "id": "fact:122",
+        "entity_id": "product:voyager-650",
+        "entity_name": "Voyager 650",
+        "entity_type": "product",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.99,
+        "value_text": "9.99%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Voyager 650 finance card Interest Rate: 9.99%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:voyager-650-finance"
+      },
+      {
+        "id": "fact:123",
+        "entity_id": "financing_plan:voyager-650-finance",
+        "entity_name": "Voyager 650 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Voyager 650 finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:voyager-650"
+      },
+      {
+        "id": "fact:124",
+        "entity_id": "product:voyager-650",
+        "entity_name": "Voyager 650",
+        "entity_type": "product",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Voyager 650 finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:voyager-650-finance"
+      },
+      {
+        "id": "fact:125",
+        "entity_id": "financing_plan:voyager-650-finance",
+        "entity_name": "Voyager 650 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "monthly_emi",
+        "value": 10473,
+        "value_text": "₹10,473",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Voyager 650 finance card Monthly EMI: ₹10,473",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:voyager-650"
+      },
+      {
+        "id": "fact:126",
+        "entity_id": "product:voyager-650",
+        "entity_name": "Voyager 650",
+        "entity_type": "product",
+        "fact_type": "monthly_emi",
+        "value": 10473,
+        "value_text": "₹10,473",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Voyager 650 finance card Monthly EMI: ₹10,473",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:voyager-650-finance"
+      },
+      {
+        "id": "fact:127",
+        "entity_id": "product:voyager-450",
+        "entity_name": "Voyager 450",
+        "entity_type": "product",
+        "fact_type": "ex_showroom_price",
+        "value": 299000,
+        "value_text": "₹2,99,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {},
+        "evidence": "Voyager 450 Ex-showroom: ₹2,99,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.css:.finance-bike-card .price",
+        "status": "verified",
+        "related_entity_id": "financing_plan:voyager-450-finance"
+      },
+      {
+        "id": "fact:128",
+        "entity_id": "financing_plan:voyager-450-finance",
+        "entity_name": "Voyager 450 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "down_payment",
+        "value": 30000,
+        "value_text": "₹30,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Voyager 450 finance card Down Payment: ₹30,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:voyager-450"
+      },
+      {
+        "id": "fact:129",
+        "entity_id": "product:voyager-450",
+        "entity_name": "Voyager 450",
+        "entity_type": "product",
+        "fact_type": "down_payment",
+        "value": 30000,
+        "value_text": "₹30,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Voyager 450 finance card Down Payment: ₹30,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:voyager-450-finance"
+      },
+      {
+        "id": "fact:130",
+        "entity_id": "financing_plan:voyager-450-finance",
+        "entity_name": "Voyager 450 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.99,
+        "value_text": "9.99%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Voyager 450 finance card Interest Rate: 9.99%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:voyager-450"
+      },
+      {
+        "id": "fact:131",
+        "entity_id": "product:voyager-450",
+        "entity_name": "Voyager 450",
+        "entity_type": "product",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.99,
+        "value_text": "9.99%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Voyager 450 finance card Interest Rate: 9.99%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:voyager-450-finance"
+      },
+      {
+        "id": "fact:132",
+        "entity_id": "financing_plan:voyager-450-finance",
+        "entity_name": "Voyager 450 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Voyager 450 finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:voyager-450"
+      },
+      {
+        "id": "fact:133",
+        "entity_id": "product:voyager-450",
+        "entity_name": "Voyager 450",
+        "entity_type": "product",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Voyager 450 finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:voyager-450-finance"
+      },
+      {
+        "id": "fact:134",
+        "entity_id": "financing_plan:voyager-450-finance",
+        "entity_name": "Voyager 450 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "monthly_emi",
+        "value": 6821,
+        "value_text": "₹6,821",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Voyager 450 finance card Monthly EMI: ₹6,821",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:voyager-450"
+      },
+      {
+        "id": "fact:135",
+        "entity_id": "product:voyager-450",
+        "entity_name": "Voyager 450",
+        "entity_type": "product",
+        "fact_type": "monthly_emi",
+        "value": 6821,
+        "value_text": "₹6,821",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Voyager 450 finance card Monthly EMI: ₹6,821",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:voyager-450-finance"
+      },
+      {
+        "id": "fact:136",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "ex_showroom_price",
+        "value": 219000,
+        "value_text": "₹2,19,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {},
+        "evidence": "Nightfall 350 Ex-showroom: ₹2,19,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.css:.finance-bike-card .price",
+        "status": "verified",
+        "related_entity_id": "financing_plan:nightfall-350-finance"
+      },
+      {
+        "id": "fact:137",
+        "entity_id": "financing_plan:nightfall-350-finance",
+        "entity_name": "Nightfall 350 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "down_payment",
+        "value": 22000,
+        "value_text": "₹22,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Nightfall 350 finance card Down Payment: ₹22,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:nightfall-350"
+      },
+      {
+        "id": "fact:138",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "down_payment",
+        "value": 22000,
+        "value_text": "₹22,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Nightfall 350 finance card Down Payment: ₹22,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:nightfall-350-finance"
+      },
+      {
+        "id": "fact:139",
+        "entity_id": "financing_plan:nightfall-350-finance",
+        "entity_name": "Nightfall 350 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.99,
+        "value_text": "9.99%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Nightfall 350 finance card Interest Rate: 9.99%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:nightfall-350"
+      },
+      {
+        "id": "fact:140",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.99,
+        "value_text": "9.99%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Nightfall 350 finance card Interest Rate: 9.99%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:nightfall-350-finance"
+      },
+      {
+        "id": "fact:141",
+        "entity_id": "financing_plan:nightfall-350-finance",
+        "entity_name": "Nightfall 350 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Nightfall 350 finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:nightfall-350"
+      },
+      {
+        "id": "fact:142",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Nightfall 350 finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:nightfall-350-finance"
+      },
+      {
+        "id": "fact:143",
+        "entity_id": "financing_plan:nightfall-350-finance",
+        "entity_name": "Nightfall 350 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "monthly_emi",
+        "value": 4995,
+        "value_text": "₹4,995",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Nightfall 350 finance card Monthly EMI: ₹4,995",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:nightfall-350"
+      },
+      {
+        "id": "fact:144",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "monthly_emi",
+        "value": 4995,
+        "value_text": "₹4,995",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Nightfall 350 finance card Monthly EMI: ₹4,995",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:nightfall-350-finance"
+      },
+      {
+        "id": "fact:145",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "ex_showroom_price",
+        "value": 149000,
+        "value_text": "₹1,49,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {},
+        "evidence": "Spark E1 Ex-showroom: ₹1,49,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.css:.finance-bike-card .price",
+        "status": "verified",
+        "related_entity_id": "financing_plan:spark-e1-finance"
+      },
+      {
+        "id": "fact:146",
+        "entity_id": "financing_plan:spark-e1-finance",
+        "entity_name": "Spark E1 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "down_payment",
+        "value": 15000,
+        "value_text": "₹15,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Spark E1 finance card Down Payment: ₹15,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:spark-e1"
+      },
+      {
+        "id": "fact:147",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "down_payment",
+        "value": 15000,
+        "value_text": "₹15,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Spark E1 finance card Down Payment: ₹15,000",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:spark-e1-finance"
+      },
+      {
+        "id": "fact:148",
+        "entity_id": "financing_plan:spark-e1-finance",
+        "entity_name": "Spark E1 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 8.99,
+        "value_text": "8.99%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Spark E1 finance card Interest Rate: 8.99%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:spark-e1"
+      },
+      {
+        "id": "fact:149",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 8.99,
+        "value_text": "8.99%",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Spark E1 finance card Interest Rate: 8.99%",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:spark-e1-finance"
+      },
+      {
+        "id": "fact:150",
+        "entity_id": "financing_plan:spark-e1-finance",
+        "entity_name": "Spark E1 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Spark E1 finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:spark-e1"
+      },
+      {
+        "id": "fact:151",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 mo",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Spark E1 finance card Tenure: 48 mo",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:spark-e1-finance"
+      },
+      {
+        "id": "fact:152",
+        "entity_id": "financing_plan:spark-e1-finance",
+        "entity_name": "Spark E1 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "monthly_emi",
+        "value": 3334,
+        "value_text": "₹3,334",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Spark E1 finance card Monthly EMI: ₹3,334",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:spark-e1"
+      },
+      {
+        "id": "fact:153",
+        "entity_id": "product:spark-e1",
+        "entity_name": "Spark E1",
+        "entity_type": "product",
+        "fact_type": "monthly_emi",
+        "value": 3334,
+        "value_text": "₹3,334",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant",
+          "page": "finance"
+        },
+        "evidence": "Spark E1 finance card Monthly EMI: ₹3,334",
+        "source_url": "https://omegax-hackathon.onrender.com/finance/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:spark-e1-finance"
+      }
+    ],
+    "page_type": "finance",
+    "limitations": [
+      "Facts come from semantic HTML containers on the saved rendered snapshot, not from pairing disconnected arrays.",
+      "Amounts without a typed label or a unique enclosing entity are marked ambiguous or omitted.",
+      "Derived discounts are never calculated.",
+      "JSON-LD is used only when HTML did not already provide the same product price."
+    ]
+  }
+}

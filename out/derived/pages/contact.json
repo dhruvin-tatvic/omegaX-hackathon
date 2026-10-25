@@ -1,0 +1,97 @@
+{
+  "schema_version": "1.0",
+  "url": "https://omegax-hackathon.onrender.com/contact",
+  "final_url": "https://omegax-hackathon.onrender.com/contact/",
+  "page_type": "contact",
+  "page_type_reason": "path is /contact",
+  "canonical_path": "/contact",
+  "canonical_url": "https://omegax-hackathon.onrender.com/contact",
+  "query": {},
+  "original_json_path": "out/human-view-20261025-061520.json",
+  "screenshot_path": "out/screenshots/contact-20261025-061520.png",
+  "rendered_html_path": "out/rendered_html/contact-20261025-061520.html",
+  "structured_facts": {
+    "schema_version": "1.0",
+    "entities": [
+      {
+        "id": "organization:apex-moto",
+        "type": "organization",
+        "name": "Apex Moto",
+        "slug": "apex-moto"
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact:1",
+        "entity_id": "organization:apex-moto",
+        "entity_name": "Apex Moto",
+        "entity_type": "organization",
+        "fact_type": "phone",
+        "value": "1800-XXX-APEX (Toll Free)",
+        "value_text": "1800-XXX-APEX (Toll Free)",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Customer Support: 1800-XXX-APEX (Toll Free)",
+        "source_url": "https://omegax-hackathon.onrender.com/contact/",
+        "extraction_method": "html.css:.contact-info-card",
+        "status": "verified"
+      },
+      {
+        "id": "fact:2",
+        "entity_id": "organization:apex-moto",
+        "entity_name": "Apex Moto",
+        "entity_type": "organization",
+        "fact_type": "email",
+        "value": "support@apexmoto.in",
+        "value_text": "support@apexmoto.in",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Email Us: support@apexmoto.in",
+        "source_url": "https://omegax-hackathon.onrender.com/contact/",
+        "extraction_method": "html.css:.contact-info-card",
+        "status": "verified"
+      },
+      {
+        "id": "fact:3",
+        "entity_id": "organization:apex-moto",
+        "entity_name": "Apex Moto",
+        "entity_type": "organization",
+        "fact_type": "address",
+        "value": "Apex Moto Ltd., 1 Innovation Drive, Pune, Maharashtra 411001",
+        "value_text": "Apex Moto Ltd., 1 Innovation Drive, Pune, Maharashtra 411001",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Head Office: Apex Moto Ltd., 1 Innovation Drive, Pune, Maharashtra 411001",
+        "source_url": "https://omegax-hackathon.onrender.com/contact/",
+        "extraction_method": "html.css:.contact-info-card",
+        "status": "verified"
+      },
+      {
+        "id": "fact:4",
+        "entity_id": "organization:apex-moto",
+        "entity_name": "Apex Moto",
+        "entity_type": "organization",
+        "fact_type": "offer_term",
+        "value": "Available on our app",
+        "value_text": "Available on our app",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Live Chat: Available on our app",
+        "source_url": "https://omegax-hackathon.onrender.com/contact/",
+        "extraction_method": "html.css:.contact-info-card",
+        "status": "verified"
+      }
+    ],
+    "page_type": "contact",
+    "limitations": [
+      "Facts come from semantic HTML containers on the saved rendered snapshot, not from pairing disconnected arrays.",
+      "Amounts without a typed label or a unique enclosing entity are marked ambiguous or omitted.",
+      "Derived discounts are never calculated.",
+      "JSON-LD is used only when HTML did not already provide the same product price."
+    ]
+  }
+}

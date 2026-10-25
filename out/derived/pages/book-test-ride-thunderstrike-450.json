@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "url": "https://omegax-hackathon.onrender.com/book-test-ride?bike=thunderstrike-450",
+  "final_url": "https://omegax-hackathon.onrender.com/book-test-ride/?bike=thunderstrike-450",
+  "page_type": "booking",
+  "page_type_reason": "path is /book-test-ride (query ignored)",
+  "canonical_path": "/book-test-ride",
+  "canonical_url": "https://omegax-hackathon.onrender.com/book-test-ride",
+  "query": {
+    "bike": "thunderstrike-450"
+  },
+  "original_json_path": "out/human-view-20261025-061743.json",
+  "screenshot_path": "out/screenshots/book-test-ride-20261025-061743.png",
+  "rendered_html_path": "out/rendered_html/book-test-ride-20261025-061743.html",
+  "structured_facts": {
+    "schema_version": "1.0",
+    "entities": [
+      {
+        "id": "product:thunderstrike-450",
+        "type": "product",
+        "name": "Thunderstrike 450",
+        "slug": "thunderstrike-450"
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact:1",
+        "entity_id": "product:thunderstrike-450",
+        "entity_name": "Thunderstrike 450",
+        "entity_type": "product",
+        "fact_type": "name",
+        "value": "Thunderstrike 450",
+        "value_text": "Thunderstrike 450",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "context": "booking_query"
+        },
+        "evidence": "booking query bike=thunderstrike-450",
+        "source_url": "https://omegax-hackathon.onrender.com/book-test-ride/?bike=thunderstrike-450",
+        "extraction_method": "url.query.bike",
+        "status": "verified"
+      }
+    ],
+    "page_type": "booking",
+    "limitations": [
+      "Facts come from semantic HTML containers on the saved rendered snapshot, not from pairing disconnected arrays.",
+      "Amounts without a typed label or a unique enclosing entity are marked ambiguous or omitted.",
+      "Derived discounts are never calculated.",
+      "JSON-LD is used only when HTML did not already provide the same product price."
+    ]
+  }
+}

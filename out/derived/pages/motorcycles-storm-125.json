@@ -1,0 +1,1243 @@
+{
+  "schema_version": "1.0",
+  "url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125",
+  "final_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+  "page_type": "product_detail",
+  "page_type_reason": "path matches /motorcycles/{slug}",
+  "canonical_path": "/motorcycles/storm-125",
+  "canonical_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125",
+  "query": {},
+  "original_json_path": "out/human-view-20261025-061908.json",
+  "screenshot_path": "out/screenshots/motorcycles-storm-125-20261025-061908.png",
+  "rendered_html_path": "out/rendered_html/motorcycles-storm-125-20261025-061908.html",
+  "structured_facts": {
+    "schema_version": "1.0",
+    "entities": [
+      {
+        "id": "product:storm-125",
+        "type": "product",
+        "name": "Storm 125",
+        "slug": "storm-125"
+      },
+      {
+        "id": "financing_plan:storm-125-detail-emi",
+        "type": "financing_plan",
+        "name": "Storm 125 estimated EMI",
+        "slug": "storm-125-detail-emi"
+      },
+      {
+        "id": "product:storm-125-variant-drum",
+        "type": "product",
+        "name": "Storm 125 Drum",
+        "slug": "storm-125-variant-drum",
+        "variant_of": "product:storm-125",
+        "variant_name": "Drum"
+      },
+      {
+        "id": "product:storm-125-variant-disc",
+        "type": "product",
+        "name": "Storm 125 Disc",
+        "slug": "storm-125-variant-disc",
+        "variant_of": "product:storm-125",
+        "variant_name": "Disc"
+      },
+      {
+        "id": "product:phantom-350",
+        "type": "product",
+        "name": "Phantom 350",
+        "slug": "phantom-350"
+      },
+      {
+        "id": "product:storm-200",
+        "type": "product",
+        "name": "Storm 200",
+        "slug": "storm-200"
+      },
+      {
+        "id": "dealer:apex-moto-delhi-central",
+        "type": "dealer",
+        "name": "Apex Moto Delhi Central",
+        "slug": "apex-moto-delhi-central"
+      },
+      {
+        "id": "dealer:apex-moto-mumbai-west",
+        "type": "dealer",
+        "name": "Apex Moto Mumbai West",
+        "slug": "apex-moto-mumbai-west"
+      },
+      {
+        "id": "dealer:apex-moto-bangalore-tech-city",
+        "type": "dealer",
+        "name": "Apex Moto Bangalore Tech City",
+        "slug": "apex-moto-bangalore-tech-city"
+      },
+      {
+        "id": "dealer:apex-moto-pune-camp",
+        "type": "dealer",
+        "name": "Apex Moto Pune Camp",
+        "slug": "apex-moto-pune-camp"
+      },
+      {
+        "id": "dealer:apex-moto-chennai-anna-nagar",
+        "type": "dealer",
+        "name": "Apex Moto Chennai Anna Nagar",
+        "slug": "apex-moto-chennai-anna-nagar"
+      },
+      {
+        "id": "dealer:apex-moto-hyderabad-jubilee-hills",
+        "type": "dealer",
+        "name": "Apex Moto Hyderabad Jubilee Hills",
+        "slug": "apex-moto-hyderabad-jubilee-hills"
+      },
+      {
+        "id": "dealer:apex-moto-jaipur-pink-city",
+        "type": "dealer",
+        "name": "Apex Moto Jaipur Pink City",
+        "slug": "apex-moto-jaipur-pink-city"
+      },
+      {
+        "id": "dealer:apex-moto-kolkata-park-street",
+        "type": "dealer",
+        "name": "Apex Moto Kolkata Park Street",
+        "slug": "apex-moto-kolkata-park-street"
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact:1",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "starting_price",
+        "value": 99000,
+        "value_text": "₹99,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "label": "onwards (ex-showroom)"
+        },
+        "evidence": "Storm 125 ₹99,000 onwards (ex-showroom)",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.css:.moto-detail__price",
+        "status": "verified"
+      },
+      {
+        "id": "fact:2",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "ex_showroom_price",
+        "value": 99000,
+        "value_text": "₹99,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "label": "onwards (ex-showroom)"
+        },
+        "evidence": "Storm 125 ₹99,000 onwards (ex-showroom)",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.css:.moto-detail__price",
+        "status": "verified"
+      },
+      {
+        "id": "fact:3",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "tagline",
+        "value": "Your First Storm.",
+        "value_text": "Your First Storm.",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Your First Storm.",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.css:.moto-detail__hero-tagline",
+        "status": "verified"
+      },
+      {
+        "id": "fact:4",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "engine",
+        "value": "124.7cc",
+        "value_text": "124.7cc",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Engine / Powertrain: 124.7cc",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.css:.moto-detail__quick-spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:5",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "power",
+        "value": "11.5 bhp",
+        "value_text": "11.5 bhp",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Max Power: 11.5 bhp",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.css:.moto-detail__quick-spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:6",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "torque",
+        "value": "10.5 Nm",
+        "value_text": "10.5 Nm",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Torque: 10.5 Nm",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.css:.moto-detail__quick-spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:7",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "mileage",
+        "value": "55 km/l",
+        "value_text": "55 km/l",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Mileage: 55 km/l",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.css:.moto-detail__quick-spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:8",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 111400,
+        "value_text": "₹1,11,400",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Delhi",
+          "variant": "base"
+        },
+        "evidence": "On-road Delhi: ₹1,11,400",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:9",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 113700,
+        "value_text": "₹1,13,700",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Mumbai",
+          "variant": "base"
+        },
+        "evidence": "On-road Mumbai: ₹1,13,700",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:10",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 115300,
+        "value_text": "₹1,15,300",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Bangalore",
+          "variant": "base"
+        },
+        "evidence": "On-road Bangalore: ₹1,15,300",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:11",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 112400,
+        "value_text": "₹1,12,400",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Pune",
+          "variant": "base"
+        },
+        "evidence": "On-road Pune: ₹1,12,400",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:12",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 112900,
+        "value_text": "₹1,12,900",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Chennai",
+          "variant": "base"
+        },
+        "evidence": "On-road Chennai: ₹1,12,900",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:13",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 113800,
+        "value_text": "₹1,13,800",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Hyderabad",
+          "variant": "base"
+        },
+        "evidence": "On-road Hyderabad: ₹1,13,800",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:14",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 111900,
+        "value_text": "₹1,11,900",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Jaipur",
+          "variant": "base"
+        },
+        "evidence": "On-road Jaipur: ₹1,11,900",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:15",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 110900,
+        "value_text": "₹1,10,900",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Kolkata",
+          "variant": "base"
+        },
+        "evidence": "On-road Kolkata: ₹1,10,900",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:16",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "124.7cc, Single Cylinder, Air-Cooled, SOHC",
+        "value_text": "124.7cc, Single Cylinder, Air-Cooled, SOHC",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "engine"
+        },
+        "evidence": "engine: 124.7cc, Single Cylinder, Air-Cooled, SOHC",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:17",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "125",
+        "value_text": "125",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "displacement cc"
+        },
+        "evidence": "displacement cc: 125",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:18",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "11.5",
+        "value_text": "11.5",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "max power bhp"
+        },
+        "evidence": "max power bhp: 11.5",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:19",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "8250",
+        "value_text": "8250",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "max power rpm"
+        },
+        "evidence": "max power rpm: 8250",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:20",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "10.5",
+        "value_text": "10.5",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "max torque nm"
+        },
+        "evidence": "max torque nm: 10.5",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:21",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "6500",
+        "value_text": "6500",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "max torque rpm"
+        },
+        "evidence": "max torque rpm: 6500",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:22",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "5-Speed",
+        "value_text": "5-Speed",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "transmission"
+        },
+        "evidence": "transmission: 5-Speed",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:23",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "Electronic Fuel Injection",
+        "value_text": "Electronic Fuel Injection",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "fuel system"
+        },
+        "evidence": "fuel system: Electronic Fuel Injection",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:24",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "37mm Telescopic Forks, 120mm Travel",
+        "value_text": "37mm Telescopic Forks, 120mm Travel",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "front suspension"
+        },
+        "evidence": "front suspension: 37mm Telescopic Forks, 120mm Travel",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:25",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "Monoshock, 110mm Travel",
+        "value_text": "Monoshock, 110mm Travel",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "rear suspension"
+        },
+        "evidence": "rear suspension: Monoshock, 110mm Travel",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:26",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "240mm Disc",
+        "value_text": "240mm Disc",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "front brake"
+        },
+        "evidence": "front brake: 240mm Disc",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:27",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "130mm Drum, CBS",
+        "value_text": "130mm Drum, CBS",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "rear brake"
+        },
+        "evidence": "rear brake: 130mm Drum, CBS",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:28",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "80/100-17 Tubeless",
+        "value_text": "80/100-17 Tubeless",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "front tyre"
+        },
+        "evidence": "front tyre: 80/100-17 Tubeless",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:29",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "110/80-17 Tubeless",
+        "value_text": "110/80-17 Tubeless",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "rear tyre"
+        },
+        "evidence": "rear tyre: 110/80-17 Tubeless",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:30",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "1300",
+        "value_text": "1300",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "wheelbase mm"
+        },
+        "evidence": "wheelbase mm: 1300",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:31",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "790",
+        "value_text": "790",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "seat height mm"
+        },
+        "evidence": "seat height mm: 790",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:32",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "10",
+        "value_text": "10",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "fuel tank l"
+        },
+        "evidence": "fuel tank l: 10",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:33",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "132",
+        "value_text": "132",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "kerb weight kg"
+        },
+        "evidence": "kerb weight kg: 132",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:34",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "55",
+        "value_text": "55",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "mileage kmpl"
+        },
+        "evidence": "mileage kmpl: 55",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:35",
+        "entity_id": "financing_plan:storm-125-detail-emi",
+        "entity_name": "Storm 125 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "down_payment",
+        "value": 10000,
+        "value_text": "₹10,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Storm 125 estimated finance Down Payment: ₹10,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:storm-125"
+      },
+      {
+        "id": "fact:36",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "down_payment",
+        "value": 10000,
+        "value_text": "₹10,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Storm 125 estimated finance Down Payment: ₹10,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:storm-125-detail-emi"
+      },
+      {
+        "id": "fact:37",
+        "entity_id": "financing_plan:storm-125-detail-emi",
+        "entity_name": "Storm 125 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.49,
+        "value_text": "9.49% p.a.",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Storm 125 estimated finance Interest Rate: 9.49% p.a.",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:storm-125"
+      },
+      {
+        "id": "fact:38",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.49,
+        "value_text": "9.49% p.a.",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Storm 125 estimated finance Interest Rate: 9.49% p.a.",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:storm-125-detail-emi"
+      },
+      {
+        "id": "fact:39",
+        "entity_id": "financing_plan:storm-125-detail-emi",
+        "entity_name": "Storm 125 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 months",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Storm 125 estimated finance Loan Tenure: 48 months",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:storm-125"
+      },
+      {
+        "id": "fact:40",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 months",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Storm 125 estimated finance Loan Tenure: 48 months",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:storm-125-detail-emi"
+      },
+      {
+        "id": "fact:41",
+        "entity_id": "financing_plan:storm-125-detail-emi",
+        "entity_name": "Storm 125 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "monthly_emi",
+        "value": 2236,
+        "value_text": "₹2,236",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Storm 125 estimated finance Estimated EMI: ₹2,236 / month",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:storm-125"
+      },
+      {
+        "id": "fact:42",
+        "entity_id": "product:storm-125",
+        "entity_name": "Storm 125",
+        "entity_type": "product",
+        "fact_type": "monthly_emi",
+        "value": 2236,
+        "value_text": "₹2,236",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Storm 125 estimated finance Estimated EMI: ₹2,236 / month",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:storm-125-detail-emi"
+      },
+      {
+        "id": "fact:43",
+        "entity_id": "product:storm-125-variant-drum",
+        "entity_name": "Storm 125 Drum",
+        "entity_type": "product",
+        "fact_type": "variant_name",
+        "value": "Drum",
+        "value_text": "Drum",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Variant Drum",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.css:.variant-name",
+        "status": "verified",
+        "related_entity_id": "product:storm-125"
+      },
+      {
+        "id": "fact:44",
+        "entity_id": "product:storm-125-variant-drum",
+        "entity_name": "Storm 125 Drum",
+        "entity_type": "product",
+        "fact_type": "ex_showroom_price",
+        "value": 99000,
+        "value_text": "₹99,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "variant": "Drum",
+          "parent_product": "Storm 125"
+        },
+        "evidence": "Variant Drum ₹99,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.css:.variant-name+.price",
+        "status": "verified",
+        "related_entity_id": "product:storm-125"
+      },
+      {
+        "id": "fact:45",
+        "entity_id": "product:storm-125-variant-disc",
+        "entity_name": "Storm 125 Disc",
+        "entity_type": "product",
+        "fact_type": "variant_name",
+        "value": "Disc",
+        "value_text": "Disc",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Variant Disc",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.css:.variant-name",
+        "status": "verified",
+        "related_entity_id": "product:storm-125"
+      },
+      {
+        "id": "fact:46",
+        "entity_id": "product:storm-125-variant-disc",
+        "entity_name": "Storm 125 Disc",
+        "entity_type": "product",
+        "fact_type": "ex_showroom_price",
+        "value": 105000,
+        "value_text": "₹1,05,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "variant": "Disc",
+          "parent_product": "Storm 125"
+        },
+        "evidence": "Variant Disc ₹1,05,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.css:.variant-name+.price",
+        "status": "verified",
+        "related_entity_id": "product:storm-125"
+      },
+      {
+        "id": "fact:47",
+        "entity_id": "product:phantom-350",
+        "entity_name": "Phantom 350",
+        "entity_type": "product",
+        "fact_type": "tagline",
+        "value": "Classic Soul. Modern Heart.",
+        "value_text": "Classic Soul. Modern Heart.",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Classic Soul. Modern Heart.",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.css:.product-card__tagline",
+        "status": "verified"
+      },
+      {
+        "id": "fact:48",
+        "entity_id": "product:phantom-350",
+        "entity_name": "Phantom 350",
+        "entity_type": "product",
+        "fact_type": "starting_price",
+        "value": 215000,
+        "value_text": "₹2,15,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "role": "related_card"
+        },
+        "evidence": "Phantom 350 ₹2,15,000 New LaunchClassicPhantom 350Classic Soul. Modern Heart.349ccEngine21 bhpPower₹2,",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.css:.product-card .price",
+        "status": "verified"
+      },
+      {
+        "id": "fact:49",
+        "entity_id": "product:phantom-350",
+        "entity_name": "Phantom 350",
+        "entity_type": "product",
+        "fact_type": "engine",
+        "value": "349cc",
+        "value_text": "349cc",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Phantom 350 Engine: 349cc",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:50",
+        "entity_id": "product:phantom-350",
+        "entity_name": "Phantom 350",
+        "entity_type": "product",
+        "fact_type": "power",
+        "value": "21 bhp",
+        "value_text": "21 bhp",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Phantom 350 Power: 21 bhp",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:51",
+        "entity_id": "product:phantom-350",
+        "entity_name": "Phantom 350",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "₹2,15,000",
+        "value_text": "₹2,15,000",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Phantom 350 Starting*: ₹2,15,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:52",
+        "entity_id": "product:storm-200",
+        "entity_name": "Storm 200",
+        "entity_type": "product",
+        "fact_type": "tagline",
+        "value": "City. Conquered.",
+        "value_text": "City. Conquered.",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "City. Conquered.",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.css:.product-card__tagline",
+        "status": "verified"
+      },
+      {
+        "id": "fact:53",
+        "entity_id": "product:storm-200",
+        "entity_name": "Storm 200",
+        "entity_type": "product",
+        "fact_type": "starting_price",
+        "value": 145000,
+        "value_text": "₹1,45,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "role": "related_card"
+        },
+        "evidence": "Storm 200 ₹1,45,000 PopularStreetStorm 200City. Conquered.199ccEngine25 bhpPower₹1,45,000Starting*Ex",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.css:.product-card .price",
+        "status": "verified"
+      },
+      {
+        "id": "fact:54",
+        "entity_id": "product:storm-200",
+        "entity_name": "Storm 200",
+        "entity_type": "product",
+        "fact_type": "engine",
+        "value": "199cc",
+        "value_text": "199cc",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Storm 200 Engine: 199cc",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:55",
+        "entity_id": "product:storm-200",
+        "entity_name": "Storm 200",
+        "entity_type": "product",
+        "fact_type": "power",
+        "value": "25 bhp",
+        "value_text": "25 bhp",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Storm 200 Power: 25 bhp",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:56",
+        "entity_id": "product:storm-200",
+        "entity_name": "Storm 200",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "₹1,45,000",
+        "value_text": "₹1,45,000",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Storm 200 Starting*: ₹1,45,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:57",
+        "entity_id": "dealer:apex-moto-delhi-central",
+        "entity_name": "Apex Moto Delhi Central",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Delhi",
+        "value_text": "Delhi",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Delhi • +91-11-4123-5678",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:58",
+        "entity_id": "dealer:apex-moto-mumbai-west",
+        "entity_name": "Apex Moto Mumbai West",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Mumbai",
+        "value_text": "Mumbai",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Mumbai • +91-22-2655-9900",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:59",
+        "entity_id": "dealer:apex-moto-bangalore-tech-city",
+        "entity_name": "Apex Moto Bangalore Tech City",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Bangalore",
+        "value_text": "Bangalore",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Bangalore • +91-80-4567-8901",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:60",
+        "entity_id": "dealer:apex-moto-pune-camp",
+        "entity_name": "Apex Moto Pune Camp",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Pune",
+        "value_text": "Pune",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Pune • +91-20-2633-7788",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:61",
+        "entity_id": "dealer:apex-moto-chennai-anna-nagar",
+        "entity_name": "Apex Moto Chennai Anna Nagar",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Chennai",
+        "value_text": "Chennai",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Chennai • +91-44-2626-5544",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:62",
+        "entity_id": "dealer:apex-moto-hyderabad-jubilee-hills",
+        "entity_name": "Apex Moto Hyderabad Jubilee Hills",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Hyderabad",
+        "value_text": "Hyderabad",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Hyderabad • +91-40-2355-1234",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:63",
+        "entity_id": "dealer:apex-moto-jaipur-pink-city",
+        "entity_name": "Apex Moto Jaipur Pink City",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Jaipur",
+        "value_text": "Jaipur",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Jaipur • +91-141-2366-7890",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:64",
+        "entity_id": "dealer:apex-moto-kolkata-park-street",
+        "entity_name": "Apex Moto Kolkata Park Street",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Kolkata",
+        "value_text": "Kolkata",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Kolkata • +91-33-2229-4455",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      }
+    ],
+    "page_type": "product_detail",
+    "limitations": [
+      "Facts come from semantic HTML containers on the saved rendered snapshot, not from pairing disconnected arrays.",
+      "Amounts without a typed label or a unique enclosing entity are marked ambiguous or omitted.",
+      "Derived discounts are never calculated.",
+      "JSON-LD is used only when HTML did not already provide the same product price."
+    ]
+  }
+}

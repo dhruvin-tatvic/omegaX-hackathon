@@ -1,0 +1,198 @@
+{
+  "url": "https://omegax-hackathon.onrender.com/book-test-ride?bike=spark-e1",
+  "final_url": "https://omegax-hackathon.onrender.com/book-test-ride/?bike=spark-e1",
+  "captured_at": "2026-10-25T05:43:47Z",
+  "capture_method": "playwright_chromium",
+  "viewport": {
+    "width": 1366,
+    "height": 768
+  },
+  "page_title": "Book a Test Ride — Experience Apex Moto",
+  "status": "success",
+  "errors": [],
+  "screenshot_path": "out/screenshots/book-test-ride-20261025-054347.png",
+  "rendered_html_path": "out/rendered_html/book-test-ride-20261025-054347.html",
+  "content": {
+    "headings": [
+      {
+        "level": 1,
+        "text": "Book a Test Ride"
+      },
+      {
+        "level": 3,
+        "text": "What to Expect"
+      },
+      {
+        "level": 4,
+        "text": "What to Bring:"
+      },
+      {
+        "level": 4,
+        "text": "MOTORCYCLES"
+      },
+      {
+        "level": 4,
+        "text": "EXPERIENCE"
+      },
+      {
+        "level": 4,
+        "text": "COMPANY"
+      }
+    ],
+    "visible_text": "Motorcycles Offers Finance Dealers FAQ About Contact Test Ride Book Now Experience Apex Moto Book a Test Ride Feel the power, balance, and character before you decide. Test rides are free and available across all 8 flagship dealerships. ⚠️ Demo Notice: This form simulates a test ride booking for demonstration purposes only. Submissions redirect to a confirmation page. Full Name * Mobile Number * Email Address * City * Motorcycle Model * Preferred Date * I hold a valid two-wheeler driving licence and agree to the Test Ride Terms & Conditions * Confirm Test Ride Booking → What to Expect 30–45 Minute Experience Dedicated session with an Apex Moto product specialist. Safety Gear Provided Sanitised helmet and riding jacket available at all locations. Curated Route City and open-road stretches to experience both power and handling. Zero Obligation No sales pressure. Just honest riding and expert consultation. What to Bring: Valid two-wheeler driving licence (original) Closed-toe shoes or riding boots (mandatory) Your own helmet if preferred (DOT/ECE approved) Born to Ride. Built to Last. Apex Moto crafts motorcycles that embody the spirit of the road — precision engineering, enduring quality, and the freedom to go anywhere. Motorcycles All 18 Models Thunderstrike 650 Phantom 350 Storm 200 Zenith 450 Scrambler Experience Book a Test Ride Find a Dealer Offers & Deals Finance & EMI Plans Buyer FAQs Contact Support Company About Apex Moto Rider Portal Rider Login © 2026 Apex Moto. All rights reserved. Fictional brand test site for AI-readability audit. Privacy Policy Terms of Use Sitemap",
+    "product_names": [],
+    "prices": [],
+    "product_descriptions": [],
+    "specifications": [],
+    "links": [
+      {
+        "text": "",
+        "href": "https://omegax-hackathon.onrender.com/"
+      },
+      {
+        "text": "Motorcycles",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles"
+      },
+      {
+        "text": "Offers",
+        "href": "https://omegax-hackathon.onrender.com/offers"
+      },
+      {
+        "text": "Finance",
+        "href": "https://omegax-hackathon.onrender.com/finance"
+      },
+      {
+        "text": "Dealers",
+        "href": "https://omegax-hackathon.onrender.com/dealers"
+      },
+      {
+        "text": "FAQ",
+        "href": "https://omegax-hackathon.onrender.com/faq"
+      },
+      {
+        "text": "About",
+        "href": "https://omegax-hackathon.onrender.com/about"
+      },
+      {
+        "text": "Contact",
+        "href": "https://omegax-hackathon.onrender.com/contact"
+      },
+      {
+        "text": "TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride"
+      },
+      {
+        "text": "BOOK NOW",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride"
+      },
+      {
+        "text": "Test Ride Terms & Conditions",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride/?bike=spark-e1#terms"
+      },
+      {
+        "text": "📸",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride/?bike=spark-e1#"
+      },
+      {
+        "text": "👤",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride/?bike=spark-e1#"
+      },
+      {
+        "text": "▶️",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride/?bike=spark-e1#"
+      },
+      {
+        "text": "🐦",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride/?bike=spark-e1#"
+      },
+      {
+        "text": "All 18 Models",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles"
+      },
+      {
+        "text": "Thunderstrike 650",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-650"
+      },
+      {
+        "text": "Phantom 350",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350"
+      },
+      {
+        "text": "Storm 200",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/storm-200"
+      },
+      {
+        "text": "Zenith 450 Scrambler",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/zenith-450-scrambler"
+      },
+      {
+        "text": "Book a Test Ride",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride"
+      },
+      {
+        "text": "Find a Dealer",
+        "href": "https://omegax-hackathon.onrender.com/dealers"
+      },
+      {
+        "text": "Offers & Deals",
+        "href": "https://omegax-hackathon.onrender.com/offers"
+      },
+      {
+        "text": "Finance & EMI Plans",
+        "href": "https://omegax-hackathon.onrender.com/finance"
+      },
+      {
+        "text": "Buyer FAQs",
+        "href": "https://omegax-hackathon.onrender.com/faq"
+      },
+      {
+        "text": "Contact Support",
+        "href": "https://omegax-hackathon.onrender.com/contact"
+      },
+      {
+        "text": "About Apex Moto",
+        "href": "https://omegax-hackathon.onrender.com/about"
+      },
+      {
+        "text": "Rider Portal",
+        "href": "https://omegax-hackathon.onrender.com/account"
+      },
+      {
+        "text": "Rider Login",
+        "href": "https://omegax-hackathon.onrender.com/login"
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride/?bike=spark-e1#"
+      },
+      {
+        "text": "Terms of Use",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride/?bike=spark-e1#"
+      },
+      {
+        "text": "Sitemap",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride/?bike=spark-e1#"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://omegax-hackathon.onrender.com/assets/apex_moto_logo-dhs_X3_e.jpg",
+        "alt": "Apex Moto"
+      }
+    ],
+    "tables": [],
+    "primary_product": null,
+    "related_products": []
+  },
+  "limitations": [
+    "In-page role=tab controls are clicked so tabbed features/specs can be read; forms, links, and purchase CTAs are not clicked.",
+    "Closed accordions without a tab role, and off-screen overflow, may still hide text.",
+    "Text painted only inside images (OCR not performed) is not captured as visible_text.",
+    "Overlapping or visually clipped elements can still contribute DOM text if CSS visibility checks pass.",
+    "aria-hidden subtrees are excluded from visible_text even if they occupy pixels (common for duplicate image links).",
+    "Lazy content beyond the configured scroll budget is not captured.",
+    "Related product cards on the same page may appear in product_names alongside the primary H1."
+  ],
+  "http_status": 200,
+  "json_path": "out/human-view-20261025-054347.json"
+}

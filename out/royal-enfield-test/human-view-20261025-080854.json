@@ -1,0 +1,809 @@
+{
+  "url": "https://www.royalenfield.com/in/en/locate-us",
+  "final_url": "https://www.royalenfield.com/in/en/locate-us/",
+  "captured_at": "2026-10-25T08:08:54Z",
+  "capture_method": "playwright_chromium",
+  "viewport": {
+    "width": 1366,
+    "height": 768
+  },
+  "page_title": "Locate Us",
+  "status": "partial",
+  "errors": [
+    "Read-only tab click failed at index 0: Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"[role=\\\"tab\\\"]\").first\n    - locator resolved to <li role=\"tab\" tabindex=\"0\" aria-selected=\"true\" search-type=\"dealer\" id=\"locatetabs-1-tab\" data-cmp-hook-tabs=\"tab\" class=\"cmp-tabs__tab tab-listing cmp-tabs__tab--active\">↵                                STORE↵          …</li>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    5 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n",
+    "Read-only tab click failed at index 1: Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"[role=\\\"tab\\\"]\").nth(1)\n    - locator resolved to <li role=\"tab\" tabindex=\"-1\" id=\"locatetabs-2-tab\" aria-selected=\"false\" data-cmp-hook-tabs=\"tab\" search-type=\"serviceCentres\" class=\"cmp-tabs__tab tab-listing\">↵                                SERVICE CENTRES↵…</li>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    5 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n",
+    "Read-only tab click failed at index 2: Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"[role=\\\"tab\\\"]\").nth(2)\n    - locator resolved to <li role=\"tab\" tabindex=\"-1\" id=\"locatetabs-3-tab\" aria-selected=\"false\" data-cmp-hook-tabs=\"tab\" search-type=\"spareParts\" class=\"cmp-tabs__tab tab-listing\">↵                                GENUINE PARTS DI…</li>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    5 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n",
+    "Could not restore the first tab: Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"[role=\\\"tab\\\"]\").first\n    - locator resolved to <li role=\"tab\" tabindex=\"0\" aria-selected=\"true\" search-type=\"dealer\" id=\"locatetabs-1-tab\" data-cmp-hook-tabs=\"tab\" class=\"cmp-tabs__tab tab-listing cmp-tabs__tab--active\">↵                                STORE↵          …</li>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    5 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 500ms\n"
+  ],
+  "screenshot_path": "out/royal-enfield-test/screenshots/in-en-locate-us-20261025-080854.png",
+  "rendered_html_path": "out/royal-enfield-test/rendered_html/in-en-locate-us-20261025-080854.html",
+  "content": {
+    "headings": [
+      {
+        "level": 2,
+        "text": "Motorcycles"
+      },
+      {
+        "level": 2,
+        "text": "Shop"
+      },
+      {
+        "level": 2,
+        "text": "Service"
+      },
+      {
+        "level": 2,
+        "text": "Ride"
+      },
+      {
+        "level": 2,
+        "text": "MotoCulture"
+      },
+      {
+        "level": 2,
+        "text": "Explore"
+      },
+      {
+        "level": 2,
+        "text": "Locate Us"
+      },
+      {
+        "level": 3,
+        "text": "Motorcycles"
+      },
+      {
+        "level": 3,
+        "text": "Shop"
+      },
+      {
+        "level": 3,
+        "text": "Service"
+      },
+      {
+        "level": 3,
+        "text": "Ride"
+      },
+      {
+        "level": 3,
+        "text": "MotoCulture"
+      },
+      {
+        "level": 3,
+        "text": "Reach Us"
+      },
+      {
+        "level": 3,
+        "text": "Explore"
+      },
+      {
+        "level": 3,
+        "text": "Own a Royal Enfield"
+      },
+      {
+        "level": 3,
+        "text": "For further queries or appointments reach us at:"
+      }
+    ],
+    "visible_text": "Motorcycles Shop Service Ride MotoCulture Explore IN Note We use our own cookies for the use of this site, personalize content and ads and to perform analysis of our traffic. We also share information about your use of our site with analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services. If you want to learn more about cookies and opt out, click the Privacy Policy and Cookie Policy If you choose not to agree to the use of cookies all features of this site may not operate as intended. Accept Decline Locate Us STORE SERVICE CENTRES GENUINE PARTS DISTRIBUTORS 21 results Soni Automobiles 4.7 1.02 km away 082915 00891 Khasra No 149, Mangolpur Khurd, Rohini, DELHI DIRECTION North Delhi Motorcycles 4.8 1.94 km away 082914 64776 No A1, Outer Ring Rd, Saraswati Vihar, Pitampura, Pitampura DIRECTION Jmd Automobiles 3.8 5.14 km away 082912 59258 Shop No 2 & 3, Main Delhi Road, Dariyapur, Badli, Badli DIRECTION Dua Auto India 4.5 6.33 km away 082913 58641 No 49, Upper Ground Floor, Raja Garden, Raja Garden DIRECTION United Automobiles 4.5 6.35 km away 082915 02246 C 1, Ground Floor, Wazirpur Industial Area, Wazirpur Industial Area DIRECTION Kays Auto 4.4 8.11 km away 082914 66109 A8, Gujranwala Road, GT Karnal Road, gujranwala DIRECTION Lamba Enterprises Pvt Ltd 4.7 9.28 km away 082914 87414 WZ-1, UGF Nirankari Tower, Ganesh Nagar 535, Main Shivaji Marg, opp. Metro Pillar No, Tilak Nagar,, , Ganesh Nagar DIRECTION North Delhi Motorcycles 4.8 10.93 km away 082918 22920 Extended Lal Dora, Khasra No 324 & 325, Ground Floor, Burari DIRECTION Ess Aar Motors 4.4 11.67 km away 082914 77021 2E/11, Jhandewalan Extension,Near Jhandewalan Metro Station, Gate no.2, DIRECTION Cruiser Motors Pvt Ltd 4.6 12.18 km away 082914 74880 No A 12, Rajapuri, Uttam Nagar, Uttam Nagar DIRECTION T R Sawhney Motorcycles pvt ltd 4.9 15.01 km away 082912 78832 Ground floor,4/18,Asaf Ali Road,Near Metro Gate 3 ,, Daryaganj, Asaf Ali Road DIRECTION Balaji Motors 4.6 15.55 km away 082914 76285 No P3/10, Mamoorpur, Narela, Narela DIRECTION Jupiter Wheels Private Limited 4.9 16.08 km away 082911 46627 Ground floor shop no. 171 to 180, opposite - Avni motors, New Roshanpura, Najafgarh, Roshan pura DIRECTION Sunshine Automobiles 4.5 16.2 km away 082916 49329 F-12, Main Wazirabad Road, Chand Bagh, East Delhi, Next to bajaj, Chand Bagh DIRECTION KayTee Automobiles 4.3 17.69 km away 082914 85118 A-6, Mahipalpur Extn., , Mahipalpur DIRECTION Sunshine Automobiles 4.7 17.83 km away 082915 02059 No A1/10, Durgapuri Chowk, Kabir Nagar, Kabir Nagar DIRECTION Amar Autos 4.6 18.02 km away 082914 69519 Plot No 341/3B/1/A5, Kanti Nagar Main Rd, Kanti Nagar, Shahadra, Shahadra DIRECTION Power And Torque LLP 4.9 18.82 km away 8291198665 Royal Enfield Showroom , Plot No 12, Block No: 4, Saharanpur - Delhi Rd, Ashok Vihar , Loni,, Loni DIRECTION Ess Aar Motors 4.5 19.13 km away 082914 75761 No 135, Main Road, Kotla Mubarakpur, Arjun Nagar, Arjun Nagar DIRECTION JMD Automobiles 4.4 19.17 km away 082912 60267 Ground floor, Plot no 2190 Gali no 1, Jhajjar Rd, Krishna Nagar, Krishna Nagar DIRECTION Amar Autos 4.7 19.33 km away 082914 67506 No A/64, Vikas Marg, Laxmi Nagar, Laxmi Nagar DIRECTION 2 2 2 2 2 2 Map Satellite Keyboard shortcuts Map data ©2026 Google Terms Report a map error Locate Us Book a Test Ride Book a Service Configure Now Motorcycles Himalayan 440 Bullet 650 Hunter 350 Classic 650 Scram 440 Goan Classic 350 Bear 650 Classic 350 Guerrilla 450 Shotgun 650 Himalayan 450 Bullet 350 Super Meteor 650 Meteor 350 Interceptor 650 Continental GT 650 Shop Apparel Royal Enfield Accessories Service Extended Warranty Royal Enfield Maestros Ride Sure Rentals Tours REOwn Tripper Pod Tripper Dash Service Book a Service Service Cost Calculator Genuine Parts Distributors Locate Us Ride Sure Owner's Manual Quick Start Guide Maintenance Borderless Warranty Ride Rides & Events Rentals Tours Royal Enfield APP Wingman MotoCulture Royal Enfield TV Custom World Art of Motorcycling MLG Comics Wallpapers Reach Us Locate Us Contact Us Become a Dealer Become a Distributor Corporate Enquiry FAQs Explore News & Media Press Release Since 1901 Social Mission About Eicher Motors Own a Royal Enfield Make it Yours Finance Assured Buyback Programme REOwn For further queries or appointments reach us at: 1800 210 0008 support@royalenfield.com Private Import Policy Privacy Policy Terms & Conditions Cookie Policy © 2026, Royal Enfield *T&C apply. Images shown here may differ from actual product.",
+    "product_names": [],
+    "prices": [
+      "RS 21",
+      "rs 4.4",
+      "rs 4.6",
+      "rs,",
+      "rs 4.5"
+    ],
+    "product_descriptions": [],
+    "specifications": [],
+    "links": [
+      {
+        "text": "",
+        "href": "https://www.royalenfield.com/in/en/home/"
+      },
+      {
+        "text": "",
+        "href": "https://flyingflea.royalenfield.com/in/en/product/c6/?utm_source=re-website&utm_medium=re-homepage&utm_campaign=re-top-banner&utm_content=c6-pdp"
+      },
+      {
+        "text": "",
+        "href": "https://www.royalenfield.com/in/en/locate-us/"
+      },
+      {
+        "text": "",
+        "href": "https://www.royalenfield.com/in/en/locate-us/#"
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://www.royalenfield.com/in/en/legal/privacy-policy/"
+      },
+      {
+        "text": "Cookie Policy",
+        "href": "https://www.royalenfield.com/in/en/legal/cookie-policy/"
+      },
+      {
+        "text": "Soni Automobiles",
+        "href": "https://dealers.royalenfield.com/delhi/new-delhi/mangolpur-soni-automobiles-9110019410"
+      },
+      {
+        "text": "082915 00891",
+        "href": "tel:082915 00891"
+      },
+      {
+        "text": "DIRECTION",
+        "href": "https://www.google.com/maps/place/?q=place_id:ChIJG3nti6cGDTkR3ewU-7ROsfM"
+      },
+      {
+        "text": "North Delhi Motorcycles",
+        "href": "https://dealers.royalenfield.com/delhi/new-delhi/saraswati-vihar-north-delhi-motorcycles-9110052060"
+      },
+      {
+        "text": "082914 64776",
+        "href": "tel:082914 64776"
+      },
+      {
+        "text": "DIRECTION",
+        "href": "https://www.google.com/maps/place/?q=place_id:ChIJr1-1qsYDDTkRbCmx0f-56E8"
+      },
+      {
+        "text": "Jmd Automobiles",
+        "href": "https://dealers.royalenfield.com/haryana/jhajjar/dariyapur-jmd-automobiles-9113001330"
+      },
+      {
+        "text": "082912 59258",
+        "href": "tel:082912 59258"
+      },
+      {
+        "text": "DIRECTION",
+        "href": "https://www.google.com/maps/place/?q=place_id:ChIJE_jy983ZcjkRs_ItCpchHCQ"
+      },
+      {
+        "text": "Dua Auto India",
+        "href": "https://dealers.royalenfield.com/delhi/new-delhi/raja-garden-dua-auto-india-9110120350"
+      },
+      {
+        "text": "082913 58641",
+        "href": "tel:082913 58641"
+      },
+      {
+        "text": "DIRECTION",
+        "href": "https://www.google.com/maps/place/?q=place_id:ChIJB3rVHzsDDTkRObwLnZBRVRs"
+      },
+      {
+        "text": "United Automobiles",
+        "href": "https://dealers.royalenfield.com/delhi/new-delhi/shalimar-bagh-united-automobiles-9110077070"
+      },
+      {
+        "text": "082915 02246",
+        "href": "tel:082915 02246"
+      },
+      {
+        "text": "DIRECTION",
+        "href": "https://www.google.com/maps/place/?q=place_id:ChIJCTjxSWMDDTkR-98O8DR68EU"
+      },
+      {
+        "text": "Kays Auto",
+        "href": "https://dealers.royalenfield.com/delhi/new-delhi/gujranwala-kays-auto-9110000990"
+      },
+      {
+        "text": "082914 66109",
+        "href": "tel:082914 66109"
+      },
+      {
+        "text": "DIRECTION",
+        "href": "https://www.google.com/maps/place/?q=place_id:ChIJVwAQoQ8CDTkRR8djUgjlyKQ"
+      },
+      {
+        "text": "Lamba Enterprises Pvt Ltd",
+        "href": "https://dealers.royalenfield.com/delhi/new-delhi/ganesh-nagar-lamba-enterprises-9110001000"
+      },
+      {
+        "text": "082914 87414",
+        "href": "tel:082914 87414"
+      },
+      {
+        "text": "DIRECTION",
+        "href": "https://www.google.com/maps/place/?q=place_id:ChIJneXCKJkEDTkRNq-da7PDjk8"
+      },
+      {
+        "text": "North Delhi Motorcycles",
+        "href": "https://dealers.royalenfield.com/delhi/new-delhi/burari-north-delhi-motorcycles-9110116180"
+      },
+      {
+        "text": "082918 22920",
+        "href": "tel:082918 22920"
+      },
+      {
+        "text": "DIRECTION",
+        "href": "https://www.google.com/maps/place/?q=place_id:ChIJEXpyQCn-DDkRz1BDaPvXH6U"
+      },
+      {
+        "text": "Ess Aar Motors",
+        "href": "https://dealers.royalenfield.com/delhi/new-delhi/jhandewalan-ess-aar-motors-9110000980"
+      },
+      {
+        "text": "082914 77021",
+        "href": "tel:082914 77021"
+      },
+      {
+        "text": "DIRECTION",
+        "href": "https://www.google.com/maps/place/?q=place_id:ChIJ1zwdIF39DDkRs2dwhjUc6NI"
+      },
+      {
+        "text": "Cruiser Motors Pvt Ltd",
+        "href": "https://dealers.royalenfield.com/delhi/new-delhi/dwarka-cruiser-motors-pvt-ltd-9110051120"
+      },
+      {
+        "text": "082914 74880",
+        "href": "tel:082914 74880"
+      },
+      {
+        "text": "DIRECTION",
+        "href": "https://www.google.com/maps/place/?q=place_id:ChIJh4YEkNUaDTkRLZB8M_AY2xA"
+      },
+      {
+        "text": "T R Sawhney Motorcycles pvt ltd",
+        "href": "https://dealers.royalenfield.com/delhi/daryaganj/asaf-ali-road-t-r-sawhney-motorcycles-9110136340"
+      },
+      {
+        "text": "082912 78832",
+        "href": "tel:082912 78832"
+      },
+      {
+        "text": "DIRECTION",
+        "href": "https://www.google.com/maps/place/?q=place_id:ChIJEbULkGz9DDkRZxchfWmMiv4"
+      },
+      {
+        "text": "Balaji Motors",
+        "href": "https://dealers.royalenfield.com/delhi/new-delhi/narela-balaji-motors-9110115700"
+      },
+      {
+        "text": "082914 76285",
+        "href": "tel:082914 76285"
+      },
+      {
+        "text": "DIRECTION",
+        "href": "https://www.google.com/maps/place/?q=place_id:ChIJq3904Y2pDTkRPmMF0ChXI1I"
+      },
+      {
+        "text": "Jupiter Wheels Private Limited",
+        "href": "https://dealers.royalenfield.com/delhi/delhi/najafgarh-jupiter-wheels-9110138210"
+      },
+      {
+        "text": "082911 46627",
+        "href": "tel:082911 46627"
+      },
+      {
+        "text": "DIRECTION",
+        "href": "https://www.google.com/maps/place/?q=place_id:ChIJf78iAs8bDTkR0Oduxv-qeGg"
+      },
+      {
+        "text": "Sunshine Automobiles",
+        "href": "https://dealers.royalenfield.com/delhi/new-delhi/bhajanpura-sunshine-automobiles-9110115460"
+      },
+      {
+        "text": "082916 49329",
+        "href": "tel:082916 49329"
+      },
+      {
+        "text": "DIRECTION",
+        "href": "https://www.google.com/maps/place/?q=place_id:ChIJz0r2TWf9DDkREFtX62BVit4"
+      },
+      {
+        "text": "KayTee Automobiles",
+        "href": "https://dealers.royalenfield.com/delhi/new-delhi/mahipalpur-kaytee-automobiles-9110045340"
+      },
+      {
+        "text": "082914 85118",
+        "href": "tel:082914 85118"
+      },
+      {
+        "text": "DIRECTION",
+        "href": "https://www.google.com/maps/place/?q=place_id:ChIJFczaO0AdDTkRoHlbCSkuOzE"
+      },
+      {
+        "text": "Sunshine Automobiles",
+        "href": "https://dealers.royalenfield.com/delhi/new-delhi/durgapuri-sunshine-automobiles-9110075290"
+      },
+      {
+        "text": "082915 02059",
+        "href": "tel:082915 02059"
+      },
+      {
+        "text": "DIRECTION",
+        "href": "https://www.google.com/maps/place/?q=place_id:ChIJ47iPsNj9DDkRfK9Ag1Mtcdo"
+      },
+      {
+        "text": "Amar Autos",
+        "href": "https://dealers.royalenfield.com/delhi/new-delhi/kanti-nagar-amar-autos-9110000960"
+      },
+      {
+        "text": "082914 69519",
+        "href": "tel:082914 69519"
+      },
+      {
+        "text": "DIRECTION",
+        "href": "https://www.google.com/maps/place/?q=place_id:ChIJZWy1kIP8DDkRF1GgIgnOueA"
+      },
+      {
+        "text": "Power And Torque LLP",
+        "href": "https://dealers.royalenfield.com/uttar-pradesh/ghaziabad/loni-power-and-torque-9110121260"
+      },
+      {
+        "text": "8291198665",
+        "href": "tel:8291198665"
+      },
+      {
+        "text": "DIRECTION",
+        "href": "https://www.google.com/maps/place/?q=place_id:ChIJXcXdLlP_DDkRqWm-zIE_yaY"
+      },
+      {
+        "text": "Ess Aar Motors",
+        "href": "https://dealers.royalenfield.com/delhi/new-delhi/defence-colony-ess-aar-motors-9110072210"
+      },
+      {
+        "text": "082914 75761",
+        "href": "tel:082914 75761"
+      },
+      {
+        "text": "DIRECTION",
+        "href": "https://www.google.com/maps/place/?q=place_id:ChIJZUo0DYbjDDkRZGOjgleZLv8"
+      },
+      {
+        "text": "JMD Automobiles",
+        "href": "https://dealers.royalenfield.com/haryana/bahadurgarh/krishna-nagar-jmd-automobiles-9110072930"
+      },
+      {
+        "text": "082912 60267",
+        "href": "tel:082912 60267"
+      },
+      {
+        "text": "DIRECTION",
+        "href": "https://www.google.com/maps/place/?q=place_id:ChIJGZnGJTEJDTkRkx2f_qaUe0A"
+      },
+      {
+        "text": "Amar Autos",
+        "href": "https://dealers.royalenfield.com/delhi/new-delhi/vikas-marg-amar-auto-9110080220"
+      },
+      {
+        "text": "082914 67506",
+        "href": "tel:082914 67506"
+      },
+      {
+        "text": "DIRECTION",
+        "href": "https://www.google.com/maps/place/?q=place_id:ChIJVVXJTDcCDTkRbxeHHJa-K80"
+      },
+      {
+        "text": "",
+        "href": "https://maps.google.com/maps?ll=28.7041,77.1025&z=10&t=m&hl=en-US&gl=US&mapclient=apiv3"
+      },
+      {
+        "text": "Terms",
+        "href": "https://www.google.com/intl/en-US_US/help/terms_maps.html"
+      },
+      {
+        "text": "Report a map error",
+        "href": "https://www.google.com/maps/@28.7041,77.1025,10z/data=!10m1!1e1!12b1?source=apiv3&rapsrc=apiv3"
+      },
+      {
+        "text": "Locate Us",
+        "href": "https://www.royalenfield.com/in/en/locate-us/"
+      },
+      {
+        "text": "Book a Test Ride",
+        "href": "https://www.royalenfield.com/in/en/forms/book-a-test-ride/"
+      },
+      {
+        "text": "Book a Service",
+        "href": "https://www.royalenfield.com/in/en/service/"
+      },
+      {
+        "text": "Configure Now",
+        "href": "https://makeityours.royalenfield.com/configurator/"
+      },
+      {
+        "text": "Himalayan 440",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/himalayan-440/"
+      },
+      {
+        "text": "Bullet 650",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/bullet-650/"
+      },
+      {
+        "text": "Hunter 350",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/hunter-350/"
+      },
+      {
+        "text": "Classic 650",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/classic-650/"
+      },
+      {
+        "text": "Scram 440",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/scram-440/"
+      },
+      {
+        "text": "Goan Classic 350",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/goan-classic-350/"
+      },
+      {
+        "text": "Bear 650",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/bear-650/"
+      },
+      {
+        "text": "Classic 350",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/classic-350/"
+      },
+      {
+        "text": "Guerrilla 450",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/guerrilla-450/"
+      },
+      {
+        "text": "Shotgun 650",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/shotgun-650/"
+      },
+      {
+        "text": "Himalayan 450",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/new-himalayan/"
+      },
+      {
+        "text": "Bullet 350",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/bullet-350/"
+      },
+      {
+        "text": "Super Meteor 650",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/super-meteor-650/"
+      },
+      {
+        "text": "Meteor 350",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/meteor/"
+      },
+      {
+        "text": "Interceptor 650",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/interceptor/"
+      },
+      {
+        "text": "Continental GT 650",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/continental-gt/"
+      },
+      {
+        "text": "Apparel",
+        "href": "https://www.royalenfield.com/in/en/apparel/"
+      },
+      {
+        "text": "Royal Enfield Accessories",
+        "href": "https://www.royalenfield.com/in/en/gma/"
+      },
+      {
+        "text": "Service",
+        "href": "https://www.royalenfield.com/in/en/service/"
+      },
+      {
+        "text": "Extended Warranty",
+        "href": "https://www.royalenfield.com/in/en/service/ride-sure/?highlight=ew"
+      },
+      {
+        "text": "Royal Enfield Maestros",
+        "href": "https://www.royalenfield.com/in/en/service/ride-sure/?highlight=amc"
+      },
+      {
+        "text": "Ride Sure",
+        "href": "https://www.royalenfield.com/in/en/service/ride-sure/"
+      },
+      {
+        "text": "Rentals",
+        "href": "https://www.royalenfield.com/in/en/rentals/"
+      },
+      {
+        "text": "Tours",
+        "href": "https://www.royalenfield.com/in/en/tours/"
+      },
+      {
+        "text": "REOwn",
+        "href": "https://www.royalenfield.com/in/en/reown/"
+      },
+      {
+        "text": "Tripper Pod",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/tripper/"
+      },
+      {
+        "text": "Tripper Dash",
+        "href": "https://www.royalenfield.com/in/en/tripper-dash/"
+      },
+      {
+        "text": "Service Cost Calculator",
+        "href": "https://www.royalenfield.com/in/en/service/#scc"
+      },
+      {
+        "text": "Genuine Parts Distributors",
+        "href": "https://www.royalenfield.com/in/en/locate-us/genuine-parts-distributors/"
+      },
+      {
+        "text": "Owner's Manual",
+        "href": "https://www.royalenfield.com/in/en/support/owners-manual/"
+      },
+      {
+        "text": "Quick Start Guide",
+        "href": "https://www.royalenfield.com/in/en/support/digital-quickstart/"
+      },
+      {
+        "text": "Maintenance",
+        "href": "https://www.royalenfield.com/in/en/service/periodic-maintenance/"
+      },
+      {
+        "text": "Borderless Warranty",
+        "href": "https://www.royalenfield.com/uk/en/after-sales/borderless-warranty/"
+      },
+      {
+        "text": "Rides & Events",
+        "href": "https://www.royalenfield.com/in/en/rides-calendar/"
+      },
+      {
+        "text": "Royal Enfield APP",
+        "href": "https://www.royalenfield.com/in/en/re-app/"
+      },
+      {
+        "text": "Wingman",
+        "href": "https://www.royalenfield.com/in/en/royal-enfield-wingman/"
+      },
+      {
+        "text": "Royal Enfield TV",
+        "href": "https://www.royalenfield.com/in/en/website-under-maintenance/"
+      },
+      {
+        "text": "Custom World",
+        "href": "https://www.royalenfield.com/in/en/custom-world/"
+      },
+      {
+        "text": "Art of Motorcycling",
+        "href": "https://www.royalenfield.com/in/en/art-of-motorcycling/"
+      },
+      {
+        "text": "MLG Comics",
+        "href": "https://www.royalenfield.com/in/en/mlg/"
+      },
+      {
+        "text": "Wallpapers",
+        "href": "https://www.royalenfield.com/in/en/our-world/wallpaper/"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://www.royalenfield.com/in/en/support/contact-us/"
+      },
+      {
+        "text": "Become a Dealer",
+        "href": "https://www.royalenfield.com/in/en/forms/become-a-dealer/"
+      },
+      {
+        "text": "Become a Distributor",
+        "href": "https://www.royalenfield.com/in/en/support/genuine-part-distributor/"
+      },
+      {
+        "text": "Corporate Enquiry",
+        "href": "https://www.royalenfield.com/in/en/support/bulk-enquiry/"
+      },
+      {
+        "text": "FAQs",
+        "href": "https://www.royalenfield.com/in/en/support/#faq"
+      },
+      {
+        "text": "News & Media",
+        "href": "https://www.royalenfield.com/in/en/our-world/media/news/"
+      },
+      {
+        "text": "Press Release",
+        "href": "https://www.royalenfield.com/in/en/our-world/media/press-releases/"
+      },
+      {
+        "text": "Since 1901",
+        "href": "https://www.royalenfield.com/in/en/our-world/since-1901/"
+      },
+      {
+        "text": "Social Mission",
+        "href": "https://socialmission.royalenfield.com/"
+      },
+      {
+        "text": "About Eicher Motors",
+        "href": "https://www.eicher.in/"
+      },
+      {
+        "text": "Make it Yours",
+        "href": "https://makeityours.royalenfield.com/"
+      },
+      {
+        "text": "Finance",
+        "href": "https://www.royalenfield.com/in/en/finance/"
+      },
+      {
+        "text": "Assured Buyback Programme",
+        "href": "https://www.royalenfield.com/in/en/finance/assured-buyback/"
+      },
+      {
+        "text": "1800 210 0008",
+        "href": "tel:1800%20210%200008"
+      },
+      {
+        "text": "support@royalenfield.com",
+        "href": "mailto:support@royalenfield.com"
+      },
+      {
+        "text": "",
+        "href": "https://www.facebook.com/RoyalEnfield/"
+      },
+      {
+        "text": "",
+        "href": "https://x.com/royalenfield"
+      },
+      {
+        "text": "",
+        "href": "https://www.youtube.com/channel/UCyxUUHqmz9IiAnrROJc0mag"
+      },
+      {
+        "text": "",
+        "href": "https://www.instagram.com/royalenfield"
+      },
+      {
+        "text": "",
+        "href": "https://www.linkedin.com/company/royal-enfield/"
+      },
+      {
+        "text": "Private Import Policy",
+        "href": "https://www.royalenfield.com/in/en/legal/private-import-policy/"
+      },
+      {
+        "text": "Terms & Conditions",
+        "href": "https://www.royalenfield.com/in/en/legal/terms-and-conditions/"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.royalenfield.com/content/dam/RE-Platform-Revamp/re-revamp-commons/logo.webp",
+        "alt": "Royal Enfield "
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/icons/1080xgreen.svg",
+        "alt": "Location Icon"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/RE-Platform-Revamp/rides-landing-/gps_search_icon.png",
+        "alt": "image"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/RE-Platform-Revamp/call.svg",
+        "alt": "Call"
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i10!2i730!3i427!4i256!2m3!1e0!2sm!3i800566840!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750&key=AIzaSyCb_eIYqj93ZiAqN5AQiyWWn4RsjXjlglQ&token=59309",
+        "alt": ""
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i10!2i730!3i426!4i256!2m3!1e0!2sm!3i800566840!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750&key=AIzaSyCb_eIYqj93ZiAqN5AQiyWWn4RsjXjlglQ&token=5332",
+        "alt": ""
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i10!2i732!3i428!4i256!2m3!1e0!2sm!3i800566840!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750&key=AIzaSyCb_eIYqj93ZiAqN5AQiyWWn4RsjXjlglQ&token=68679",
+        "alt": ""
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i10!2i729!3i428!4i256!2m3!1e0!2sm!3i800566840!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750&key=AIzaSyCb_eIYqj93ZiAqN5AQiyWWn4RsjXjlglQ&token=71503",
+        "alt": ""
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i10!2i731!3i426!4i256!2m3!1e0!2sm!3i800566840!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750&key=AIzaSyCb_eIYqj93ZiAqN5AQiyWWn4RsjXjlglQ&token=48564",
+        "alt": ""
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i10!2i731!3i427!4i256!2m3!1e0!2sm!3i800566840!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750&key=AIzaSyCb_eIYqj93ZiAqN5AQiyWWn4RsjXjlglQ&token=102541",
+        "alt": ""
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i10!2i732!3i426!4i256!2m3!1e0!2sm!3i800566840!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750&key=AIzaSyCb_eIYqj93ZiAqN5AQiyWWn4RsjXjlglQ&token=91796",
+        "alt": ""
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i10!2i732!3i427!4i256!2m3!1e0!2sm!3i800566840!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750&key=AIzaSyCb_eIYqj93ZiAqN5AQiyWWn4RsjXjlglQ&token=14702",
+        "alt": ""
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i10!2i730!3i428!4i256!2m3!1e0!2sm!3i800566840!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750&key=AIzaSyCb_eIYqj93ZiAqN5AQiyWWn4RsjXjlglQ&token=113286",
+        "alt": ""
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i10!2i729!3i427!4i256!2m3!1e0!2sm!3i800566840!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750&key=AIzaSyCb_eIYqj93ZiAqN5AQiyWWn4RsjXjlglQ&token=17526",
+        "alt": ""
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i10!2i731!3i428!4i256!2m3!1e0!2sm!3i800566840!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750&key=AIzaSyCb_eIYqj93ZiAqN5AQiyWWn4RsjXjlglQ&token=25447",
+        "alt": ""
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i10!2i729!3i426!4i256!2m3!1e0!2sm!3i800566840!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750&key=AIzaSyCb_eIYqj93ZiAqN5AQiyWWn4RsjXjlglQ&token=94620",
+        "alt": ""
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i10!2i729!3i425!4i256!2m3!1e0!2sm!3i800566840!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750&key=AIzaSyCb_eIYqj93ZiAqN5AQiyWWn4RsjXjlglQ&token=40643",
+        "alt": ""
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i10!2i730!3i425!4i256!2m3!1e0!2sm!3i800566840!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750&key=AIzaSyCb_eIYqj93ZiAqN5AQiyWWn4RsjXjlglQ&token=82426",
+        "alt": ""
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i10!2i731!3i425!4i256!2m3!1e0!2sm!3i800566840!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750&key=AIzaSyCb_eIYqj93ZiAqN5AQiyWWn4RsjXjlglQ&token=125658",
+        "alt": ""
+      },
+      {
+        "src": "https://maps.googleapis.com/maps/vt?pb=!1m5!1m4!1i10!2i732!3i425!4i256!2m3!1e0!2sm!3i800566840!3m18!2sen-US!3sUS!5e18!12m5!1e68!2m2!1sset!2sRoadmap!4e2!12m3!1e37!2m1!1ssmartmaps!12m4!1e26!2m2!1sstyles!2zcy50OjMzfHMuZTpsfHAudjpvZmY!4e0!5m1!1e3!23i46991212!23i47054750&key=AIzaSyCb_eIYqj93ZiAqN5AQiyWWn4RsjXjlglQ&token=37819",
+        "alt": ""
+      },
+      {
+        "src": "https://stagecdn.royalenfield.com/content/dam/RE-Platform-Revamp/LocationPin.png",
+        "alt": ""
+      },
+      {
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2018%2018%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22M0%200v6h2V2h4V0zm16%200h-4v2h4v4h2V0zm0%2016h-4v2h6v-6h-2zM2%2012H0v6h6v-2H2z%22/%3E%3C/svg%3E",
+        "alt": ""
+      },
+      {
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2024%2024%22%3E%3Cpath%20fill%3D%22%23666%22%20d%3D%22m12%2019.175%202.125-2.125%201.425%201.4L12%2022l-3.55-3.55%201.425-1.4zM4.825%2012l2.125%202.125-1.4%201.425L2%2012l3.55-3.55%201.4%201.425zm14.35%200L17.05%209.875l1.4-1.425L22%2012l-3.55%203.55-1.4-1.425zM12%204.825%209.875%206.95%208.45%205.55%2012%202l3.55%203.55-1.425%201.4z%22/%3E%3C/svg%3E",
+        "alt": ""
+      },
+      {
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20viewBox%3D%220%200%2023%2038%22%3E%3Cpath%20d%3D%22M16.6%2038.1h-5.5l-.2-2.9-.2%202.9H5.2L5%2025.3l-.8%202a1.53%201.53%200%2001-1.9.9l-1.2-.4a1.58%201.58%200%2001-1-1.9v-.1c.3-.9%203.1-11.2%203.1-11.2a2.66%202.66%200%20012.3-2l.6-.5a6.93%206.93%200%20014.7-12%206.8%206.8%200%20014.9%202%207%207%200%20012%204.9%206.65%206.65%200%2001-2.2%205l.7.5a2.78%202.78%200%20012.4%202s2.9%2011.2%202.9%2011.3a1.53%201.53%200%2001-.9%201.9l-1.3.4a1.63%201.63%200%2001-1.9-.9l-.7-1.8zm-3.6-2h1.7l.2-15.8%201.9-.3%202.4%206.3.3-.1c-.2-.8-.8-3.2-2.8-10.9a.63.63%200%2000-.6-.5h-.6l-1.1-.9h-1.9l-.3-2a4.83%204.83%200%20003.5-4.7A4.78%204.78%200%200011%202.3h-.2a4.9%204.9%200%2000-1.4%209.6l-.3%202H7.2l-1%20.9h-.6a.74.74%200%2000-.6.5c-2%207.5-2.7%2010-3%2010.9l.3.1L4.8%2020l1.9.3.2%2015.8h1.6l.6-8.4a1.52%201.52%200%20011.5-1.4%201.5%201.5%200%20011.5%201.4zm6.6-9.7%22%20style%3D%22isolation%3Aisolate%22%20fill%3D%22%23333%22%20opacity%3D%22.7%22/%3E%3Cpath%20d%3D%22m5.9%2013.6%201.1-.9h7.8l1.2.9%22%20fill%3D%22%23ce592c%22/%3E%3Cellipse%20cx%3D%2210.9%22%20cy%3D%2213.1%22%20rx%3D%222.7%22%20ry%3D%22.3%22%20style%3D%22isolation%3Aisolate%22%20fill%3D%22%23ce592c%22%20opacity%3D%22.5%22/%3E%3Cpath%20d%3D%22m20.6%2026.1-2.9-11.3a1.71%201.71%200%2000-1.6-1.2H5.7a1.69%201.69%200%2000-1.5%201.3L1.1%2026.2a.61.61%200%2000.3.7l1.1.4a.61.61%200%2000.7-.3l2.7-6.7.2%2016.8h3.6l.6-9.3a.47.47%200%2001.44-.5h.06c.4%200%20.4.2.5.5l.6%209.3h3.6l.2-16.8%202.5%206.6a.52.52%200%2000.66.31l1.2-.40000000000001a.57.57%200%2000.5-.7Z%22%20fill%3D%22%23fdbf2d%22/%3E%3Cpath%20d%3D%22m7%2013.6%203.9%206.7%203.9-6.7%22%20style%3D%22isolation%3Aisolate%22%20fill%3D%22%23cf572e%22%20opacity%3D%22.6%22/%3E%3Ccircle%20cx%3D%2210.9%22%20cy%3D%227%22%20r%3D%225.9%22%20fill%3D%22%23fdbf2d%22/%3E%3C/svg%3E",
+        "alt": "Street View Pegman Control"
+      },
+      {
+        "src": "data:image/svg+xml,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20fill%3D%22none%22%20viewBox%3D%220%200%2069%2029%22%3E%3Cg%20fill%3D%22%23fff%22%20stroke%3D%22%23fff%22%20stroke-width%3D%221.5%22%20opacity%3D%22.9%22%3E%3Cpath%20d%3D%22m17.4706%207.33616.5412-.54112-.5519-.53011c-1.3636-1.30974-3.2017-2.31971-5.7591-2.31971-4.6137%200-8.50262%203.75517-8.50262%208.39578%200%204.6407%203.88892%208.3958%208.50262%208.3958%202.4704%200%204.3765-.8188%205.8732-2.3679%201.5695-1.5729%202.0216-3.7363%202.0216-5.4119%200-.5232-.044-1.0254-.1295-1.4529l-.1206-.6029h-8.3947v3.5942h4.8301c-.1724.5966-.4321%201.0286-.7491%201.3461-.6288.6214-1.5823%201.3094-3.331%201.3094-2.65245%200-4.73598-2.1312-4.73598-4.8099%200-2.67861%202.08353-4.80981%204.73598-4.80981%201.4362%200%202.4752.5607%203.257%201.29229l.5298.49574.513-.51303z%22/%3E%3Cpath%20d%3D%22M24.8656%2020.7286c3.089%200%205.6036-2.4192%205.6036-5.6692%200-3.2681-2.5162-5.66931-5.6036-5.66931-3.0873%200-5.6035%202.40121-5.6035%205.66931%200%203.25%202.5145%205.6692%205.6035%205.6692Zm0-7.9004c1.014%200%201.9766.837%201.9766%202.2312%200%201.3805-.9653%202.2311-1.9766%202.2311-1.0099%200-1.9765-.8574-1.9765-2.2311%200-1.3874.9639-2.2312%201.9765-2.2312Z%22/%3E%3Cpath%20d%3D%22M35.7511%2017.2905h-.0042c-1.0099%200-1.9766-.8574-1.9766-2.2311%200-1.3874.964-2.2312%201.9766-2.2312%201.0139%200%201.9765.837%201.9765%202.2312%200%201.3845-.968%202.2367-1.9723%202.2311Zm-.0124%203.4381c3.089%200%205.6035-2.4192%205.6035-5.6692%200-3.2681-2.5162-5.66931-5.6035-5.66931-3.0874%200-5.6036%202.40121-5.6036%205.66931%200%203.2508%202.5236%205.6692%205.6036%205.6692Z%22/%3E%3Cpath%20d%3D%22M51.953%2010.4357v-.74997h-3.5531v.12253c-.55-.26178-1.2022-.42639-1.9191-.42639-2.8837%200-5.464%202.51793-5.464%205.69393%200%202.1269%201.164%203.9479%202.8033%204.9137l-.0658.0273-1.8806.7802-.6929.2874.2876.6928c.6228%201.5004%202.2776%203.3697%205.0535%203.3697%201.4105%200%202.787-.4145%203.814-1.4093%201.0332-1.0009%201.6171-2.4965%201.6171-4.4653zm-7.2194%209.9844-.0002-.0005c.5552.2005%201.1446.309%201.7474.309.6808%200%201.3058-.1467%201.841-.3891-.0876.3891-.2417.671-.4252.8682-.2812.3022-.7202.5011-1.3747.5011-.91190000000001%200-1.5201-.6476-1.7883-1.2887Zm1.9361-7.5919c.9722%200%201.878.8483%201.878%202.2558%200%201.3796-.8956%202.2147-1.878%202.2147-1.0428%200-1.993-.8738-1.993-2.2147%200-1.3754.9595-2.2558%201.993-2.2558Zm9.069-7.60739v-.75h-3.6599V20.4412h3.6599z%22/%3E%3Cpath%20d%3D%22m63.9128%2016.0614-.6183-.4122-.4179.6145c-.4562.6709-1.0102%201.0432-1.8025%201.0432-.4306%200-.7595-.0981-1.0197-.2622-.07-.0441-.1383-.0951-.2046-.1536l5.6999-2.3625.6825-.283L65.9596%2013.5589l-.219-.5514c-.4528-1.2075-1.8899-3.60918-4.9128-3.60918-2.9833%200-5.3244%202.36358-5.3244%205.66928%200%203.1475%202.3222%205.6693%205.5625%205.6693%202.6043%200%204.1111-1.5991%204.7283-2.5156l.421-.625L65.5882%2017.1783zm-2.5667-3.2103-1.9353.8015c.3795-.5743%201.0107-.8572%201.4909-.8572.1653%200%20.3136.0207.4444.0557Z%22/%3E%3C/g%3E%3Cpath%20fill%3D%22%233c4043%22%20d%3D%22M11.7008%2019.9868c-4.21304%200-7.75262-3.4328-7.75262-7.6458%200-4.21297%203.53958-7.64578%207.75262-7.64578%202.3323%200%203.9912.91159%205.2395%202.11061l-1.47%201.47003c-.8952-.83767-2.1106-1.49467-3.7695-1.49467-3.07972%200-5.48598%202.48016-5.48598%205.55981%200%203.0797%202.40626%205.5599%205.48598%205.5599%201.9956%200%203.1289-.8048%203.8598-1.5275.5995-.5996.9855-1.4537%201.1333-2.628h-4.9931v-2.0942h7.0298c.0739.3695.115.8212.115%201.3058%200%201.5685-.427%203.5067-1.8067%204.8864-1.3469%201.3961-3.0551%202.1434-5.3381%202.1434m18.0184-4.9274c0%202.8333-2.1763%204.9192-4.8536%204.9192-2.6772%200-4.8535-2.0859-4.8535-4.9192%200-2.8498%202.1763-4.9193%204.8535-4.9193%202.6773%200%204.8536%202.0695%204.8536%204.9193m-2.127%200c0-1.7739-1.2648-2.9812-2.7266-2.9812s-2.7265%201.2155-2.7265%202.9812c0%201.7492%201.2647%202.9811%202.7265%202.9811s2.7266-1.2237%202.7266-2.9811m13%200c0%202.8333-2.1763%204.9192-4.8535%204.9192-2.6691%200-4.8536-2.0859-4.8536-4.9192%200-2.8498%202.1763-4.9193%204.8536-4.9193%202.6772%200%204.8535%202.0695%204.8535%204.9193m-2.1188%200c0-1.7739-1.2647-2.9812-2.7265-2.9812s-2.7266%201.2155-2.7266%202.9812c0%201.7492%201.2648%202.9811%202.7266%202.9811%201.4618.0082%202.7265-1.2237%202.7265-2.9811m12.7296-4.6237v8.8366c0%203.6382-2.1435%205.1246-4.6811%205.1246-2.3899%200-3.8188-1.6014-4.3609-2.9072l1.8807-.7802c.3367.8048%201.158%201.7493%202.4802%201.7493%201.626%200%202.628-1.0101%202.628-2.8908v-.7063h-.074c-.4845.5995-1.4207%201.1169-2.5951%201.1169-2.4637%200-4.714-2.1434-4.714-4.9028%200-2.7758%202.2585-4.9439%204.714-4.9439%201.1744%200%202.1106.5256%202.5951%201.1004h.074v-.7966zm-1.9053%204.6483c0-1.7328-1.158-3.0058-2.628-3.0058-1.4947%200-2.743%201.2647-2.743%203.0058%200%201.7164%201.2483%202.9647%202.743%202.9647%201.47%200%202.628-1.2483%202.628-2.9647m5.691-9.86319V19.6912h-2.1599V5.22081zm8.5081%2011.46459%201.6754%201.1169c-.5421.8049-1.8478%202.1846-4.1063%202.1846-2.8004%200-4.8125-2.1599-4.8125-4.9193%200-2.9237%202.0367-4.9193%204.5744-4.9193%202.554%200%203.8023%202.0285%204.213%203.129l.2217.5584-6.5782%202.7266c.501.9855%201.2894%201.4946%202.3898%201.4946%201.1005%200%201.8643-.5502%202.4227-1.3715m-5.1656-1.7739%204.4019-1.8231c-.2464-.616-.9691-1.043-1.8314-1.043-1.1005%200-2.628.9691-2.5705%202.8661%22/%3E%3C/svg%3E",
+        "alt": "Google"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/RE-Platform-Revamp/header-footer/secFooterImgDesktop.svg",
+        "alt": "Locate Us"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/RE-Platform-Revamp/header-footer/secFooterTwo.svg",
+        "alt": "Book a Test Ride"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/RE-Platform-Revamp/header-footer/secFooterImgDesktopFour.svg",
+        "alt": "Book a Service"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/RE-Platform-Revamp/header-footer/secFooterImgDesktopThree.svg",
+        "alt": "Configure Now"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/icons/facebook-50.png",
+        "alt": "Social Media Icon"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/bullet-meri-jaan/icons/twitter-white.png",
+        "alt": "Social Media Icon"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/reown/reown-icons/Youtube-white.webp",
+        "alt": "Social Media Icon"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/riders-portal/icons/Instagram-white-logo.png",
+        "alt": "Social Media Icon"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/RE-Platform-Revamp/header-footer/footer-icons/linkedin%201.png",
+        "alt": "Social Media Icon"
+      }
+    ],
+    "tables": [],
+    "primary_product": null,
+    "related_products": []
+  },
+  "limitations": [
+    "In-page role=tab controls are clicked so tabbed features/specs can be read; forms, links, and purchase CTAs are not clicked.",
+    "Closed accordions without a tab role, and off-screen overflow, may still hide text.",
+    "Text painted only inside images (OCR not performed) is not captured as visible_text.",
+    "Overlapping or visually clipped elements can still contribute DOM text if CSS visibility checks pass.",
+    "aria-hidden subtrees are excluded from visible_text even if they occupy pixels (common for duplicate image links).",
+    "Lazy content beyond the configured scroll budget is not captured.",
+    "Related product cards on the same page may appear in product_names alongside the primary H1."
+  ],
+  "http_status": 200,
+  "json_path": "out/royal-enfield-test/human-view-20261025-080854.json"
+}

@@ -1,0 +1,873 @@
+{
+  "url": "https://www.royalenfield.com/in/en/home",
+  "final_url": "https://www.royalenfield.com/in/en/home/",
+  "captured_at": "2026-10-25T08:08:17Z",
+  "capture_method": "playwright_chromium",
+  "viewport": {
+    "width": 1366,
+    "height": 768
+  },
+  "page_title": "Royal Enfield India | Roadster, Cruiser & Adventure Bikes",
+  "status": "partial",
+  "errors": [
+    "Read-only tab click failed at index 7: Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"[role=\\\"tab\\\"]\").nth(7)\n    - locator resolved to <li role=\"tab\" tabindex=\"0\" aria-selected=\"true\" search-type=\"dealer\" id=\"locatecard-1-tab\" data-cmp-hook-tabs=\"tab\" class=\"cmp-tabs__tab tab-listing cmp-tabs__tab--active\">↵                                            Stor…</li>\n  - attempting click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"cookie-description\">…</div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n    - retrying click action\n      - waiting 100ms\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 500ms\n    - waiting for element to be visible, enabled and stable\n    - element is visible, enabled and stable\n    - scrolling into view if needed\n    - done scrolling\n    - <div class=\"cookie-description\">…</div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n  3 × retrying click action\n      - waiting 500ms\n      - waiting for element to be visible, enabled and stable\n      - element is visible, enabled and stable\n      - scrolling into view if needed\n      - done scrolling\n      - <div class=\"overlay_for_cookies\"></div> from <div class=\"aem-Grid aem-Grid--12 aem-Grid--default--12 \">…</div> subtree intercepts pointer events\n  - retrying click action\n    - waiting 500ms\n",
+    "Could not restore the first tab: Locator.click: Timeout 3000ms exceeded.\nCall log:\n  - waiting for locator(\"[role=\\\"tab\\\"]\").first\n    - locator resolved to <li role=\"tab\" aria-label=\"Slide 1\" data-cmp-hook-carousel=\"indicator\" class=\"cmp-carousel__indicator cmp-carousel__indicator--active\">↵          ↵        </li>\n  - attempting click action\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n    - waiting 20ms\n    2 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 100ms\n    5 × waiting for element to be visible, enabled and stable\n      - element is not visible\n    - retrying click action\n      - waiting 500ms\n"
+  ],
+  "screenshot_path": "out/royal-enfield-test/screenshots/in-en-home-20261025-080817.png",
+  "rendered_html_path": "out/royal-enfield-test/rendered_html/in-en-home-20261025-080817.html",
+  "content": {
+    "headings": [
+      {
+        "level": 2,
+        "text": "Motorcycles"
+      },
+      {
+        "level": 2,
+        "text": "Shop"
+      },
+      {
+        "level": 2,
+        "text": "Service"
+      },
+      {
+        "level": 2,
+        "text": "Ride"
+      },
+      {
+        "level": 2,
+        "text": "MotoCulture"
+      },
+      {
+        "level": 2,
+        "text": "Explore"
+      },
+      {
+        "level": 2,
+        "text": "In the headlights"
+      },
+      {
+        "level": 2,
+        "text": "ART OF MOTORCYCLING"
+      },
+      {
+        "level": 2,
+        "text": "1901 Magazine Volume 01"
+      },
+      {
+        "level": 2,
+        "text": "Moroccan Odyssey 2026"
+      },
+      {
+        "level": 2,
+        "text": "Factory Custom"
+      },
+      {
+        "level": 2,
+        "text": "Motorcycles"
+      },
+      {
+        "level": 2,
+        "text": "Scram 440"
+      },
+      {
+        "level": 2,
+        "text": "Goan Classic 350"
+      },
+      {
+        "level": 2,
+        "text": "Classic 350"
+      },
+      {
+        "level": 3,
+        "text": "MotoCulture"
+      },
+      {
+        "level": 4,
+        "text": "01"
+      },
+      {
+        "level": 4,
+        "text": "02"
+      },
+      {
+        "level": 4,
+        "text": "03"
+      },
+      {
+        "level": 2,
+        "text": "Ride"
+      },
+      {
+        "level": 2,
+        "text": "Rides and Events"
+      },
+      {
+        "level": 2,
+        "text": "Rentals"
+      },
+      {
+        "level": 2,
+        "text": "Motoverse 2026"
+      },
+      {
+        "level": 2,
+        "text": "Tours"
+      },
+      {
+        "level": 3,
+        "text": "Latest"
+      },
+      {
+        "level": 2,
+        "text": "Completed"
+      },
+      {
+        "level": 3,
+        "text": "Offline Uttarakhand"
+      },
+      {
+        "level": 2,
+        "text": "Completed"
+      },
+      {
+        "level": 3,
+        "text": "Moroccan Odyssey 2026"
+      },
+      {
+        "level": 2,
+        "text": "Completed"
+      },
+      {
+        "level": 3,
+        "text": "Royal Enfield x Madhya Pradesh Tourism 2026"
+      },
+      {
+        "level": 2,
+        "text": "Upcoming"
+      },
+      {
+        "level": 2,
+        "text": "Completed"
+      },
+      {
+        "level": 3,
+        "text": "Moto Mongolia 2026"
+      },
+      {
+        "level": 2,
+        "text": "Legacy since 1901"
+      },
+      {
+        "level": 3,
+        "text": "Locate Us"
+      },
+      {
+        "level": 3,
+        "text": "Shop"
+      },
+      {
+        "level": 3,
+        "text": "Motorcycles"
+      },
+      {
+        "level": 3,
+        "text": "Shop"
+      },
+      {
+        "level": 3,
+        "text": "Service"
+      },
+      {
+        "level": 3,
+        "text": "Ride"
+      },
+      {
+        "level": 3,
+        "text": "MotoCulture"
+      },
+      {
+        "level": 3,
+        "text": "Reach Us"
+      },
+      {
+        "level": 3,
+        "text": "Explore"
+      },
+      {
+        "level": 3,
+        "text": "Own a Royal Enfield"
+      },
+      {
+        "level": 3,
+        "text": "For further queries or appointments reach us at:"
+      }
+    ],
+    "visible_text": "The same hilltop. A whole new level. Motoverse 2026 REGISTER NOW × Motorcycles Shop Service Ride MotoCulture Explore IN Note We use our own cookies for the use of this site, personalize content and ads and to perform analysis of our traffic. We also share information about your use of our site with analytics partners who may combine it with other information that you’ve provided to them or that they’ve collected from your use of their services. If you want to learn more about cookies and opt out, click the Privacy Policy and Cookie Policy If you choose not to agree to the use of cookies all features of this site may not operate as intended. Accept Decline METEOR 350 EXPLORE CLASSIC 350 EXPLORE FLYING FLEA C6 EXPLORE HIMALAYAN 440 EXPLORE CONTINENTAL GT 650 EXPLORE 125TH ANNIVERSARY EDITION CLASSIC 650 REGISTER Scroll to explore In the headlights Multidisciplinary festival celebrating stories of and from the Himalayas ART OF MOTORCYCLING Enter Game-Mode. Imagine a world, design a cover, and bring it to life. Ride Into India's Tiger Heartland Royal Enfield x Madhya Pradesh Tourism. The Greatest Celebration of Motorcycling Culture on Earth KNOW MORE Follow two riders on a 45-day, 11,000 km expedition across forgotten roads, remote landscapes, and the stories waiting beyond the familiar. 1901 Magazine Volume 01 Explore the inaugural edition of Royal Enfield’s 1901 Magazine — a celebration of journeys, cultures, machines, stories and the motorcycling way of life. Use this for the copy below the banner Moroccan Odyssey 2026 Morocco is a land of vivid contrasts: where the towering, snow-capped Atlas Mountains give way to the shifting sands of the Sahara Desert The Royal Enfield Continental GT Cup presented by JK Tyre returns to find the greatest homegrown racing talent in India. Experience the greatest celebration of motorcycling culture on earth. Factory Custom A first-of-its-kind programme that allows you to customise your motorcycle your way. Motorcycles Scrambler Heritage Cruiser Scram 440 Goan Classic 350 Classic 350 Know More CONFIGURE NOW BOOK A TEST RIDE MotoCulture 01 Royal Enfield TV 02 Social Mission 03 Custom World Ride Rides and Events Rentals Motoverse 2026 Tours Latest VIEW ALL Completed Offline Uttarakhand Dehradun - Dehradun 27 Sep 2026 - 3 Oct 2026 KNOW MORE Completed Moroccan Odyssey 2026 Marrakesh - Rabat 25 Sep 2026 - 6 Oct 2026 KNOW MORE Completed Royal Enfield x Madhya Pradesh Tourism 2026 Bhopal - Khajuraho 1 Oct 2026 - 10 Oct 2026 KNOW MORE Upcoming 27 Nov 2026 - 29 Nov 2026 REGISTER NOW Completed Moto Mongolia 2026 Ulaanbaatar - Ulaanbaatar 5 Sep 2026 - 18 Sep 2026 KNOW MORE Legacy since 1901 Royal Enfield unveils its first motorcycle in London, featuring a 1.5hp engine by Walker Smith and Gobiet, with a rawhide belt drive and front-mounted motor. EXPLORE Locate Us Ride with a peace of mind. Find a Royal Enfield centre around you - store, service and genuine parts. Enter a city/location to find the service centers near you Stores Service Centres Genuine Parts Distributors Shop Apparel Ride out. Stand out. Apparel inspired by your ride. SHOP NOW Accessories Calibrate your motorcycle as per your riding needs. ACCESSORISE NOW Ride Sure Ride more. Worry less. Explore customisable plans. EXPLORE Locate Us Book a Test Ride Book a Service Configure Now Motorcycles Himalayan 440 Bullet 650 Hunter 350 Classic 650 Scram 440 Goan Classic 350 Bear 650 Classic 350 Guerrilla 450 Shotgun 650 Himalayan 450 Bullet 350 Super Meteor 650 Meteor 350 Interceptor 650 Continental GT 650 Shop Apparel Royal Enfield Accessories Service Extended Warranty Royal Enfield Maestros Ride Sure Rentals Tours REOwn Tripper Pod Tripper Dash Service Book a Service Service Cost Calculator Genuine Parts Distributors Locate Us Ride Sure Owner's Manual Quick Start Guide Maintenance Borderless Warranty Ride Rides & Events Rentals Tours Royal Enfield APP Wingman MotoCulture Royal Enfield TV Custom World Art of Motorcycling MLG Comics Wallpapers Reach Us Locate Us Contact Us Become a Dealer Become a Distributor Corporate Enquiry FAQs Explore News & Media Press Release Since 1901 Social Mission About Eicher Motors Own a Royal Enfield Make it Yours Finance Assured Buyback Programme REOwn For further queries or appointments reach us at: 1800 210 0008 support@royalenfield.com Private Import Policy Privacy Policy Terms & Conditions Cookie Policy © 2026, Royal Enfield *T&C apply. Images shown here may differ from actual product. ART OF MOTORCYCLING PRESS START ✕",
+    "product_names": [],
+    "prices": [],
+    "product_descriptions": [],
+    "specifications": [],
+    "links": [
+      {
+        "text": "REGISTER NOW",
+        "href": "https://www.skillboxes.com/events/royal-enfield-motoverse-2026-sbmndqhv"
+      },
+      {
+        "text": "",
+        "href": "https://www.royalenfield.com/in/en/home/"
+      },
+      {
+        "text": "",
+        "href": "https://flyingflea.royalenfield.com/in/en/product/c6/?utm_source=re-website&utm_medium=re-homepage&utm_campaign=re-top-banner&utm_content=c6-pdp"
+      },
+      {
+        "text": "",
+        "href": "https://www.royalenfield.com/in/en/locate-us/"
+      },
+      {
+        "text": "",
+        "href": "https://www.royalenfield.com/in/en/home/#"
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://www.royalenfield.com/in/en/legal/privacy-policy/"
+      },
+      {
+        "text": "Cookie Policy",
+        "href": "https://www.royalenfield.com/in/en/legal/cookie-policy/"
+      },
+      {
+        "text": "KNOW MORE",
+        "href": "https://www.royalenfield.com/in/en/rides/events/motoverse/"
+      },
+      {
+        "text": "Know More",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/goan-classic-350/"
+      },
+      {
+        "text": "CONFIGURE NOW",
+        "href": "https://makeityours.royalenfield.com/configurator/goan-350"
+      },
+      {
+        "text": "BOOK A TEST RIDE",
+        "href": "https://www.royalenfield.com/in/en/forms/book-a-test-ride?modelId=VGCL81JB"
+      },
+      {
+        "text": "01 Royal Enfield TV",
+        "href": "https://www.royalenfield.com/in/en/website-under-maintenance/"
+      },
+      {
+        "text": "02 Social Mission",
+        "href": "https://socialmission.royalenfield.com/"
+      },
+      {
+        "text": "03 Custom World",
+        "href": "https://www.royalenfield.com/in/en/custom-world/"
+      },
+      {
+        "text": "Rides and Events",
+        "href": "https://www.royalenfield.com/in/en/rides-calendar/"
+      },
+      {
+        "text": "Rentals",
+        "href": "https://www.royalenfield.com/in/en/rentals/"
+      },
+      {
+        "text": "Motoverse 2026",
+        "href": "https://www.royalenfield.com/in/en/rides/events/motoverse/"
+      },
+      {
+        "text": "Tours",
+        "href": "https://www.royalenfield.com/in/en/tours/"
+      },
+      {
+        "text": "VIEW ALL",
+        "href": "https://www.royalenfield.com/in/en/rides-calendar/"
+      },
+      {
+        "text": "KNOW MORE",
+        "href": "https://www.royalenfield.com/in/en/rides/marquee-rides/offline-uttarakhand/"
+      },
+      {
+        "text": "KNOW MORE",
+        "href": "https://www.royalenfield.com/in/en/rides/marquee-rides/moroccan-odyssey-2026/"
+      },
+      {
+        "text": "KNOW MORE",
+        "href": "https://www.royalenfield.com/in/en/rides/marquee-rides/royal-enfield-madhya-pradesh-tourism/"
+      },
+      {
+        "text": "REGISTER NOW",
+        "href": "https://www.royalenfield.com/in/en/rides/events/motoverse/"
+      },
+      {
+        "text": "KNOW MORE",
+        "href": "https://www.royalenfield.com/in/en/rides/marquee-rides/moto-mongolia/"
+      },
+      {
+        "text": "EXPLORE",
+        "href": "https://www.royalenfield.com/in/en/our-world/since-1901/"
+      },
+      {
+        "text": "SHOP NOW",
+        "href": "https://store.royalenfield.com/"
+      },
+      {
+        "text": "ACCESSORISE NOW",
+        "href": "https://www.royalenfield.com/in/en/gma/"
+      },
+      {
+        "text": "EXPLORE",
+        "href": "https://www.royalenfield.com/in/en/service/ride-sure/"
+      },
+      {
+        "text": "Locate Us",
+        "href": "https://www.royalenfield.com/in/en/locate-us/"
+      },
+      {
+        "text": "Book a Test Ride",
+        "href": "https://www.royalenfield.com/in/en/forms/book-a-test-ride/"
+      },
+      {
+        "text": "Book a Service",
+        "href": "https://www.royalenfield.com/in/en/service/"
+      },
+      {
+        "text": "Configure Now",
+        "href": "https://makeityours.royalenfield.com/configurator/"
+      },
+      {
+        "text": "Himalayan 440",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/himalayan-440/"
+      },
+      {
+        "text": "Bullet 650",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/bullet-650/"
+      },
+      {
+        "text": "Hunter 350",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/hunter-350/"
+      },
+      {
+        "text": "Classic 650",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/classic-650/"
+      },
+      {
+        "text": "Scram 440",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/scram-440/"
+      },
+      {
+        "text": "Goan Classic 350",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/goan-classic-350/"
+      },
+      {
+        "text": "Bear 650",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/bear-650/"
+      },
+      {
+        "text": "Classic 350",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/classic-350/"
+      },
+      {
+        "text": "Guerrilla 450",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/guerrilla-450/"
+      },
+      {
+        "text": "Shotgun 650",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/shotgun-650/"
+      },
+      {
+        "text": "Himalayan 450",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/new-himalayan/"
+      },
+      {
+        "text": "Bullet 350",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/bullet-350/"
+      },
+      {
+        "text": "Super Meteor 650",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/super-meteor-650/"
+      },
+      {
+        "text": "Meteor 350",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/meteor/"
+      },
+      {
+        "text": "Interceptor 650",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/interceptor/"
+      },
+      {
+        "text": "Continental GT 650",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/continental-gt/"
+      },
+      {
+        "text": "Apparel",
+        "href": "https://www.royalenfield.com/in/en/apparel/"
+      },
+      {
+        "text": "Royal Enfield Accessories",
+        "href": "https://www.royalenfield.com/in/en/gma/"
+      },
+      {
+        "text": "Service",
+        "href": "https://www.royalenfield.com/in/en/service/"
+      },
+      {
+        "text": "Extended Warranty",
+        "href": "https://www.royalenfield.com/in/en/service/ride-sure/?highlight=ew"
+      },
+      {
+        "text": "Royal Enfield Maestros",
+        "href": "https://www.royalenfield.com/in/en/service/ride-sure/?highlight=amc"
+      },
+      {
+        "text": "Ride Sure",
+        "href": "https://www.royalenfield.com/in/en/service/ride-sure/"
+      },
+      {
+        "text": "REOwn",
+        "href": "https://www.royalenfield.com/in/en/reown/"
+      },
+      {
+        "text": "Tripper Pod",
+        "href": "https://www.royalenfield.com/in/en/motorcycles/tripper/"
+      },
+      {
+        "text": "Tripper Dash",
+        "href": "https://www.royalenfield.com/in/en/tripper-dash/"
+      },
+      {
+        "text": "Service Cost Calculator",
+        "href": "https://www.royalenfield.com/in/en/service/#scc"
+      },
+      {
+        "text": "Genuine Parts Distributors",
+        "href": "https://www.royalenfield.com/in/en/locate-us/genuine-parts-distributors/"
+      },
+      {
+        "text": "Owner's Manual",
+        "href": "https://www.royalenfield.com/in/en/support/owners-manual/"
+      },
+      {
+        "text": "Quick Start Guide",
+        "href": "https://www.royalenfield.com/in/en/support/digital-quickstart/"
+      },
+      {
+        "text": "Maintenance",
+        "href": "https://www.royalenfield.com/in/en/service/periodic-maintenance/"
+      },
+      {
+        "text": "Borderless Warranty",
+        "href": "https://www.royalenfield.com/uk/en/after-sales/borderless-warranty/"
+      },
+      {
+        "text": "Rides & Events",
+        "href": "https://www.royalenfield.com/in/en/rides-calendar/"
+      },
+      {
+        "text": "Royal Enfield APP",
+        "href": "https://www.royalenfield.com/in/en/re-app/"
+      },
+      {
+        "text": "Wingman",
+        "href": "https://www.royalenfield.com/in/en/royal-enfield-wingman/"
+      },
+      {
+        "text": "Royal Enfield TV",
+        "href": "https://www.royalenfield.com/in/en/website-under-maintenance/"
+      },
+      {
+        "text": "Custom World",
+        "href": "https://www.royalenfield.com/in/en/custom-world/"
+      },
+      {
+        "text": "Art of Motorcycling",
+        "href": "https://www.royalenfield.com/in/en/art-of-motorcycling/"
+      },
+      {
+        "text": "MLG Comics",
+        "href": "https://www.royalenfield.com/in/en/mlg/"
+      },
+      {
+        "text": "Wallpapers",
+        "href": "https://www.royalenfield.com/in/en/our-world/wallpaper/"
+      },
+      {
+        "text": "Contact Us",
+        "href": "https://www.royalenfield.com/in/en/support/contact-us/"
+      },
+      {
+        "text": "Become a Dealer",
+        "href": "https://www.royalenfield.com/in/en/forms/become-a-dealer/"
+      },
+      {
+        "text": "Become a Distributor",
+        "href": "https://www.royalenfield.com/in/en/support/genuine-part-distributor/"
+      },
+      {
+        "text": "Corporate Enquiry",
+        "href": "https://www.royalenfield.com/in/en/support/bulk-enquiry/"
+      },
+      {
+        "text": "FAQs",
+        "href": "https://www.royalenfield.com/in/en/support/#faq"
+      },
+      {
+        "text": "News & Media",
+        "href": "https://www.royalenfield.com/in/en/our-world/media/news/"
+      },
+      {
+        "text": "Press Release",
+        "href": "https://www.royalenfield.com/in/en/our-world/media/press-releases/"
+      },
+      {
+        "text": "Since 1901",
+        "href": "https://www.royalenfield.com/in/en/our-world/since-1901/"
+      },
+      {
+        "text": "Social Mission",
+        "href": "https://socialmission.royalenfield.com/"
+      },
+      {
+        "text": "About Eicher Motors",
+        "href": "https://www.eicher.in/"
+      },
+      {
+        "text": "Make it Yours",
+        "href": "https://makeityours.royalenfield.com/"
+      },
+      {
+        "text": "Finance",
+        "href": "https://www.royalenfield.com/in/en/finance/"
+      },
+      {
+        "text": "Assured Buyback Programme",
+        "href": "https://www.royalenfield.com/in/en/finance/assured-buyback/"
+      },
+      {
+        "text": "1800 210 0008",
+        "href": "tel:1800%20210%200008"
+      },
+      {
+        "text": "support@royalenfield.com",
+        "href": "mailto:support@royalenfield.com"
+      },
+      {
+        "text": "",
+        "href": "https://www.facebook.com/RoyalEnfield/"
+      },
+      {
+        "text": "",
+        "href": "https://x.com/royalenfield"
+      },
+      {
+        "text": "",
+        "href": "https://www.youtube.com/channel/UCyxUUHqmz9IiAnrROJc0mag"
+      },
+      {
+        "text": "",
+        "href": "https://www.instagram.com/royalenfield"
+      },
+      {
+        "text": "",
+        "href": "https://www.linkedin.com/company/royal-enfield/"
+      },
+      {
+        "text": "Private Import Policy",
+        "href": "https://www.royalenfield.com/in/en/legal/private-import-policy/"
+      },
+      {
+        "text": "Terms & Conditions",
+        "href": "https://www.royalenfield.com/in/en/legal/terms-and-conditions/"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://www.royalenfield.com/content/dam/RE-Platform-Revamp/re-revamp-commons/logo.webp",
+        "alt": "Royal Enfield "
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/icons/1080xgreen.svg",
+        "alt": "Location Icon"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/motorcycles/meteor/banner/home-top-banner-1470x840.png",
+        "alt": "banner-background-image"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/motorcycles/new-classic-350/revamp/banner/homepage-banner.jpg",
+        "alt": "banner-background-image"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/banners-desktop/ff-c6-banner-desktop.jpg",
+        "alt": "banner-background-image"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/motorcycles/himalayan-440/home-banner/homepage-banner.jpg",
+        "alt": "banner-background-image"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/motorcycles/continental-gt/revamp/banner/home-page-1470x840-desktop.jpg",
+        "alt": "banner-background-image"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/classic-650-anniversary-edition/landing/banner/classic-650-home-new.jpg",
+        "alt": "banner-background-image"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/revamp/mouseWheel.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/jath-microsite/banners/jath-home.webp",
+        "alt": "Journeying Across The Himalayas"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/art-of-motorcycling-2026/landing/banners/mobile/aom-home-new.jpg",
+        "alt": "ART OF MOTORCYCLING"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/marquee-rides/madhya-pradesh/home/madhya-pradesh-tourism-650x290.jpg",
+        "alt": "  Royal Enfield x Madhya Pradesh Tourism 2026"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/home/motoverse-2026-headlights.jpg",
+        "alt": "Motoverse 2026"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/epic-ride/banners/wandering-sombarais-650-290.jpg",
+        "alt": "Wandering Sombarais"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/since-1901/live/since-1901-home-desktop.png",
+        "alt": "1901 Magazine Volume 01  "
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/australia/rides/marquee-rides/moroccan-odyssey-2026/banners/morroco-home-page-new-.webp",
+        "alt": "Moroccan Odyssey 2026"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/gtcup-2026/gt-cup-650%20x%20290.jpg",
+        "alt": "GT Cup 2026"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/home/retv/Motoverseemailer-desktop.jpg",
+        "alt": "Royal Enfield TV"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/home/new/in-the-headlights/webp/factory-customs.webp",
+        "alt": "Factory Custom"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/revamp-dam/home/motorcycles/icons/left-arrow.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/revamp-dam/home/motorcycles/icons/right.svg",
+        "alt": ""
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/motorcycles/header/scram-440-new-motorcycle.webp",
+        "alt": "Scram 440"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/motorcycles/home/webp/goan-classic-350.webp",
+        "alt": "Goan Classic 350"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/motorcycles/home/webp/classic-350.webp",
+        "alt": "Classic 350"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/motorcycles/home/webp/bullet-350.webp",
+        "alt": "Bullet 350"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/motorcycles/home/webp/classic-650.webp",
+        "alt": "Classic 650"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/home/motorcycles/new/bullet-650-motorcycle.webp",
+        "alt": "Bullet 650"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/motorcycles/home/webp/meteor-350-black-home.webp",
+        "alt": "Meteor 350"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/motorcycles/home/webp/super-meteor-650.webp",
+        "alt": "Super Meteor 650"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/motorcycles/home/webp/himalayan-450.webp",
+        "alt": "Himalayan 450"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/motorcycles/home/webp/himalayan-440.webp",
+        "alt": "Himalayan 440"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/motorcycles/home/webp/hunter-350.webp",
+        "alt": "Hunter 350"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/motorcycles/guerrilla-450/new/home/motorcycle-home-red.webp",
+        "alt": "Guerrilla 450"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/motorcycles/home/webp/shotgun-650.webp",
+        "alt": "Shotgun 650"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/motorcycles/home/webp/interceptor.webp",
+        "alt": "Interceptor 650"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/motorcycles/home/webp/continental-gt-rocker-red.webp",
+        "alt": "Continental GT 650"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/home/motorcycles/new/bear-650.webp",
+        "alt": "Bear 650"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/core-components-examples/Vector.svg",
+        "alt": "Golden Button"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/home/motoculture/webp/royal-enfield-tv.webp",
+        "alt": "Royal Enfield TV"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/home/motoculture/webp/social-mission-new1.webp",
+        "alt": "Social Mission"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/home/motoculture/webp/custom-world.webp",
+        "alt": "Custom World"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/home/new/irides/webp/rides-new.webp",
+        "alt": "Rides and Events"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/home/new/irides/webp/rentals-ride-home.webp",
+        "alt": "Rentals"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/home/motoverse-2026-upcoming.jpg",
+        "alt": "Motoverse 2026"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/home/new/irides/webp/tours-desktop.webp",
+        "alt": "Tours"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/marquee-rides/offline-uttarakhand/home/latest-540x860.jpg",
+        "alt": "Offline Uttarakhand"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/revamp-dam/re-revamp-compress/place_dark.svg",
+        "alt": "location"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/revamp-dam/re-revamp-compress/calendar_today.svg",
+        "alt": "date"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/home/latest/morocco.webp",
+        "alt": "Moroccan Odyssey 2026"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/marquee-rides/madhya-pradesh/home/madhya-pradesh-tourism-latest.jpg",
+        "alt": "  Royal Enfield x Madhya Pradesh Tourism 2026"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/rides/events/motoverse-2026/home/motoverse-2026-latest-new.jpg",
+        "alt": "Motoverse"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/moto-mongolia/latest-moto-mongolia-desktop-mobile-logo.jpg",
+        "alt": "Moto Mongolia 2026"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/home/legacy/webp/new/1901-new.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/home/legacy/webp/new/1932-new.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/home/legacy/webp/new/1936-new.webp",
+        "alt": ""
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/RE-Platform-Revamp/rides-landing-/gps_search_icon.png",
+        "alt": "location"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/home/new/shop/webp/apparel.webp",
+        "alt": "Apparel"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/home/new/shop/webp/gma-accessories.webp",
+        "alt": "Accessories"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield-revamp/home/new/shop/webp/ride-sure-shop-home.webp",
+        "alt": "Ride Sure"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/RE-Platform-Revamp/header-footer/secFooterImgDesktop.svg",
+        "alt": "Locate Us"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/RE-Platform-Revamp/header-footer/secFooterTwo.svg",
+        "alt": "Book a Test Ride"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/RE-Platform-Revamp/header-footer/secFooterImgDesktopFour.svg",
+        "alt": "Book a Service"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/RE-Platform-Revamp/header-footer/secFooterImgDesktopThree.svg",
+        "alt": "Configure Now"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/icons/facebook-50.png",
+        "alt": "Social Media Icon"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/india/bullet-meri-jaan/icons/twitter-white.png",
+        "alt": "Social Media Icon"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/reown/reown-icons/Youtube-white.webp",
+        "alt": "Social Media Icon"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/royal-enfield/riders-portal/icons/Instagram-white-logo.png",
+        "alt": "Social Media Icon"
+      },
+      {
+        "src": "https://www.royalenfield.com/content/dam/RE-Platform-Revamp/header-footer/footer-icons/linkedin%201.png",
+        "alt": "Social Media Icon"
+      }
+    ],
+    "tables": [],
+    "primary_product": null,
+    "related_products": []
+  },
+  "limitations": [
+    "In-page role=tab controls are clicked so tabbed features/specs can be read; forms, links, and purchase CTAs are not clicked.",
+    "Closed accordions without a tab role, and off-screen overflow, may still hide text.",
+    "Text painted only inside images (OCR not performed) is not captured as visible_text.",
+    "Overlapping or visually clipped elements can still contribute DOM text if CSS visibility checks pass.",
+    "aria-hidden subtrees are excluded from visible_text even if they occupy pixels (common for duplicate image links).",
+    "Lazy content beyond the configured scroll budget is not captured.",
+    "Related product cards on the same page may appear in product_names alongside the primary H1."
+  ],
+  "http_status": 200,
+  "json_path": "out/royal-enfield-test/human-view-20261025-080817.json"
+}

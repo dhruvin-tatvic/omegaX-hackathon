@@ -60,9 +60,6 @@ __pycache__/
 .pytest_cache/
 .mypy_cache/
 
-# Human View Collector generated outputs
-out/screenshots/
-out/rendered_html/
-out/*.json
-out/**/screenshots/
-out/**/rendered_html/
+# Keep Human View crawl outputs in git so clones can open the dashboard.
+# Skip editor backup copies only.
+out/royal-enfield-test~/

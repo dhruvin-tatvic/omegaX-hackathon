@@ -1,0 +1,190 @@
+{
+  "url": "https://omegax-hackathon.onrender.com/contact",
+  "final_url": "https://omegax-hackathon.onrender.com/contact/",
+  "captured_at": "2026-10-25T06:15:20Z",
+  "capture_method": "playwright_chromium",
+  "viewport": {
+    "width": 1366,
+    "height": 768
+  },
+  "page_title": "Contact Customer Support & Enquiries — Apex Moto",
+  "status": "success",
+  "errors": [],
+  "screenshot_path": "out/screenshots/contact-20261025-061520.png",
+  "rendered_html_path": "out/rendered_html/contact-20261025-061520.html",
+  "content": {
+    "headings": [
+      {
+        "level": 1,
+        "text": "Contact Us"
+      },
+      {
+        "level": 2,
+        "text": "How Can We Help?"
+      },
+      {
+        "level": 4,
+        "text": "MOTORCYCLES"
+      },
+      {
+        "level": 4,
+        "text": "EXPERIENCE"
+      },
+      {
+        "level": 4,
+        "text": "COMPANY"
+      }
+    ],
+    "visible_text": "Motorcycles Offers Finance Dealers FAQ About Contact Test Ride Book Now Get in Touch Contact Us We're here to help. Whether you have a product query, need after-sales support, or just want to talk motorcycles — reach out. Customer Support 1800-XXX-APEX (Toll Free) Mon–Sat: 9:00 AM – 7:00 PM Email Us support@apexmoto.in Response within 24–48 hours Head Office Apex Moto Ltd., 1 Innovation Drive, Pune, Maharashtra 411001 By appointment only Live Chat Available on our app Mon–Sun: 8:00 AM – 10:00 PM Send a Message How Can We Help? Fill out the form and our team will get back to you within 1–2 business days. ⚠️ Demo Notice: This form simulates message submission. No data is transmitted or stored. Full Name * Email Address * Mobile Number * Subject * Message * I consent to Apex Moto processing my details to respond to this enquiry. I understand this is a demonstration form and no data is actually stored. * Send Message → Born to Ride. Built to Last. Apex Moto crafts motorcycles that embody the spirit of the road — precision engineering, enduring quality, and the freedom to go anywhere. Motorcycles All 18 Models Thunderstrike 650 Phantom 350 Storm 200 Zenith 450 Scrambler Experience Book a Test Ride Find a Dealer Offers & Deals Finance & EMI Plans Buyer FAQs Contact Support Company About Apex Moto Rider Portal Rider Login © 2026 Apex Moto. All rights reserved. Fictional brand test site for AI-readability audit. Privacy Policy Terms of Use Sitemap",
+    "product_names": [],
+    "prices": [],
+    "product_descriptions": [],
+    "specifications": [],
+    "links": [
+      {
+        "text": "",
+        "href": "https://omegax-hackathon.onrender.com/"
+      },
+      {
+        "text": "Motorcycles",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles"
+      },
+      {
+        "text": "Offers",
+        "href": "https://omegax-hackathon.onrender.com/offers"
+      },
+      {
+        "text": "Finance",
+        "href": "https://omegax-hackathon.onrender.com/finance"
+      },
+      {
+        "text": "Dealers",
+        "href": "https://omegax-hackathon.onrender.com/dealers"
+      },
+      {
+        "text": "FAQ",
+        "href": "https://omegax-hackathon.onrender.com/faq"
+      },
+      {
+        "text": "About",
+        "href": "https://omegax-hackathon.onrender.com/about"
+      },
+      {
+        "text": "Contact",
+        "href": "https://omegax-hackathon.onrender.com/contact"
+      },
+      {
+        "text": "TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride"
+      },
+      {
+        "text": "BOOK NOW",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride"
+      },
+      {
+        "text": "📸",
+        "href": "https://omegax-hackathon.onrender.com/contact/#"
+      },
+      {
+        "text": "👤",
+        "href": "https://omegax-hackathon.onrender.com/contact/#"
+      },
+      {
+        "text": "▶️",
+        "href": "https://omegax-hackathon.onrender.com/contact/#"
+      },
+      {
+        "text": "🐦",
+        "href": "https://omegax-hackathon.onrender.com/contact/#"
+      },
+      {
+        "text": "All 18 Models",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles"
+      },
+      {
+        "text": "Thunderstrike 650",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-650"
+      },
+      {
+        "text": "Phantom 350",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350"
+      },
+      {
+        "text": "Storm 200",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/storm-200"
+      },
+      {
+        "text": "Zenith 450 Scrambler",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/zenith-450-scrambler"
+      },
+      {
+        "text": "Book a Test Ride",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride"
+      },
+      {
+        "text": "Find a Dealer",
+        "href": "https://omegax-hackathon.onrender.com/dealers"
+      },
+      {
+        "text": "Offers & Deals",
+        "href": "https://omegax-hackathon.onrender.com/offers"
+      },
+      {
+        "text": "Finance & EMI Plans",
+        "href": "https://omegax-hackathon.onrender.com/finance"
+      },
+      {
+        "text": "Buyer FAQs",
+        "href": "https://omegax-hackathon.onrender.com/faq"
+      },
+      {
+        "text": "Contact Support",
+        "href": "https://omegax-hackathon.onrender.com/contact"
+      },
+      {
+        "text": "About Apex Moto",
+        "href": "https://omegax-hackathon.onrender.com/about"
+      },
+      {
+        "text": "Rider Portal",
+        "href": "https://omegax-hackathon.onrender.com/account"
+      },
+      {
+        "text": "Rider Login",
+        "href": "https://omegax-hackathon.onrender.com/login"
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://omegax-hackathon.onrender.com/contact/#"
+      },
+      {
+        "text": "Terms of Use",
+        "href": "https://omegax-hackathon.onrender.com/contact/#"
+      },
+      {
+        "text": "Sitemap",
+        "href": "https://omegax-hackathon.onrender.com/contact/#"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://omegax-hackathon.onrender.com/assets/apex_moto_logo-dhs_X3_e.jpg",
+        "alt": "Apex Moto"
+      }
+    ],
+    "tables": [],
+    "primary_product": null,
+    "related_products": []
+  },
+  "limitations": [
+    "In-page role=tab controls are clicked so tabbed features/specs can be read; forms, links, and purchase CTAs are not clicked.",
+    "Closed accordions without a tab role, and off-screen overflow, may still hide text.",
+    "Text painted only inside images (OCR not performed) is not captured as visible_text.",
+    "Overlapping or visually clipped elements can still contribute DOM text if CSS visibility checks pass.",
+    "aria-hidden subtrees are excluded from visible_text even if they occupy pixels (common for duplicate image links).",
+    "Lazy content beyond the configured scroll budget is not captured.",
+    "Related product cards on the same page may appear in product_names alongside the primary H1."
+  ],
+  "http_status": 200,
+  "json_path": "out/human-view-20261025-061520.json"
+}

@@ -1,0 +1,917 @@
+{
+  "url": "https://omegax-hackathon.onrender.com/finance",
+  "final_url": "https://omegax-hackathon.onrender.com/finance/",
+  "captured_at": "2026-10-25T05:35:07Z",
+  "capture_method": "playwright_chromium",
+  "viewport": {
+    "width": 1366,
+    "height": 768
+  },
+  "page_title": "Motorcycle Financing & EMI Options | Apex Moto",
+  "status": "success",
+  "errors": [],
+  "screenshot_path": "out/screenshots/finance-20261025-053507.png",
+  "rendered_html_path": "out/rendered_html/finance-20261025-053507.html",
+  "content": {
+    "headings": [
+      {
+        "level": 1,
+        "text": "Motorcycle Finance & EMI Plans"
+      },
+      {
+        "level": 2,
+        "text": "How Is Your EMI Calculated?"
+      },
+      {
+        "level": 2,
+        "text": "Official Banking Partners & Interest Rates"
+      },
+      {
+        "level": 2,
+        "text": "Per-Model EMI Estimates"
+      },
+      {
+        "level": 3,
+        "text": "Thunderstrike 650"
+      },
+      {
+        "level": 3,
+        "text": "Phantom 350"
+      },
+      {
+        "level": 3,
+        "text": "Storm 200"
+      },
+      {
+        "level": 3,
+        "text": "Zenith 450 Scrambler"
+      },
+      {
+        "level": 3,
+        "text": "Thunderstrike 450"
+      },
+      {
+        "level": 3,
+        "text": "Thunderstrike 650 Rally"
+      },
+      {
+        "level": 3,
+        "text": "Phantom 500"
+      },
+      {
+        "level": 3,
+        "text": "Phantom 350 Bobber"
+      },
+      {
+        "level": 3,
+        "text": "Storm 125"
+      },
+      {
+        "level": 3,
+        "text": "Storm 160"
+      },
+      {
+        "level": 3,
+        "text": "Storm 390"
+      },
+      {
+        "level": 3,
+        "text": "Zenith 350 Scrambler"
+      },
+      {
+        "level": 3,
+        "text": "Zenith 650 Scrambler"
+      },
+      {
+        "level": 3,
+        "text": "Voyager 650"
+      },
+      {
+        "level": 3,
+        "text": "Voyager 450"
+      },
+      {
+        "level": 3,
+        "text": "Nightfall 350"
+      },
+      {
+        "level": 3,
+        "text": "Spark E1"
+      },
+      {
+        "level": 4,
+        "text": "MOTORCYCLES"
+      },
+      {
+        "level": 4,
+        "text": "EXPERIENCE"
+      },
+      {
+        "level": 4,
+        "text": "COMPANY"
+      }
+    ],
+    "visible_text": "Motorcycles Offers Finance Dealers FAQ About Contact Test Ride Book Now Financing Solutions Motorcycle Finance & EMI Plans Transparent rates, minimal documentation, and quick approvals through our trusted banking partners. How Is Your EMI Calculated? Equated Monthly Instalment (EMI) is calculated using the standard reducing balance loan formula: EMI = [P × R × (1 + R)^N] / [(1 + R)^N - 1] P (Principal Loan Amount): Ex-showroom price minus your down payment. R (Monthly Interest Rate): Annual interest rate divided by 12 and then by 100. N (Loan Tenure): Loan duration in total number of months (typically 12 to 72 months). * On-road costs (RTO registration and insurance) can also be bundled into the loan with select banking partners. Banking Partners Official Banking Partners & Interest Rates Our approved banking consortium provides customized two-wheeler loan solutions with fast turnaround times. Banking Partner Interest Rate (p.a.) Maximum Loan Tenure Typical Down Payment HDFC Bank 8.5 % 60 months 0-20% ICICI Bank 9 % 72 months 0-20% SBI 7.9 % 60 months 10-20% Axis Bank 9.5 % 48 months 0-15% Model Estimates Per-Model EMI Estimates Representative 48-month financing breakdown for each Apex Moto model (base variant). Thunderstrike 650 Adventure Ex-showroom: ₹4,20,000 Down Payment Interest Rate Tenure Monthly EMI ₹42,000 9.99 % 48 mo ₹9,585 Basis: Base variant ex-showroom minus down payment, 48 months View Motorcycle Book Test Ride Phantom 350 Classic Ex-showroom: ₹2,15,000 Down Payment Interest Rate Tenure Monthly EMI ₹22,000 9.99 % 48 mo ₹4,894 Basis: Base variant ex-showroom minus down payment, 48 months View Motorcycle Book Test Ride Storm 200 Street Ex-showroom: ₹1,45,000 Down Payment Interest Rate Tenure Monthly EMI ₹14,000 9.49 % 48 mo ₹3,291 Basis: Base variant ex-showroom minus down payment, 48 months View Motorcycle Book Test Ride Zenith 450 Scrambler Scrambler Ex-showroom: ₹3,35,000 Down Payment Interest Rate Tenure Monthly EMI ₹34,000 9.99 % 48 mo ₹7,633 Basis: Base variant ex-showroom minus down payment, 48 months View Motorcycle Book Test Ride Thunderstrike 450 Adventure Ex-showroom: ₹2,89,000 Down Payment Interest Rate Tenure Monthly EMI ₹29,000 9.99 % 48 mo ₹6,593 Basis: Base variant ex-showroom minus down payment, 48 months View Motorcycle Book Test Ride Thunderstrike 650 Rally Adventure Ex-showroom: ₹5,29,000 Down Payment Interest Rate Tenure Monthly EMI ₹53,000 9.99 % 48 mo ₹12,070 Basis: Base variant ex-showroom minus down payment, 48 months View Motorcycle Book Test Ride Phantom 500 Classic Ex-showroom: ₹2,59,000 Down Payment Interest Rate Tenure Monthly EMI ₹26,000 9.99 % 48 mo ₹5,908 Basis: Base variant ex-showroom minus down payment, 48 months View Motorcycle Book Test Ride Phantom 350 Bobber Classic Ex-showroom: ₹2,35,000 Down Payment Interest Rate Tenure Monthly EMI ₹24,000 9.99 % 48 mo ₹5,350 Basis: Base variant ex-showroom minus down payment, 48 months View Motorcycle Book Test Ride Storm 125 Street Ex-showroom: ₹99,000 Down Payment Interest Rate Tenure Monthly EMI ₹10,000 9.49 % 48 mo ₹2,236 Basis: Base variant ex-showroom minus down payment, 48 months View Motorcycle Book Test Ride Storm 160 Street Ex-showroom: ₹1,22,000 Down Payment Interest Rate Tenure Monthly EMI ₹12,000 9.49 % 48 mo ₹2,763 Basis: Base variant ex-showroom minus down payment, 48 months View Motorcycle Book Test Ride Storm 390 Street Ex-showroom: ₹2,79,000 Down Payment Interest Rate Tenure Monthly EMI ₹28,000 9.99 % 48 mo ₹6,365 Basis: Base variant ex-showroom minus down payment, 48 months View Motorcycle Book Test Ride Zenith 350 Scrambler Scrambler Ex-showroom: ₹2,29,000 Down Payment Interest Rate Tenure Monthly EMI ₹23,000 9.99 % 48 mo ₹5,224 Basis: Base variant ex-showroom minus down payment, 48 months View Motorcycle Book Test Ride Zenith 650 Scrambler Scrambler Ex-showroom: ₹4,49,000 Down Payment Interest Rate Tenure Monthly EMI ₹45,000 9.99 % 48 mo ₹10,245 Basis: Base variant ex-showroom minus down payment, 48 months View Motorcycle Book Test Ride Voyager 650 Tourer Ex-showroom: ₹4,59,000 Down Payment Interest Rate Tenure Monthly EMI ₹46,000 9.99 % 48 mo ₹10,473 Basis: Base variant ex-showroom minus down payment, 48 months View Motorcycle Book Test Ride Voyager 450 Tourer Ex-showroom: ₹2,99,000 Down Payment Interest Rate Tenure Monthly EMI ₹30,000 9.99 % 48 mo ₹6,821 Basis: Base variant ex-showroom minus down payment, 48 months View Motorcycle Book Test Ride Nightfall 350 Cruiser Ex-showroom: ₹2,19,000 Down Payment Interest Rate Tenure Monthly EMI ₹22,000 9.99 % 48 mo ₹4,995 Basis: Base variant ex-showroom minus down payment, 48 months View Motorcycle Book Test Ride Spark E1 Electric Ex-showroom: ₹1,49,000 Down Payment Interest Rate Tenure Monthly EMI ₹15,000 8.99 % 48 mo ₹3,334 Basis: Base variant ex-showroom minus down payment, 48 months View Motorcycle Book Test Ride Born to Ride. Built to Last. Apex Moto crafts motorcycles that embody the spirit of the road — precision engineering, enduring quality, and the freedom to go anywhere. Motorcycles All 18 Models Thunderstrike 650 Phantom 350 Storm 200 Zenith 450 Scrambler Experience Book a Test Ride Find a Dealer Offers & Deals Finance & EMI Plans Buyer FAQs Contact Support Company About Apex Moto Rider Portal Rider Login © 2026 Apex Moto. All rights reserved. Fictional brand test site for AI-readability audit. Privacy Policy Terms of Use Sitemap",
+    "product_names": [
+      "Thunderstrike 650",
+      "Phantom 350",
+      "Storm 200",
+      "Zenith 450 Scrambler",
+      "Thunderstrike 450",
+      "Thunderstrike 650 Rally",
+      "Phantom 500",
+      "Phantom 350 Bobber",
+      "Storm 125",
+      "Storm 160",
+      "Storm 390",
+      "Zenith 350 Scrambler",
+      "Zenith 650 Scrambler",
+      "Voyager 650",
+      "Voyager 450",
+      "Nightfall 350",
+      "Spark E1"
+    ],
+    "prices": [
+      "₹4,20,000",
+      "₹42,000",
+      "₹9,585",
+      "₹2,15,000",
+      "₹22,000",
+      "₹4,894",
+      "₹1,45,000",
+      "₹14,000",
+      "₹3,291",
+      "₹3,35,000",
+      "₹34,000",
+      "₹7,633",
+      "₹2,89,000",
+      "₹29,000",
+      "₹6,593",
+      "₹5,29,000",
+      "₹53,000",
+      "₹12,070",
+      "₹2,59,000",
+      "₹26,000",
+      "₹5,908",
+      "₹2,35,000",
+      "₹24,000",
+      "₹5,350",
+      "₹99,000",
+      "₹10,000",
+      "₹2,236",
+      "₹1,22,000",
+      "₹12,000",
+      "₹2,763",
+      "₹2,79,000",
+      "₹28,000",
+      "₹6,365",
+      "₹2,29,000",
+      "₹23,000",
+      "₹5,224",
+      "₹4,49,000",
+      "₹45,000",
+      "₹10,245",
+      "₹4,59,000",
+      "₹46,000",
+      "₹10,473",
+      "₹2,99,000",
+      "₹30,000",
+      "₹6,821",
+      "₹2,19,000",
+      "₹4,995",
+      "₹1,49,000",
+      "₹15,000",
+      "₹3,334"
+    ],
+    "product_descriptions": [
+      {
+        "product": "Thunderstrike 650",
+        "text": "Basis: Base variant ex-showroom minus down payment, 48 months"
+      },
+      {
+        "product": "Phantom 350",
+        "text": "Basis: Base variant ex-showroom minus down payment, 48 months"
+      },
+      {
+        "product": "Storm 200",
+        "text": "Basis: Base variant ex-showroom minus down payment, 48 months"
+      },
+      {
+        "product": "Zenith 450 Scrambler",
+        "text": "Basis: Base variant ex-showroom minus down payment, 48 months"
+      },
+      {
+        "product": "Thunderstrike 450",
+        "text": "Basis: Base variant ex-showroom minus down payment, 48 months"
+      },
+      {
+        "product": "Thunderstrike 650 Rally",
+        "text": "Basis: Base variant ex-showroom minus down payment, 48 months"
+      },
+      {
+        "product": "Phantom 500",
+        "text": "Basis: Base variant ex-showroom minus down payment, 48 months"
+      },
+      {
+        "product": "Phantom 350 Bobber",
+        "text": "Basis: Base variant ex-showroom minus down payment, 48 months"
+      },
+      {
+        "product": "Storm 125",
+        "text": "Basis: Base variant ex-showroom minus down payment, 48 months"
+      },
+      {
+        "product": "Storm 160",
+        "text": "Basis: Base variant ex-showroom minus down payment, 48 months"
+      },
+      {
+        "product": "Storm 390",
+        "text": "Basis: Base variant ex-showroom minus down payment, 48 months"
+      },
+      {
+        "product": "Zenith 350 Scrambler",
+        "text": "Basis: Base variant ex-showroom minus down payment, 48 months"
+      },
+      {
+        "product": "Zenith 650 Scrambler",
+        "text": "Basis: Base variant ex-showroom minus down payment, 48 months"
+      },
+      {
+        "product": "Voyager 650",
+        "text": "Basis: Base variant ex-showroom minus down payment, 48 months"
+      },
+      {
+        "product": "Voyager 450",
+        "text": "Basis: Base variant ex-showroom minus down payment, 48 months"
+      },
+      {
+        "product": "Nightfall 350",
+        "text": "Basis: Base variant ex-showroom minus down payment, 48 months"
+      },
+      {
+        "product": "Spark E1",
+        "text": "Basis: Base variant ex-showroom minus down payment, 48 months"
+      }
+    ],
+    "specifications": [],
+    "links": [
+      {
+        "text": "",
+        "href": "https://omegax-hackathon.onrender.com/"
+      },
+      {
+        "text": "Motorcycles",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles"
+      },
+      {
+        "text": "Offers",
+        "href": "https://omegax-hackathon.onrender.com/offers"
+      },
+      {
+        "text": "Finance",
+        "href": "https://omegax-hackathon.onrender.com/finance"
+      },
+      {
+        "text": "Dealers",
+        "href": "https://omegax-hackathon.onrender.com/dealers"
+      },
+      {
+        "text": "FAQ",
+        "href": "https://omegax-hackathon.onrender.com/faq"
+      },
+      {
+        "text": "About",
+        "href": "https://omegax-hackathon.onrender.com/about"
+      },
+      {
+        "text": "Contact",
+        "href": "https://omegax-hackathon.onrender.com/contact"
+      },
+      {
+        "text": "TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride"
+      },
+      {
+        "text": "BOOK NOW",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride"
+      },
+      {
+        "text": "Thunderstrike 650",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-650"
+      },
+      {
+        "text": "VIEW MOTORCYCLE",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-650"
+      },
+      {
+        "text": "BOOK TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride?bike=thunderstrike-650"
+      },
+      {
+        "text": "Phantom 350",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350"
+      },
+      {
+        "text": "VIEW MOTORCYCLE",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350"
+      },
+      {
+        "text": "BOOK TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride?bike=phantom-350"
+      },
+      {
+        "text": "Storm 200",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/storm-200"
+      },
+      {
+        "text": "VIEW MOTORCYCLE",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/storm-200"
+      },
+      {
+        "text": "BOOK TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride?bike=storm-200"
+      },
+      {
+        "text": "Zenith 450 Scrambler",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/zenith-450-scrambler"
+      },
+      {
+        "text": "VIEW MOTORCYCLE",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/zenith-450-scrambler"
+      },
+      {
+        "text": "BOOK TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride?bike=zenith-450-scrambler"
+      },
+      {
+        "text": "Thunderstrike 450",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450"
+      },
+      {
+        "text": "VIEW MOTORCYCLE",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450"
+      },
+      {
+        "text": "BOOK TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride?bike=thunderstrike-450"
+      },
+      {
+        "text": "Thunderstrike 650 Rally",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-650-rally"
+      },
+      {
+        "text": "VIEW MOTORCYCLE",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-650-rally"
+      },
+      {
+        "text": "BOOK TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride?bike=thunderstrike-650-rally"
+      },
+      {
+        "text": "Phantom 500",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/phantom-500"
+      },
+      {
+        "text": "VIEW MOTORCYCLE",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/phantom-500"
+      },
+      {
+        "text": "BOOK TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride?bike=phantom-500"
+      },
+      {
+        "text": "Phantom 350 Bobber",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber"
+      },
+      {
+        "text": "VIEW MOTORCYCLE",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber"
+      },
+      {
+        "text": "BOOK TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride?bike=phantom-350-bobber"
+      },
+      {
+        "text": "Storm 125",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/storm-125"
+      },
+      {
+        "text": "VIEW MOTORCYCLE",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/storm-125"
+      },
+      {
+        "text": "BOOK TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride?bike=storm-125"
+      },
+      {
+        "text": "Storm 160",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/storm-160"
+      },
+      {
+        "text": "VIEW MOTORCYCLE",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/storm-160"
+      },
+      {
+        "text": "BOOK TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride?bike=storm-160"
+      },
+      {
+        "text": "Storm 390",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/storm-390"
+      },
+      {
+        "text": "VIEW MOTORCYCLE",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/storm-390"
+      },
+      {
+        "text": "BOOK TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride?bike=storm-390"
+      },
+      {
+        "text": "Zenith 350 Scrambler",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/zenith-350-scrambler"
+      },
+      {
+        "text": "VIEW MOTORCYCLE",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/zenith-350-scrambler"
+      },
+      {
+        "text": "BOOK TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride?bike=zenith-350-scrambler"
+      },
+      {
+        "text": "Zenith 650 Scrambler",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/zenith-650-scrambler"
+      },
+      {
+        "text": "VIEW MOTORCYCLE",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/zenith-650-scrambler"
+      },
+      {
+        "text": "BOOK TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride?bike=zenith-650-scrambler"
+      },
+      {
+        "text": "Voyager 650",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/voyager-650"
+      },
+      {
+        "text": "VIEW MOTORCYCLE",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/voyager-650"
+      },
+      {
+        "text": "BOOK TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride?bike=voyager-650"
+      },
+      {
+        "text": "Voyager 450",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/voyager-450"
+      },
+      {
+        "text": "VIEW MOTORCYCLE",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/voyager-450"
+      },
+      {
+        "text": "BOOK TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride?bike=voyager-450"
+      },
+      {
+        "text": "Nightfall 350",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350"
+      },
+      {
+        "text": "VIEW MOTORCYCLE",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350"
+      },
+      {
+        "text": "BOOK TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride?bike=nightfall-350"
+      },
+      {
+        "text": "Spark E1",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1"
+      },
+      {
+        "text": "VIEW MOTORCYCLE",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1"
+      },
+      {
+        "text": "BOOK TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride?bike=spark-e1"
+      },
+      {
+        "text": "📸",
+        "href": "https://omegax-hackathon.onrender.com/finance/#"
+      },
+      {
+        "text": "👤",
+        "href": "https://omegax-hackathon.onrender.com/finance/#"
+      },
+      {
+        "text": "▶️",
+        "href": "https://omegax-hackathon.onrender.com/finance/#"
+      },
+      {
+        "text": "🐦",
+        "href": "https://omegax-hackathon.onrender.com/finance/#"
+      },
+      {
+        "text": "All 18 Models",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles"
+      },
+      {
+        "text": "Book a Test Ride",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride"
+      },
+      {
+        "text": "Find a Dealer",
+        "href": "https://omegax-hackathon.onrender.com/dealers"
+      },
+      {
+        "text": "Offers & Deals",
+        "href": "https://omegax-hackathon.onrender.com/offers"
+      },
+      {
+        "text": "Finance & EMI Plans",
+        "href": "https://omegax-hackathon.onrender.com/finance"
+      },
+      {
+        "text": "Buyer FAQs",
+        "href": "https://omegax-hackathon.onrender.com/faq"
+      },
+      {
+        "text": "Contact Support",
+        "href": "https://omegax-hackathon.onrender.com/contact"
+      },
+      {
+        "text": "About Apex Moto",
+        "href": "https://omegax-hackathon.onrender.com/about"
+      },
+      {
+        "text": "Rider Portal",
+        "href": "https://omegax-hackathon.onrender.com/account"
+      },
+      {
+        "text": "Rider Login",
+        "href": "https://omegax-hackathon.onrender.com/login"
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://omegax-hackathon.onrender.com/finance/#"
+      },
+      {
+        "text": "Terms of Use",
+        "href": "https://omegax-hackathon.onrender.com/finance/#"
+      },
+      {
+        "text": "Sitemap",
+        "href": "https://omegax-hackathon.onrender.com/finance/#"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://omegax-hackathon.onrender.com/assets/apex_moto_logo-dhs_X3_e.jpg",
+        "alt": "Apex Moto"
+      }
+    ],
+    "tables": [
+      {
+        "caption": "",
+        "headers": [
+          "BANKING PARTNER",
+          "INTEREST RATE (P.A.)",
+          "MAXIMUM LOAN TENURE",
+          "TYPICAL DOWN PAYMENT"
+        ],
+        "rows": [
+          [
+            "HDFC Bank",
+            "8.5%",
+            "60 months",
+            "0-20%"
+          ],
+          [
+            "ICICI Bank",
+            "9%",
+            "72 months",
+            "0-20%"
+          ],
+          [
+            "SBI",
+            "7.9%",
+            "60 months",
+            "10-20%"
+          ],
+          [
+            "Axis Bank",
+            "9.5%",
+            "48 months",
+            "0-15%"
+          ]
+        ]
+      },
+      {
+        "caption": "",
+        "headers": [
+          "DOWN PAYMENT",
+          "INTEREST RATE",
+          "TENURE",
+          "MONTHLY EMI"
+        ],
+        "rows": [
+          [
+            "₹42,000",
+            "9.99%",
+            "48 mo",
+            "₹9,585"
+          ]
+        ]
+      },
+      {
+        "caption": "",
+        "headers": [
+          "DOWN PAYMENT",
+          "INTEREST RATE",
+          "TENURE",
+          "MONTHLY EMI"
+        ],
+        "rows": [
+          [
+            "₹22,000",
+            "9.99%",
+            "48 mo",
+            "₹4,894"
+          ]
+        ]
+      },
+      {
+        "caption": "",
+        "headers": [
+          "DOWN PAYMENT",
+          "INTEREST RATE",
+          "TENURE",
+          "MONTHLY EMI"
+        ],
+        "rows": [
+          [
+            "₹14,000",
+            "9.49%",
+            "48 mo",
+            "₹3,291"
+          ]
+        ]
+      },
+      {
+        "caption": "",
+        "headers": [
+          "DOWN PAYMENT",
+          "INTEREST RATE",
+          "TENURE",
+          "MONTHLY EMI"
+        ],
+        "rows": [
+          [
+            "₹34,000",
+            "9.99%",
+            "48 mo",
+            "₹7,633"
+          ]
+        ]
+      },
+      {
+        "caption": "",
+        "headers": [
+          "DOWN PAYMENT",
+          "INTEREST RATE",
+          "TENURE",
+          "MONTHLY EMI"
+        ],
+        "rows": [
+          [
+            "₹29,000",
+            "9.99%",
+            "48 mo",
+            "₹6,593"
+          ]
+        ]
+      },
+      {
+        "caption": "",
+        "headers": [
+          "DOWN PAYMENT",
+          "INTEREST RATE",
+          "TENURE",
+          "MONTHLY EMI"
+        ],
+        "rows": [
+          [
+            "₹53,000",
+            "9.99%",
+            "48 mo",
+            "₹12,070"
+          ]
+        ]
+      },
+      {
+        "caption": "",
+        "headers": [
+          "DOWN PAYMENT",
+          "INTEREST RATE",
+          "TENURE",
+          "MONTHLY EMI"
+        ],
+        "rows": [
+          [
+            "₹26,000",
+            "9.99%",
+            "48 mo",
+            "₹5,908"
+          ]
+        ]
+      },
+      {
+        "caption": "",
+        "headers": [
+          "DOWN PAYMENT",
+          "INTEREST RATE",
+          "TENURE",
+          "MONTHLY EMI"
+        ],
+        "rows": [
+          [
+            "₹24,000",
+            "9.99%",
+            "48 mo",
+            "₹5,350"
+          ]
+        ]
+      },
+      {
+        "caption": "",
+        "headers": [
+          "DOWN PAYMENT",
+          "INTEREST RATE",
+          "TENURE",
+          "MONTHLY EMI"
+        ],
+        "rows": [
+          [
+            "₹10,000",
+            "9.49%",
+            "48 mo",
+            "₹2,236"
+          ]
+        ]
+      },
+      {
+        "caption": "",
+        "headers": [
+          "DOWN PAYMENT",
+          "INTEREST RATE",
+          "TENURE",
+          "MONTHLY EMI"
+        ],
+        "rows": [
+          [
+            "₹12,000",
+            "9.49%",
+            "48 mo",
+            "₹2,763"
+          ]
+        ]
+      },
+      {
+        "caption": "",
+        "headers": [
+          "DOWN PAYMENT",
+          "INTEREST RATE",
+          "TENURE",
+          "MONTHLY EMI"
+        ],
+        "rows": [
+          [
+            "₹28,000",
+            "9.99%",
+            "48 mo",
+            "₹6,365"
+          ]
+        ]
+      },
+      {
+        "caption": "",
+        "headers": [
+          "DOWN PAYMENT",
+          "INTEREST RATE",
+          "TENURE",
+          "MONTHLY EMI"
+        ],
+        "rows": [
+          [
+            "₹23,000",
+            "9.99%",
+            "48 mo",
+            "₹5,224"
+          ]
+        ]
+      },
+      {
+        "caption": "",
+        "headers": [
+          "DOWN PAYMENT",
+          "INTEREST RATE",
+          "TENURE",
+          "MONTHLY EMI"
+        ],
+        "rows": [
+          [
+            "₹45,000",
+            "9.99%",
+            "48 mo",
+            "₹10,245"
+          ]
+        ]
+      },
+      {
+        "caption": "",
+        "headers": [
+          "DOWN PAYMENT",
+          "INTEREST RATE",
+          "TENURE",
+          "MONTHLY EMI"
+        ],
+        "rows": [
+          [
+            "₹46,000",
+            "9.99%",
+            "48 mo",
+            "₹10,473"
+          ]
+        ]
+      },
+      {
+        "caption": "",
+        "headers": [
+          "DOWN PAYMENT",
+          "INTEREST RATE",
+          "TENURE",
+          "MONTHLY EMI"
+        ],
+        "rows": [
+          [
+            "₹30,000",
+            "9.99%",
+            "48 mo",
+            "₹6,821"
+          ]
+        ]
+      },
+      {
+        "caption": "",
+        "headers": [
+          "DOWN PAYMENT",
+          "INTEREST RATE",
+          "TENURE",
+          "MONTHLY EMI"
+        ],
+        "rows": [
+          [
+            "₹22,000",
+            "9.99%",
+            "48 mo",
+            "₹4,995"
+          ]
+        ]
+      },
+      {
+        "caption": "",
+        "headers": [
+          "DOWN PAYMENT",
+          "INTEREST RATE",
+          "TENURE",
+          "MONTHLY EMI"
+        ],
+        "rows": [
+          [
+            "₹15,000",
+            "8.99%",
+            "48 mo",
+            "₹3,334"
+          ]
+        ]
+      }
+    ],
+    "primary_product": null,
+    "related_products": []
+  },
+  "limitations": [
+    "In-page role=tab controls are clicked so tabbed features/specs can be read; forms, links, and purchase CTAs are not clicked.",
+    "Closed accordions without a tab role, and off-screen overflow, may still hide text.",
+    "Text painted only inside images (OCR not performed) is not captured as visible_text.",
+    "Overlapping or visually clipped elements can still contribute DOM text if CSS visibility checks pass.",
+    "aria-hidden subtrees are excluded from visible_text even if they occupy pixels (common for duplicate image links).",
+    "Lazy content beyond the configured scroll budget is not captured.",
+    "Related product cards on the same page may appear in product_names alongside the primary H1."
+  ],
+  "http_status": 200,
+  "json_path": "out/human-view-20261025-053507.json"
+}

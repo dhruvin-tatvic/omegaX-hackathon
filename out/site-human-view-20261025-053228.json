@@ -1,0 +1,424 @@
+{
+  "base_url": "https://omegax-hackathon.onrender.com/",
+  "started_at": "2026-10-25T05:32:28Z",
+  "finished_at": "2026-10-25T05:33:51Z",
+  "capture_method": "playwright_chromium",
+  "max_pages": 5,
+  "max_depth": 5,
+  "stopped_reason": "page_limit",
+  "total_pages_discovered": 47,
+  "total_pages_captured": 5,
+  "total_pages_failed": 0,
+  "pages": [
+    {
+      "url": "https://omegax-hackathon.onrender.com/",
+      "final_url": "https://omegax-hackathon.onrender.com/",
+      "status": "success",
+      "http_status": 200,
+      "page_title": "Apex Moto — Born to Ride. Built to Last.",
+      "json_path": "out/human-view-20261025-053230.json",
+      "screenshot_path": "out/screenshots/homepage-20261025-053230.png",
+      "rendered_html_path": "out/rendered_html/homepage-20261025-053230.html",
+      "product_names": [
+        "Thunderstrike 650",
+        "Phantom 350",
+        "Storm 200",
+        "Zenith 450 Scrambler",
+        "Thunderstrike 450",
+        "Thunderstrike 650 Rally"
+      ],
+      "primary_product": null,
+      "errors": [],
+      "depth": 0
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/motorcycles",
+      "final_url": "https://omegax-hackathon.onrender.com/motorcycles/",
+      "status": "success",
+      "http_status": 200,
+      "page_title": "Motorcycles Lineup — All 18 Models | Apex Moto",
+      "json_path": "out/human-view-20261025-053245.json",
+      "screenshot_path": "out/screenshots/motorcycles-20261025-053245.png",
+      "rendered_html_path": "out/rendered_html/motorcycles-20261025-053245.html",
+      "product_names": [
+        "Thunderstrike 650",
+        "Phantom 350",
+        "Storm 200",
+        "Zenith 450 Scrambler",
+        "Thunderstrike 450",
+        "Thunderstrike 650 Rally",
+        "Phantom 500",
+        "Phantom 350 Bobber",
+        "Storm 125",
+        "Storm 160",
+        "Storm 390",
+        "Zenith 350 Scrambler",
+        "Zenith 650 Scrambler",
+        "Voyager 650",
+        "Voyager 450",
+        "Nightfall 350",
+        "Nightfall 650",
+        "Spark E1"
+      ],
+      "primary_product": null,
+      "errors": [],
+      "depth": 1
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/offers",
+      "final_url": "https://omegax-hackathon.onrender.com/offers/",
+      "status": "success",
+      "http_status": 200,
+      "page_title": "Exclusive Offers & Financing Deals | Apex Moto",
+      "json_path": "out/human-view-20261025-053311.json",
+      "screenshot_path": "out/screenshots/offers-20261025-053311.png",
+      "rendered_html_path": "out/rendered_html/offers-20261025-053311.html",
+      "product_names": [],
+      "primary_product": null,
+      "errors": [],
+      "depth": 1
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/finance",
+      "final_url": "https://omegax-hackathon.onrender.com/finance/",
+      "status": "success",
+      "http_status": 200,
+      "page_title": "Motorcycle Financing & EMI Options | Apex Moto",
+      "json_path": "out/human-view-20261025-053324.json",
+      "screenshot_path": "out/screenshots/finance-20261025-053324.png",
+      "rendered_html_path": "out/rendered_html/finance-20261025-053324.html",
+      "product_names": [
+        "Thunderstrike 650",
+        "Phantom 350",
+        "Storm 200",
+        "Zenith 450 Scrambler",
+        "Thunderstrike 450",
+        "Thunderstrike 650 Rally",
+        "Phantom 500",
+        "Phantom 350 Bobber",
+        "Storm 125",
+        "Storm 160",
+        "Storm 390",
+        "Zenith 350 Scrambler",
+        "Zenith 650 Scrambler",
+        "Voyager 650",
+        "Voyager 450",
+        "Nightfall 350",
+        "Spark E1"
+      ],
+      "primary_product": null,
+      "errors": [],
+      "depth": 1
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/dealers",
+      "final_url": "https://omegax-hackathon.onrender.com/dealers/",
+      "status": "success",
+      "http_status": 200,
+      "page_title": "Find an Authorized Dealer — Nationwide Network | Apex Moto",
+      "json_path": "out/human-view-20261025-053338.json",
+      "screenshot_path": "out/screenshots/dealers-20261025-053338.png",
+      "rendered_html_path": "out/rendered_html/dealers-20261025-053338.html",
+      "product_names": [],
+      "primary_product": null,
+      "errors": [],
+      "depth": 1
+    }
+  ],
+  "skipped": [
+    {
+      "url": "https://omegax-hackathon.onrender.com/account",
+      "reason": "robots_disallow",
+      "depth": 1
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/login",
+      "reason": "robots_disallow",
+      "depth": 1
+    },
+    {
+      "url": "tel:+91-11-4123-5678",
+      "reason": "non_page_scheme:tel",
+      "depth": 2
+    },
+    {
+      "url": "mailto:delhi.central@apexmoto.in",
+      "reason": "non_page_scheme:mailto",
+      "depth": 2
+    },
+    {
+      "url": "tel:+91-22-2655-9900",
+      "reason": "non_page_scheme:tel",
+      "depth": 2
+    },
+    {
+      "url": "mailto:mumbai.west@apexmoto.in",
+      "reason": "non_page_scheme:mailto",
+      "depth": 2
+    },
+    {
+      "url": "tel:+91-80-4567-8901",
+      "reason": "non_page_scheme:tel",
+      "depth": 2
+    },
+    {
+      "url": "mailto:bangalore.tc@apexmoto.in",
+      "reason": "non_page_scheme:mailto",
+      "depth": 2
+    },
+    {
+      "url": "tel:+91-20-2633-7788",
+      "reason": "non_page_scheme:tel",
+      "depth": 2
+    },
+    {
+      "url": "mailto:pune.camp@apexmoto.in",
+      "reason": "non_page_scheme:mailto",
+      "depth": 2
+    },
+    {
+      "url": "tel:+91-44-2626-5544",
+      "reason": "non_page_scheme:tel",
+      "depth": 2
+    },
+    {
+      "url": "mailto:chennai.an@apexmoto.in",
+      "reason": "non_page_scheme:mailto",
+      "depth": 2
+    },
+    {
+      "url": "tel:+91-40-2355-1234",
+      "reason": "non_page_scheme:tel",
+      "depth": 2
+    },
+    {
+      "url": "mailto:hyderabad.jh@apexmoto.in",
+      "reason": "non_page_scheme:mailto",
+      "depth": 2
+    },
+    {
+      "url": "tel:+91-141-2366-7890",
+      "reason": "non_page_scheme:tel",
+      "depth": 2
+    },
+    {
+      "url": "mailto:jaipur.pc@apexmoto.in",
+      "reason": "non_page_scheme:mailto",
+      "depth": 2
+    },
+    {
+      "url": "tel:+91-33-2229-4455",
+      "reason": "non_page_scheme:tel",
+      "depth": 2
+    },
+    {
+      "url": "mailto:kolkata.ps@apexmoto.in",
+      "reason": "non_page_scheme:mailto",
+      "depth": 2
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/faq",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/about",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/contact",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/book-test-ride",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-650",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/book-test-ride?bike=thunderstrike-650",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/book-test-ride?bike=phantom-350",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/motorcycles/storm-200",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/book-test-ride?bike=storm-200",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/motorcycles/zenith-450-scrambler",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/book-test-ride?bike=zenith-450-scrambler",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-450",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/book-test-ride?bike=thunderstrike-450",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-650-rally",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/book-test-ride?bike=thunderstrike-650-rally",
+      "reason": "page_limit",
+      "depth": 1
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-500",
+      "reason": "page_limit",
+      "depth": 2
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/book-test-ride?bike=phantom-500",
+      "reason": "page_limit",
+      "depth": 2
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350-bobber",
+      "reason": "page_limit",
+      "depth": 2
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/book-test-ride?bike=phantom-350-bobber",
+      "reason": "page_limit",
+      "depth": 2
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/motorcycles/storm-125",
+      "reason": "page_limit",
+      "depth": 2
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/book-test-ride?bike=storm-125",
+      "reason": "page_limit",
+      "depth": 2
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/motorcycles/storm-160",
+      "reason": "page_limit",
+      "depth": 2
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/book-test-ride?bike=storm-160",
+      "reason": "page_limit",
+      "depth": 2
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/motorcycles/storm-390",
+      "reason": "page_limit",
+      "depth": 2
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/book-test-ride?bike=storm-390",
+      "reason": "page_limit",
+      "depth": 2
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/motorcycles/zenith-350-scrambler",
+      "reason": "page_limit",
+      "depth": 2
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/book-test-ride?bike=zenith-350-scrambler",
+      "reason": "page_limit",
+      "depth": 2
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/motorcycles/zenith-650-scrambler",
+      "reason": "page_limit",
+      "depth": 2
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/book-test-ride?bike=zenith-650-scrambler",
+      "reason": "page_limit",
+      "depth": 2
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/motorcycles/voyager-650",
+      "reason": "page_limit",
+      "depth": 2
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/book-test-ride?bike=voyager-650",
+      "reason": "page_limit",
+      "depth": 2
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/motorcycles/voyager-450",
+      "reason": "page_limit",
+      "depth": 2
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/book-test-ride?bike=voyager-450",
+      "reason": "page_limit",
+      "depth": 2
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350",
+      "reason": "page_limit",
+      "depth": 2
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/book-test-ride?bike=nightfall-350",
+      "reason": "page_limit",
+      "depth": 2
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-650",
+      "reason": "page_limit",
+      "depth": 2
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/book-test-ride?bike=nightfall-650",
+      "reason": "page_limit",
+      "depth": 2
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/motorcycles/spark-e1",
+      "reason": "page_limit",
+      "depth": 2
+    },
+    {
+      "url": "https://omegax-hackathon.onrender.com/book-test-ride?bike=spark-e1",
+      "reason": "page_limit",
+      "depth": 2
+    }
+  ],
+  "errors": [
+    "HTTP 404 fetching https://apex-moto-one.vercel.app/sitemap.xml"
+  ],
+  "coverage_complete": false
+}

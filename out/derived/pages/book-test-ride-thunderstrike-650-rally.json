@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "url": "https://omegax-hackathon.onrender.com/book-test-ride?bike=thunderstrike-650-rally",
+  "final_url": "https://omegax-hackathon.onrender.com/book-test-ride/?bike=thunderstrike-650-rally",
+  "page_type": "booking",
+  "page_type_reason": "path is /book-test-ride (query ignored)",
+  "canonical_path": "/book-test-ride",
+  "canonical_url": "https://omegax-hackathon.onrender.com/book-test-ride",
+  "query": {
+    "bike": "thunderstrike-650-rally"
+  },
+  "original_json_path": "out/human-view-20261025-061808.json",
+  "screenshot_path": "out/screenshots/book-test-ride-20261025-061808.png",
+  "rendered_html_path": "out/rendered_html/book-test-ride-20261025-061808.html",
+  "structured_facts": {
+    "schema_version": "1.0",
+    "entities": [
+      {
+        "id": "product:thunderstrike-650-rally",
+        "type": "product",
+        "name": "Thunderstrike 650 Rally",
+        "slug": "thunderstrike-650-rally"
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact:1",
+        "entity_id": "product:thunderstrike-650-rally",
+        "entity_name": "Thunderstrike 650 Rally",
+        "entity_type": "product",
+        "fact_type": "name",
+        "value": "Thunderstrike 650 Rally",
+        "value_text": "Thunderstrike 650 Rally",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "context": "booking_query"
+        },
+        "evidence": "booking query bike=thunderstrike-650-rally",
+        "source_url": "https://omegax-hackathon.onrender.com/book-test-ride/?bike=thunderstrike-650-rally",
+        "extraction_method": "url.query.bike",
+        "status": "verified"
+      }
+    ],
+    "page_type": "booking",
+    "limitations": [
+      "Facts come from semantic HTML containers on the saved rendered snapshot, not from pairing disconnected arrays.",
+      "Amounts without a typed label or a unique enclosing entity are marked ambiguous or omitted.",
+      "Derived discounts are never calculated.",
+      "JSON-LD is used only when HTML did not already provide the same product price."
+    ]
+  }
+}

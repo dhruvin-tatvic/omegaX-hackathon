@@ -1,0 +1,1243 @@
+{
+  "schema_version": "1.0",
+  "url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350",
+  "final_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+  "page_type": "product_detail",
+  "page_type_reason": "path matches /motorcycles/{slug}",
+  "canonical_path": "/motorcycles/nightfall-350",
+  "canonical_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350",
+  "query": {},
+  "original_json_path": "out/human-view-20261025-062246.json",
+  "screenshot_path": "out/screenshots/motorcycles-nightfall-350-20261025-062246.png",
+  "rendered_html_path": "out/rendered_html/motorcycles-nightfall-350-20261025-062246.html",
+  "structured_facts": {
+    "schema_version": "1.0",
+    "entities": [
+      {
+        "id": "product:nightfall-350",
+        "type": "product",
+        "name": "Nightfall 350",
+        "slug": "nightfall-350"
+      },
+      {
+        "id": "financing_plan:nightfall-350-detail-emi",
+        "type": "financing_plan",
+        "name": "Nightfall 350 estimated EMI",
+        "slug": "nightfall-350-detail-emi"
+      },
+      {
+        "id": "product:nightfall-350-variant-standard",
+        "type": "product",
+        "name": "Nightfall 350 Standard",
+        "slug": "nightfall-350-variant-standard",
+        "variant_of": "product:nightfall-350",
+        "variant_name": "Standard"
+      },
+      {
+        "id": "product:nightfall-350-variant-dark",
+        "type": "product",
+        "name": "Nightfall 350 Dark",
+        "slug": "nightfall-350-variant-dark",
+        "variant_of": "product:nightfall-350",
+        "variant_name": "Dark"
+      },
+      {
+        "id": "product:voyager-650",
+        "type": "product",
+        "name": "Voyager 650",
+        "slug": "voyager-650"
+      },
+      {
+        "id": "product:voyager-450",
+        "type": "product",
+        "name": "Voyager 450",
+        "slug": "voyager-450"
+      },
+      {
+        "id": "dealer:apex-moto-delhi-central",
+        "type": "dealer",
+        "name": "Apex Moto Delhi Central",
+        "slug": "apex-moto-delhi-central"
+      },
+      {
+        "id": "dealer:apex-moto-mumbai-west",
+        "type": "dealer",
+        "name": "Apex Moto Mumbai West",
+        "slug": "apex-moto-mumbai-west"
+      },
+      {
+        "id": "dealer:apex-moto-bangalore-tech-city",
+        "type": "dealer",
+        "name": "Apex Moto Bangalore Tech City",
+        "slug": "apex-moto-bangalore-tech-city"
+      },
+      {
+        "id": "dealer:apex-moto-pune-camp",
+        "type": "dealer",
+        "name": "Apex Moto Pune Camp",
+        "slug": "apex-moto-pune-camp"
+      },
+      {
+        "id": "dealer:apex-moto-chennai-anna-nagar",
+        "type": "dealer",
+        "name": "Apex Moto Chennai Anna Nagar",
+        "slug": "apex-moto-chennai-anna-nagar"
+      },
+      {
+        "id": "dealer:apex-moto-hyderabad-jubilee-hills",
+        "type": "dealer",
+        "name": "Apex Moto Hyderabad Jubilee Hills",
+        "slug": "apex-moto-hyderabad-jubilee-hills"
+      },
+      {
+        "id": "dealer:apex-moto-jaipur-pink-city",
+        "type": "dealer",
+        "name": "Apex Moto Jaipur Pink City",
+        "slug": "apex-moto-jaipur-pink-city"
+      },
+      {
+        "id": "dealer:apex-moto-kolkata-park-street",
+        "type": "dealer",
+        "name": "Apex Moto Kolkata Park Street",
+        "slug": "apex-moto-kolkata-park-street"
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact:1",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "starting_price",
+        "value": 219000,
+        "value_text": "₹2,19,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "label": "onwards (ex-showroom)"
+        },
+        "evidence": "Nightfall 350 ₹2,19,000 onwards (ex-showroom)",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.css:.moto-detail__price",
+        "status": "verified"
+      },
+      {
+        "id": "fact:2",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "ex_showroom_price",
+        "value": 219000,
+        "value_text": "₹2,19,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "label": "onwards (ex-showroom)"
+        },
+        "evidence": "Nightfall 350 ₹2,19,000 onwards (ex-showroom)",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.css:.moto-detail__price",
+        "status": "verified"
+      },
+      {
+        "id": "fact:3",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "tagline",
+        "value": "Own the Night.",
+        "value_text": "Own the Night.",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Own the Night.",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.css:.moto-detail__hero-tagline",
+        "status": "verified"
+      },
+      {
+        "id": "fact:4",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "engine",
+        "value": "349cc",
+        "value_text": "349cc",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Engine / Powertrain: 349cc",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.css:.moto-detail__quick-spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:5",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "power",
+        "value": "21 bhp",
+        "value_text": "21 bhp",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Max Power: 21 bhp",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.css:.moto-detail__quick-spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:6",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "torque",
+        "value": "28 Nm",
+        "value_text": "28 Nm",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Torque: 28 Nm",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.css:.moto-detail__quick-spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:7",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "mileage",
+        "value": "35 km/l",
+        "value_text": "35 km/l",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Mileage: 35 km/l",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.css:.moto-detail__quick-spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:8",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 246400,
+        "value_text": "₹2,46,400",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Delhi",
+          "variant": "base"
+        },
+        "evidence": "On-road Delhi: ₹2,46,400",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:9",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 251400,
+        "value_text": "₹2,51,400",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Mumbai",
+          "variant": "base"
+        },
+        "evidence": "On-road Mumbai: ₹2,51,400",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:10",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 255100,
+        "value_text": "₹2,55,100",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Bangalore",
+          "variant": "base"
+        },
+        "evidence": "On-road Bangalore: ₹2,55,100",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:11",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 248600,
+        "value_text": "₹2,48,600",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Pune",
+          "variant": "base"
+        },
+        "evidence": "On-road Pune: ₹2,48,600",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:12",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 249700,
+        "value_text": "₹2,49,700",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Chennai",
+          "variant": "base"
+        },
+        "evidence": "On-road Chennai: ₹2,49,700",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:13",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 251800,
+        "value_text": "₹2,51,800",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Hyderabad",
+          "variant": "base"
+        },
+        "evidence": "On-road Hyderabad: ₹2,51,800",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:14",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 247500,
+        "value_text": "₹2,47,500",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Jaipur",
+          "variant": "base"
+        },
+        "evidence": "On-road Jaipur: ₹2,47,500",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:15",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "on_road_price",
+        "value": 245300,
+        "value_text": "₹2,45,300",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "city": "Kolkata",
+          "variant": "base"
+        },
+        "evidence": "On-road Kolkata: ₹2,45,300",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.onroad",
+        "status": "verified"
+      },
+      {
+        "id": "fact:16",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "349cc, Single Cylinder, Air/Oil-Cooled, SOHC",
+        "value_text": "349cc, Single Cylinder, Air/Oil-Cooled, SOHC",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "engine"
+        },
+        "evidence": "engine: 349cc, Single Cylinder, Air/Oil-Cooled, SOHC",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:17",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "349",
+        "value_text": "349",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "displacement cc"
+        },
+        "evidence": "displacement cc: 349",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:18",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "21",
+        "value_text": "21",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "max power bhp"
+        },
+        "evidence": "max power bhp: 21",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:19",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "6100",
+        "value_text": "6100",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "max power rpm"
+        },
+        "evidence": "max power rpm: 6100",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:20",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "28",
+        "value_text": "28",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "max torque nm"
+        },
+        "evidence": "max torque nm: 28",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:21",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "4000",
+        "value_text": "4000",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "max torque rpm"
+        },
+        "evidence": "max torque rpm: 4000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:22",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "5-Speed",
+        "value_text": "5-Speed",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "transmission"
+        },
+        "evidence": "transmission: 5-Speed",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:23",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "Electronic Fuel Injection",
+        "value_text": "Electronic Fuel Injection",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "fuel system"
+        },
+        "evidence": "fuel system: Electronic Fuel Injection",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:24",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "41mm Telescopic Forks, 130mm Travel",
+        "value_text": "41mm Telescopic Forks, 130mm Travel",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "front suspension"
+        },
+        "evidence": "front suspension: 41mm Telescopic Forks, 130mm Travel",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:25",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "Twin Shock Absorbers, 80mm Travel",
+        "value_text": "Twin Shock Absorbers, 80mm Travel",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "rear suspension"
+        },
+        "evidence": "rear suspension: Twin Shock Absorbers, 80mm Travel",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:26",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "300mm Disc, Twin Piston",
+        "value_text": "300mm Disc, Twin Piston",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "front brake"
+        },
+        "evidence": "front brake: 300mm Disc, Twin Piston",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:27",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "270mm Disc, ABS",
+        "value_text": "270mm Disc, ABS",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "rear brake"
+        },
+        "evidence": "rear brake: 270mm Disc, ABS",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:28",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "100/90-19 Tubeless",
+        "value_text": "100/90-19 Tubeless",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "front tyre"
+        },
+        "evidence": "front tyre: 100/90-19 Tubeless",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:29",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "150/80-16 Tubeless",
+        "value_text": "150/80-16 Tubeless",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "rear tyre"
+        },
+        "evidence": "rear tyre: 150/80-16 Tubeless",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:30",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "1400",
+        "value_text": "1400",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "wheelbase mm"
+        },
+        "evidence": "wheelbase mm: 1400",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:31",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "765",
+        "value_text": "765",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "seat height mm"
+        },
+        "evidence": "seat height mm: 765",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:32",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "13.5",
+        "value_text": "13.5",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "fuel tank l"
+        },
+        "evidence": "fuel tank l: 13.5",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:33",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "191",
+        "value_text": "191",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "kerb weight kg"
+        },
+        "evidence": "kerb weight kg: 191",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:34",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "35",
+        "value_text": "35",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "spec_label": "mileage kmpl"
+        },
+        "evidence": "mileage kmpl: 35",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.specs",
+        "status": "verified"
+      },
+      {
+        "id": "fact:35",
+        "entity_id": "financing_plan:nightfall-350-detail-emi",
+        "entity_name": "Nightfall 350 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "down_payment",
+        "value": 22000,
+        "value_text": "₹22,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Nightfall 350 estimated finance Down Payment: ₹22,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:nightfall-350"
+      },
+      {
+        "id": "fact:36",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "down_payment",
+        "value": 22000,
+        "value_text": "₹22,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Nightfall 350 estimated finance Down Payment: ₹22,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:nightfall-350-detail-emi"
+      },
+      {
+        "id": "fact:37",
+        "entity_id": "financing_plan:nightfall-350-detail-emi",
+        "entity_name": "Nightfall 350 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.99,
+        "value_text": "9.99% p.a.",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Nightfall 350 estimated finance Interest Rate: 9.99% p.a.",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:nightfall-350"
+      },
+      {
+        "id": "fact:38",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "annual_interest_rate_pct",
+        "value": 9.99,
+        "value_text": "9.99% p.a.",
+        "unit": "percent",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Nightfall 350 estimated finance Interest Rate: 9.99% p.a.",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:nightfall-350-detail-emi"
+      },
+      {
+        "id": "fact:39",
+        "entity_id": "financing_plan:nightfall-350-detail-emi",
+        "entity_name": "Nightfall 350 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 months",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Nightfall 350 estimated finance Loan Tenure: 48 months",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:nightfall-350"
+      },
+      {
+        "id": "fact:40",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "loan_tenure_months",
+        "value": 48,
+        "value_text": "48 months",
+        "unit": "months",
+        "currency": null,
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Nightfall 350 estimated finance Loan Tenure: 48 months",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:nightfall-350-detail-emi"
+      },
+      {
+        "id": "fact:41",
+        "entity_id": "financing_plan:nightfall-350-detail-emi",
+        "entity_name": "Nightfall 350 finance plan",
+        "entity_type": "financing_plan",
+        "fact_type": "monthly_emi",
+        "value": 4995,
+        "value_text": "₹4,995",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Nightfall 350 estimated finance Estimated EMI: ₹4,995 / month",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "product:nightfall-350"
+      },
+      {
+        "id": "fact:42",
+        "entity_id": "product:nightfall-350",
+        "entity_name": "Nightfall 350",
+        "entity_type": "product",
+        "fact_type": "monthly_emi",
+        "value": 4995,
+        "value_text": "₹4,995",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "basis": "base variant"
+        },
+        "evidence": "Nightfall 350 estimated finance Estimated EMI: ₹4,995 / month",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.table.finance",
+        "status": "verified",
+        "related_entity_id": "financing_plan:nightfall-350-detail-emi"
+      },
+      {
+        "id": "fact:43",
+        "entity_id": "product:nightfall-350-variant-standard",
+        "entity_name": "Nightfall 350 Standard",
+        "entity_type": "product",
+        "fact_type": "variant_name",
+        "value": "Standard",
+        "value_text": "Standard",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Variant Standard",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.css:.variant-name",
+        "status": "verified",
+        "related_entity_id": "product:nightfall-350"
+      },
+      {
+        "id": "fact:44",
+        "entity_id": "product:nightfall-350-variant-standard",
+        "entity_name": "Nightfall 350 Standard",
+        "entity_type": "product",
+        "fact_type": "ex_showroom_price",
+        "value": 219000,
+        "value_text": "₹2,19,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "variant": "Standard",
+          "parent_product": "Nightfall 350"
+        },
+        "evidence": "Variant Standard ₹2,19,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.css:.variant-name+.price",
+        "status": "verified",
+        "related_entity_id": "product:nightfall-350"
+      },
+      {
+        "id": "fact:45",
+        "entity_id": "product:nightfall-350-variant-dark",
+        "entity_name": "Nightfall 350 Dark",
+        "entity_type": "product",
+        "fact_type": "variant_name",
+        "value": "Dark",
+        "value_text": "Dark",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Variant Dark",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.css:.variant-name",
+        "status": "verified",
+        "related_entity_id": "product:nightfall-350"
+      },
+      {
+        "id": "fact:46",
+        "entity_id": "product:nightfall-350-variant-dark",
+        "entity_name": "Nightfall 350 Dark",
+        "entity_type": "product",
+        "fact_type": "ex_showroom_price",
+        "value": 234000,
+        "value_text": "₹2,34,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "variant": "Dark",
+          "parent_product": "Nightfall 350"
+        },
+        "evidence": "Variant Dark ₹2,34,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.css:.variant-name+.price",
+        "status": "verified",
+        "related_entity_id": "product:nightfall-350"
+      },
+      {
+        "id": "fact:47",
+        "entity_id": "product:voyager-650",
+        "entity_name": "Voyager 650",
+        "entity_type": "product",
+        "fact_type": "tagline",
+        "value": "Every Mile, First Class.",
+        "value_text": "Every Mile, First Class.",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Every Mile, First Class.",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.css:.product-card__tagline",
+        "status": "verified"
+      },
+      {
+        "id": "fact:48",
+        "entity_id": "product:voyager-650",
+        "entity_name": "Voyager 650",
+        "entity_type": "product",
+        "fact_type": "starting_price",
+        "value": 459000,
+        "value_text": "₹4,59,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "role": "related_card"
+        },
+        "evidence": "Voyager 650 ₹4,59,000 Grand TourerTourerVoyager 650Every Mile, First Class.648ccEngine47 bhpPower₹4,59",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.css:.product-card .price",
+        "status": "verified"
+      },
+      {
+        "id": "fact:49",
+        "entity_id": "product:voyager-650",
+        "entity_name": "Voyager 650",
+        "entity_type": "product",
+        "fact_type": "engine",
+        "value": "648cc",
+        "value_text": "648cc",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Voyager 650 Engine: 648cc",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:50",
+        "entity_id": "product:voyager-650",
+        "entity_name": "Voyager 650",
+        "entity_type": "product",
+        "fact_type": "power",
+        "value": "47 bhp",
+        "value_text": "47 bhp",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Voyager 650 Power: 47 bhp",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:51",
+        "entity_id": "product:voyager-650",
+        "entity_name": "Voyager 650",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "₹4,59,000",
+        "value_text": "₹4,59,000",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Voyager 650 Starting*: ₹4,59,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:52",
+        "entity_id": "product:voyager-450",
+        "entity_name": "Voyager 450",
+        "entity_type": "product",
+        "fact_type": "tagline",
+        "value": "Long Roads. Light Feet.",
+        "value_text": "Long Roads. Light Feet.",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Long Roads. Light Feet.",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.css:.product-card__tagline",
+        "status": "verified"
+      },
+      {
+        "id": "fact:53",
+        "entity_id": "product:voyager-450",
+        "entity_name": "Voyager 450",
+        "entity_type": "product",
+        "fact_type": "starting_price",
+        "value": 299000,
+        "value_text": "₹2,99,000",
+        "unit": "INR",
+        "currency": "INR",
+        "qualifier": {
+          "role": "related_card"
+        },
+        "evidence": "Voyager 450 ₹2,99,000 NewTourerVoyager 450Long Roads. Light Feet.452ccEngine40 bhpPower₹2,99,000Starti",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.css:.product-card .price",
+        "status": "verified"
+      },
+      {
+        "id": "fact:54",
+        "entity_id": "product:voyager-450",
+        "entity_name": "Voyager 450",
+        "entity_type": "product",
+        "fact_type": "engine",
+        "value": "452cc",
+        "value_text": "452cc",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Voyager 450 Engine: 452cc",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:55",
+        "entity_id": "product:voyager-450",
+        "entity_name": "Voyager 450",
+        "entity_type": "product",
+        "fact_type": "power",
+        "value": "40 bhp",
+        "value_text": "40 bhp",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Voyager 450 Power: 40 bhp",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:56",
+        "entity_id": "product:voyager-450",
+        "entity_name": "Voyager 450",
+        "entity_type": "product",
+        "fact_type": "specification",
+        "value": "₹2,99,000",
+        "value_text": "₹2,99,000",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Voyager 450 Starting*: ₹2,99,000",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.css:.product-card__spec",
+        "status": "verified"
+      },
+      {
+        "id": "fact:57",
+        "entity_id": "dealer:apex-moto-delhi-central",
+        "entity_name": "Apex Moto Delhi Central",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Delhi",
+        "value_text": "Delhi",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Delhi • +91-11-4123-5678",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:58",
+        "entity_id": "dealer:apex-moto-mumbai-west",
+        "entity_name": "Apex Moto Mumbai West",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Mumbai",
+        "value_text": "Mumbai",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Mumbai • +91-22-2655-9900",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:59",
+        "entity_id": "dealer:apex-moto-bangalore-tech-city",
+        "entity_name": "Apex Moto Bangalore Tech City",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Bangalore",
+        "value_text": "Bangalore",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Bangalore • +91-80-4567-8901",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:60",
+        "entity_id": "dealer:apex-moto-pune-camp",
+        "entity_name": "Apex Moto Pune Camp",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Pune",
+        "value_text": "Pune",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Pune • +91-20-2633-7788",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:61",
+        "entity_id": "dealer:apex-moto-chennai-anna-nagar",
+        "entity_name": "Apex Moto Chennai Anna Nagar",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Chennai",
+        "value_text": "Chennai",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Chennai • +91-44-2626-5544",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:62",
+        "entity_id": "dealer:apex-moto-hyderabad-jubilee-hills",
+        "entity_name": "Apex Moto Hyderabad Jubilee Hills",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Hyderabad",
+        "value_text": "Hyderabad",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Hyderabad • +91-40-2355-1234",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:63",
+        "entity_id": "dealer:apex-moto-jaipur-pink-city",
+        "entity_name": "Apex Moto Jaipur Pink City",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Jaipur",
+        "value_text": "Jaipur",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Jaipur • +91-141-2366-7890",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      },
+      {
+        "id": "fact:64",
+        "entity_id": "dealer:apex-moto-kolkata-park-street",
+        "entity_name": "Apex Moto Kolkata Park Street",
+        "entity_type": "dealer",
+        "fact_type": "city",
+        "value": "Kolkata",
+        "value_text": "Kolkata",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Kolkata • +91-33-2229-4455",
+        "source_url": "https://omegax-hackathon.onrender.com/motorcycles/nightfall-350/",
+        "extraction_method": "html.css:.moto-detail__dealer-pill",
+        "status": "verified"
+      }
+    ],
+    "page_type": "product_detail",
+    "limitations": [
+      "Facts come from semantic HTML containers on the saved rendered snapshot, not from pairing disconnected arrays.",
+      "Amounts without a typed label or a unique enclosing entity are marked ambiguous or omitted.",
+      "Derived discounts are never calculated.",
+      "JSON-LD is used only when HTML did not already provide the same product price."
+    ]
+  }
+}

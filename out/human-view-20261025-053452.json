@@ -1,0 +1,243 @@
+{
+  "url": "https://omegax-hackathon.onrender.com/offers",
+  "final_url": "https://omegax-hackathon.onrender.com/offers/",
+  "captured_at": "2026-10-25T05:34:52Z",
+  "capture_method": "playwright_chromium",
+  "viewport": {
+    "width": 1366,
+    "height": 768
+  },
+  "page_title": "Exclusive Offers & Financing Deals | Apex Moto",
+  "status": "success",
+  "errors": [],
+  "screenshot_path": "out/screenshots/offers-20261025-053452.png",
+  "rendered_html_path": "out/rendered_html/offers-20261025-053452.html",
+  "content": {
+    "headings": [
+      {
+        "level": 1,
+        "text": "Offers & Promotions"
+      },
+      {
+        "level": 2,
+        "text": "Active Offers"
+      },
+      {
+        "level": 3,
+        "text": "Monsoon Mania Sale"
+      },
+      {
+        "level": 3,
+        "text": "Zero Down Payment"
+      },
+      {
+        "level": 3,
+        "text": "Storm Urban Champion Package"
+      },
+      {
+        "level": 3,
+        "text": "Zenith Scrambler Adventure Pack"
+      },
+      {
+        "level": 3,
+        "text": "Corporate Fleet Discount"
+      },
+      {
+        "level": 3,
+        "text": "Student Rider Programme"
+      },
+      {
+        "level": 2,
+        "text": "Financing Options & Partner Banks"
+      },
+      {
+        "level": 2,
+        "text": "Request a Callback"
+      },
+      {
+        "level": 4,
+        "text": "MOTORCYCLES"
+      },
+      {
+        "level": 4,
+        "text": "EXPERIENCE"
+      },
+      {
+        "level": 4,
+        "text": "COMPANY"
+      }
+    ],
+    "visible_text": "Motorcycles Offers Finance Dealers FAQ About Contact Test Ride Book Now Exclusive Deals Offers & Promotions From seasonal specials to partner financing deals — discover the best time to ride home an Apex Moto. Current Promotions Active Offers All prices are indicative and subject to change. Contact your nearest dealer for confirmed pricing. Limited Time Monsoon Mania Sale Save up to ₹25,000 Celebrate the season with exclusive discounts on selected Apex Moto models. Get cashback, free accessories and extended warranty on the Thunderstrike 650 and Phantom 350. ₹25,000 cash discount on Thunderstrike 650 ₹15,000 cash discount on Phantom 350 Free accessories kit worth ₹8,000 Extended warranty (2 + 2 years) Valid till: November 30, 2026 Thunderstrike 650 • Starting ₹4,20,000 Phantom 350 • Starting ₹2,15,000 Request Callback Explore Models Finance Offer Zero Down Payment Drive home today Get your dream Apex Moto with zero down payment on all models through our partner financing options. EMIs starting at just ₹4,999 per month. 0% down payment through select banks EMI starting at ₹4,999/month Quick 24-hour loan approval 7-year repayment flexibility Valid till: December 31, 2026 All Models Request Callback Explore Models Bundle Offer Storm Urban Champion Package City ready. Savings included. Purchase the Storm 200 and get a premium urban accessories bundle worth ₹12,000 absolutely free. Built for city warriors. Free helmet (₹5,000 value) Free riding jacket (₹4,500 value) Free smart phone mount 1st year insurance at 50% off Valid till: October 31, 2026 Storm 200 • Starting ₹1,45,000 Request Callback Explore Models Adventure Offer Zenith Scrambler Adventure Pack Gear up for the trail The Zenith 450 Scrambler comes with a complete adventure riding kit. No excuses to stay on tarmac. Free off-road riding kit Free aluminium pannier set (₹15,000 value) Complimentary off-road training day 3-year extended warranty Valid till: January 15, 2027 Zenith 450 Scrambler • Starting ₹3,25,000 Request Callback Explore Models Corporate Corporate Fleet Discount Buy 3 or more, save big Apex Moto offers exclusive corporate pricing for businesses purchasing 3 or more motorcycles. Contact our fleet team for a personalised quote. Up to 12% fleet discount Dedicated fleet service team Priority service appointments Custom livery options available Valid till: Ongoing All Models Request Callback Explore Models Student Offer Student Rider Programme Your first bike, our best deal Show your valid student ID and get special pricing on the Storm 200 and Phantom 350. Plus free riding lessons at our partner academies. ₹10,000 special student discount 3 free riding skill sessions Free first service 1-year roadside assistance Valid till: March 31, 2027 Storm 200 • Starting ₹1,45,000 Phantom 350 • Starting ₹2,15,000 Request Callback Explore Models Easy Finance Financing Options & Partner Banks Official banking partners offering competitive interest rates and flexible tenures on all Apex Moto models. Bank Interest Rate Max Loan Tenure Down Payment HDFC Bank 8.5 % p.a. 60 months 0-20% ICICI Bank 9 % p.a. 72 months 0-20% SBI 7.9 % p.a. 60 months 10-20% Axis Bank 9.5 % p.a. 48 months 0-15% * Rates and loan tenure are indicative. Final terms depend on customer credit profile and bank underwriting criteria. Get In Touch Request a Callback Share your details and our team will call you back to discuss the best offer for you. ✓ Quick 24-hour response ✓ No pressure, no obligation ✓ Expert guidance on finance ✓ Exclusive dealer-only deals Full Name * Mobile Number * City * Interested Motorcycle * Submit Enquiry Born to Ride. Built to Last. Apex Moto crafts motorcycles that embody the spirit of the road — precision engineering, enduring quality, and the freedom to go anywhere. Motorcycles All 18 Models Thunderstrike 650 Phantom 350 Storm 200 Zenith 450 Scrambler Experience Book a Test Ride Find a Dealer Offers & Deals Finance & EMI Plans Buyer FAQs Contact Support Company About Apex Moto Rider Portal Rider Login © 2026 Apex Moto. All rights reserved. Fictional brand test site for AI-readability audit. Privacy Policy Terms of Use Sitemap",
+    "product_names": [],
+    "prices": [
+      "₹25,000",
+      "₹15,000",
+      "₹8,000",
+      "₹4,20,000",
+      "₹2,15,000",
+      "₹4,999",
+      "₹12,000",
+      "₹5,000",
+      "₹4,500",
+      "₹1,45,000",
+      "₹3,25,000",
+      "₹10,000"
+    ],
+    "product_descriptions": [],
+    "specifications": [],
+    "links": [
+      {
+        "text": "",
+        "href": "https://omegax-hackathon.onrender.com/"
+      },
+      {
+        "text": "Motorcycles",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles"
+      },
+      {
+        "text": "Offers",
+        "href": "https://omegax-hackathon.onrender.com/offers"
+      },
+      {
+        "text": "Finance",
+        "href": "https://omegax-hackathon.onrender.com/finance"
+      },
+      {
+        "text": "Dealers",
+        "href": "https://omegax-hackathon.onrender.com/dealers"
+      },
+      {
+        "text": "FAQ",
+        "href": "https://omegax-hackathon.onrender.com/faq"
+      },
+      {
+        "text": "About",
+        "href": "https://omegax-hackathon.onrender.com/about"
+      },
+      {
+        "text": "Contact",
+        "href": "https://omegax-hackathon.onrender.com/contact"
+      },
+      {
+        "text": "TEST RIDE",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride"
+      },
+      {
+        "text": "BOOK NOW",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride"
+      },
+      {
+        "text": "REQUEST CALLBACK",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride"
+      },
+      {
+        "text": "EXPLORE MODELS",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles"
+      },
+      {
+        "text": "📸",
+        "href": "https://omegax-hackathon.onrender.com/offers/#"
+      },
+      {
+        "text": "👤",
+        "href": "https://omegax-hackathon.onrender.com/offers/#"
+      },
+      {
+        "text": "▶️",
+        "href": "https://omegax-hackathon.onrender.com/offers/#"
+      },
+      {
+        "text": "🐦",
+        "href": "https://omegax-hackathon.onrender.com/offers/#"
+      },
+      {
+        "text": "All 18 Models",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles"
+      },
+      {
+        "text": "Thunderstrike 650",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/thunderstrike-650"
+      },
+      {
+        "text": "Phantom 350",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/phantom-350"
+      },
+      {
+        "text": "Storm 200",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/storm-200"
+      },
+      {
+        "text": "Zenith 450 Scrambler",
+        "href": "https://omegax-hackathon.onrender.com/motorcycles/zenith-450-scrambler"
+      },
+      {
+        "text": "Book a Test Ride",
+        "href": "https://omegax-hackathon.onrender.com/book-test-ride"
+      },
+      {
+        "text": "Find a Dealer",
+        "href": "https://omegax-hackathon.onrender.com/dealers"
+      },
+      {
+        "text": "Offers & Deals",
+        "href": "https://omegax-hackathon.onrender.com/offers"
+      },
+      {
+        "text": "Finance & EMI Plans",
+        "href": "https://omegax-hackathon.onrender.com/finance"
+      },
+      {
+        "text": "Buyer FAQs",
+        "href": "https://omegax-hackathon.onrender.com/faq"
+      },
+      {
+        "text": "Contact Support",
+        "href": "https://omegax-hackathon.onrender.com/contact"
+      },
+      {
+        "text": "About Apex Moto",
+        "href": "https://omegax-hackathon.onrender.com/about"
+      },
+      {
+        "text": "Rider Portal",
+        "href": "https://omegax-hackathon.onrender.com/account"
+      },
+      {
+        "text": "Rider Login",
+        "href": "https://omegax-hackathon.onrender.com/login"
+      },
+      {
+        "text": "Privacy Policy",
+        "href": "https://omegax-hackathon.onrender.com/offers/#"
+      },
+      {
+        "text": "Terms of Use",
+        "href": "https://omegax-hackathon.onrender.com/offers/#"
+      },
+      {
+        "text": "Sitemap",
+        "href": "https://omegax-hackathon.onrender.com/offers/#"
+      }
+    ],
+    "images": [
+      {
+        "src": "https://omegax-hackathon.onrender.com/assets/apex_moto_logo-dhs_X3_e.jpg",
+        "alt": "Apex Moto"
+      }
+    ],
+    "tables": [],
+    "primary_product": null,
+    "related_products": []
+  },
+  "limitations": [
+    "In-page role=tab controls are clicked so tabbed features/specs can be read; forms, links, and purchase CTAs are not clicked.",
+    "Closed accordions without a tab role, and off-screen overflow, may still hide text.",
+    "Text painted only inside images (OCR not performed) is not captured as visible_text.",
+    "Overlapping or visually clipped elements can still contribute DOM text if CSS visibility checks pass.",
+    "aria-hidden subtrees are excluded from visible_text even if they occupy pixels (common for duplicate image links).",
+    "Lazy content beyond the configured scroll budget is not captured.",
+    "Related product cards on the same page may appear in product_names alongside the primary H1."
+  ],
+  "http_status": 200,
+  "json_path": "out/human-view-20261025-053452.json"
+}

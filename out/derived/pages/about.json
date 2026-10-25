@@ -1,0 +1,49 @@
+{
+  "schema_version": "1.0",
+  "url": "https://omegax-hackathon.onrender.com/about",
+  "final_url": "https://omegax-hackathon.onrender.com/about/",
+  "page_type": "about",
+  "page_type_reason": "path is /about",
+  "canonical_path": "/about",
+  "canonical_url": "https://omegax-hackathon.onrender.com/about",
+  "query": {},
+  "original_json_path": "out/human-view-20261025-061505.json",
+  "screenshot_path": "out/screenshots/about-20261025-061505.png",
+  "rendered_html_path": "out/rendered_html/about-20261025-061505.html",
+  "structured_facts": {
+    "schema_version": "1.0",
+    "entities": [
+      {
+        "id": "organization:apex-moto",
+        "type": "organization",
+        "name": "Apex Moto",
+        "slug": "apex-moto"
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact:1",
+        "entity_id": "organization:apex-moto",
+        "entity_name": "Apex Moto",
+        "entity_type": "organization",
+        "fact_type": "tagline",
+        "value": "Born on Indian Roads,Built for Every Road.",
+        "value_text": "Born on Indian Roads,Built for Every Road.",
+        "unit": null,
+        "currency": null,
+        "qualifier": {},
+        "evidence": "Born on Indian Roads,Built for Every Road.",
+        "source_url": "https://omegax-hackathon.onrender.com/about/",
+        "extraction_method": "html.h1",
+        "status": "verified"
+      }
+    ],
+    "page_type": "about",
+    "limitations": [
+      "Facts come from semantic HTML containers on the saved rendered snapshot, not from pairing disconnected arrays.",
+      "Amounts without a typed label or a unique enclosing entity are marked ambiguous or omitted.",
+      "Derived discounts are never calculated.",
+      "JSON-LD is used only when HTML did not already provide the same product price."
+    ]
+  }
+}

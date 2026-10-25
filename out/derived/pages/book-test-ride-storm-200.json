@@ -1,0 +1,53 @@
+{
+  "schema_version": "1.0",
+  "url": "https://omegax-hackathon.onrender.com/book-test-ride?bike=storm-200",
+  "final_url": "https://omegax-hackathon.onrender.com/book-test-ride/?bike=storm-200",
+  "page_type": "booking",
+  "page_type_reason": "path is /book-test-ride (query ignored)",
+  "canonical_path": "/book-test-ride",
+  "canonical_url": "https://omegax-hackathon.onrender.com/book-test-ride",
+  "query": {
+    "bike": "storm-200"
+  },
+  "original_json_path": "out/human-view-20261025-061648.json",
+  "screenshot_path": "out/screenshots/book-test-ride-20261025-061648.png",
+  "rendered_html_path": "out/rendered_html/book-test-ride-20261025-061648.html",
+  "structured_facts": {
+    "schema_version": "1.0",
+    "entities": [
+      {
+        "id": "product:storm-200",
+        "type": "product",
+        "name": "Storm 200",
+        "slug": "storm-200"
+      }
+    ],
+    "facts": [
+      {
+        "id": "fact:1",
+        "entity_id": "product:storm-200",
+        "entity_name": "Storm 200",
+        "entity_type": "product",
+        "fact_type": "name",
+        "value": "Storm 200",
+        "value_text": "Storm 200",
+        "unit": null,
+        "currency": null,
+        "qualifier": {
+          "context": "booking_query"
+        },
+        "evidence": "booking query bike=storm-200",
+        "source_url": "https://omegax-hackathon.onrender.com/book-test-ride/?bike=storm-200",
+        "extraction_method": "url.query.bike",
+        "status": "verified"
+      }
+    ],
+    "page_type": "booking",
+    "limitations": [
+      "Facts come from semantic HTML containers on the saved rendered snapshot, not from pairing disconnected arrays.",
+      "Amounts without a typed label or a unique enclosing entity are marked ambiguous or omitted.",
+      "Derived discounts are never calculated.",
+      "JSON-LD is used only when HTML did not already provide the same product price."
+    ]
+  }
+}
