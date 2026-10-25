@@ -1,6 +1,6 @@
 # Render traffic dashboard
 
-Local UI that **pulls logs from the Render API** (no copy/paste), classifies **human vs bot** traffic from Morgan access lines, and refreshes automatically.
+Local UI that **pulls logs from the Render API**, classifies **human vs bot** traffic from Morgan access lines, and refreshes automatically.
 
 ## Setup
 
@@ -18,38 +18,21 @@ npm start
 
 4. Open **http://localhost:3456**
 
-| Page | URL |
-|------|-----|
-| Traffic overview | http://localhost:3456/ |
-| **AI crawlers & fetch detail** | http://localhost:3456/ai-crawlers.html |
-| Connection status | http://localhost:3456/status.html |
-
-The AI crawlers page groups bot traffic by provider (OpenAI, Perplexity, Exa, etc.), lists **which URLs** each crawler fetched, and recent hits. Chat **prompts are not in HTTP logs** — only User-Agent + path + time.
-
-Default view: **last 24 hours** of Render app logs (paginated on startup and when you click **Refresh now**). Optional env: `LOG_WINDOW_HOURS=24`.
-
-`RENDER_OWNER_ID` is optional; the server tries to auto-detect your workspace.
+Optional: `TARGET_SITE_URL` in `.env` (shown in API metadata). Default view uses `LOG_WINDOW_HOURS` (see `.env.example`).
 
 ## How classification works
 
-Parses lines like:
-
-`14.102.161.74 - GET / 200 - "Mozilla/5.0 …"`
-
-| Kind | Examples |
-|------|----------|
-| **Bot** | ChatGPT-User, GPTBot, ExaUser, PerplexityBot, Googlebot, `*bot*` / `crawler` |
-| **Human** | Normal Chrome / Firefox / Safari user agents |
-| **Unknown** | Everything else |
+Parses Morgan access lines and classifies User-Agent as human, bot, or unknown.
 
 ## Security
 
 - Run **on your machine only** — the API key must not be deployed publicly.
 - The dashboard never sends your API key to the browser.
 
-## API (optional)
+## API
 
-- `GET /api/stats` — counts + bot breakdown  
-- `GET /api/logs?filter=human|bot|all`  
-- `POST /api/refresh` — force pull from Render  
-- `GET /api/events` — SSE live updates  
+- `GET /api/status` — connection + stats (used by the UI)
+- `GET /api/stats` — counts + bot breakdown
+- `GET /api/logs?filter=human|bot|all`
+- `POST /api/refresh` — force pull from Render
+- `GET /api/events` — SSE live updates

@@ -41,6 +41,42 @@ const CRAWLER_SIGNATURES = [
 /**
  * @returns {{ provider: string, crawler: string, fetchType: string } | null}
  */
+const DISPLAY_NAMES = {
+  'ChatGPT-User': 'ChatGPT',
+  GPTBot: 'ChatGPT (GPTBot)',
+  'OAI-SearchBot': 'ChatGPT (Search)',
+  ExaUser: 'Exa',
+  PerplexityBot: 'Perplexity',
+  'Perplexity-User': 'Perplexity',
+  ClaudeBot: 'Claude',
+  'anthropic-ai': 'Claude',
+  Googlebot: 'Google',
+  'Google-Extended': 'Gemini / Google Extended',
+  Gemini: 'Gemini',
+  bingbot: 'Bing / Copilot',
+  Bytespider: 'ByteDance',
+  Applebot: 'Apple',
+  facebookexternalhit: 'Meta',
+  HeadlessChrome: 'Headless',
+  'Generic bot': 'Bot',
+};
+
+/**
+ * Friendly label for dashboard tables (ChatGPT, Gemini, Claude, …).
+ */
+export function getDisplayBotName(userAgent, botLabel = null) {
+  const desc = describeAiCrawler(userAgent);
+  if (desc?.crawler && DISPLAY_NAMES[desc.crawler]) {
+    return DISPLAY_NAMES[desc.crawler];
+  }
+  if (desc?.crawler) return desc.crawler;
+  if (botLabel === 'OpenAI') return 'ChatGPT';
+  if (botLabel === 'Anthropic') return 'Claude';
+  if (botLabel === 'Google') return 'Google / Gemini';
+  if (botLabel) return botLabel;
+  return 'Unknown bot';
+}
+
 export function describeAiCrawler(userAgent) {
   if (!userAgent) return null;
   const ua = String(userAgent);

@@ -102,7 +102,7 @@ async function loadStatus() {
 
   if (!data.configured) {
     pill.textContent = 'Not configured';
-    pill.className = 'pill pill-error';
+    pill.className = 'status-chip status-chip-error';
     banner.classList.remove('hidden');
     banner.textContent =
       'Add RENDER_API_KEY and RENDER_SERVICE_ID to tools/traffic-dashboard/.env (see .env.example), then restart the dashboard.';
@@ -112,12 +112,12 @@ async function loadStatus() {
   banner.classList.add('hidden');
   if (data.lastPollError) {
     pill.textContent = `Error: ${data.lastPollError}`;
-    pill.className = 'pill pill-error';
+    pill.className = 'status-chip status-chip-error';
   } else {
     pill.textContent = data.lastPollAt
       ? `Live · updated ${formatTime(data.lastPollAt)}`
       : 'Polling Render…';
-    pill.className = 'pill pill-live';
+    pill.className = 'status-chip status-chip-ok';
   }
   renderStats(data.stats);
   renderWindow(data.stats, data.lastFetch);
@@ -139,14 +139,14 @@ function connectSSE() {
     try {
       const data = JSON.parse(e.data);
       $('pollStatus').textContent = data.message;
-      $('pollStatus').className = 'pill pill-error';
+      $('pollStatus').className = 'status-chip status-chip-error';
     } catch {
       /* heartbeat */
     }
   });
   es.onerror = () => {
     $('pollStatus').textContent = 'Reconnecting…';
-    $('pollStatus').className = 'pill pill-muted';
+    $('pollStatus').className = 'status-chip';
   };
 }
 

@@ -1,86 +1,106 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Apex Moto — Render traffic</title>
+    <title>Overview — AI Traffic Lens</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="/styles.css" />
   </head>
   <body>
-    <nav class="nav">
-      <a href="/" class="active">Traffic overview</a>
-      <a href="/ai-crawlers.html">AI crawlers &amp; fetch detail</a>
-      <a href="/status.html">Connection status</a>
-    </nav>
-    <header class="header">
-      <div>
-        <h1>Render traffic dashboard</h1>
-        <p class="sub">
-          <span id="windowLabel">Last 24 hours</span> · access logs · human vs bot (Morgan /
-          <code>server.js</code>)
-        </p>
-        <p class="sub meta" id="windowRange"></p>
-      </div>
-      <div class="header-actions">
-        <span id="pollStatus" class="pill pill-muted">Connecting…</span>
-        <button type="button" id="btnRefresh" class="btn">Refresh now</button>
+    <header class="app-header">
+      <div class="app-header-inner">
+        <a href="/" class="brand" aria-label="Tatvic AI Traffic Lens home">
+          <span class="brand-lockup">
+            <img class="brand-logo" src="/assets/tatvic-dark-logo.svg" alt="Tatvic" width="120" height="32" />
+          </span>
+          <span class="brand-product">
+            <span class="brand-product-title">AI Traffic Lens</span>
+            <span class="brand-product-sub">Traffic overview</span>
+          </span>
+        </a>
+        <div class="app-header-actions">
+          <button type="button" id="themeToggle" class="btn btn-secondary btn-small">Dark mode</button>
+        </div>
       </div>
     </header>
 
-    <section id="configBanner" class="banner hidden"></section>
+    <main class="app-main">
+      <header class="page-header">
+        <div>
+          <h1 class="page-title">Traffic overview</h1>
+          <p class="page-lead">
+            <span id="windowLabel">Last 24 hours</span> · Human vs AI bot requests from Render access logs.
+          </p>
+          <p class="page-meta" id="windowRange"></p>
+        </div>
+        <div class="page-header-actions">
+          <span id="pollStatus" class="status-chip">Connecting…</span>
+          <button type="button" id="btnRefresh" class="btn btn-primary">Refresh now</button>
+        </div>
+      </header>
 
-    <section class="cards">
-      <article class="card card-total">
-        <h2>Total requests</h2>
-        <p class="metric" id="statTotal">0</p>
-      </article>
-      <article class="card card-human">
-        <h2>Human</h2>
-        <p class="metric" id="statHuman">0</p>
-        <p class="pct" id="pctHuman">0%</p>
-      </article>
-      <article class="card card-bot">
-        <h2>Bot / AI</h2>
-        <p class="metric" id="statBot">0</p>
-        <p class="pct" id="pctBot">0%</p>
-      </article>
-      <article class="card card-unknown">
-        <h2>Unknown</h2>
-        <p class="metric" id="statUnknown">0</p>
-        <p class="pct" id="pctUnknown">0%</p>
-      </article>
-    </section>
+      <section id="configBanner" class="banner hidden"></section>
 
-    <section class="panel">
-      <h2>Bot breakdown</h2>
-      <ul id="botBreakdown" class="chips"></ul>
-    </section>
+      <section class="kpi-row cards">
+        <article class="kpi-card card-total">
+          <p class="kpi-label">Total requests</p>
+          <p class="kpi-value metric" id="statTotal">0</p>
+        </article>
+        <article class="kpi-card card-human">
+          <p class="kpi-label">Human</p>
+          <p class="kpi-value metric kpi-value-success" id="statHuman">0</p>
+          <p class="pct table-meta" id="pctHuman">0%</p>
+        </article>
+        <article class="kpi-card card-bot">
+          <p class="kpi-label">Bot / AI</p>
+          <p class="kpi-value metric" id="statBot">0</p>
+          <p class="pct table-meta" id="pctBot">0%</p>
+        </article>
+        <article class="kpi-card card-unknown">
+          <p class="kpi-label">Unknown</p>
+          <p class="kpi-value metric" id="statUnknown">0</p>
+          <p class="pct table-meta" id="pctUnknown">0%</p>
+        </article>
+      </section>
 
-    <section class="panel">
-      <p class="table-meta" id="tableMeta"></p>
-      <div class="tabs">
-        <button type="button" class="tab active" data-filter="all">All</button>
-        <button type="button" class="tab" data-filter="human">Human</button>
-        <button type="button" class="tab" data-filter="bot">Bot</button>
-        <button type="button" class="tab" data-filter="unknown">Unknown</button>
-      </div>
-      <div class="table-wrap">
-        <table>
-          <thead>
-            <tr>
-              <th>Time</th>
-              <th>Type</th>
-              <th>IP</th>
-              <th>Request</th>
-              <th>Status</th>
-              <th>User-Agent</th>
-            </tr>
-          </thead>
-          <tbody id="logBody"></tbody>
-        </table>
-      </div>
-    </section>
+      <section class="panel">
+        <h2 class="panel-title">Bot breakdown</h2>
+        <ul id="botBreakdown" class="chips"></ul>
+      </section>
 
+      <section class="panel">
+        <p class="table-meta" id="tableMeta"></p>
+        <div class="tabs">
+          <button type="button" class="tab active" data-filter="all">All</button>
+          <button type="button" class="tab" data-filter="human">Human</button>
+          <button type="button" class="tab" data-filter="bot">Bot</button>
+          <button type="button" class="tab" data-filter="unknown">Unknown</button>
+        </div>
+        <div class="table-wrap">
+          <table class="data-table">
+            <thead>
+              <tr>
+                <th>Time</th>
+                <th>Type</th>
+                <th>IP</th>
+                <th>Request</th>
+                <th>Status</th>
+                <th>User-Agent</th>
+              </tr>
+            </thead>
+            <tbody id="logBody"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+
+    <script src="/shell.js" defer></script>
     <script src="/app.js" type="module"></script>
   </body>
 </html>

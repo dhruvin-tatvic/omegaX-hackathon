@@ -13,18 +13,21 @@ const app = express();
 
 const PORT = Number(process.env.DASHBOARD_PORT) || 3456;
 const POLL_MS = Number(process.env.POLL_INTERVAL_MS) || 8000;
-const LOG_WINDOW_HOURS = Number(process.env.LOG_WINDOW_HOURS) || 24;
+const LOG_WINDOW_HOURS = Number(process.env.LOG_WINDOW_HOURS) || 2;
+const SERVER_BUILD = '2026-10-25-v14-traffic-overview';
 
 const config = {
   apiKey: (process.env.RENDER_API_KEY || '').trim(),
   serviceId: (process.env.RENDER_SERVICE_ID || '').trim(),
   ownerId: (process.env.RENDER_OWNER_ID || '').trim(),
+  siteUrl: (process.env.TARGET_SITE_URL || 'https://omegax-hackathon.onrender.com').trim(),
 };
 
 let lastPollAt = null;
 let lastPollError = null;
 let lastFetchMeta = null;
 let polling = false;
+let pollTick = 0;
 
 store.setLogWindowHours(LOG_WINDOW_HOURS);
 /** @type {Set<import('http').ServerResponse>} */
@@ -78,8 +81,22 @@ async function pollRender({ fullSync = false } = {}) {
 
 app.use(express.json());
 
+app.use('/api', (_req, res, next) => {
+  res.setHeader('X-Dashboard-Build', SERVER_BUILD);
+  next();
+});
+
 app.get('/api/health', (_req, res) => {
-  res.type('application/json').send(JSON.stringify({ ok: true }));
+  res.type('application/json').send(JSON.stringify({ ok: true, build: SERVER_BUILD }));
+});
+
+app.get('/api/version', (_req, res) => {
+  res.json({
+    build: SERVER_BUILD,
+    logWindowHours: LOG_WINDOW_HOURS,
+    features: ['traffic-overview'],
+    siteUrl: config.siteUrl,
+  });
 });
 
 app.get('/api/status', (_req, res) => {
@@ -94,18 +111,16 @@ app.get('/api/status', (_req, res) => {
     lastPollError,
     pollIntervalMs: POLL_MS,
     logWindowHours: LOG_WINDOW_HOURS,
+    build: SERVER_BUILD,
     lastFetch: lastFetchMeta,
     stats: store.getStats(),
+    siteUrl: config.siteUrl,
   };
   res.type('application/json').send(JSON.stringify(body, null, 2));
 });
 
 app.get('/api/stats', (_req, res) => {
   res.type('application/json').send(JSON.stringify(store.getStats(), null, 2));
-});
-
-app.get('/api/ai-crawlers', (_req, res) => {
-  res.type('application/json').send(JSON.stringify(store.getAiCrawlerReport(), null, 2));
 });
 
 app.get('/api/logs', (req, res) => {
@@ -156,6 +171,10 @@ app.listen(PORT, () => {
     console.log(`Render service: ${config.serviceId}`);
     console.log(`Loaded config from: ${envPath}`);
     pollRender({ fullSync: true });
-    setInterval(() => pollRender({ fullSync: false }), POLL_MS);
+    setInterval(() => {
+      pollTick += 1;
+      const fullSync = pollTick % 4 === 0;
+      pollRender({ fullSync });
+    }, POLL_MS);
   }
 });

@@ -2,7 +2,7 @@ import { parseAccessLogLine } from './parse-access-log.js';
 import { classifyTraffic, describeAiCrawler } from './classify-traffic.js';
 
 const MAX_ENTRIES = 8000;
-let windowHours = 24;
+let windowHours = 2;
 
 export function setLogWindowHours(hours) {
   windowHours = Math.max(1, Number(hours) || 24);
@@ -105,6 +105,12 @@ export function getStats() {
   };
 }
 
+export function listAllBotEntriesInWindow() {
+  return rowsInWindow()
+    .filter(r => r.kind === 'bot')
+    .sort((a, b) => String(b.timestamp).localeCompare(String(a.timestamp)));
+}
+
 export function listEntries({ filter = 'all', limit = 150 } = {}) {
   let rows = rowsInWindow();
   if (filter === 'human') rows = rows.filter(r => r.kind === 'human');
@@ -189,7 +195,7 @@ export function getAiCrawlerReport() {
 
   const recent = botRows
     .sort((a, b) => String(b.timestamp).localeCompare(String(a.timestamp)))
-    .slice(0, 100)
+    .slice(0, 200)
     .map(r => {
       const desc = describeAiCrawler(r.userAgent);
       return {

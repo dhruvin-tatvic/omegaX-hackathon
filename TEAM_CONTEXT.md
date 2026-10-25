@@ -113,13 +113,11 @@ Local tool — **does not** host the website; pulls **Render Logs API** using AP
 
 | Item | Detail |
 |------|--------|
-| **Overview** | http://localhost:3456 |
-| **AI crawlers** | http://localhost:3456/ai-crawlers.html — provider, crawler UA, paths fetched, recent bot hits |
-| **Status** | http://localhost:3456/status.html |
+| **Overview** | http://localhost:3456 — human vs bot traffic, log table, live refresh |
 | **`.env`** | `RENDER_API_KEY`, `RENDER_SERVICE_ID=srv-dbe892a9lscs73a8o5vg` |
 | **Start** | `cd tools/traffic-dashboard` → `npm start` or `restart-dashboard.cmd` |
 | **Window** | Last **24h** (`LOG_WINDOW_HOURS`); **Refresh now** = full paginated sync |
-| **API** | `GET /api/status`, `/api/ai-crawlers`, `/api/logs` |
+| **API** | `GET /api/status`, `/api/logs`, `/api/events`, `POST /api/refresh` |
 
 **Limitation:** HTTP logs show **User-Agent + URL + time**, not the user’s **chat prompt**.
 
