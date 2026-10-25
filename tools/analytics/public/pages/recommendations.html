@@ -1,0 +1,46 @@
+<header class="header">
+  <div>
+    <h1>Gap Analysis and Recommendations</h1>
+    <p class="sub">AI-readability gaps between LLM answers and scraped site facts, with actionable site fixes.</p>
+    <p class="sub meta" id="runLabel"></p>
+  </div>
+  <div class="header-actions header-actions--stack">
+    <label for="runSelect" class="table-meta">Comparison run</label>
+    <select id="runSelect" class="select-run" aria-label="Select comparison run"></select>
+  </div>
+</header>
+
+<section class="gap-hero" aria-labelledby="heroLabel">
+  <p class="gap-hero__label" id="heroLabel">Executive summary</p>
+  <p class="gap-hero__summary" id="executiveSummary">Loading analysis...</p>
+  <p class="gap-hero__meta" id="heroMeta"></p>
+</section>
+
+<div class="tool-scores" id="toolScores" aria-label="Average score by AI tool"></div>
+
+<div class="gap-layout">
+  <section class="panel" aria-labelledby="themesTitle">
+    <h2 class="gap-section-title" id="themesTitle">Impact themes</h2>
+    <p class="gap-section-desc">Recurring patterns behind factual mismatches and access failures</p>
+    <div id="themes" class="theme-grid"></div>
+  </section>
+</div>
+
+<div class="gap-layout gap-layout--two">
+  <section class="panel" aria-labelledby="gapsTitle">
+    <h2 class="gap-section-title" id="gapsTitle">Top factual gaps</h2>
+    <p class="gap-section-desc">What went wrong, with evidence from ground truth</p>
+    <div id="gaps" class="gap-cards"></div>
+  </section>
+
+  <section class="panel" aria-labelledby="recsTitle">
+    <h2 class="gap-section-title" id="recsTitle">Site recommendations</h2>
+    <p class="gap-section-desc">Prioritized changes to improve LLM and crawler accuracy</p>
+    <div id="recommendations" class="rec-grid"></div>
+  </section>
+</div>
+
+<section class="panel gap-panel-last" aria-labelledby="crawlerTitle">
+  <h2 class="gap-section-title" id="crawlerTitle">Crawler and LLM access</h2>
+  <p id="crawlerNote" class="crawler-callout"></p>
+</section>

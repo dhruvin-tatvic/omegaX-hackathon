@@ -1,4 +1,9 @@
+const API_BASE = window.TATVIC_TRAFFIC_API || '';
 const $ = id => document.getElementById(id);
+
+function apiUrl(path) {
+  return `${API_BASE}${path}`;
+}
 
 let currentFilter = 'all';
 
@@ -69,16 +74,28 @@ function badgeLabel(row) {
   return row.kind;
 }
 
+function humanViewHref(requestPath) {
+  if (!window.BTA_APP || !requestPath) return '';
+  const path = String(requestPath).split('?')[0];
+  if (!path.startsWith('/')) return '';
+  if (path === '/health' || path.startsWith('/api') || path.startsWith('/assets')) return '';
+  return `/human-view?path=${encodeURIComponent(path)}`;
+}
+
 function renderTable(entries) {
   const body = $('logBody');
   body.innerHTML = '';
   for (const row of entries) {
+    const href = humanViewHref(row.path);
+    const requestCell = href
+      ? `<strong>${row.method}</strong> <a href="${href}">${row.path}</a>`
+      : `<strong>${row.method}</strong> ${row.path}`;
     const tr = document.createElement('tr');
     tr.innerHTML = `
       <td>${formatTime(row.timestamp)}</td>
       <td><span class="badge ${badgeClass(row.kind)}">${badgeLabel(row)}</span></td>
       <td>${row.ip}</td>
-      <td><strong>${row.method}</strong> ${row.path}</td>
+      <td>${requestCell}</td>
       <td>${row.status}</td>
       <td class="ua">${row.userAgent}</td>
     `;
@@ -87,7 +104,7 @@ function renderTable(entries) {
 }
 
 async function loadLogs() {
-  const res = await fetch(`/api/logs?filter=${currentFilter}&limit=500`);
+  const res = await fetch(apiUrl(`/api/logs?filter=${currentFilter}&limit=500`));
   const data = await res.json();
   renderStats(data.stats);
   renderWindow(data.stats);
@@ -95,7 +112,7 @@ async function loadLogs() {
 }
 
 async function loadStatus() {
-  const res = await fetch('/api/status');
+  const res = await fetch(apiUrl('/api/status'));
   const data = await res.json();
   const pill = $('pollStatus');
   const banner = $('configBanner');
@@ -132,7 +149,7 @@ async function loadStatus() {
 }
 
 function connectSSE() {
-  const es = new EventSource('/api/events');
+  const es = new EventSource(apiUrl('/api/events'));
   es.addEventListener('hello', e => {
     const data = JSON.parse(e.data);
     renderStats(data.stats);
@@ -170,7 +187,7 @@ document.querySelectorAll('.tab').forEach(btn => {
 $('btnRefresh').addEventListener('click', async () => {
   $('btnRefresh').disabled = true;
   $('btnRefresh').textContent = 'Loading 24h…';
-  await fetch('/api/refresh', { method: 'POST' });
+  await fetch(apiUrl('/api/refresh'), { method: 'POST' });
   await loadStatus();
   await loadLogs();
   $('btnRefresh').disabled = false;
@@ -179,7 +196,7 @@ $('btnRefresh').addEventListener('click', async () => {
 
 async function boot() {
   try {
-    const health = await fetch('/api/health');
+    const health = await fetch(apiUrl('/api/health'));
     if (!health.ok) throw new Error('no api');
   } catch {
     const banner = $('configBanner');

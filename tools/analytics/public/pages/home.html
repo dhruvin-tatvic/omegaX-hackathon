@@ -1,0 +1,76 @@
+<header class="page-header">
+  <div>
+    <p class="eyebrow">Tatvic internal</p>
+    <h1 class="page-title">Intelligence overview</h1>
+    <p class="page-lead">
+      Follow how AI systems discover Apex Moto, what a person can read on the live site,
+      where crawlers diverge, and how assistants answer.
+    </p>
+  </div>
+  <a class="ta-site-link" href="https://omegax-hackathon.onrender.com/" target="_blank" rel="noreferrer">Apex Moto site</a>
+</header>
+
+<p id="homeStatus" class="muted">Loading latest module data...</p>
+
+<section class="kpi-row" id="homeKpis" aria-label="Module metrics"></section>
+
+<section class="panel">
+  <h2 class="panel-title">Workflow</h2>
+  <p class="panel-desc">Each step uses its own report window. Counts are not combined across modules.</p>
+  <ol class="workflow" id="workflow">
+    <li>
+      <a href="/traffic">
+        <span class="wf-step">1</span>
+        <strong>Traffic Intelligence</strong>
+        <span>Who requested the site, human or AI.</span>
+      </a>
+    </li>
+    <li>
+      <a href="/human-view">
+        <span class="wf-step">2</span>
+        <strong>Human View</strong>
+        <span>What Playwright captured for a person.</span>
+      </a>
+    </li>
+    <li>
+      <a href="/readability">
+        <span class="wf-step">3</span>
+        <strong>AI vs Human Readability</strong>
+        <span>Side by side fields for a product page.</span>
+      </a>
+    </li>
+    <li>
+      <a href="/comparison">
+        <span class="wf-step">4</span>
+        <strong>LLM Comparison</strong>
+        <span>Assistant answers scored against facts.</span>
+      </a>
+    </li>
+    <li>
+      <a href="/comparison/recommendations">
+        <span class="wf-step">5</span>
+        <strong>Recommendations</strong>
+        <span>Site fixes suggested from those gaps.</span>
+      </a>
+    </li>
+  </ol>
+</section>
+
+<section class="home-grid">
+  <article class="panel">
+    <h2 class="panel-title">Findings from the latest comparison</h2>
+    <p class="panel-desc" id="findingsMeta"></p>
+    <ul class="finding-list" id="findings"></ul>
+  </article>
+  <article class="panel">
+    <h2 class="panel-title">Open a module</h2>
+    <div class="quick-links">
+      <a href="/traffic">Live traffic window</a>
+      <a href="/human-view">Crawl explorer</a>
+      <a href="/readability?slug=storm-200">Storm 200 readability</a>
+      <a href="/comparison">Latest evaluations</a>
+      <a href="/comparison/recommendations">Gap analysis</a>
+      <a href="/comparison/runs">Run history</a>
+    </div>
+  </article>
+</section>

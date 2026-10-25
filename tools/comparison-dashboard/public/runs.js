@@ -1,3 +1,9 @@
+const API_BASE = window.TATVIC_COMPARE_API || '';
+
+function apiUrl(path) {
+  return `${API_BASE}${path}`;
+}
+
 function formatTime(iso) {
   try {
     return new Date(iso).toLocaleString();
@@ -41,7 +47,7 @@ function renderSummary(runs) {
 }
 
 async function load() {
-  const res = await fetch('/api/runs');
+  const res = await fetch(apiUrl('/api/runs'));
   const { runs } = await res.json();
   renderSummary(runs);
   const body = document.getElementById('runsBody');

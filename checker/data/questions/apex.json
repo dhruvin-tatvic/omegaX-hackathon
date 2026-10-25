@@ -1,0 +1,451 @@
+{
+  "id": "apex-set",
+  "name": "Apex Moto starter questions",
+  "description": "Starter pack questions generated from the Apex Moto fact sheet. Do not put reference answers in the question text.",
+  "questions": [
+    {
+      "id": "custom",
+      "text": "",
+      "set_id": "apex-set",
+      "related_urls": [],
+      "entity_ids": [],
+      "fact_keys": [],
+      "kind": "other",
+      "label": "Type my own question"
+    },
+    {
+      "id": "price-product:thunderstrike-650",
+      "text": "What is the ex-showroom price of the Thunderstrike 650?",
+      "set_id": "apex-set",
+      "related_urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/thunderstrike-650"
+      ],
+      "entity_ids": [
+        "product:thunderstrike-650"
+      ],
+      "fact_keys": [
+        "ex_showroom_price_inr"
+      ],
+      "kind": "price",
+      "label": "Thunderstrike 650 — price"
+    },
+    {
+      "id": "price-product:phantom-350",
+      "text": "What is the ex-showroom price of the Phantom 350?",
+      "set_id": "apex-set",
+      "related_urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/phantom-350"
+      ],
+      "entity_ids": [
+        "product:phantom-350"
+      ],
+      "fact_keys": [
+        "ex_showroom_price_inr"
+      ],
+      "kind": "price",
+      "label": "Phantom 350 — price"
+    },
+    {
+      "id": "price-product:storm-200",
+      "text": "What is the ex-showroom price of the Storm 200?",
+      "set_id": "apex-set",
+      "related_urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/storm-200"
+      ],
+      "entity_ids": [
+        "product:storm-200"
+      ],
+      "fact_keys": [
+        "ex_showroom_price_inr"
+      ],
+      "kind": "price",
+      "label": "Storm 200 — price"
+    },
+    {
+      "id": "price-product:zenith-450-scrambler",
+      "text": "What is the ex-showroom price of the Zenith 450 Scrambler?",
+      "set_id": "apex-set",
+      "related_urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/zenith-450-scrambler"
+      ],
+      "entity_ids": [
+        "product:zenith-450-scrambler"
+      ],
+      "fact_keys": [
+        "ex_showroom_price_inr"
+      ],
+      "kind": "price",
+      "label": "Zenith 450 Scrambler — price"
+    },
+    {
+      "id": "price-product:thunderstrike-450",
+      "text": "What is the ex-showroom price of the Thunderstrike 450?",
+      "set_id": "apex-set",
+      "related_urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/thunderstrike-450"
+      ],
+      "entity_ids": [
+        "product:thunderstrike-450"
+      ],
+      "fact_keys": [
+        "ex_showroom_price_inr"
+      ],
+      "kind": "price",
+      "label": "Thunderstrike 450 — price"
+    },
+    {
+      "id": "price-product:thunderstrike-650-rally",
+      "text": "What is the ex-showroom price of the Thunderstrike 650 Rally?",
+      "set_id": "apex-set",
+      "related_urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/thunderstrike-650-rally"
+      ],
+      "entity_ids": [
+        "product:thunderstrike-650-rally"
+      ],
+      "fact_keys": [
+        "ex_showroom_price_inr"
+      ],
+      "kind": "price",
+      "label": "Thunderstrike 650 Rally — price"
+    },
+    {
+      "id": "price-product:phantom-500",
+      "text": "What is the ex-showroom price of the Phantom 500?",
+      "set_id": "apex-set",
+      "related_urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/phantom-500"
+      ],
+      "entity_ids": [
+        "product:phantom-500"
+      ],
+      "fact_keys": [
+        "ex_showroom_price_inr"
+      ],
+      "kind": "price",
+      "label": "Phantom 500 — price"
+    },
+    {
+      "id": "price-product:phantom-350-bobber",
+      "text": "What is the ex-showroom price of the Phantom 350 Bobber?",
+      "set_id": "apex-set",
+      "related_urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/phantom-350-bobber"
+      ],
+      "entity_ids": [
+        "product:phantom-350-bobber"
+      ],
+      "fact_keys": [
+        "ex_showroom_price_inr"
+      ],
+      "kind": "price",
+      "label": "Phantom 350 Bobber — price"
+    },
+    {
+      "id": "price-product:storm-125",
+      "text": "What is the ex-showroom price of the Storm 125?",
+      "set_id": "apex-set",
+      "related_urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/storm-125"
+      ],
+      "entity_ids": [
+        "product:storm-125"
+      ],
+      "fact_keys": [
+        "ex_showroom_price_inr"
+      ],
+      "kind": "price",
+      "label": "Storm 125 — price"
+    },
+    {
+      "id": "price-product:storm-160",
+      "text": "What is the ex-showroom price of the Storm 160?",
+      "set_id": "apex-set",
+      "related_urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/storm-160"
+      ],
+      "entity_ids": [
+        "product:storm-160"
+      ],
+      "fact_keys": [
+        "ex_showroom_price_inr"
+      ],
+      "kind": "price",
+      "label": "Storm 160 — price"
+    },
+    {
+      "id": "price-product:storm-390",
+      "text": "What is the ex-showroom price of the Storm 390?",
+      "set_id": "apex-set",
+      "related_urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/storm-390"
+      ],
+      "entity_ids": [
+        "product:storm-390"
+      ],
+      "fact_keys": [
+        "ex_showroom_price_inr"
+      ],
+      "kind": "price",
+      "label": "Storm 390 — price"
+    },
+    {
+      "id": "price-product:zenith-350-scrambler",
+      "text": "What is the ex-showroom price of the Zenith 350 Scrambler?",
+      "set_id": "apex-set",
+      "related_urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/zenith-350-scrambler"
+      ],
+      "entity_ids": [
+        "product:zenith-350-scrambler"
+      ],
+      "fact_keys": [
+        "ex_showroom_price_inr"
+      ],
+      "kind": "price",
+      "label": "Zenith 350 Scrambler — price"
+    },
+    {
+      "id": "price-product:zenith-650-scrambler",
+      "text": "What is the ex-showroom price of the Zenith 650 Scrambler?",
+      "set_id": "apex-set",
+      "related_urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/zenith-650-scrambler"
+      ],
+      "entity_ids": [
+        "product:zenith-650-scrambler"
+      ],
+      "fact_keys": [
+        "ex_showroom_price_inr"
+      ],
+      "kind": "price",
+      "label": "Zenith 650 Scrambler — price"
+    },
+    {
+      "id": "price-product:voyager-650",
+      "text": "What is the ex-showroom price of the Voyager 650?",
+      "set_id": "apex-set",
+      "related_urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/voyager-650"
+      ],
+      "entity_ids": [
+        "product:voyager-650"
+      ],
+      "fact_keys": [
+        "ex_showroom_price_inr"
+      ],
+      "kind": "price",
+      "label": "Voyager 650 — price"
+    },
+    {
+      "id": "price-product:voyager-450",
+      "text": "What is the ex-showroom price of the Voyager 450?",
+      "set_id": "apex-set",
+      "related_urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/voyager-450"
+      ],
+      "entity_ids": [
+        "product:voyager-450"
+      ],
+      "fact_keys": [
+        "ex_showroom_price_inr"
+      ],
+      "kind": "price",
+      "label": "Voyager 450 — price"
+    },
+    {
+      "id": "price-product:nightfall-350",
+      "text": "What is the ex-showroom price of the Nightfall 350?",
+      "set_id": "apex-set",
+      "related_urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/nightfall-350"
+      ],
+      "entity_ids": [
+        "product:nightfall-350"
+      ],
+      "fact_keys": [
+        "ex_showroom_price_inr"
+      ],
+      "kind": "price",
+      "label": "Nightfall 350 — price"
+    },
+    {
+      "id": "price-product:nightfall-650",
+      "text": "What is the ex-showroom price of the Nightfall 650?",
+      "set_id": "apex-set",
+      "related_urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/nightfall-650"
+      ],
+      "entity_ids": [
+        "product:nightfall-650"
+      ],
+      "fact_keys": [
+        "ex_showroom_price_inr"
+      ],
+      "kind": "price",
+      "label": "Nightfall 650 — price"
+    },
+    {
+      "id": "price-product:spark-e1",
+      "text": "What is the ex-showroom price of the Spark E1?",
+      "set_id": "apex-set",
+      "related_urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/spark-e1"
+      ],
+      "entity_ids": [
+        "product:spark-e1"
+      ],
+      "fact_keys": [
+        "ex_showroom_price_inr"
+      ],
+      "kind": "price",
+      "label": "Spark E1 — price"
+    },
+    {
+      "id": "specs-product:thunderstrike-650",
+      "text": "What is the engine and peak power of the Thunderstrike 650?",
+      "set_id": "apex-set",
+      "related_urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/thunderstrike-650"
+      ],
+      "entity_ids": [
+        "product:thunderstrike-650"
+      ],
+      "fact_keys": [
+        "engine",
+        "max_power_bhp"
+      ],
+      "kind": "spec",
+      "label": "Thunderstrike 650 — specs"
+    },
+    {
+      "id": "range-product:spark-e1",
+      "text": "What is the claimed range of the Spark E1?",
+      "set_id": "apex-set",
+      "related_urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/spark-e1"
+      ],
+      "entity_ids": [
+        "product:spark-e1"
+      ],
+      "fact_keys": [
+        "range_km"
+      ],
+      "kind": "spec",
+      "label": "Spark E1 — range"
+    },
+    {
+      "id": "on-road-product:thunderstrike-650",
+      "text": "What is the on-road price of the Thunderstrike 650 in delhi?",
+      "set_id": "apex-set",
+      "related_urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/thunderstrike-650"
+      ],
+      "entity_ids": [
+        "product:thunderstrike-650"
+      ],
+      "fact_keys": [
+        "on_road_price_delhi_inr"
+      ],
+      "kind": "price",
+      "label": "Thunderstrike 650 — on-road"
+    },
+    {
+      "id": "variant-product:thunderstrike-650",
+      "text": "What is the ex-showroom price of the Standard variant of the Thunderstrike 650?",
+      "set_id": "apex-set",
+      "related_urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/thunderstrike-650"
+      ],
+      "entity_ids": [
+        "product:thunderstrike-650"
+      ],
+      "fact_keys": [
+        "variant_standard_ex_showroom_price_inr"
+      ],
+      "kind": "variant",
+      "label": "Thunderstrike 650 — variant"
+    },
+    {
+      "id": "colours-product:thunderstrike-650",
+      "text": "Which colours is the Thunderstrike 650 offered in?",
+      "set_id": "apex-set",
+      "related_urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/thunderstrike-650"
+      ],
+      "entity_ids": [
+        "product:thunderstrike-650"
+      ],
+      "fact_keys": [
+        "colours"
+      ],
+      "kind": "colour",
+      "label": "Thunderstrike 650 — colours"
+    },
+    {
+      "id": "availability-product:thunderstrike-650",
+      "text": "What is the availability of the Thunderstrike 650?",
+      "set_id": "apex-set",
+      "related_urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/thunderstrike-650"
+      ],
+      "entity_ids": [
+        "product:thunderstrike-650"
+      ],
+      "fact_keys": [
+        "availability"
+      ],
+      "kind": "availability",
+      "label": "Thunderstrike 650 — availability"
+    },
+    {
+      "id": "finance-product:thunderstrike-650",
+      "text": "What is the listed monthly EMI for the Thunderstrike 650?",
+      "set_id": "apex-set",
+      "related_urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/thunderstrike-650"
+      ],
+      "entity_ids": [
+        "product:thunderstrike-650"
+      ],
+      "fact_keys": [
+        "finance_emi_inr"
+      ],
+      "kind": "finance",
+      "label": "Thunderstrike 650 — finance"
+    },
+    {
+      "id": "dealer-dealer:delhi-central",
+      "text": "Which city is Apex Moto Delhi Central in, and what is the dealership phone number?",
+      "set_id": "apex-set",
+      "related_urls": [
+        "https://apex-moto-one.vercel.app/dealers"
+      ],
+      "entity_ids": [
+        "dealer:delhi-central"
+      ],
+      "fact_keys": [
+        "city",
+        "phone"
+      ],
+      "kind": "dealer",
+      "label": "Apex Moto Delhi Central — dealer"
+    },
+    {
+      "id": "bank-bank:hdfc-bank",
+      "text": "What interest rate does HDFC Bank offer as a finance partner?",
+      "set_id": "apex-set",
+      "related_urls": [
+        "https://apex-moto-one.vercel.app/finance"
+      ],
+      "entity_ids": [
+        "bank:hdfc-bank"
+      ],
+      "fact_keys": [
+        "interest_rate_pct"
+      ],
+      "kind": "finance",
+      "label": "HDFC Bank — finance"
+    }
+  ]
+}

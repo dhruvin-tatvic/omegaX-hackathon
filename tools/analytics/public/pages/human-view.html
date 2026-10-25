@@ -1,0 +1,110 @@
+<header class="page-header">
+  <div>
+    <h1 class="page-title">Human View</h1>
+    <p class="page-lead">Explore website crawl results, page information, and structured data.</p>
+  </div>
+</header>
+
+<div class="layout">
+  <section class="panel" id="summary" aria-labelledby="summary-heading">
+    <div class="panel-head">
+      <div>
+        <h2 id="summary-heading">Crawl overview</h2>
+        <p id="load-status" class="muted">Loading latest report...</p>
+      </div>
+      <p id="crawl-status" class="status-pill" hidden></p>
+    </div>
+    <dl id="meta-list" class="meta-list"></dl>
+    <div id="kpi-grid" class="kpi-grid"></div>
+
+    <details id="warnings-box" class="fold" hidden>
+      <summary>Warnings <span id="warnings-count" class="count-chip">0</span></summary>
+      <ul id="warnings-list"></ul>
+    </details>
+
+    <div class="section-block">
+      <div class="panel-head">
+        <h3 id="category-heading" class="subhead">Page categories</h3>
+        <button type="button" id="clear-category" class="text-btn" hidden>Clear category filter</button>
+      </div>
+      <div id="category-chart" class="category-chart"></div>
+    </div>
+  </section>
+
+  <section class="panel" aria-labelledby="pages-heading">
+    <div class="panel-head">
+      <h2 id="pages-heading">Page explorer</h2>
+      <p id="page-count" class="muted"></p>
+    </div>
+    <div class="toolbar">
+      <label class="sr-only" for="search">Search pages</label>
+      <input id="search" type="search" placeholder="Search by page name or URL" />
+      <label class="sr-only" for="type-filter">Page category</label>
+      <select id="type-filter">
+        <option value="">All categories</option>
+      </select>
+      <label class="sr-only" for="status-filter">Status</label>
+      <select id="status-filter">
+        <option value="">All statuses</option>
+        <option value="success">Success</option>
+        <option value="partial">Partial</option>
+        <option value="error">Failed</option>
+      </select>
+      <label class="sr-only" for="sort-filter">Sort pages</label>
+      <select id="sort-filter">
+        <option value="title">Sort by name</option>
+        <option value="category">Sort by category</option>
+      </select>
+      <button type="button" id="clear-filters" class="secondary-btn">Clear filters</button>
+    </div>
+    <div id="pages-empty" class="empty" hidden>No pages match these filters.</div>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr>
+            <th>Page</th>
+            <th>Category</th>
+            <th>Status</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="pages-body"></tbody>
+      </table>
+    </div>
+  </section>
+
+  <section id="details" class="panel details" hidden aria-labelledby="details-heading">
+    <div class="details-head">
+      <div class="details-copy">
+        <h2 id="details-heading">Selected page</h2>
+        <p id="details-meta" class="details-meta"></p>
+        <p id="details-url" class="muted"></p>
+            <p id="details-links" class="details-links"></p>
+      </div>
+      <button type="button" id="export-facts" class="export-btn">Export Structured JSON</button>
+    </div>
+    <div class="tabs" role="tablist">
+      <button type="button" class="tab active" role="tab" aria-selected="true" data-tab="overview">Overview</button>
+      <button type="button" class="tab" role="tab" aria-selected="false" data-tab="facts">Structured Facts</button>
+      <button type="button" class="tab" role="tab" aria-selected="false" data-tab="screenshot">Screenshot</button>
+    </div>
+    <div id="tab-overview" class="tab-panel active"></div>
+    <div id="tab-facts" class="tab-panel"></div>
+    <div id="tab-screenshot" class="tab-panel"></div>
+    <details id="dev-details" class="fold">
+      <summary>Developer details</summary>
+      <p class="muted">Original capture files stay on disk. Open a section only if you need the raw payload.</p>
+      <button type="button" id="load-json" class="secondary-btn" data-tab="json">Load original JSON</button>
+      <button type="button" id="load-html" class="secondary-btn" data-tab="html">Load rendered HTML</button>
+      <div id="tab-json" class="dev-panel"></div>
+      <div id="tab-html" class="dev-panel"></div>
+    </details>
+  </section>
+</div>
+
+<dialog id="shot-dialog" class="shot-dialog">
+  <form method="dialog">
+    <button type="submit" class="secondary-btn">Close</button>
+  </form>
+  <img id="shot-dialog-img" alt="Enlarged screenshot" />
+</dialog>

@@ -1,0 +1,84 @@
+{
+  "scenario": "dryrun",
+  "description": "Different mix for the hidden-set dry run. Set by someone who did not build the agent.",
+  "js_only_content": {
+    "enabled": true,
+    "bikes": [
+      "thunderstrike-450"
+    ],
+    "note": "Price, on-road table, specs, variants and colours render only in the browser, on the bike page AND on every card that shows this bike"
+  },
+  "tabs_not_in_html": {
+    "enabled": true,
+    "bikes": [
+      "phantom-500"
+    ],
+    "note": "Specs and Variants panels are mounted only when their tab is clicked"
+  },
+  "conflicting_price": {
+    "enabled": true,
+    "bikes": [
+      "phantom-350"
+    ],
+    "page": "/motorcycles",
+    "wrong_ex_showroom_price_inr": 205000
+  },
+  "stale_page": {
+    "enabled": true,
+    "bikes": [
+      "storm-200"
+    ],
+    "url": "/motorcycles/storm-200-2025"
+  },
+  "missing_jsonld": {
+    "enabled": true,
+    "bikes": [
+      "nightfall-350",
+      "zenith-350-scrambler"
+    ]
+  },
+  "robots_block_dealers": {
+    "enabled": false,
+    "path": "/dealers",
+    "user_agents": [
+      "GPTBot",
+      "OAI-SearchBot"
+    ]
+  },
+  "intentional_account_block": {
+    "enabled": true,
+    "paths": [
+      "/account",
+      "/login"
+    ]
+  },
+  "price_only_in_pdf": {
+    "enabled": true,
+    "bikes": [
+      "thunderstrike-650-rally"
+    ]
+  },
+  "image_only_specs": {
+    "enabled": false,
+    "bikes": []
+  },
+  "finance_not_on_site": {
+    "enabled": true,
+    "bikes": [
+      "storm-160"
+    ]
+  },
+  "firewall_block": {
+    "enabled": true,
+    "path_prefix": "/offers",
+    "user_agents": [
+      "ClaudeBot",
+      "Claude-User"
+    ]
+  },
+  "offer_terms_conflict": {
+    "enabled": false,
+    "note": "Offers copy aligned with the bank table"
+  },
+  "data_label": "SIMULATED"
+}

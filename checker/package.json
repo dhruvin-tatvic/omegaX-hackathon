@@ -1,0 +1,30 @@
+{
+  "name": "ai-answer-checker",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "node src/dev.mjs",
+    "dev:api": "node --watch src/api/server.js",
+    "dev:web": "vite",
+    "build": "vite build",
+    "start": "node src/api/server.js",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "generate:apex-reference": "node scripts/generate-apex-reference.mjs",
+    "generate:apex-questions": "node scripts/generate-apex-questions.mjs"
+  },
+  "dependencies": {
+    "cheerio": "^1.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "express": "^5.1.0",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^6.1.2",
+    "vite": "^8.3.4",
+    "vitest": "^4.0.3"
+  }
+}

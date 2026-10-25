@@ -1,0 +1,93 @@
+<header class="header">
+  <div>
+    <h1>Comparison Overview</h1>
+    <p class="sub">LLM answers mapped to scraped site facts for the selected run.</p>
+    <p class="sub meta" id="windowRange"></p>
+  </div>
+  <div class="header-actions header-actions--stack">
+    <label for="runSelect" class="table-meta">Comparison run</label>
+    <select id="runSelect" class="select-run" aria-label="Select comparison run">
+      <option value="latest">Latest run</option>
+      <option value="all">All runs (history)</option>
+    </select>
+    <div class="header-actions header-actions-row">
+      <span id="pollStatus" class="pill pill-muted">Loading...</span>
+      <button type="button" id="btnRefresh" class="btn">Import latest report</button>
+    </div>
+  </div>
+</header>
+
+<section class="page-intro" aria-label="About this view">
+  <p class="page-intro__text">
+    Each assistant answer is checked against scraped facts in <code>apex_moto_facts.json</code>
+    using intent-aware ground truth, per-row gaps, and site-fix hints.
+  </p>
+</section>
+
+<section class="cards" aria-label="Summary metrics">
+  <article class="card card-total">
+    <h2>Evaluations</h2>
+    <p class="metric" id="statTotal">0</p>
+    <p class="pct" id="statRuns">0 runs in history</p>
+  </article>
+  <article class="card card-score">
+    <h2>Average score</h2>
+    <p class="metric" id="statAvg">0</p>
+  </article>
+  <article class="card card-correct">
+    <h2>Correct</h2>
+    <p class="metric" id="statCorrect">0</p>
+    <p class="pct" id="pctCorrect">0%</p>
+  </article>
+  <article class="card card-partial">
+    <h2>Partial / refusal</h2>
+    <p class="metric" id="statPartial">0</p>
+    <p class="pct" id="pctPartial">0%</p>
+  </article>
+  <article class="card card-wrong">
+    <h2>Incorrect</h2>
+    <p class="metric" id="statWrong">0</p>
+    <p class="pct" id="pctWrong">0%</p>
+  </article>
+</section>
+
+<section class="panel">
+  <h2 class="gap-section-title">Score by AI tool</h2>
+  <p class="gap-section-desc">Average accuracy for the selected run scope</p>
+  <ul id="toolBreakdown" class="chips"></ul>
+</section>
+
+<section class="panel">
+  <div class="table-panel-head">
+    <div>
+      <h2 class="gap-section-title gap-section-title--tight">Evaluation detail</h2>
+      <p class="gap-section-desc gap-section-desc--tight" id="tableMeta"></p>
+    </div>
+  </div>
+  <div class="tabs" id="filterTabs">
+    <button type="button" class="tab active" data-filter="all">All</button>
+    <button type="button" class="tab" data-filter="ChatGPT">ChatGPT</button>
+    <button type="button" class="tab" data-filter="Gemini">Gemini</button>
+    <button type="button" class="tab" data-filter="Claude">Claude</button>
+    <button type="button" class="tab" data-filter="Perplexity">Perplexity</button>
+    <button type="button" class="tab" data-filter="correct">Correct</button>
+    <button type="button" class="tab" data-filter="partially_correct">Partial</button>
+    <button type="button" class="tab" data-filter="incorrect">Incorrect</button>
+  </div>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Run time</th>
+          <th>Tool</th>
+          <th>Verdict</th>
+          <th>Score</th>
+          <th>Question</th>
+          <th>Primary gap</th>
+          <th>Summary</th>
+        </tr>
+      </thead>
+      <tbody id="logBody"></tbody>
+    </table>
+  </div>
+</section>

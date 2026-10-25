@@ -1,0 +1,67 @@
+<header class="page-header">
+  <div>
+    <h1 class="page-title">Traffic overview</h1>
+    <p class="page-lead">
+      <span id="windowLabel">Last 24 hours</span> of human vs AI bot requests from Render access logs.
+    </p>
+    <p class="page-meta" id="windowRange"></p>
+  </div>
+  <div class="page-header-actions">
+    <span id="pollStatus" class="status-chip">Connecting...</span>
+    <button type="button" id="btnRefresh" class="btn btn-primary">Refresh now</button>
+  </div>
+</header>
+
+<section id="configBanner" class="banner hidden"></section>
+
+<section class="kpi-row cards">
+  <article class="kpi-card card-total">
+    <p class="kpi-label">Total requests</p>
+    <p class="kpi-value metric" id="statTotal">0</p>
+  </article>
+  <article class="kpi-card card-human">
+    <p class="kpi-label">Human</p>
+    <p class="kpi-value metric kpi-value-success" id="statHuman">0</p>
+    <p class="pct table-meta" id="pctHuman">0%</p>
+  </article>
+  <article class="kpi-card card-bot">
+    <p class="kpi-label">Bot / AI</p>
+    <p class="kpi-value metric" id="statBot">0</p>
+    <p class="pct table-meta" id="pctBot">0%</p>
+  </article>
+  <article class="kpi-card card-unknown">
+    <p class="kpi-label">Unknown</p>
+    <p class="kpi-value metric" id="statUnknown">0</p>
+    <p class="pct table-meta" id="pctUnknown">0%</p>
+  </article>
+</section>
+
+<section class="panel">
+  <h2 class="panel-title">Bot breakdown</h2>
+  <ul id="botBreakdown" class="chips"></ul>
+</section>
+
+<section class="panel">
+  <p class="table-meta" id="tableMeta"></p>
+  <div class="tabs">
+    <button type="button" class="tab active" data-filter="all">All</button>
+    <button type="button" class="tab" data-filter="human">Human</button>
+    <button type="button" class="tab" data-filter="bot">Bot</button>
+    <button type="button" class="tab" data-filter="unknown">Unknown</button>
+  </div>
+  <div class="table-wrap">
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Type</th>
+          <th>IP</th>
+          <th>Request</th>
+          <th>Status</th>
+          <th>User-Agent</th>
+        </tr>
+      </thead>
+      <tbody id="logBody"></tbody>
+    </table>
+  </div>
+</section>

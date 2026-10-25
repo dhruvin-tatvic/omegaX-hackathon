@@ -1,0 +1,14 @@
+{
+  "name": "tatvic-analytics",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "start:all": "node start-all.mjs",
+    "test": "node --test test/layout.test.js"
+  },
+  "dependencies": {
+    "express": "^5.3.0"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "source_id": "verified-pack-demo",
+  "as_of": "2026-10-24",
+  "label": "Replaceable verified pack. This is operator-only ground truth, never sent to the model under test.",
+  "entities": [
+    {
+      "id": "product:acme-pump-200",
+      "name": "Acme Pump 200",
+      "urls": ["https://example.com/products/acme-pump-200"],
+      "facts": [
+        {
+          "key": "ex_showroom_price_inr",
+          "value": 420000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": true
+        },
+        {
+          "key": "peak_flow_lpm",
+          "value": 180,
+          "type": "number",
+          "unit": "L/min",
+          "required_in_answer": true
+        },
+        {
+          "key": "model_name",
+          "value": "Acme Pump 200",
+          "type": "string",
+          "required_in_answer": false
+        }
+      ]
+    }
+  ]
+}

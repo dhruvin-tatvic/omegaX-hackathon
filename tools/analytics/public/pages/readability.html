@@ -1,0 +1,43 @@
+<header class="page-header">
+  <div>
+    <h1 class="page-title">AI vs Human Readability</h1>
+    <p class="page-lead">
+      Compare a stored AI crawler fixture with Playwright Human View facts for the same Apex Moto product page.
+    </p>
+  </div>
+  <label class="select-stack">
+    <span>Page</span>
+    <select id="pageSelect" aria-label="Product page"></select>
+  </label>
+</header>
+
+<p id="readStatus" class="banner-soft">AI Read uses a local fixture, not a live crawler. Human Read uses the existing Playwright report.</p>
+
+<div class="read-toolbar">
+  <p id="productMeta" class="muted"></p>
+  <div class="read-actions">
+    <a id="linkHuman" class="text-link" href="/human-view">Open in Human View</a>
+    <a id="linkCompare" class="text-link" href="/comparison">Open LLM Comparison</a>
+  </div>
+</div>
+
+<p id="diffSummary" class="diff-summary"></p>
+
+<section class="read-grid" aria-label="Side by side readability">
+  <article class="read-col">
+    <header>
+      <h2>AI Read</h2>
+      <p id="aiBadge" class="status-chip">Fixture</p>
+    </header>
+    <p id="aiNotes" class="muted"></p>
+    <dl id="aiFields" class="spec-list"></dl>
+  </article>
+  <article class="read-col read-col-human">
+    <header>
+      <h2>Human Read</h2>
+      <p class="status-chip status-chip-ok">Playwright</p>
+    </header>
+    <p class="muted">Structured facts from the Human View capture.</p>
+    <dl id="humanFields" class="spec-list"></dl>
+  </article>
+</section>

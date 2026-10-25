@@ -123,6 +123,7 @@ export function flattenRows({ runId = 'latest', limit = 500 } = {}) {
         score: row.evaluation?.score,
         summary: row.evaluation?.summary,
         primary_gap: row.evaluation?.primary_gap,
+        models_included: row.ground_truth_scope?.models_included || [],
         site_fix_hint: row.evaluation?.site_fix_hint,
         factual_errors: row.evaluation?.factual_errors,
         access_issues: row.evaluation?.access_or_visibility_issues,

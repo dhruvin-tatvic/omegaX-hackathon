@@ -42,3 +42,27 @@ Thumbs.db
 *.sw?
 powershell.cmd
 **/powershell.cmd
+
+# Local checker artifacts
+checker/data/runs/*.json
+!checker/data/runs/.gitkeep
+checker/data/apply-demo/working/
+checker/data/apply-demo/changelog.jsonl
+
+# Python (Human View Collector)
+.venv/
+venv/
+env/
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+
+# Human View Collector generated outputs
+out/screenshots/
+out/rendered_html/
+out/*.json
+out/**/screenshots/
+out/**/rendered_html/

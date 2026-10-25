@@ -1,0 +1,42 @@
+{
+  "default_url": "https://omegax-hackathon.onrender.com/",
+  "viewport": {
+    "width": 1366,
+    "height": 768
+  },
+  "timeouts": {
+    "navigation_ms": 45000,
+    "load_state_ms": 15000,
+    "render_wait_ms": 1500,
+    "lazy_wait_ms": 400,
+    "retry_attempts": 3,
+    "retry_wait_ms": 5000
+  },
+  "scroll": {
+    "step_px": 700,
+    "max_scrolls": 25,
+    "settle_ms": 350
+  },
+  "tabs": {
+    "max_tabs": 8,
+    "wait_ms": 500
+  },
+  "output_dir": "out",
+  "user_agent": "OmegaXHumanViewCollector/0.1",
+  "crawl": {
+    "max_pages": 100,
+    "max_depth": 5,
+    "delay_ms": 800,
+    "max_concurrency": 1,
+    "respect_robots": true,
+    "drop_query_params": [
+      "utm_source",
+      "utm_medium",
+      "utm_campaign",
+      "utm_term",
+      "utm_content",
+      "gclid",
+      "fbclid"
+    ]
+  }
+}

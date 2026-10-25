@@ -1,4 +1,9 @@
+const API_BASE = window.TATVIC_COMPARE_API || '';
 const $ = id => document.getElementById(id);
+
+function apiUrl(path) {
+  return `${API_BASE}${path}`;
+}
 
 let allRows = [];
 let currentFilter = 'all';
@@ -65,6 +70,25 @@ function renderStats(stats, runs) {
   }
 }
 
+function modelSlug(name) {
+  return String(name || '')
+    .toLowerCase()
+    .trim()
+    .replace(/\s+/g, '-')
+    .replace(/[^a-z0-9-]/g, '');
+}
+
+function relatedModelLinks(models) {
+  if (!window.BTA_APP || !Array.isArray(models) || !models.length) return '';
+  return `<div class="bta-related">${models
+    .slice(0, 3)
+    .map((name) => {
+      const slug = modelSlug(name);
+      return `<a href="/human-view?path=/motorcycles/${slug}">${escapeHtml(name)}</a>`;
+    })
+    .join('')}</div>`;
+}
+
 function renderTable(rows) {
   const body = $('logBody');
   body.innerHTML = '';
@@ -80,7 +104,7 @@ function renderTable(rows) {
       <td><span class="badge ${cls}">${label}</span></td>
       <td><span class="score-pill">${row.score ?? 'n/a'}</span></td>
       <td class="cell-question">${escapeHtml(short(row.input, 120))}</td>
-      <td class="cell-muted">${escapeHtml(short(row.primary_gap || 'n/a', 100))}</td>
+      <td class="cell-muted">${escapeHtml(short(row.primary_gap || 'n/a', 100))}${relatedModelLinks(row.models_included)}</td>
       <td class="cell-muted">${escapeHtml(row.summary || '')}</td>
     `;
     body.appendChild(tr);
@@ -118,7 +142,7 @@ function populateRunSelect(runs) {
 async function loadOverview() {
   $('pollStatus').textContent = 'Loading…';
   $('pollStatus').className = 'pill pill-muted';
-  const res = await fetch(`/api/overview?runId=${encodeURIComponent(runId)}`);
+  const res = await fetch(apiUrl(`/api/overview?runId=${encodeURIComponent(runId)}`));
   const data = await res.json();
   allRows = data.rows || [];
   populateRunSelect(data.runs || []);
@@ -149,7 +173,7 @@ $('runSelect')?.addEventListener('change', e => {
 $('btnRefresh')?.addEventListener('click', async () => {
   $('btnRefresh').disabled = true;
   try {
-    await fetch('/api/import-latest', { method: 'POST' });
+    await fetch(apiUrl('/api/import-latest'), { method: 'POST' });
     await loadOverview();
   } catch (e) {
     showError(e);

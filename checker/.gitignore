@@ -1,0 +1,7 @@
+node_modules/
+dist/
+.env
+data/runs/*.json
+!data/runs/.gitkeep
+data/apply-demo/working/
+data/apply-demo/changelog.jsonl

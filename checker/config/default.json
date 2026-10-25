@@ -1,0 +1,38 @@
+{
+  "target": {
+    "id": "demo-target",
+    "name": "Configurable target website",
+    "base_url": "https://omegax-hackathon.onrender.com"
+  },
+  "limits": {
+    "max_tokens": 800,
+    "timeout_ms": 30000,
+    "max_answer_chars": 20000
+  },
+  "crawl": {
+    "maxPages": 24,
+    "maxBodyBytes": 1000000,
+    "timeoutMs": 12000,
+    "delayMs": 120,
+    "maxRedirects": 3,
+    "maxDurationMs": 50000,
+    "userAgent": "AIAnswerChecker/0.1"
+  },
+  "packs": {
+    "demo": {
+      "label": "Acme Pump demo",
+      "questions": "data/questions/demo.json",
+      "reference": "data/reference/demo.json"
+    },
+    "apex": {
+      "label": "Apex Moto",
+      "questions": "data/questions/apex.json",
+      "reference": "data/reference/apex.json"
+    }
+  },
+  "paths": {
+    "questions": "data/questions/demo.json",
+    "reference": "data/reference/demo.json",
+    "runs": "data/runs"
+  }
+}

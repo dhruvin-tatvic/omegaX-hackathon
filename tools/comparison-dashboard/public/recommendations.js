@@ -1,4 +1,9 @@
+const API_BASE = window.TATVIC_COMPARE_API || '';
 const $ = id => document.getElementById(id);
+
+function apiUrl(path) {
+  return `${API_BASE}${path}`;
+}
 
 function formatTime(iso) {
   try {
@@ -44,7 +49,7 @@ function renderToolScores(scores) {
 }
 
 async function loadRuns() {
-  const res = await fetch('/api/runs');
+  const res = await fetch(apiUrl('/api/runs'));
   const { runs } = await res.json();
   const sel = $('runSelect');
   sel.innerHTML = '';
@@ -63,7 +68,7 @@ async function loadRuns() {
 
 async function loadRun(id) {
   if (!id) return;
-  const res = await fetch(`/api/runs/${id}`);
+  const res = await fetch(apiUrl(`/api/runs/${id}`));
   if (!res.ok) return;
   const run = await res.json();
   const gap = run.gap_analysis || {};
@@ -111,12 +116,31 @@ async function loadRun(id) {
     for (const g of gapList) {
       const card = document.createElement('article');
       card.className = 'gap-card';
+      const blob = `${g.gap || ''} ${g.evidence || ''} ${g.recommendation || ''}`;
+      const names = [
+        'Storm 125',
+        'Storm 200',
+        'Thunderstrike 650 Rally',
+        'Thunderstrike 650',
+        'Thunderstrike 450',
+        'Phantom 350',
+        'Zenith 450 Scrambler',
+      ].filter((name) => blob.includes(name));
+      const links = window.BTA_APP && names.length
+        ? `<p class="bta-related">${names
+            .map((name) => {
+              const slug = name.toLowerCase().replace(/\s+/g, '-').replace(/[^a-z0-9-]/g, '');
+              return `<a href="/human-view?path=/motorcycles/${slug}">${escapeHtml(name)}</a> <a href="/readability?slug=${slug}">Readability</a>`;
+            })
+            .join(' ')}</p>`
+        : '';
       card.innerHTML = `
         <h3 class="gap-card__title">${escapeHtml(g.gap)}</h3>
         <div class="gap-card__grid">
           <div class="gap-card__cell">
             <span class="gap-card__cell-label">Evidence</span>
             ${escapeHtml(g.evidence)}
+            ${links}
           </div>
           <div class="gap-card__cell gap-card__cell--rec">
             <span class="gap-card__cell-label">Recommendation</span>

@@ -1,0 +1,7184 @@
+{
+  "source_id": "catalogue:Apex Moto",
+  "as_of": "2026-10-24",
+  "label": "SIMULATED - fictional brand data for the Tatvic PS6 hackathon test site",
+  "brand": "Apex Moto",
+  "entities": [
+    {
+      "id": "product:thunderstrike-650",
+      "name": "Thunderstrike 650",
+      "aliases": [
+        "thunderstrike-650",
+        "thunderstrike-650",
+        "Thunderstrike 650"
+      ],
+      "urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/thunderstrike-650"
+      ],
+      "facts": [
+        {
+          "key": "model_name",
+          "value": "Thunderstrike 650",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "category",
+          "value": "Adventure",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "badge",
+          "value": "Bestseller",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "tagline",
+          "value": "Command the Horizon",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "model_year",
+          "value": 2026,
+          "type": "number",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "ex_showroom_price_inr",
+          "value": 420000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "availability",
+          "value": "In stock",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "colours",
+          "value": "Blazing Orange, Glacier White",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "dealer_cities",
+          "value": "Delhi, Mumbai, Bangalore, Pune, Chennai, Hyderabad, Jaipur, Kolkata",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_note",
+          "value": "On-road price for the base variant: ex-showroom + RTO + insurance, indicative",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "brochure_url",
+          "value": "/brochures/thunderstrike-650.pdf",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "engine",
+          "value": "648cc, Parallel Twin, Liquid-Cooled, DOHC",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "displacement_cc",
+          "value": 648,
+          "type": "number",
+          "unit": "cc",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_bhp",
+          "value": 47,
+          "type": "number",
+          "unit": "bhp",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_nm",
+          "value": 52,
+          "type": "number",
+          "unit": "Nm",
+          "required_in_answer": false
+        },
+        {
+          "key": "mileage_kmpl",
+          "value": 24,
+          "type": "number",
+          "unit": "km/l",
+          "required_in_answer": false
+        },
+        {
+          "key": "seat_height_mm",
+          "value": 835,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_tank_l",
+          "value": 17.5,
+          "type": "number",
+          "unit": "L",
+          "required_in_answer": false
+        },
+        {
+          "key": "kerb_weight_kg",
+          "value": 196,
+          "type": "number",
+          "unit": "kg",
+          "required_in_answer": false
+        },
+        {
+          "key": "transmission",
+          "value": "6-Speed with Slipper Clutch",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_rpm",
+          "value": 7500,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_rpm",
+          "value": 5750,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_system",
+          "value": "Electronic Fuel Injection",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_suspension",
+          "value": "43mm USD Forks, 170mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_suspension",
+          "value": "Monoshock, 170mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_brake",
+          "value": "320mm Disc, Radial Caliper",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_brake",
+          "value": "240mm Disc, ABS",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_tyre",
+          "value": "90/90-21 Road/Trail",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_tyre",
+          "value": "150/70-17 Road/Trail",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "wheelbase_mm",
+          "value": 1500,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_delhi_inr",
+          "value": 472500,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_mumbai_inr",
+          "value": 482200,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_bangalore_inr",
+          "value": 489300,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_pune_inr",
+          "value": 476700,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_chennai_inr",
+          "value": 478800,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_hyderabad_inr",
+          "value": 483000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_jaipur_inr",
+          "value": 474600,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_kolkata_inr",
+          "value": 470400,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variants",
+          "value": "Standard (420000 INR), Adventure+ (475000 INR)",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_standard_name",
+          "value": "Standard",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_standard_ex_showroom_price_inr",
+          "value": 420000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_standard_features",
+          "value": "Single seat, Basic instrument cluster, Alloy wheels",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_adventure_plus_name",
+          "value": "Adventure+",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_adventure_plus_ex_showroom_price_inr",
+          "value": 475000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_adventure_plus_features",
+          "value": "Dual seat, TFT color display, Crash guards, USB charging",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_provider",
+          "value": "Apex Moto Finance",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_emi_inr",
+          "value": 9585,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_down_payment_inr",
+          "value": 42000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_interest_rate_pct",
+          "value": 9.99,
+          "type": "number",
+          "unit": "%",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_tenure_months",
+          "value": 48,
+          "type": "number",
+          "unit": "months",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_basis",
+          "value": "Base variant ex-showroom minus down payment, 48 months",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        }
+      ]
+    },
+    {
+      "id": "product:phantom-350",
+      "name": "Phantom 350",
+      "aliases": [
+        "phantom-350",
+        "phantom-350",
+        "Phantom 350"
+      ],
+      "urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/phantom-350"
+      ],
+      "facts": [
+        {
+          "key": "model_name",
+          "value": "Phantom 350",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "category",
+          "value": "Classic",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "badge",
+          "value": "New Launch",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "tagline",
+          "value": "Classic Soul. Modern Heart.",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "model_year",
+          "value": 2026,
+          "type": "number",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "ex_showroom_price_inr",
+          "value": 215000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "availability",
+          "value": "In stock",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "colours",
+          "value": "Matte Black, Racing Green, Chrome Silver",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "dealer_cities",
+          "value": "Delhi, Mumbai, Bangalore, Pune, Chennai, Hyderabad, Jaipur, Kolkata",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_note",
+          "value": "On-road price for the base variant: ex-showroom + RTO + insurance, indicative",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "brochure_url",
+          "value": "/brochures/phantom-350.pdf",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "engine",
+          "value": "349cc, Single Cylinder, Air/Oil-Cooled, SOHC",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "displacement_cc",
+          "value": 349,
+          "type": "number",
+          "unit": "cc",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_bhp",
+          "value": 21,
+          "type": "number",
+          "unit": "bhp",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_nm",
+          "value": 28,
+          "type": "number",
+          "unit": "Nm",
+          "required_in_answer": false
+        },
+        {
+          "key": "mileage_kmpl",
+          "value": 38,
+          "type": "number",
+          "unit": "km/l",
+          "required_in_answer": false
+        },
+        {
+          "key": "seat_height_mm",
+          "value": 800,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_tank_l",
+          "value": 13,
+          "type": "number",
+          "unit": "L",
+          "required_in_answer": false
+        },
+        {
+          "key": "kerb_weight_kg",
+          "value": 183,
+          "type": "number",
+          "unit": "kg",
+          "required_in_answer": false
+        },
+        {
+          "key": "transmission",
+          "value": "5-Speed",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_rpm",
+          "value": 6100,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_rpm",
+          "value": 4000,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_system",
+          "value": "Electronic Fuel Injection",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_suspension",
+          "value": "41mm Telescopic Forks, 130mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_suspension",
+          "value": "Twin Shock Absorbers, 95mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_brake",
+          "value": "300mm Disc, Single Piston",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_brake",
+          "value": "270mm Disc, ABS",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_tyre",
+          "value": "100/90-19 Wire Spoke",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_tyre",
+          "value": "120/80-18 Wire Spoke",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "wheelbase_mm",
+          "value": 1390,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_delhi_inr",
+          "value": 241900,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_mumbai_inr",
+          "value": 246800,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_bangalore_inr",
+          "value": 250500,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_pune_inr",
+          "value": 244000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_chennai_inr",
+          "value": 245100,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_hyderabad_inr",
+          "value": 247200,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_jaipur_inr",
+          "value": 242900,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_kolkata_inr",
+          "value": 240800,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variants",
+          "value": "Classic (215000 INR), Chrome Edition (245000 INR)",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_classic_name",
+          "value": "Classic",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_classic_ex_showroom_price_inr",
+          "value": 215000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_classic_features",
+          "value": "Standard seat, Halogen headlight, Drum rear brake",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_chrome_edition_name",
+          "value": "Chrome Edition",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_chrome_edition_ex_showroom_price_inr",
+          "value": 245000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_chrome_edition_features",
+          "value": "Comfort seat, LED headlight, Disc rear brake, USB port",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_provider",
+          "value": "Apex Moto Finance",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_emi_inr",
+          "value": 4894,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_down_payment_inr",
+          "value": 22000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_interest_rate_pct",
+          "value": 9.99,
+          "type": "number",
+          "unit": "%",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_tenure_months",
+          "value": 48,
+          "type": "number",
+          "unit": "months",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_basis",
+          "value": "Base variant ex-showroom minus down payment, 48 months",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        }
+      ]
+    },
+    {
+      "id": "product:storm-200",
+      "name": "Storm 200",
+      "aliases": [
+        "storm-200",
+        "storm-200",
+        "Storm 200"
+      ],
+      "urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/storm-200"
+      ],
+      "facts": [
+        {
+          "key": "model_name",
+          "value": "Storm 200",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "category",
+          "value": "Street",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "badge",
+          "value": "Popular",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "tagline",
+          "value": "City. Conquered.",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "model_year",
+          "value": 2026,
+          "type": "number",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "ex_showroom_price_inr",
+          "value": 145000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "availability",
+          "value": "In stock",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "colours",
+          "value": "Ocean Blue, Stealth Black",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "dealer_cities",
+          "value": "Delhi, Mumbai, Bangalore, Pune, Chennai, Hyderabad, Jaipur, Kolkata",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_note",
+          "value": "On-road price for the base variant: ex-showroom + RTO + insurance, indicative",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "brochure_url",
+          "value": "/brochures/storm-200.pdf",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "engine",
+          "value": "199cc, Single Cylinder, Liquid-Cooled, DOHC",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "displacement_cc",
+          "value": 199,
+          "type": "number",
+          "unit": "cc",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_bhp",
+          "value": 25,
+          "type": "number",
+          "unit": "bhp",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_nm",
+          "value": 19,
+          "type": "number",
+          "unit": "Nm",
+          "required_in_answer": false
+        },
+        {
+          "key": "mileage_kmpl",
+          "value": 32,
+          "type": "number",
+          "unit": "km/l",
+          "required_in_answer": false
+        },
+        {
+          "key": "seat_height_mm",
+          "value": 820,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_tank_l",
+          "value": 12,
+          "type": "number",
+          "unit": "L",
+          "required_in_answer": false
+        },
+        {
+          "key": "kerb_weight_kg",
+          "value": 160,
+          "type": "number",
+          "unit": "kg",
+          "required_in_answer": false
+        },
+        {
+          "key": "transmission",
+          "value": "6-Speed",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_rpm",
+          "value": 9500,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_rpm",
+          "value": 7500,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_system",
+          "value": "Electronic Fuel Injection",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_suspension",
+          "value": "41mm USD Forks, 140mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_suspension",
+          "value": "Monoshock, 130mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_brake",
+          "value": "300mm Disc, Radial Caliper",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_brake",
+          "value": "220mm Disc, ABS",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_tyre",
+          "value": "110/70-17 Radial",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_tyre",
+          "value": "150/60-17 Radial",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "wheelbase_mm",
+          "value": 1360,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_delhi_inr",
+          "value": 163100,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_mumbai_inr",
+          "value": 166500,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_bangalore_inr",
+          "value": 168900,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_pune_inr",
+          "value": 164600,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_chennai_inr",
+          "value": 165300,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_hyderabad_inr",
+          "value": 166800,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_jaipur_inr",
+          "value": 163800,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_kolkata_inr",
+          "value": 162400,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variants",
+          "value": "Base (145000 INR), Sport (165000 INR)",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_base_name",
+          "value": "Base",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_base_ex_showroom_price_inr",
+          "value": 145000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_base_features",
+          "value": "Digital cluster, LED headlight, Single-channel ABS",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_sport_name",
+          "value": "Sport",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_sport_ex_showroom_price_inr",
+          "value": 165000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_sport_features",
+          "value": "TFT display, Quickshifter, Dual-channel ABS, Sporty exhaust",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_provider",
+          "value": "Apex Moto Finance",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_emi_inr",
+          "value": 3291,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_down_payment_inr",
+          "value": 14000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_interest_rate_pct",
+          "value": 9.49,
+          "type": "number",
+          "unit": "%",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_tenure_months",
+          "value": 48,
+          "type": "number",
+          "unit": "months",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_basis",
+          "value": "Base variant ex-showroom minus down payment, 48 months",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        }
+      ]
+    },
+    {
+      "id": "product:zenith-450-scrambler",
+      "name": "Zenith 450 Scrambler",
+      "aliases": [
+        "zenith-450-scrambler",
+        "zenith-450-scrambler",
+        "Zenith 450 Scrambler"
+      ],
+      "urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/zenith-450-scrambler"
+      ],
+      "facts": [
+        {
+          "key": "model_name",
+          "value": "Zenith 450 Scrambler",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "category",
+          "value": "Scrambler",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "badge",
+          "value": "Off-Road Ready",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "tagline",
+          "value": "Paved Roads Optional.",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "model_year",
+          "value": 2026,
+          "type": "number",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "ex_showroom_price_inr",
+          "value": 335000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "availability",
+          "value": "In stock",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "colours",
+          "value": "Military Green, Desert Sand",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "dealer_cities",
+          "value": "Delhi, Mumbai, Bangalore, Pune, Chennai, Hyderabad, Jaipur, Kolkata",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_note",
+          "value": "On-road price for the base variant: ex-showroom + RTO + insurance, indicative",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "brochure_url",
+          "value": "/brochures/zenith-450-scrambler.pdf",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "engine",
+          "value": "449cc, Single Cylinder, Liquid-Cooled, DOHC",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "displacement_cc",
+          "value": 449,
+          "type": "number",
+          "unit": "cc",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_bhp",
+          "value": 38,
+          "type": "number",
+          "unit": "bhp",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_nm",
+          "value": 43,
+          "type": "number",
+          "unit": "Nm",
+          "required_in_answer": false
+        },
+        {
+          "key": "mileage_kmpl",
+          "value": 28,
+          "type": "number",
+          "unit": "km/l",
+          "required_in_answer": false
+        },
+        {
+          "key": "seat_height_mm",
+          "value": 855,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_tank_l",
+          "value": 15,
+          "type": "number",
+          "unit": "L",
+          "required_in_answer": false
+        },
+        {
+          "key": "kerb_weight_kg",
+          "value": 178,
+          "type": "number",
+          "unit": "kg",
+          "required_in_answer": false
+        },
+        {
+          "key": "transmission",
+          "value": "5-Speed with Quick Shifter",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_rpm",
+          "value": 7000,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_rpm",
+          "value": 5500,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_system",
+          "value": "Electronic Fuel Injection",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_suspension",
+          "value": "45mm USD Forks, 200mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_suspension",
+          "value": "Piggyback Monoshock, 200mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_brake",
+          "value": "300mm Disc, Radial Caliper",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_brake",
+          "value": "240mm Disc, ABS (Switchable)",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_tyre",
+          "value": "90/90-21 Dual-Sport Knobby",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_tyre",
+          "value": "130/80-18 Dual-Sport Knobby",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "wheelbase_mm",
+          "value": 1470,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_delhi_inr",
+          "value": 376900,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_mumbai_inr",
+          "value": 384600,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_bangalore_inr",
+          "value": 390300,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_pune_inr",
+          "value": 380200,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_chennai_inr",
+          "value": 381900,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_hyderabad_inr",
+          "value": 385200,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_jaipur_inr",
+          "value": 378500,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_kolkata_inr",
+          "value": 375200,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variants",
+          "value": "Trail (335000 INR), Enduro (375000 INR)",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_trail_name",
+          "value": "Trail",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_trail_ex_showroom_price_inr",
+          "value": 335000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_trail_features",
+          "value": "Standard knobby tyres, High exhaust, Skid plate",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_enduro_name",
+          "value": "Enduro",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_enduro_ex_showroom_price_inr",
+          "value": 375000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_enduro_features",
+          "value": "Heavy duty knobby tyres, High exhaust, Full protection kit, Adjustable suspension",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_provider",
+          "value": "Apex Moto Finance",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_emi_inr",
+          "value": 7633,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_down_payment_inr",
+          "value": 34000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_interest_rate_pct",
+          "value": 9.99,
+          "type": "number",
+          "unit": "%",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_tenure_months",
+          "value": 48,
+          "type": "number",
+          "unit": "months",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_basis",
+          "value": "Base variant ex-showroom minus down payment, 48 months",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        }
+      ]
+    },
+    {
+      "id": "product:thunderstrike-450",
+      "name": "Thunderstrike 450",
+      "aliases": [
+        "thunderstrike-450",
+        "thunderstrike-450",
+        "Thunderstrike 450"
+      ],
+      "urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/thunderstrike-450"
+      ],
+      "facts": [
+        {
+          "key": "model_name",
+          "value": "Thunderstrike 450",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "category",
+          "value": "Adventure",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "badge",
+          "value": "New Launch",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "tagline",
+          "value": "Adventure, Unlocked.",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "model_year",
+          "value": 2026,
+          "type": "number",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "ex_showroom_price_inr",
+          "value": 289000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "availability",
+          "value": "In stock",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "colours",
+          "value": "Kaza Brown, Slate Grey",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "dealer_cities",
+          "value": "Delhi, Mumbai, Bangalore, Pune, Chennai, Hyderabad, Jaipur, Kolkata",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_note",
+          "value": "On-road price for the base variant: ex-showroom + RTO + insurance, indicative",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "brochure_url",
+          "value": "/brochures/thunderstrike-450.pdf",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "engine",
+          "value": "452cc, Single Cylinder, Liquid-Cooled, DOHC",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "displacement_cc",
+          "value": 452,
+          "type": "number",
+          "unit": "cc",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_bhp",
+          "value": 40,
+          "type": "number",
+          "unit": "bhp",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_nm",
+          "value": 40,
+          "type": "number",
+          "unit": "Nm",
+          "required_in_answer": false
+        },
+        {
+          "key": "mileage_kmpl",
+          "value": 30,
+          "type": "number",
+          "unit": "km/l",
+          "required_in_answer": false
+        },
+        {
+          "key": "seat_height_mm",
+          "value": 825,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_tank_l",
+          "value": 17,
+          "type": "number",
+          "unit": "L",
+          "required_in_answer": false
+        },
+        {
+          "key": "kerb_weight_kg",
+          "value": 190,
+          "type": "number",
+          "unit": "kg",
+          "required_in_answer": false
+        },
+        {
+          "key": "transmission",
+          "value": "6-Speed with Slipper Clutch",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_rpm",
+          "value": 8000,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_rpm",
+          "value": 5500,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_system",
+          "value": "Electronic Fuel Injection",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_suspension",
+          "value": "43mm USD Forks, 200mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_suspension",
+          "value": "Linked Monoshock, 200mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_brake",
+          "value": "320mm Disc, Twin Piston",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_brake",
+          "value": "270mm Disc, ABS (Switchable)",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_tyre",
+          "value": "90/90-21 Road/Trail",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_tyre",
+          "value": "140/80-17 Road/Trail",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "wheelbase_mm",
+          "value": 1510,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_delhi_inr",
+          "value": 325100,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_mumbai_inr",
+          "value": 331800,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_bangalore_inr",
+          "value": 336700,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_pune_inr",
+          "value": 328000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_chennai_inr",
+          "value": 329500,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_hyderabad_inr",
+          "value": 332400,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_jaipur_inr",
+          "value": 326600,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_kolkata_inr",
+          "value": 323700,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variants",
+          "value": "Standard (289000 INR), Explorer (319000 INR)",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_standard_name",
+          "value": "Standard",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_standard_ex_showroom_price_inr",
+          "value": 289000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_standard_features",
+          "value": "LED lighting, Switchable ABS, Digital cluster",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_explorer_name",
+          "value": "Explorer",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_explorer_ex_showroom_price_inr",
+          "value": 319000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_explorer_features",
+          "value": "TFT navigation, Hand guards, Luggage rack",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_provider",
+          "value": "Apex Moto Finance",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_emi_inr",
+          "value": 6593,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_down_payment_inr",
+          "value": 29000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_interest_rate_pct",
+          "value": 9.99,
+          "type": "number",
+          "unit": "%",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_tenure_months",
+          "value": 48,
+          "type": "number",
+          "unit": "months",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_basis",
+          "value": "Base variant ex-showroom minus down payment, 48 months",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        }
+      ]
+    },
+    {
+      "id": "product:thunderstrike-650-rally",
+      "name": "Thunderstrike 650 Rally",
+      "aliases": [
+        "thunderstrike-650-rally",
+        "thunderstrike-650-rally",
+        "Thunderstrike 650 Rally"
+      ],
+      "urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/thunderstrike-650-rally"
+      ],
+      "facts": [
+        {
+          "key": "model_name",
+          "value": "Thunderstrike 650 Rally",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "category",
+          "value": "Adventure",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "badge",
+          "value": "Limited Edition",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "tagline",
+          "value": "Built for the Dakar in You.",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "model_year",
+          "value": 2026,
+          "type": "number",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "ex_showroom_price_inr",
+          "value": 529000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "availability",
+          "value": "2-3 weeks",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "colours",
+          "value": "Rally White, Racing Blue",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "dealer_cities",
+          "value": "Delhi, Mumbai, Bangalore, Pune",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_note",
+          "value": "On-road price for the base variant: ex-showroom + RTO + insurance, indicative",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "brochure_url",
+          "value": "/brochures/thunderstrike-650-rally.pdf",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "engine",
+          "value": "648cc, Parallel Twin, Liquid-Cooled, DOHC",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "displacement_cc",
+          "value": 648,
+          "type": "number",
+          "unit": "cc",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_bhp",
+          "value": 47,
+          "type": "number",
+          "unit": "bhp",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_nm",
+          "value": 52,
+          "type": "number",
+          "unit": "Nm",
+          "required_in_answer": false
+        },
+        {
+          "key": "mileage_kmpl",
+          "value": 22,
+          "type": "number",
+          "unit": "km/l",
+          "required_in_answer": false
+        },
+        {
+          "key": "seat_height_mm",
+          "value": 880,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_tank_l",
+          "value": 18,
+          "type": "number",
+          "unit": "L",
+          "required_in_answer": false
+        },
+        {
+          "key": "kerb_weight_kg",
+          "value": 204,
+          "type": "number",
+          "unit": "kg",
+          "required_in_answer": false
+        },
+        {
+          "key": "transmission",
+          "value": "6-Speed with Slipper Clutch",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_rpm",
+          "value": 7500,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_rpm",
+          "value": 5750,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_system",
+          "value": "Electronic Fuel Injection",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_suspension",
+          "value": "48mm USD Forks, 230mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_suspension",
+          "value": "Adjustable Monoshock, 220mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_brake",
+          "value": "320mm Disc, Radial Caliper",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_brake",
+          "value": "240mm Disc, ABS (Switchable)",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_tyre",
+          "value": "90/90-21 Rally",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_tyre",
+          "value": "140/80-18 Rally",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "wheelbase_mm",
+          "value": 1520,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_delhi_inr",
+          "value": 595100,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_mumbai_inr",
+          "value": 607300,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_bangalore_inr",
+          "value": 616300,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_pune_inr",
+          "value": 600400,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variants",
+          "value": "Rally (529000 INR)",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_rally_name",
+          "value": "Rally",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_rally_ex_showroom_price_inr",
+          "value": 529000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_rally_features",
+          "value": "Rally seat, Long-travel suspension, Navigation tower, Bash plate",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_provider",
+          "value": "Apex Moto Finance",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_emi_inr",
+          "value": 12070,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_down_payment_inr",
+          "value": 53000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_interest_rate_pct",
+          "value": 9.99,
+          "type": "number",
+          "unit": "%",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_tenure_months",
+          "value": 48,
+          "type": "number",
+          "unit": "months",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_basis",
+          "value": "Base variant ex-showroom minus down payment, 48 months",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        }
+      ]
+    },
+    {
+      "id": "product:phantom-500",
+      "name": "Phantom 500",
+      "aliases": [
+        "phantom-500",
+        "phantom-500",
+        "Phantom 500"
+      ],
+      "urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/phantom-500"
+      ],
+      "facts": [
+        {
+          "key": "model_name",
+          "value": "Phantom 500",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "category",
+          "value": "Classic",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "badge",
+          "value": "Heritage",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "tagline",
+          "value": "More Thump. Same Soul.",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "model_year",
+          "value": 2026,
+          "type": "number",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "ex_showroom_price_inr",
+          "value": 259000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "availability",
+          "value": "In stock",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "colours",
+          "value": "Royal Maroon, Matte Black",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "dealer_cities",
+          "value": "Delhi, Mumbai, Bangalore, Pune, Chennai, Hyderabad, Jaipur, Kolkata",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_note",
+          "value": "On-road price for the base variant: ex-showroom + RTO + insurance, indicative",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "brochure_url",
+          "value": "/brochures/phantom-500.pdf",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "engine",
+          "value": "499cc, Single Cylinder, Air/Oil-Cooled, SOHC",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "displacement_cc",
+          "value": 499,
+          "type": "number",
+          "unit": "cc",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_bhp",
+          "value": 27,
+          "type": "number",
+          "unit": "bhp",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_nm",
+          "value": 41,
+          "type": "number",
+          "unit": "Nm",
+          "required_in_answer": false
+        },
+        {
+          "key": "mileage_kmpl",
+          "value": 32,
+          "type": "number",
+          "unit": "km/l",
+          "required_in_answer": false
+        },
+        {
+          "key": "seat_height_mm",
+          "value": 805,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_tank_l",
+          "value": 13.5,
+          "type": "number",
+          "unit": "L",
+          "required_in_answer": false
+        },
+        {
+          "key": "kerb_weight_kg",
+          "value": 195,
+          "type": "number",
+          "unit": "kg",
+          "required_in_answer": false
+        },
+        {
+          "key": "transmission",
+          "value": "5-Speed",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_rpm",
+          "value": 6000,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_rpm",
+          "value": 4000,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_system",
+          "value": "Electronic Fuel Injection",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_suspension",
+          "value": "41mm Telescopic Forks, 130mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_suspension",
+          "value": "Twin Shock Absorbers, 95mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_brake",
+          "value": "300mm Disc, Twin Piston",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_brake",
+          "value": "270mm Disc, ABS",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_tyre",
+          "value": "100/90-19 Wire Spoke",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_tyre",
+          "value": "120/80-18 Wire Spoke",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "wheelbase_mm",
+          "value": 1400,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_delhi_inr",
+          "value": 291400,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_mumbai_inr",
+          "value": 297300,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_bangalore_inr",
+          "value": 301700,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_pune_inr",
+          "value": 294000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_chennai_inr",
+          "value": 295300,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_hyderabad_inr",
+          "value": 297800,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_jaipur_inr",
+          "value": 292700,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_kolkata_inr",
+          "value": 290100,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variants",
+          "value": "Standard (259000 INR), Signature (284000 INR)",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_standard_name",
+          "value": "Standard",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_standard_ex_showroom_price_inr",
+          "value": 259000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_standard_features",
+          "value": "Halogen headlight, Analog-digital cluster",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_signature_name",
+          "value": "Signature",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_signature_ex_showroom_price_inr",
+          "value": 284000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_signature_features",
+          "value": "LED headlight, Tripper navigation, Premium paint",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_provider",
+          "value": "Apex Moto Finance",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_emi_inr",
+          "value": 5908,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_down_payment_inr",
+          "value": 26000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_interest_rate_pct",
+          "value": 9.99,
+          "type": "number",
+          "unit": "%",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_tenure_months",
+          "value": 48,
+          "type": "number",
+          "unit": "months",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_basis",
+          "value": "Base variant ex-showroom minus down payment, 48 months",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        }
+      ]
+    },
+    {
+      "id": "product:phantom-350-bobber",
+      "name": "Phantom 350 Bobber",
+      "aliases": [
+        "phantom-350-bobber",
+        "phantom-350-bobber",
+        "Phantom 350 Bobber"
+      ],
+      "urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/phantom-350-bobber"
+      ],
+      "facts": [
+        {
+          "key": "model_name",
+          "value": "Phantom 350 Bobber",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "category",
+          "value": "Classic",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "badge",
+          "value": "New",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "tagline",
+          "value": "Ride Low. Ride Proud.",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "model_year",
+          "value": 2026,
+          "type": "number",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "ex_showroom_price_inr",
+          "value": 235000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "availability",
+          "value": "2-3 weeks",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "colours",
+          "value": "Graphite Black, Copper Brown",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "dealer_cities",
+          "value": "Delhi, Mumbai, Bangalore, Pune, Chennai, Hyderabad",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_note",
+          "value": "On-road price for the base variant: ex-showroom + RTO + insurance, indicative",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "brochure_url",
+          "value": "/brochures/phantom-350-bobber.pdf",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "engine",
+          "value": "349cc, Single Cylinder, Air/Oil-Cooled, SOHC",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "displacement_cc",
+          "value": 349,
+          "type": "number",
+          "unit": "cc",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_bhp",
+          "value": 21,
+          "type": "number",
+          "unit": "bhp",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_nm",
+          "value": 28,
+          "type": "number",
+          "unit": "Nm",
+          "required_in_answer": false
+        },
+        {
+          "key": "mileage_kmpl",
+          "value": 36,
+          "type": "number",
+          "unit": "km/l",
+          "required_in_answer": false
+        },
+        {
+          "key": "seat_height_mm",
+          "value": 740,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_tank_l",
+          "value": 12,
+          "type": "number",
+          "unit": "L",
+          "required_in_answer": false
+        },
+        {
+          "key": "kerb_weight_kg",
+          "value": 186,
+          "type": "number",
+          "unit": "kg",
+          "required_in_answer": false
+        },
+        {
+          "key": "transmission",
+          "value": "5-Speed",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_rpm",
+          "value": 6100,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_rpm",
+          "value": 4000,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_system",
+          "value": "Electronic Fuel Injection",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_suspension",
+          "value": "41mm Telescopic Forks, 130mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_suspension",
+          "value": "Hardtail-look Monoshock, 90mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_brake",
+          "value": "300mm Disc, Single Piston",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_brake",
+          "value": "270mm Disc, ABS",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_tyre",
+          "value": "100/90-19 Whitewall",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_tyre",
+          "value": "130/90-16 Whitewall",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "wheelbase_mm",
+          "value": 1380,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_delhi_inr",
+          "value": 264400,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_mumbai_inr",
+          "value": 269800,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_bangalore_inr",
+          "value": 273800,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_pune_inr",
+          "value": 266700,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_chennai_inr",
+          "value": 267900,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_hyderabad_inr",
+          "value": 270200,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variants",
+          "value": "Bobber (235000 INR)",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_bobber_name",
+          "value": "Bobber",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_bobber_ex_showroom_price_inr",
+          "value": 235000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_bobber_features",
+          "value": "Floating single seat, Ape-hanger bars, Whitewall tyres",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_provider",
+          "value": "Apex Moto Finance",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_emi_inr",
+          "value": 5350,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_down_payment_inr",
+          "value": 24000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_interest_rate_pct",
+          "value": 9.99,
+          "type": "number",
+          "unit": "%",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_tenure_months",
+          "value": 48,
+          "type": "number",
+          "unit": "months",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_basis",
+          "value": "Base variant ex-showroom minus down payment, 48 months",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        }
+      ]
+    },
+    {
+      "id": "product:storm-125",
+      "name": "Storm 125",
+      "aliases": [
+        "storm-125",
+        "storm-125",
+        "Storm 125"
+      ],
+      "urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/storm-125"
+      ],
+      "facts": [
+        {
+          "key": "model_name",
+          "value": "Storm 125",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "category",
+          "value": "Street",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "badge",
+          "value": "Value",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "tagline",
+          "value": "Your First Storm.",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "model_year",
+          "value": 2026,
+          "type": "number",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "ex_showroom_price_inr",
+          "value": 99000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "availability",
+          "value": "In stock",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "colours",
+          "value": "Racing Red, Pearl White, Stealth Black",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "dealer_cities",
+          "value": "Delhi, Mumbai, Bangalore, Pune, Chennai, Hyderabad, Jaipur, Kolkata",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_note",
+          "value": "On-road price for the base variant: ex-showroom + RTO + insurance, indicative",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "brochure_url",
+          "value": "/brochures/storm-125.pdf",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "engine",
+          "value": "124.7cc, Single Cylinder, Air-Cooled, SOHC",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "displacement_cc",
+          "value": 125,
+          "type": "number",
+          "unit": "cc",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_bhp",
+          "value": 11.5,
+          "type": "number",
+          "unit": "bhp",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_nm",
+          "value": 10.5,
+          "type": "number",
+          "unit": "Nm",
+          "required_in_answer": false
+        },
+        {
+          "key": "mileage_kmpl",
+          "value": 55,
+          "type": "number",
+          "unit": "km/l",
+          "required_in_answer": false
+        },
+        {
+          "key": "seat_height_mm",
+          "value": 790,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_tank_l",
+          "value": 10,
+          "type": "number",
+          "unit": "L",
+          "required_in_answer": false
+        },
+        {
+          "key": "kerb_weight_kg",
+          "value": 132,
+          "type": "number",
+          "unit": "kg",
+          "required_in_answer": false
+        },
+        {
+          "key": "transmission",
+          "value": "5-Speed",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_rpm",
+          "value": 8250,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_rpm",
+          "value": 6500,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_system",
+          "value": "Electronic Fuel Injection",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_suspension",
+          "value": "37mm Telescopic Forks, 120mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_suspension",
+          "value": "Monoshock, 110mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_brake",
+          "value": "240mm Disc",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_brake",
+          "value": "130mm Drum, CBS",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_tyre",
+          "value": "80/100-17 Tubeless",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_tyre",
+          "value": "110/80-17 Tubeless",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "wheelbase_mm",
+          "value": 1300,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_delhi_inr",
+          "value": 111400,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_mumbai_inr",
+          "value": 113700,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_bangalore_inr",
+          "value": 115300,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_pune_inr",
+          "value": 112400,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_chennai_inr",
+          "value": 112900,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_hyderabad_inr",
+          "value": 113800,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_jaipur_inr",
+          "value": 111900,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_kolkata_inr",
+          "value": 110900,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variants",
+          "value": "Drum (99000 INR), Disc (105000 INR)",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_drum_name",
+          "value": "Drum",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_drum_ex_showroom_price_inr",
+          "value": 99000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_drum_features",
+          "value": "Digital cluster, CBS braking",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_disc_name",
+          "value": "Disc",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_disc_ex_showroom_price_inr",
+          "value": 105000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_disc_features",
+          "value": "Front disc brake, LED headlight, Bluetooth connectivity",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_provider",
+          "value": "Apex Moto Finance",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_emi_inr",
+          "value": 2236,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_down_payment_inr",
+          "value": 10000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_interest_rate_pct",
+          "value": 9.49,
+          "type": "number",
+          "unit": "%",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_tenure_months",
+          "value": 48,
+          "type": "number",
+          "unit": "months",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_basis",
+          "value": "Base variant ex-showroom minus down payment, 48 months",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        }
+      ]
+    },
+    {
+      "id": "product:storm-160",
+      "name": "Storm 160",
+      "aliases": [
+        "storm-160",
+        "storm-160",
+        "Storm 160"
+      ],
+      "urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/storm-160"
+      ],
+      "facts": [
+        {
+          "key": "model_name",
+          "value": "Storm 160",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "category",
+          "value": "Street",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "badge",
+          "value": "Popular",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "tagline",
+          "value": "Quick off the Line.",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "model_year",
+          "value": 2026,
+          "type": "number",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "ex_showroom_price_inr",
+          "value": 122000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "availability",
+          "value": "In stock",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "colours",
+          "value": "Neon Yellow, Stealth Black",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "dealer_cities",
+          "value": "Delhi, Mumbai, Bangalore, Pune, Chennai, Hyderabad, Jaipur, Kolkata",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_note",
+          "value": "On-road price for the base variant: ex-showroom + RTO + insurance, indicative",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "brochure_url",
+          "value": "/brochures/storm-160.pdf",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "engine",
+          "value": "159.7cc, Single Cylinder, Air/Oil-Cooled, SOHC",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "displacement_cc",
+          "value": 160,
+          "type": "number",
+          "unit": "cc",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_bhp",
+          "value": 16,
+          "type": "number",
+          "unit": "bhp",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_nm",
+          "value": 14,
+          "type": "number",
+          "unit": "Nm",
+          "required_in_answer": false
+        },
+        {
+          "key": "mileage_kmpl",
+          "value": 45,
+          "type": "number",
+          "unit": "km/l",
+          "required_in_answer": false
+        },
+        {
+          "key": "seat_height_mm",
+          "value": 800,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_tank_l",
+          "value": 12,
+          "type": "number",
+          "unit": "L",
+          "required_in_answer": false
+        },
+        {
+          "key": "kerb_weight_kg",
+          "value": 142,
+          "type": "number",
+          "unit": "kg",
+          "required_in_answer": false
+        },
+        {
+          "key": "transmission",
+          "value": "5-Speed",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_rpm",
+          "value": 8500,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_rpm",
+          "value": 7000,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_system",
+          "value": "Electronic Fuel Injection",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_suspension",
+          "value": "37mm Telescopic Forks, 120mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_suspension",
+          "value": "Monoshock, 120mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_brake",
+          "value": "276mm Disc",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_brake",
+          "value": "200mm Disc, ABS",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_tyre",
+          "value": "100/80-17 Tubeless",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_tyre",
+          "value": "130/70-17 Tubeless",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "wheelbase_mm",
+          "value": 1330,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_delhi_inr",
+          "value": 137200,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_mumbai_inr",
+          "value": 140100,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_bangalore_inr",
+          "value": 142100,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_pune_inr",
+          "value": 138500,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_chennai_inr",
+          "value": 139100,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_hyderabad_inr",
+          "value": 140300,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_jaipur_inr",
+          "value": 137900,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_kolkata_inr",
+          "value": 136600,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variants",
+          "value": "Single Disc (122000 INR), Twin Disc (129000 INR)",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_single_disc_name",
+          "value": "Single Disc",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_single_disc_ex_showroom_price_inr",
+          "value": 122000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_single_disc_features",
+          "value": "Digital cluster, Single-channel ABS",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_twin_disc_name",
+          "value": "Twin Disc",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_twin_disc_ex_showroom_price_inr",
+          "value": 129000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_twin_disc_features",
+          "value": "Rear disc brake, LED headlight, Bluetooth connectivity",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_provider",
+          "value": "Apex Moto Finance",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_emi_inr",
+          "value": 2763,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_down_payment_inr",
+          "value": 12000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_interest_rate_pct",
+          "value": 9.49,
+          "type": "number",
+          "unit": "%",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_tenure_months",
+          "value": 48,
+          "type": "number",
+          "unit": "months",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_basis",
+          "value": "Base variant ex-showroom minus down payment, 48 months",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        }
+      ]
+    },
+    {
+      "id": "product:storm-390",
+      "name": "Storm 390",
+      "aliases": [
+        "storm-390",
+        "storm-390",
+        "Storm 390"
+      ],
+      "urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/storm-390"
+      ],
+      "facts": [
+        {
+          "key": "model_name",
+          "value": "Storm 390",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "category",
+          "value": "Street",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "badge",
+          "value": "Performance",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "tagline",
+          "value": "Unleash the Storm.",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "model_year",
+          "value": 2026,
+          "type": "number",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "ex_showroom_price_inr",
+          "value": 279000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "availability",
+          "value": "In stock",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "colours",
+          "value": "Electric Orange, Ocean Blue",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "dealer_cities",
+          "value": "Delhi, Mumbai, Bangalore, Pune, Chennai, Hyderabad, Jaipur, Kolkata",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_note",
+          "value": "On-road price for the base variant: ex-showroom + RTO + insurance, indicative",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "brochure_url",
+          "value": "/brochures/storm-390.pdf",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "engine",
+          "value": "373cc, Single Cylinder, Liquid-Cooled, DOHC",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "displacement_cc",
+          "value": 373,
+          "type": "number",
+          "unit": "cc",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_bhp",
+          "value": 43,
+          "type": "number",
+          "unit": "bhp",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_nm",
+          "value": 37,
+          "type": "number",
+          "unit": "Nm",
+          "required_in_answer": false
+        },
+        {
+          "key": "mileage_kmpl",
+          "value": 28,
+          "type": "number",
+          "unit": "km/l",
+          "required_in_answer": false
+        },
+        {
+          "key": "seat_height_mm",
+          "value": 820,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_tank_l",
+          "value": 13.4,
+          "type": "number",
+          "unit": "L",
+          "required_in_answer": false
+        },
+        {
+          "key": "kerb_weight_kg",
+          "value": 168,
+          "type": "number",
+          "unit": "kg",
+          "required_in_answer": false
+        },
+        {
+          "key": "transmission",
+          "value": "6-Speed with Quickshifter",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_rpm",
+          "value": 9000,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_rpm",
+          "value": 7000,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_system",
+          "value": "Electronic Fuel Injection",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_suspension",
+          "value": "43mm USD Forks, 150mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_suspension",
+          "value": "Monoshock, 150mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_brake",
+          "value": "320mm Disc, Radial Caliper",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_brake",
+          "value": "240mm Disc, ABS",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_tyre",
+          "value": "110/70-17 Radial",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_tyre",
+          "value": "150/60-17 Radial",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "wheelbase_mm",
+          "value": 1357,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_delhi_inr",
+          "value": 313900,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_mumbai_inr",
+          "value": 320300,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_bangalore_inr",
+          "value": 325000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_pune_inr",
+          "value": 316700,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_chennai_inr",
+          "value": 318100,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_hyderabad_inr",
+          "value": 320800,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_jaipur_inr",
+          "value": 315300,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_kolkata_inr",
+          "value": 312500,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variants",
+          "value": "Standard (279000 INR), Pro (309000 INR)",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_standard_name",
+          "value": "Standard",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_standard_ex_showroom_price_inr",
+          "value": 279000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_standard_features",
+          "value": "TFT display, Dual-channel ABS, Ride-by-wire",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_pro_name",
+          "value": "Pro",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_pro_ex_showroom_price_inr",
+          "value": 309000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_pro_features",
+          "value": "Quickshifter+, Cornering ABS, Adjustable suspension",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_provider",
+          "value": "Apex Moto Finance",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_emi_inr",
+          "value": 6365,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_down_payment_inr",
+          "value": 28000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_interest_rate_pct",
+          "value": 9.99,
+          "type": "number",
+          "unit": "%",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_tenure_months",
+          "value": 48,
+          "type": "number",
+          "unit": "months",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_basis",
+          "value": "Base variant ex-showroom minus down payment, 48 months",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        }
+      ]
+    },
+    {
+      "id": "product:zenith-350-scrambler",
+      "name": "Zenith 350 Scrambler",
+      "aliases": [
+        "zenith-350-scrambler",
+        "zenith-350-scrambler",
+        "Zenith 350 Scrambler"
+      ],
+      "urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/zenith-350-scrambler"
+      ],
+      "facts": [
+        {
+          "key": "model_name",
+          "value": "Zenith 350 Scrambler",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "category",
+          "value": "Scrambler",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "badge",
+          "value": "New",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "tagline",
+          "value": "Dirt. Dust. Done.",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "model_year",
+          "value": 2026,
+          "type": "number",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "ex_showroom_price_inr",
+          "value": 229000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "availability",
+          "value": "In stock",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "colours",
+          "value": "Olive Drab, Sand Storm",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "dealer_cities",
+          "value": "Delhi, Mumbai, Bangalore, Pune, Chennai, Hyderabad, Jaipur, Kolkata",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_note",
+          "value": "On-road price for the base variant: ex-showroom + RTO + insurance, indicative",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "brochure_url",
+          "value": "/brochures/zenith-350-scrambler.pdf",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "engine",
+          "value": "349cc, Single Cylinder, Air/Oil-Cooled, SOHC",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "displacement_cc",
+          "value": 349,
+          "type": "number",
+          "unit": "cc",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_bhp",
+          "value": 21,
+          "type": "number",
+          "unit": "bhp",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_nm",
+          "value": 28,
+          "type": "number",
+          "unit": "Nm",
+          "required_in_answer": false
+        },
+        {
+          "key": "mileage_kmpl",
+          "value": 34,
+          "type": "number",
+          "unit": "km/l",
+          "required_in_answer": false
+        },
+        {
+          "key": "seat_height_mm",
+          "value": 810,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_tank_l",
+          "value": 13,
+          "type": "number",
+          "unit": "L",
+          "required_in_answer": false
+        },
+        {
+          "key": "kerb_weight_kg",
+          "value": 181,
+          "type": "number",
+          "unit": "kg",
+          "required_in_answer": false
+        },
+        {
+          "key": "transmission",
+          "value": "5-Speed",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_rpm",
+          "value": 6100,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_rpm",
+          "value": 4000,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_system",
+          "value": "Electronic Fuel Injection",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_suspension",
+          "value": "41mm Telescopic Forks, 160mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_suspension",
+          "value": "Monoshock, 150mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_brake",
+          "value": "300mm Disc, Twin Piston",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_brake",
+          "value": "240mm Disc, ABS (Switchable)",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_tyre",
+          "value": "100/90-19 Dual-Sport",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_tyre",
+          "value": "130/80-17 Dual-Sport",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "wheelbase_mm",
+          "value": 1420,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_delhi_inr",
+          "value": 257600,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_mumbai_inr",
+          "value": 262900,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_bangalore_inr",
+          "value": 266800,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_pune_inr",
+          "value": 259900,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_chennai_inr",
+          "value": 261100,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_hyderabad_inr",
+          "value": 263400,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_jaipur_inr",
+          "value": 258800,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_kolkata_inr",
+          "value": 256500,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variants",
+          "value": "Street (229000 INR), Trail (249000 INR)",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_street_name",
+          "value": "Street",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_street_ex_showroom_price_inr",
+          "value": 229000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_street_features",
+          "value": "Block-pattern tyres, Round LED headlight",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_trail_name",
+          "value": "Trail",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_trail_ex_showroom_price_inr",
+          "value": 249000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_trail_features",
+          "value": "Knobby tyres, Headlight grille, Skid plate",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_provider",
+          "value": "Apex Moto Finance",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_emi_inr",
+          "value": 5224,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_down_payment_inr",
+          "value": 23000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_interest_rate_pct",
+          "value": 9.99,
+          "type": "number",
+          "unit": "%",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_tenure_months",
+          "value": 48,
+          "type": "number",
+          "unit": "months",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_basis",
+          "value": "Base variant ex-showroom minus down payment, 48 months",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        }
+      ]
+    },
+    {
+      "id": "product:zenith-650-scrambler",
+      "name": "Zenith 650 Scrambler",
+      "aliases": [
+        "zenith-650-scrambler",
+        "zenith-650-scrambler",
+        "Zenith 650 Scrambler"
+      ],
+      "urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/zenith-650-scrambler"
+      ],
+      "facts": [
+        {
+          "key": "model_name",
+          "value": "Zenith 650 Scrambler",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "category",
+          "value": "Scrambler",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "badge",
+          "value": "Flagship",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "tagline",
+          "value": "Twice the Twin. Twice the Trail.",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "model_year",
+          "value": 2026,
+          "type": "number",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "ex_showroom_price_inr",
+          "value": 449000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "availability",
+          "value": "2-3 weeks",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "colours",
+          "value": "Military Green, Chrome Black",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "dealer_cities",
+          "value": "Delhi, Mumbai, Bangalore, Pune",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_note",
+          "value": "On-road price for the base variant: ex-showroom + RTO + insurance, indicative",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "brochure_url",
+          "value": "/brochures/zenith-650-scrambler.pdf",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "engine",
+          "value": "648cc, Parallel Twin, Liquid-Cooled, DOHC",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "displacement_cc",
+          "value": 648,
+          "type": "number",
+          "unit": "cc",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_bhp",
+          "value": 47,
+          "type": "number",
+          "unit": "bhp",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_nm",
+          "value": 52,
+          "type": "number",
+          "unit": "Nm",
+          "required_in_answer": false
+        },
+        {
+          "key": "mileage_kmpl",
+          "value": 25,
+          "type": "number",
+          "unit": "km/l",
+          "required_in_answer": false
+        },
+        {
+          "key": "seat_height_mm",
+          "value": 820,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_tank_l",
+          "value": 13.7,
+          "type": "number",
+          "unit": "L",
+          "required_in_answer": false
+        },
+        {
+          "key": "kerb_weight_kg",
+          "value": 205,
+          "type": "number",
+          "unit": "kg",
+          "required_in_answer": false
+        },
+        {
+          "key": "transmission",
+          "value": "6-Speed with Slipper Clutch",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_rpm",
+          "value": 7250,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_rpm",
+          "value": 5150,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_system",
+          "value": "Electronic Fuel Injection",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_suspension",
+          "value": "43mm USD Forks, 150mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_suspension",
+          "value": "Twin Shock Absorbers, 115mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_brake",
+          "value": "320mm Disc, Twin Piston",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_brake",
+          "value": "240mm Disc, ABS (Switchable)",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_tyre",
+          "value": "100/90-19 Dual-Sport",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_tyre",
+          "value": "140/80-17 Dual-Sport",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "wheelbase_mm",
+          "value": 1450,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_delhi_inr",
+          "value": 505100,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_mumbai_inr",
+          "value": 515500,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_bangalore_inr",
+          "value": 523100,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_pune_inr",
+          "value": 509600,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variants",
+          "value": "Standard (449000 INR)",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_standard_name",
+          "value": "Standard",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_standard_ex_showroom_price_inr",
+          "value": 449000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_standard_features",
+          "value": "Twin-pipe high exhaust, Switchable ABS, LED lighting",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_provider",
+          "value": "Apex Moto Finance",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_emi_inr",
+          "value": 10245,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_down_payment_inr",
+          "value": 45000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_interest_rate_pct",
+          "value": 9.99,
+          "type": "number",
+          "unit": "%",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_tenure_months",
+          "value": 48,
+          "type": "number",
+          "unit": "months",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_basis",
+          "value": "Base variant ex-showroom minus down payment, 48 months",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        }
+      ]
+    },
+    {
+      "id": "product:voyager-650",
+      "name": "Voyager 650",
+      "aliases": [
+        "voyager-650",
+        "voyager-650",
+        "Voyager 650"
+      ],
+      "urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/voyager-650"
+      ],
+      "facts": [
+        {
+          "key": "model_name",
+          "value": "Voyager 650",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "category",
+          "value": "Tourer",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "badge",
+          "value": "Grand Tourer",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "tagline",
+          "value": "Every Mile, First Class.",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "model_year",
+          "value": 2026,
+          "type": "number",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "ex_showroom_price_inr",
+          "value": 459000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "availability",
+          "value": "In stock",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "colours",
+          "value": "Glacier White, Midnight Blue",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "dealer_cities",
+          "value": "Delhi, Mumbai, Bangalore, Pune, Chennai, Hyderabad, Jaipur, Kolkata",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_note",
+          "value": "On-road price for the base variant: ex-showroom + RTO + insurance, indicative",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "brochure_url",
+          "value": "/brochures/voyager-650.pdf",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "engine",
+          "value": "648cc, Parallel Twin, Liquid-Cooled, DOHC",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "displacement_cc",
+          "value": 648,
+          "type": "number",
+          "unit": "cc",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_bhp",
+          "value": 47,
+          "type": "number",
+          "unit": "bhp",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_nm",
+          "value": 52,
+          "type": "number",
+          "unit": "Nm",
+          "required_in_answer": false
+        },
+        {
+          "key": "mileage_kmpl",
+          "value": 23,
+          "type": "number",
+          "unit": "km/l",
+          "required_in_answer": false
+        },
+        {
+          "key": "seat_height_mm",
+          "value": 790,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_tank_l",
+          "value": 20,
+          "type": "number",
+          "unit": "L",
+          "required_in_answer": false
+        },
+        {
+          "key": "kerb_weight_kg",
+          "value": 222,
+          "type": "number",
+          "unit": "kg",
+          "required_in_answer": false
+        },
+        {
+          "key": "transmission",
+          "value": "6-Speed with Slipper Clutch",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_rpm",
+          "value": 7250,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_rpm",
+          "value": 5150,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_system",
+          "value": "Electronic Fuel Injection",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_suspension",
+          "value": "43mm Telescopic Forks, 130mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_suspension",
+          "value": "Twin Shock Absorbers, 110mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_brake",
+          "value": "320mm Disc, Twin Piston",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_brake",
+          "value": "240mm Disc, ABS",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_tyre",
+          "value": "100/90-18 Touring",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_tyre",
+          "value": "130/70-18 Touring",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "wheelbase_mm",
+          "value": 1475,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_delhi_inr",
+          "value": 516400,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_mumbai_inr",
+          "value": 526900,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_bangalore_inr",
+          "value": 534700,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_pune_inr",
+          "value": 521000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_chennai_inr",
+          "value": 523300,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_hyderabad_inr",
+          "value": 527800,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_jaipur_inr",
+          "value": 518700,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_kolkata_inr",
+          "value": 514100,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variants",
+          "value": "Tourer (459000 INR)",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_tourer_name",
+          "value": "Tourer",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_tourer_ex_showroom_price_inr",
+          "value": 459000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_tourer_features",
+          "value": "Full fairing, Cruise control, Panniers",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_provider",
+          "value": "Apex Moto Finance",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_emi_inr",
+          "value": 10473,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_down_payment_inr",
+          "value": 46000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_interest_rate_pct",
+          "value": 9.99,
+          "type": "number",
+          "unit": "%",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_tenure_months",
+          "value": 48,
+          "type": "number",
+          "unit": "months",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_basis",
+          "value": "Base variant ex-showroom minus down payment, 48 months",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        }
+      ]
+    },
+    {
+      "id": "product:voyager-450",
+      "name": "Voyager 450",
+      "aliases": [
+        "voyager-450",
+        "voyager-450",
+        "Voyager 450"
+      ],
+      "urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/voyager-450"
+      ],
+      "facts": [
+        {
+          "key": "model_name",
+          "value": "Voyager 450",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "category",
+          "value": "Tourer",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "badge",
+          "value": "New",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "tagline",
+          "value": "Long Roads. Light Feet.",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "model_year",
+          "value": 2026,
+          "type": "number",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "ex_showroom_price_inr",
+          "value": 299000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "availability",
+          "value": "In stock",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "colours",
+          "value": "Steel Grey, Glacier White",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "dealer_cities",
+          "value": "Delhi, Mumbai, Bangalore, Pune, Chennai, Hyderabad, Jaipur, Kolkata",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_note",
+          "value": "On-road price for the base variant: ex-showroom + RTO + insurance, indicative",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "brochure_url",
+          "value": "/brochures/voyager-450.pdf",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "engine",
+          "value": "452cc, Single Cylinder, Liquid-Cooled, DOHC",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "displacement_cc",
+          "value": 452,
+          "type": "number",
+          "unit": "cc",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_bhp",
+          "value": 40,
+          "type": "number",
+          "unit": "bhp",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_nm",
+          "value": 40,
+          "type": "number",
+          "unit": "Nm",
+          "required_in_answer": false
+        },
+        {
+          "key": "mileage_kmpl",
+          "value": 30,
+          "type": "number",
+          "unit": "km/l",
+          "required_in_answer": false
+        },
+        {
+          "key": "seat_height_mm",
+          "value": 800,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_tank_l",
+          "value": 18,
+          "type": "number",
+          "unit": "L",
+          "required_in_answer": false
+        },
+        {
+          "key": "kerb_weight_kg",
+          "value": 199,
+          "type": "number",
+          "unit": "kg",
+          "required_in_answer": false
+        },
+        {
+          "key": "transmission",
+          "value": "6-Speed with Slipper Clutch",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_rpm",
+          "value": 8000,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_rpm",
+          "value": 5500,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_system",
+          "value": "Electronic Fuel Injection",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_suspension",
+          "value": "41mm USD Forks, 140mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_suspension",
+          "value": "Monoshock, 140mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_brake",
+          "value": "320mm Disc, Twin Piston",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_brake",
+          "value": "240mm Disc, ABS",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_tyre",
+          "value": "110/80-17 Touring",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_tyre",
+          "value": "150/70-17 Touring",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "wheelbase_mm",
+          "value": 1460,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_delhi_inr",
+          "value": 336400,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_mumbai_inr",
+          "value": 343300,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_bangalore_inr",
+          "value": 348300,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_pune_inr",
+          "value": 339400,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_chennai_inr",
+          "value": 340900,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_hyderabad_inr",
+          "value": 343800,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_jaipur_inr",
+          "value": 337900,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_kolkata_inr",
+          "value": 334900,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variants",
+          "value": "Standard (299000 INR), Touring (324000 INR)",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_standard_name",
+          "value": "Standard",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_standard_ex_showroom_price_inr",
+          "value": 299000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_standard_features",
+          "value": "Half fairing, Touring seat",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_touring_name",
+          "value": "Touring",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_touring_ex_showroom_price_inr",
+          "value": 324000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_touring_features",
+          "value": "Panniers, Tall windscreen, Heated grips",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_provider",
+          "value": "Apex Moto Finance",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_emi_inr",
+          "value": 6821,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_down_payment_inr",
+          "value": 30000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_interest_rate_pct",
+          "value": 9.99,
+          "type": "number",
+          "unit": "%",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_tenure_months",
+          "value": 48,
+          "type": "number",
+          "unit": "months",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_basis",
+          "value": "Base variant ex-showroom minus down payment, 48 months",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        }
+      ]
+    },
+    {
+      "id": "product:nightfall-350",
+      "name": "Nightfall 350",
+      "aliases": [
+        "nightfall-350",
+        "nightfall-350",
+        "Nightfall 350"
+      ],
+      "urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/nightfall-350"
+      ],
+      "facts": [
+        {
+          "key": "model_name",
+          "value": "Nightfall 350",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "category",
+          "value": "Cruiser",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "badge",
+          "value": "Popular",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "tagline",
+          "value": "Own the Night.",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "model_year",
+          "value": 2026,
+          "type": "number",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "ex_showroom_price_inr",
+          "value": 219000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "availability",
+          "value": "In stock",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "colours",
+          "value": "Midnight Black, Wine Red",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "dealer_cities",
+          "value": "Delhi, Mumbai, Bangalore, Pune, Chennai, Hyderabad, Jaipur, Kolkata",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_note",
+          "value": "On-road price for the base variant: ex-showroom + RTO + insurance, indicative",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "brochure_url",
+          "value": "/brochures/nightfall-350.pdf",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "engine",
+          "value": "349cc, Single Cylinder, Air/Oil-Cooled, SOHC",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "displacement_cc",
+          "value": 349,
+          "type": "number",
+          "unit": "cc",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_bhp",
+          "value": 21,
+          "type": "number",
+          "unit": "bhp",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_nm",
+          "value": 28,
+          "type": "number",
+          "unit": "Nm",
+          "required_in_answer": false
+        },
+        {
+          "key": "mileage_kmpl",
+          "value": 35,
+          "type": "number",
+          "unit": "km/l",
+          "required_in_answer": false
+        },
+        {
+          "key": "seat_height_mm",
+          "value": 765,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_tank_l",
+          "value": 13.5,
+          "type": "number",
+          "unit": "L",
+          "required_in_answer": false
+        },
+        {
+          "key": "kerb_weight_kg",
+          "value": 191,
+          "type": "number",
+          "unit": "kg",
+          "required_in_answer": false
+        },
+        {
+          "key": "transmission",
+          "value": "5-Speed",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_rpm",
+          "value": 6100,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_rpm",
+          "value": 4000,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_system",
+          "value": "Electronic Fuel Injection",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_suspension",
+          "value": "41mm Telescopic Forks, 130mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_suspension",
+          "value": "Twin Shock Absorbers, 80mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_brake",
+          "value": "300mm Disc, Twin Piston",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_brake",
+          "value": "270mm Disc, ABS",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_tyre",
+          "value": "100/90-19 Tubeless",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_tyre",
+          "value": "150/80-16 Tubeless",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "wheelbase_mm",
+          "value": 1400,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_delhi_inr",
+          "value": 246400,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_mumbai_inr",
+          "value": 251400,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_bangalore_inr",
+          "value": 255100,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_pune_inr",
+          "value": 248600,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_chennai_inr",
+          "value": 249700,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_hyderabad_inr",
+          "value": 251800,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_jaipur_inr",
+          "value": 247500,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_kolkata_inr",
+          "value": 245300,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variants",
+          "value": "Standard (219000 INR), Dark (234000 INR)",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_standard_name",
+          "value": "Standard",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_standard_ex_showroom_price_inr",
+          "value": 219000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_standard_features",
+          "value": "Low-slung seat, Forward controls",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_dark_name",
+          "value": "Dark",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_dark_ex_showroom_price_inr",
+          "value": 234000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_dark_features",
+          "value": "Blacked-out engine, LED headlight, USB port",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_provider",
+          "value": "Apex Moto Finance",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_emi_inr",
+          "value": 4995,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_down_payment_inr",
+          "value": 22000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_interest_rate_pct",
+          "value": 9.99,
+          "type": "number",
+          "unit": "%",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_tenure_months",
+          "value": 48,
+          "type": "number",
+          "unit": "months",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_basis",
+          "value": "Base variant ex-showroom minus down payment, 48 months",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        }
+      ]
+    },
+    {
+      "id": "product:nightfall-650",
+      "name": "Nightfall 650",
+      "aliases": [
+        "nightfall-650",
+        "nightfall-650",
+        "Nightfall 650"
+      ],
+      "urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/nightfall-650"
+      ],
+      "facts": [
+        {
+          "key": "model_name",
+          "value": "Nightfall 650",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "category",
+          "value": "Cruiser",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "badge",
+          "value": "Flagship",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "tagline",
+          "value": "Twin-Cylinder Swagger.",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "model_year",
+          "value": 2026,
+          "type": "number",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "ex_showroom_price_inr",
+          "value": 395000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "availability",
+          "value": "2-3 weeks",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "colours",
+          "value": "Astral Black, Celestial Red",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "dealer_cities",
+          "value": "Delhi, Mumbai, Bangalore, Pune, Chennai, Hyderabad",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_note",
+          "value": "On-road price for the base variant: ex-showroom + RTO + insurance, indicative",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "brochure_url",
+          "value": "/brochures/nightfall-650.pdf",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "engine",
+          "value": "648cc, Parallel Twin, Air/Oil-Cooled, SOHC",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "displacement_cc",
+          "value": 648,
+          "type": "number",
+          "unit": "cc",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_bhp",
+          "value": 46,
+          "type": "number",
+          "unit": "bhp",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_nm",
+          "value": 52,
+          "type": "number",
+          "unit": "Nm",
+          "required_in_answer": false
+        },
+        {
+          "key": "mileage_kmpl",
+          "value": 22,
+          "type": "number",
+          "unit": "km/l",
+          "required_in_answer": false
+        },
+        {
+          "key": "seat_height_mm",
+          "value": 740,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_tank_l",
+          "value": 15.7,
+          "type": "number",
+          "unit": "L",
+          "required_in_answer": false
+        },
+        {
+          "key": "kerb_weight_kg",
+          "value": 241,
+          "type": "number",
+          "unit": "kg",
+          "required_in_answer": false
+        },
+        {
+          "key": "transmission",
+          "value": "6-Speed with Slipper Clutch",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_rpm",
+          "value": 7250,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_rpm",
+          "value": 5650,
+          "type": "number",
+          "unit": "rpm",
+          "required_in_answer": false
+        },
+        {
+          "key": "fuel_system",
+          "value": "Electronic Fuel Injection",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_suspension",
+          "value": "43mm USD Forks, 120mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_suspension",
+          "value": "Twin Shock Absorbers, 100mm Travel",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_brake",
+          "value": "320mm Disc, Twin Piston",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_brake",
+          "value": "300mm Disc, ABS",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_tyre",
+          "value": "100/90-19 Tubeless",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_tyre",
+          "value": "150/80-16 Tubeless",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "wheelbase_mm",
+          "value": 1615,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_delhi_inr",
+          "value": 444400,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_mumbai_inr",
+          "value": 453500,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_bangalore_inr",
+          "value": 460200,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_pune_inr",
+          "value": 448300,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_chennai_inr",
+          "value": 450300,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_hyderabad_inr",
+          "value": 454200,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variants",
+          "value": "Standard (395000 INR), Aero (425000 INR)",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_standard_name",
+          "value": "Standard",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_standard_ex_showroom_price_inr",
+          "value": 395000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_standard_features",
+          "value": "Twin exhaust, Cruise-ready ergonomics",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_aero_name",
+          "value": "Aero",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_aero_ex_showroom_price_inr",
+          "value": 425000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_aero_features",
+          "value": "Fly screen, Bar-end mirrors, Premium paint",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_provider",
+          "value": "Apex Moto Finance",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_emi_inr",
+          "value": 9002,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_down_payment_inr",
+          "value": 40000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_interest_rate_pct",
+          "value": 9.99,
+          "type": "number",
+          "unit": "%",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_tenure_months",
+          "value": 48,
+          "type": "number",
+          "unit": "months",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_basis",
+          "value": "Base variant ex-showroom minus down payment, 48 months",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        }
+      ]
+    },
+    {
+      "id": "product:spark-e1",
+      "name": "Spark E1",
+      "aliases": [
+        "spark-e1",
+        "spark-e1",
+        "Spark E1"
+      ],
+      "urls": [
+        "https://apex-moto-one.vercel.app/motorcycles/spark-e1"
+      ],
+      "facts": [
+        {
+          "key": "model_name",
+          "value": "Spark E1",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "category",
+          "value": "Electric",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "badge",
+          "value": "Electric",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "tagline",
+          "value": "Silent. Swift. Smart.",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "model_year",
+          "value": 2026,
+          "type": "number",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "ex_showroom_price_inr",
+          "value": 149000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "availability",
+          "value": "Pre-order",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "colours",
+          "value": "Arctic White, Volt Green",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "dealer_cities",
+          "value": "Delhi, Mumbai, Bangalore, Pune",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_note",
+          "value": "On-road price for the base variant: ex-showroom + RTO + insurance, indicative",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "brochure_url",
+          "value": "/brochures/spark-e1.pdf",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "max_power_bhp",
+          "value": 12.1,
+          "type": "number",
+          "unit": "bhp",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_torque_nm",
+          "value": 40,
+          "type": "number",
+          "unit": "Nm",
+          "required_in_answer": false
+        },
+        {
+          "key": "range_km",
+          "value": 140,
+          "type": "number",
+          "unit": "km",
+          "required_in_answer": false
+        },
+        {
+          "key": "seat_height_mm",
+          "value": 790,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "kerb_weight_kg",
+          "value": 136,
+          "type": "number",
+          "unit": "kg",
+          "required_in_answer": false
+        },
+        {
+          "key": "motor",
+          "value": "Mid-drive PMSM, 9 kW peak",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "battery_kwh",
+          "value": 4,
+          "type": "number",
+          "unit": "kWh",
+          "required_in_answer": false
+        },
+        {
+          "key": "charging_time_0_80",
+          "value": "3 h 30 min (home), 50 min (fast)",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "top_speed_kmph",
+          "value": 100,
+          "type": "number",
+          "unit": "km/h",
+          "required_in_answer": false
+        },
+        {
+          "key": "front_suspension",
+          "value": "37mm Telescopic Forks",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_suspension",
+          "value": "Monoshock",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_brake",
+          "value": "240mm Disc",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_brake",
+          "value": "220mm Disc, CBS",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "front_tyre",
+          "value": "90/80-17 Tubeless",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "rear_tyre",
+          "value": "110/80-17 Tubeless",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "wheelbase_mm",
+          "value": 1320,
+          "type": "number",
+          "unit": "mm",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_delhi_inr",
+          "value": 155000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_mumbai_inr",
+          "value": 155000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_bangalore_inr",
+          "value": 155000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "on_road_price_pune_inr",
+          "value": 155000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variants",
+          "value": "Standard (149000 INR)",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_standard_name",
+          "value": "Standard",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_standard_ex_showroom_price_inr",
+          "value": 149000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "variant_standard_features",
+          "value": "4G connectivity, Regenerative braking, Fast charging",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_provider",
+          "value": "Apex Moto Finance",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_emi_inr",
+          "value": 3334,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_down_payment_inr",
+          "value": 15000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_interest_rate_pct",
+          "value": 8.99,
+          "type": "number",
+          "unit": "%",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_tenure_months",
+          "value": 48,
+          "type": "number",
+          "unit": "months",
+          "required_in_answer": false
+        },
+        {
+          "key": "finance_basis",
+          "value": "Base variant ex-showroom minus down payment, 48 months",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        }
+      ]
+    },
+    {
+      "id": "bank:hdfc-bank",
+      "name": "HDFC Bank",
+      "aliases": [
+        "HDFC Bank"
+      ],
+      "urls": [
+        "https://apex-moto-one.vercel.app/finance"
+      ],
+      "facts": [
+        {
+          "key": "interest_rate_pct",
+          "value": 8.5,
+          "type": "number",
+          "unit": "%",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_tenure_months",
+          "value": 60,
+          "type": "number",
+          "unit": "months",
+          "required_in_answer": false
+        },
+        {
+          "key": "down_payment",
+          "value": "0-20%",
+          "type": "string",
+          "required_in_answer": false
+        }
+      ]
+    },
+    {
+      "id": "bank:icici-bank",
+      "name": "ICICI Bank",
+      "aliases": [
+        "ICICI Bank"
+      ],
+      "urls": [
+        "https://apex-moto-one.vercel.app/finance"
+      ],
+      "facts": [
+        {
+          "key": "interest_rate_pct",
+          "value": 9,
+          "type": "number",
+          "unit": "%",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_tenure_months",
+          "value": 72,
+          "type": "number",
+          "unit": "months",
+          "required_in_answer": false
+        },
+        {
+          "key": "down_payment",
+          "value": "0-20%",
+          "type": "string",
+          "required_in_answer": false
+        }
+      ]
+    },
+    {
+      "id": "bank:sbi",
+      "name": "SBI",
+      "aliases": [
+        "SBI"
+      ],
+      "urls": [
+        "https://apex-moto-one.vercel.app/finance"
+      ],
+      "facts": [
+        {
+          "key": "interest_rate_pct",
+          "value": 7.9,
+          "type": "number",
+          "unit": "%",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_tenure_months",
+          "value": 60,
+          "type": "number",
+          "unit": "months",
+          "required_in_answer": false
+        },
+        {
+          "key": "down_payment",
+          "value": "10-20%",
+          "type": "string",
+          "required_in_answer": false
+        }
+      ]
+    },
+    {
+      "id": "bank:axis-bank",
+      "name": "Axis Bank",
+      "aliases": [
+        "Axis Bank"
+      ],
+      "urls": [
+        "https://apex-moto-one.vercel.app/finance"
+      ],
+      "facts": [
+        {
+          "key": "interest_rate_pct",
+          "value": 9.5,
+          "type": "number",
+          "unit": "%",
+          "required_in_answer": false
+        },
+        {
+          "key": "max_tenure_months",
+          "value": 48,
+          "type": "number",
+          "unit": "months",
+          "required_in_answer": false
+        },
+        {
+          "key": "down_payment",
+          "value": "0-15%",
+          "type": "string",
+          "required_in_answer": false
+        }
+      ]
+    },
+    {
+      "id": "dealer:delhi-central",
+      "name": "Apex Moto Delhi Central",
+      "aliases": [
+        "Delhi",
+        "Apex Moto Delhi Central"
+      ],
+      "urls": [
+        "https://apex-moto-one.vercel.app/dealers"
+      ],
+      "facts": [
+        {
+          "key": "city",
+          "value": "Delhi",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "state",
+          "value": "Delhi",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "premium",
+          "value": true,
+          "type": "boolean",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "phone",
+          "value": "+91-11-4123-5678",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "email",
+          "value": "delhi.central@apexmoto.in",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "address",
+          "value": "42, Connaught Place, Central Delhi, New Delhi - 110001",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "hours",
+          "value": "Mon–Sat: 9:00 AM – 7:00 PM | Sun: 10:00 AM – 5:00 PM",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "services",
+          "value": "Sales, Service, Accessories, Test Ride",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "stocks",
+          "value": "thunderstrike-650, phantom-350, storm-200, zenith-450-scrambler, thunderstrike-450, thunderstrike-650-rally, phantom-500, phantom-350-bobber, storm-125, storm-160, storm-390, zenith-350-scrambler, zenith-650-scrambler, voyager-650, voyager-450, nightfall-350, nightfall-650, spark-e1",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        }
+      ]
+    },
+    {
+      "id": "dealer:mumbai-west",
+      "name": "Apex Moto Mumbai West",
+      "aliases": [
+        "Mumbai",
+        "Apex Moto Mumbai West"
+      ],
+      "urls": [
+        "https://apex-moto-one.vercel.app/dealers"
+      ],
+      "facts": [
+        {
+          "key": "city",
+          "value": "Mumbai",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "state",
+          "value": "Maharashtra",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "premium",
+          "value": true,
+          "type": "boolean",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "phone",
+          "value": "+91-22-2655-9900",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "email",
+          "value": "mumbai.west@apexmoto.in",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "address",
+          "value": "Shop 12, Linking Road, Bandra West, Mumbai - 400053",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "hours",
+          "value": "Mon–Sat: 9:30 AM – 7:30 PM | Sun: 11:00 AM – 5:00 PM",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "services",
+          "value": "Sales, Service, Accessories, Test Ride, Finance",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "stocks",
+          "value": "thunderstrike-650, phantom-350, storm-200, zenith-450-scrambler, thunderstrike-450, thunderstrike-650-rally, phantom-500, phantom-350-bobber, storm-125, storm-160, storm-390, zenith-350-scrambler, zenith-650-scrambler, voyager-650, voyager-450, nightfall-350, nightfall-650, spark-e1",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        }
+      ]
+    },
+    {
+      "id": "dealer:bangalore-tech-city",
+      "name": "Apex Moto Bangalore Tech City",
+      "aliases": [
+        "Bangalore",
+        "Apex Moto Bangalore Tech City"
+      ],
+      "urls": [
+        "https://apex-moto-one.vercel.app/dealers"
+      ],
+      "facts": [
+        {
+          "key": "city",
+          "value": "Bangalore",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "state",
+          "value": "Karnataka",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "premium",
+          "value": true,
+          "type": "boolean",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "phone",
+          "value": "+91-80-4567-8901",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "email",
+          "value": "bangalore.tc@apexmoto.in",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "address",
+          "value": "77, Brigade Road, Shivajinagar, Bengaluru - 560001",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "hours",
+          "value": "Mon–Sat: 9:00 AM – 8:00 PM | Sun: 10:00 AM – 6:00 PM",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "services",
+          "value": "Sales, Service, Accessories, Test Ride, Finance, Insurance",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "stocks",
+          "value": "thunderstrike-650, phantom-350, storm-200, zenith-450-scrambler, thunderstrike-450, thunderstrike-650-rally, phantom-500, phantom-350-bobber, storm-125, storm-160, storm-390, zenith-350-scrambler, zenith-650-scrambler, voyager-650, voyager-450, nightfall-350, nightfall-650, spark-e1",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        }
+      ]
+    },
+    {
+      "id": "dealer:pune-camp",
+      "name": "Apex Moto Pune Camp",
+      "aliases": [
+        "Pune",
+        "Apex Moto Pune Camp"
+      ],
+      "urls": [
+        "https://apex-moto-one.vercel.app/dealers"
+      ],
+      "facts": [
+        {
+          "key": "city",
+          "value": "Pune",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "state",
+          "value": "Maharashtra",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "premium",
+          "value": false,
+          "type": "boolean",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "phone",
+          "value": "+91-20-2633-7788",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "email",
+          "value": "pune.camp@apexmoto.in",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "address",
+          "value": "15, MG Road, Camp Area, Pune - 411001",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "hours",
+          "value": "Mon–Sat: 9:00 AM – 7:00 PM | Sun: 10:00 AM – 4:00 PM",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "services",
+          "value": "Sales, Service, Accessories, Test Ride",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "stocks",
+          "value": "thunderstrike-650, phantom-350, storm-200, zenith-450-scrambler, thunderstrike-450, thunderstrike-650-rally, phantom-500, phantom-350-bobber, storm-125, storm-160, storm-390, zenith-350-scrambler, zenith-650-scrambler, voyager-650, voyager-450, nightfall-350, nightfall-650, spark-e1",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        }
+      ]
+    },
+    {
+      "id": "dealer:chennai-anna-nagar",
+      "name": "Apex Moto Chennai Anna Nagar",
+      "aliases": [
+        "Chennai",
+        "Apex Moto Chennai Anna Nagar"
+      ],
+      "urls": [
+        "https://apex-moto-one.vercel.app/dealers"
+      ],
+      "facts": [
+        {
+          "key": "city",
+          "value": "Chennai",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "state",
+          "value": "Tamil Nadu",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "premium",
+          "value": false,
+          "type": "boolean",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "phone",
+          "value": "+91-44-2626-5544",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "email",
+          "value": "chennai.an@apexmoto.in",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "address",
+          "value": "88, 2nd Avenue, Anna Nagar, Chennai - 600040",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "hours",
+          "value": "Mon–Sat: 9:30 AM – 7:00 PM | Sun: 10:00 AM – 4:00 PM",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "services",
+          "value": "Sales, Service, Accessories, Test Ride, Finance",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "stocks",
+          "value": "thunderstrike-650, phantom-350, storm-200, zenith-450-scrambler, thunderstrike-450, phantom-500, phantom-350-bobber, storm-125, storm-160, storm-390, zenith-350-scrambler, voyager-650, voyager-450, nightfall-350, nightfall-650",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        }
+      ]
+    },
+    {
+      "id": "dealer:hyderabad-jubilee-hills",
+      "name": "Apex Moto Hyderabad Jubilee Hills",
+      "aliases": [
+        "Hyderabad",
+        "Apex Moto Hyderabad Jubilee Hills"
+      ],
+      "urls": [
+        "https://apex-moto-one.vercel.app/dealers"
+      ],
+      "facts": [
+        {
+          "key": "city",
+          "value": "Hyderabad",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "state",
+          "value": "Telangana",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "premium",
+          "value": false,
+          "type": "boolean",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "phone",
+          "value": "+91-40-2355-1234",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "email",
+          "value": "hyderabad.jh@apexmoto.in",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "address",
+          "value": "34, Road No. 10, Jubilee Hills, Hyderabad - 500033",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "hours",
+          "value": "Mon–Sat: 10:00 AM – 8:00 PM | Sun: 11:00 AM – 5:00 PM",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "services",
+          "value": "Sales, Service, Accessories, Test Ride, Finance, Insurance",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "stocks",
+          "value": "thunderstrike-650, phantom-350, storm-200, zenith-450-scrambler, thunderstrike-450, phantom-500, phantom-350-bobber, storm-125, storm-160, storm-390, zenith-350-scrambler, voyager-650, voyager-450, nightfall-350, nightfall-650",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        }
+      ]
+    },
+    {
+      "id": "dealer:jaipur-pink-city",
+      "name": "Apex Moto Jaipur Pink City",
+      "aliases": [
+        "Jaipur",
+        "Apex Moto Jaipur Pink City"
+      ],
+      "urls": [
+        "https://apex-moto-one.vercel.app/dealers"
+      ],
+      "facts": [
+        {
+          "key": "city",
+          "value": "Jaipur",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "state",
+          "value": "Rajasthan",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "premium",
+          "value": false,
+          "type": "boolean",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "phone",
+          "value": "+91-141-2366-7890",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "email",
+          "value": "jaipur.pc@apexmoto.in",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "address",
+          "value": "23, Tonk Road, Near SMS Hospital, Jaipur - 302001",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "hours",
+          "value": "Mon–Sat: 9:00 AM – 7:00 PM | Sun: 10:00 AM – 4:00 PM",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "services",
+          "value": "Sales, Service, Accessories, Test Ride",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "stocks",
+          "value": "thunderstrike-650, phantom-350, storm-200, zenith-450-scrambler, thunderstrike-450, phantom-500, storm-125, storm-160, storm-390, zenith-350-scrambler, voyager-650, voyager-450, nightfall-350",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        }
+      ]
+    },
+    {
+      "id": "dealer:kolkata-park-street",
+      "name": "Apex Moto Kolkata Park Street",
+      "aliases": [
+        "Kolkata",
+        "Apex Moto Kolkata Park Street"
+      ],
+      "urls": [
+        "https://apex-moto-one.vercel.app/dealers"
+      ],
+      "facts": [
+        {
+          "key": "city",
+          "value": "Kolkata",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "state",
+          "value": "West Bengal",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "premium",
+          "value": false,
+          "type": "boolean",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "phone",
+          "value": "+91-33-2229-4455",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "email",
+          "value": "kolkata.ps@apexmoto.in",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "address",
+          "value": "56, Park Street, Kolkata - 700016",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "hours",
+          "value": "Mon–Sat: 10:00 AM – 7:30 PM | Sun: 11:00 AM – 5:00 PM",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "services",
+          "value": "Sales, Service, Accessories, Test Ride, Finance",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        },
+        {
+          "key": "stocks",
+          "value": "thunderstrike-650, phantom-350, storm-200, zenith-450-scrambler, thunderstrike-450, phantom-500, storm-125, storm-160, storm-390, zenith-350-scrambler, voyager-650, voyager-450, nightfall-350",
+          "type": "string",
+          "unit": null,
+          "required_in_answer": false
+        }
+      ]
+    }
+  ]
+}

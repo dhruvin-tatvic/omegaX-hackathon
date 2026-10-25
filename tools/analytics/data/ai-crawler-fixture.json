@@ -1,0 +1,86 @@
+{
+  "schema_version": "1.0",
+  "source": "local_ai_crawler_fixture",
+  "disclaimer": "Representative dummy AI-crawler extract for UI development. Replace this file with live crawler output. These values are not verified measurements.",
+  "generated_at": "2026-10-25T12:00:00Z",
+  "target_site": "https://omegax-hackathon.onrender.com/",
+  "pages": [
+    {
+      "slug": "storm-200",
+      "name": "Storm 200",
+      "canonical_path": "/motorcycles/storm-200",
+      "looks_fine_to_person": true,
+      "notes": [
+        "On-road Pune was not present in the static HTML extract.",
+        "Kerb weight was not captured."
+      ],
+      "fields": [
+        { "key": "name", "label": "Model", "value": "Storm 200", "present": true },
+        { "key": "ex_showroom_price", "label": "Ex-showroom", "value": "₹1,45,000", "present": true },
+        { "key": "on_road_delhi", "label": "On-road Delhi", "value": "₹1,63,100", "present": true },
+        { "key": "on_road_pune", "label": "On-road Pune", "value": null, "present": false, "note": "JavaScript only in this fixture" },
+        { "key": "engine", "label": "Engine", "value": "199cc", "present": true },
+        { "key": "power", "label": "Power", "value": "25 bhp", "present": true },
+        { "key": "mileage", "label": "Mileage", "value": "32 km/l", "present": true },
+        { "key": "colours", "label": "Colours", "value": null, "present": false, "note": "Not in AI extract" }
+      ]
+    },
+    {
+      "slug": "thunderstrike-650",
+      "name": "Thunderstrike 650",
+      "canonical_path": "/motorcycles/thunderstrike-650",
+      "looks_fine_to_person": true,
+      "notes": [
+        "Mileage in this fixture is stale versus Human View."
+      ],
+      "fields": [
+        { "key": "name", "label": "Model", "value": "Thunderstrike 650", "present": true },
+        { "key": "ex_showroom_price", "label": "Ex-showroom", "value": "₹4,20,000", "present": true },
+        { "key": "on_road_delhi", "label": "On-road Delhi", "value": "₹4,72,500", "present": true },
+        { "key": "on_road_pune", "label": "On-road Pune", "value": "₹4,80,000", "present": true, "note": "Fixture value, not verified" },
+        { "key": "engine", "label": "Engine", "value": "648cc", "present": true },
+        { "key": "power", "label": "Power", "value": "47 bhp", "present": true },
+        { "key": "mileage", "label": "Mileage", "value": "22 km/l", "present": true },
+        { "key": "colours", "label": "Colours", "value": "Granite, Glacier", "present": true }
+      ]
+    },
+    {
+      "slug": "phantom-350",
+      "name": "Phantom 350",
+      "canonical_path": "/motorcycles/phantom-350",
+      "looks_fine_to_person": true,
+      "notes": [
+        "Core specs present. Weight and tyre details omitted."
+      ],
+      "fields": [
+        { "key": "name", "label": "Model", "value": "Phantom 350", "present": true },
+        { "key": "ex_showroom_price", "label": "Ex-showroom", "value": "₹2,15,000", "present": true },
+        { "key": "on_road_delhi", "label": "On-road Delhi", "value": null, "present": false },
+        { "key": "on_road_pune", "label": "On-road Pune", "value": "₹2,15,000", "present": true, "note": "Fixture may not match city table" },
+        { "key": "engine", "label": "Engine", "value": "349cc", "present": true },
+        { "key": "power", "label": "Power", "value": "20.2 bhp", "present": true },
+        { "key": "mileage", "label": "Mileage", "value": "35 km/l", "present": true },
+        { "key": "colours", "label": "Colours", "value": null, "present": false }
+      ]
+    },
+    {
+      "slug": "zenith-450-scrambler",
+      "name": "Zenith 450 Scrambler",
+      "canonical_path": "/motorcycles/zenith-450-scrambler",
+      "looks_fine_to_person": false,
+      "notes": [
+        "Fixture models a fetch miss for colour and Bangalore on-road."
+      ],
+      "fields": [
+        { "key": "name", "label": "Model", "value": "Zenith 450 Scrambler", "present": true },
+        { "key": "ex_showroom_price", "label": "Ex-showroom", "value": "₹3,49,000", "present": true },
+        { "key": "on_road_delhi", "label": "On-road Delhi", "value": null, "present": false },
+        { "key": "on_road_pune", "label": "On-road Pune", "value": null, "present": false },
+        { "key": "engine", "label": "Engine", "value": "452cc", "present": true },
+        { "key": "power", "label": "Power", "value": "40 bhp", "present": true },
+        { "key": "mileage", "label": "Mileage", "value": null, "present": false },
+        { "key": "colours", "label": "Colours", "value": null, "present": false, "note": "Page treated as inaccessible in this fixture" }
+      ]
+    }
+  ]
+}

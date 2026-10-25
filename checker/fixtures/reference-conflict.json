@@ -1,0 +1,26 @@
+{
+  "source_id": "conflict-pack",
+  "as_of": "2026-10-24",
+  "entities": [
+    {
+      "id": "product:acme-pump-200",
+      "name": "Acme Pump 200",
+      "facts": [
+        {
+          "key": "ex_showroom_price_inr",
+          "value": 420000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": true
+        },
+        {
+          "key": "ex_showroom_price_inr",
+          "value": 399000,
+          "type": "number",
+          "unit": "INR",
+          "required_in_answer": true
+        }
+      ]
+    }
+  ]
+}

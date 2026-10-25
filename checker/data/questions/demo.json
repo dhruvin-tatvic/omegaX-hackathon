@@ -1,0 +1,34 @@
+{
+  "id": "demo-set",
+  "name": "Demo questions",
+  "description": "Replace this file via config to test a different site. Do not put reference answers in the question text.",
+  "questions": [
+    {
+      "id": "q-price-pump",
+      "text": "What is the ex-showroom price of the Acme Pump 200 in INR?",
+      "set_id": "demo-set",
+      "related_urls": ["https://example.com/products/acme-pump-200"],
+      "entity_ids": ["product:acme-pump-200"],
+      "fact_keys": ["ex_showroom_price_inr"],
+      "kind": "price"
+    },
+    {
+      "id": "q-spec-pump",
+      "text": "What is the peak flow rate of the Acme Pump 200?",
+      "set_id": "demo-set",
+      "related_urls": ["https://example.com/products/acme-pump-200"],
+      "entity_ids": ["product:acme-pump-200"],
+      "fact_keys": ["peak_flow_lpm"],
+      "kind": "spec"
+    },
+    {
+      "id": "q-custom",
+      "text": "",
+      "set_id": "demo-set",
+      "related_urls": [],
+      "entity_ids": ["product:acme-pump-200"],
+      "fact_keys": ["ex_showroom_price_inr"],
+      "kind": "other"
+    }
+  ]
+}

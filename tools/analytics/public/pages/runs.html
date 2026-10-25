@@ -1,0 +1,34 @@
+<header class="header">
+  <div>
+    <h1>Run History</h1>
+    <p class="sub">Persistent Groq evaluation batches in <code>data/comparison_history.json</code></p>
+  </div>
+</header>
+
+<section class="page-intro" aria-label="History summary">
+  <p class="page-intro__text" id="runsIntro">Loading run history...</p>
+</section>
+
+<section class="runs-summary" id="runsSummary" aria-label="Aggregate stats"></section>
+
+<section class="panel">
+  <h2 class="gap-section-title">All comparison runs</h2>
+  <p class="gap-section-desc">Newest runs appear first. Import or re-run the compare script to append entries.</p>
+  <div class="table-wrap table-wrap--auto">
+    <table>
+      <thead>
+        <tr>
+          <th>Run time</th>
+          <th>Rows</th>
+          <th>Avg score</th>
+          <th>Correct</th>
+          <th>Partial</th>
+          <th>Incorrect</th>
+          <th>Facts scraped</th>
+          <th>Model</th>
+        </tr>
+      </thead>
+      <tbody id="runsBody"></tbody>
+    </table>
+  </div>
+</section>
