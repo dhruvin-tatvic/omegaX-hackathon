@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <title>Dashboard connection status</title>
+    <link rel="stylesheet" href="/styles.css" />
     <style>
       body { font-family: system-ui, sans-serif; margin: 2rem; background: #111; color: #eee; }
       pre { background: #1a1f28; padding: 1rem; border-radius: 8px; overflow: auto; }
@@ -12,6 +13,11 @@
     </style>
   </head>
   <body>
+    <nav class="nav">
+      <a href="/">Traffic overview</a>
+      <a href="/ai-crawlers.html">AI crawlers &amp; fetch detail</a>
+      <a href="/status.html" class="active">Connection status</a>
+    </nav>
     <h1>API status</h1>
     <p>If <code>/api/status</code> looks blank in the browser, use this page or view page source.</p>
     <p><a href="/">← Back to traffic dashboard</a></p>

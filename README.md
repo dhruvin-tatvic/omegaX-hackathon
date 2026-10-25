@@ -4,7 +4,8 @@ Repository for the **OmegaX / Tatvic PS6** hackathon: **Apex Moto** test site (A
 
 **Team handoff:** [TEAM_CONTEXT.md](./TEAM_CONTEXT.md)  
 **Local testing (Windows CMD tips):** [docs/LOCAL_TESTING.md](./docs/LOCAL_TESTING.md)  
-**Render deploy:** [docs/render-deployment.md](./docs/render-deployment.md)
+**Render deploy:** [docs/render-deployment.md](./docs/render-deployment.md)  
+**LLM still gets 503?** [docs/ALTERNATE_TESTING.md](./docs/ALTERNATE_TESTING.md) (tunnel, Netlify, `check-site`)
 
 ---
 

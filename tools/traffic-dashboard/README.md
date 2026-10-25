@@ -18,6 +18,14 @@ npm start
 
 4. Open **http://localhost:3456**
 
+| Page | URL |
+|------|-----|
+| Traffic overview | http://localhost:3456/ |
+| **AI crawlers & fetch detail** | http://localhost:3456/ai-crawlers.html |
+| Connection status | http://localhost:3456/status.html |
+
+The AI crawlers page groups bot traffic by provider (OpenAI, Perplexity, Exa, etc.), lists **which URLs** each crawler fetched, and recent hits. Chat **prompts are not in HTTP logs** — only User-Agent + path + time.
+
 Default view: **last 24 hours** of Render app logs (paginated on startup and when you click **Refresh now**). Optional env: `LOG_WINDOW_HOURS=24`.
 
 `RENDER_OWNER_ID` is optional; the server tries to auto-detect your workspace.

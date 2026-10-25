@@ -104,6 +104,10 @@ app.get('/api/stats', (_req, res) => {
   res.type('application/json').send(JSON.stringify(store.getStats(), null, 2));
 });
 
+app.get('/api/ai-crawlers', (_req, res) => {
+  res.type('application/json').send(JSON.stringify(store.getAiCrawlerReport(), null, 2));
+});
+
 app.get('/api/logs', (req, res) => {
   const filter = req.query.filter || 'all';
   const limit = Math.min(Number(req.query.limit) || 150, 500);

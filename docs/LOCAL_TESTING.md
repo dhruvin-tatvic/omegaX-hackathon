@@ -109,6 +109,14 @@ node scripts/check-site.mjs http://localhost:4173
 
 ---
 
+## LLM says “503” when users ask about your site
+
+See [render-deployment.md](./render-deployment.md#fix-503-service-unavailable-especially-when-llms-fetch-your-site). Most often: **Render free tier asleep** or **build not run** on deploy (`dist/` missing).
+
+**Alternate testing (tunnel, static host, no LLM):** [ALTERNATE_TESTING.md](./ALTERNATE_TESTING.md) · script: `scripts/tunnel-preview.ps1`
+
+---
+
 ## Troubleshooting
 
 | Problem | Fix |

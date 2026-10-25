@@ -1,5 +1,5 @@
 import { parseAccessLogLine } from './parse-access-log.js';
-import { classifyTraffic } from './classify-traffic.js';
+import { classifyTraffic, describeAiCrawler } from './classify-traffic.js';
 
 const MAX_ENTRIES = 8000;
 let windowHours = 24;
@@ -117,4 +117,104 @@ export function listEntries({ filter = 'all', limit = 150 } = {}) {
 
 export function clearStore() {
   byId.clear();
+}
+
+/**
+ * AI / crawler activity aggregated from bot-classified access lines.
+ * Note: HTTP logs never include the user's chat prompt — only User-Agent + URL.
+ */
+export function getAiCrawlerReport() {
+  const botRows = rowsInWindow().filter(r => r.kind === 'bot');
+  /** @type {Map<string, { provider: string, crawler: string, fetchType: string, count: number, paths: Map<string, number>, firstSeen: string, lastSeen: string, sampleUserAgent: string, ips: Set<string> }>} */
+  const byCrawler = new Map();
+
+  for (const row of botRows) {
+    const desc = describeAiCrawler(row.userAgent);
+    const provider = desc?.provider ?? row.botLabel ?? 'Other';
+    const crawler = desc?.crawler ?? row.botLabel ?? 'Unknown';
+    const fetchType = desc?.fetchType ?? 'Classified as bot';
+    const key = `${provider}::${crawler}`;
+
+    let rec = byCrawler.get(key);
+    if (!rec) {
+      rec = {
+        provider,
+        crawler,
+        fetchType,
+        count: 0,
+        paths: new Map(),
+        firstSeen: row.timestamp,
+        lastSeen: row.timestamp,
+        sampleUserAgent: row.userAgent,
+        ips: new Set(),
+      };
+      byCrawler.set(key, rec);
+    }
+    rec.count += 1;
+    rec.paths.set(row.path, (rec.paths.get(row.path) || 0) + 1);
+    rec.ips.add(row.ip);
+    if (String(row.timestamp) < String(rec.firstSeen)) rec.firstSeen = row.timestamp;
+    if (String(row.timestamp) > String(rec.lastSeen)) rec.lastSeen = row.timestamp;
+  }
+
+  const providersMap = new Map();
+  for (const rec of byCrawler.values()) {
+    if (!providersMap.has(rec.provider)) {
+      providersMap.set(rec.provider, { provider: rec.provider, totalRequests: 0, crawlers: [] });
+    }
+    const p = providersMap.get(rec.provider);
+    p.totalRequests += rec.count;
+    const paths = [...rec.paths.entries()]
+      .map(([path, count]) => ({ path, count }))
+      .sort((a, b) => b.count - a.count);
+    p.crawlers.push({
+      crawler: rec.crawler,
+      fetchType: rec.fetchType,
+      requestCount: rec.count,
+      uniquePaths: paths.length,
+      topPaths: paths.slice(0, 15),
+      firstSeen: rec.firstSeen,
+      lastSeen: rec.lastSeen,
+      uniqueIps: rec.ips.size,
+      sampleUserAgent: rec.sampleUserAgent,
+    });
+  }
+
+  const providers = [...providersMap.values()]
+    .map(p => ({
+      ...p,
+      crawlers: p.crawlers.sort((a, b) => b.requestCount - a.requestCount),
+    }))
+    .sort((a, b) => b.totalRequests - a.totalRequests);
+
+  const recent = botRows
+    .sort((a, b) => String(b.timestamp).localeCompare(String(a.timestamp)))
+    .slice(0, 100)
+    .map(r => {
+      const desc = describeAiCrawler(r.userAgent);
+      return {
+        timestamp: r.timestamp,
+        provider: desc?.provider ?? r.botLabel,
+        crawler: desc?.crawler ?? '—',
+        fetchType: desc?.fetchType ?? '—',
+        method: r.method,
+        path: r.path,
+        status: r.status,
+        ip: r.ip,
+        userAgent: r.userAgent,
+      };
+    });
+
+  const stats = getStats();
+  return {
+    disclaimer:
+      'Render access logs do not include chat prompts. When someone asks an LLM about your site, these rows show which AI-related crawler User-Agent fetched which URL and when.',
+    windowHours: stats.windowHours,
+    windowFrom: stats.windowFrom,
+    windowTo: stats.windowTo,
+    totalBotRequests: botRows.length,
+    providerCount: providers.length,
+    providers,
+    recentFetches: recent,
+  };
 }

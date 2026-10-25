@@ -1,0 +1,8 @@
+# Optional: deploy pre-rendered dist to Netlify (no Render 503 spin-down).
+# Site settings → Base directory: sample-website (if repo root is omegaX-hackathon)
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+[build.environment]
+  NODE_VERSION = "20"

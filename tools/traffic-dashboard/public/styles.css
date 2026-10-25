@@ -22,6 +22,73 @@ body {
   line-height: 1.45;
 }
 
+.nav {
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.65rem 1.5rem;
+  border-bottom: 1px solid var(--border);
+  background: #12151a;
+}
+
+.nav a {
+  color: var(--muted);
+  text-decoration: none;
+  font-size: 0.88rem;
+  padding: 0.35rem 0.75rem;
+  border-radius: 8px;
+  border: 1px solid transparent;
+}
+
+.nav a:hover {
+  color: var(--text);
+  border-color: var(--border);
+}
+
+.nav a.active {
+  color: var(--text);
+  border-color: var(--accent);
+  background: #1a2230;
+}
+
+.callout {
+  margin: 1rem 1.5rem 0;
+  padding: 0.85rem 1rem;
+  border-radius: 8px;
+  background: #1a2433;
+  border: 1px solid var(--border);
+  color: var(--muted);
+  font-size: 0.88rem;
+}
+
+.provider-card {
+  margin-bottom: 1rem;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+}
+
+.provider-card:last-child {
+  border-bottom: none;
+  margin-bottom: 0;
+}
+
+.provider-card h3 {
+  margin: 0 0 0.35rem;
+  font-size: 1.05rem;
+}
+
+.provider-meta {
+  color: var(--muted);
+  font-size: 0.82rem;
+  margin-bottom: 0.75rem;
+}
+
+.path-list {
+  margin: 0.25rem 0 0;
+  padding-left: 1.1rem;
+  font-size: 0.82rem;
+  color: var(--muted);
+}
+
 .header {
   display: flex;
   justify-content: space-between;

@@ -1,0 +1,16 @@
+# Optional Render Blueprint — import in dashboard or commit for IaC.
+# https://render.com/docs/blueprint-spec
+services:
+  - type: web
+    name: apex-moto
+    runtime: node
+    rootDir: sample-website
+    plan: free
+    buildCommand: npm install && VITE_SITE_URL=$RENDER_EXTERNAL_URL npm run build
+    startCommand: npm start
+    healthCheckPath: /health
+    envVars:
+      - key: NODE_VERSION
+        value: "20"
+      - key: VITE_SCENARIO
+        value: practice
